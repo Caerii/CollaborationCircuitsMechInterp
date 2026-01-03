@@ -136,5 +136,5 @@ python scripts/step10c_smart_circuit_hunt.py  # Smart filtering pipeline
 
 ```
 Jakir, A. (2025). Theory of Mind Circuits in Qwen3-4B: A Mechanistic Interpretability Analysis.
-MATS 10.0 Application Project.
+MATS 10.0 Application Project. (Work in Progress)
 ```
