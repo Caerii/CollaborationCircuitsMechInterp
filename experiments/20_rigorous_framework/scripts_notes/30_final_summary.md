@@ -89,3 +89,5 @@ This is a **methodological limitation**, not a failure:
 **Activation patching is the "gold standard" for causal claims, but it fundamentally doesn't work in chat mode with reasoning models. This is a methodological limitation that reveals something important: ToM in reasoning models is too distributed and emergent to patch selectively.**
 
 
+
+

@@ -69,3 +69,5 @@ The flip detection might be based on:
 The fact that the intervened response is so different suggests the intervention IS having an effect - we just need to let it complete to see the answer.
 
 
+
+

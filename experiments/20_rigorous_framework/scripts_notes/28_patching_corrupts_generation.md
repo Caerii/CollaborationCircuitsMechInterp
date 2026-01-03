@@ -62,3 +62,5 @@ Maybe activation patching fundamentally disrupts chat-mode generation:
 4. **Consider prompt-level intervention** - If decision is in prompt processing
 
 
+
+
