@@ -1,0 +1,109 @@
+{
+  "project": {
+    "title": "Self/Other/User Representation Separation",
+    "subtitle": "Mechanistic Interpretability of Multi-Agent LLM Collaboration",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "hardware": "RTX 3080 10GB VRAM",
+    "date": "2025-12-22"
+  },
+  
+  "summary": {
+    "core_finding": "Entity encoding in Qwen3-4B is LEXICAL, not SEMANTIC. Probes trained on labeled data fail to transfer to naturalistic data (32% accuracy = chance level).",
+    "original_hypothesis": "LLMs form distinct semantic representations for User, Self, and Other entities",
+    "revised_conclusion": "The 100% probe accuracy reflects TOKEN encoding (literal 'User:', 'Self:', 'Other:' labels), not abstract entity understanding"
+  },
+  
+  "experiments": [
+    {
+      "id": "01",
+      "name": "Baseline Probing",
+      "status": "complete",
+      "directory": "01_baseline_probing",
+      "key_metric": "100% classification accuracy",
+      "interpretation": "Probes detect label TOKENS, not entity understanding"
+    },
+    {
+      "id": "02", 
+      "name": "Representation Geometry",
+      "status": "complete",
+      "directory": "02_representation_geometry",
+      "key_metric": "21 deg peak Self-Other separation at layer 20",
+      "interpretation": "U-shaped curve describes TOKEN processing, not entity processing"
+    },
+    {
+      "id": "03",
+      "name": "Causal Steering", 
+      "status": "complete",
+      "directory": "03_causal_steering",
+      "key_metric": "60% flip rate for Self-Other steering",
+      "interpretation": "Steering manipulates token-associated representations"
+    },
+    {
+      "id": "04",
+      "name": "3D Visualizations",
+      "status": "complete", 
+      "directory": "04_3d_visualizations",
+      "key_metric": "7 animated GIFs created",
+      "interpretation": "Visualizations show token clusters, still instructive"
+    },
+    {
+      "id": "05",
+      "name": "Naturalistic Transfer",
+      "status": "complete",
+      "directory": "05_naturalistic_transfer",
+      "key_metric": "32% transfer accuracy (chance level!)",
+      "interpretation": "CRITICAL CONTROL: proves encoding is lexical, not semantic"
+    }
+  ],
+  
+  "key_findings": [
+    {
+      "finding": "Entity information is linearly separable at all layers",
+      "evidence": "100% probe accuracy (Exp 01)",
+      "revised": "This reflects TOKEN separability, not ENTITY separability"
+    },
+    {
+      "finding": "Self and Other start nearly identical (4 deg at layer 0)",
+      "evidence": "Angular separation analysis (Exp 02)",
+      "revised": "This describes 'You:' vs 'Helper:' token processing"
+    },
+    {
+      "finding": "Peak Self-Other separation at layer 20 (21 deg)",
+      "evidence": "U-shaped similarity curve (Exp 02)",
+      "revised": "Layer 20 is critical for token differentiation"
+    },
+    {
+      "finding": "Self-Other distinction can be causally manipulated",
+      "evidence": "60% flip rate with steering (Exp 03)",
+      "revised": "Steering works on token representations"
+    },
+    {
+      "finding": "TRANSFER FAILS - encoding is LEXICAL",
+      "evidence": "32% transfer accuracy = chance (Exp 05)",
+      "interpretation": "CRITICAL: Without labels, model cannot distinguish speakers"
+    }
+  ],
+  
+  "implications": {
+    "ai_safety": {
+      "positive": [
+        "Models lack deep theory of mind",
+        "Multi-agent behavior is more predictable"
+      ],
+      "concerns": [
+        "Easy to fool with label manipulation",
+        "No robust entity tracking without explicit labels"
+      ]
+    },
+    "multi_agent_systems": [
+      "Explicit labeling is critical",
+      "Cannot rely on natural conversation flow",
+      "Context-based entity inference does not work"
+    ],
+    "mech_interp": [
+      "Always run transfer controls",
+      "Probe accuracy does not equal semantic understanding",
+      "Distinguish token encoding from concept encoding"
+    ]
+  }
+}
