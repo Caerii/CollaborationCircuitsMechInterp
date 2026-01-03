@@ -1,0 +1,102 @@
+{
+  "0": {
+    "within_domain_accuracy": 0.9957912278835586,
+    "transfer_accuracy": 0.3234323432343234,
+    "transfer_gap": 0.6723588846492352,
+    "per_class": {
+      "user": 0.18584070796460178,
+      "self": 0.0,
+      "other": 1.0
+    }
+  },
+  "4": {
+    "within_domain_accuracy": 1.0,
+    "transfer_accuracy": 0.33663366336633666,
+    "transfer_gap": 0.6633663366336633,
+    "per_class": {
+      "user": 0.6548672566371682,
+      "self": 0.10619469026548672,
+      "other": 0.2077922077922078
+    }
+  },
+  "8": {
+    "within_domain_accuracy": 1.0,
+    "transfer_accuracy": 0.297029702970297,
+    "transfer_gap": 0.7029702970297029,
+    "per_class": {
+      "user": 0.7168141592920354,
+      "self": 0.07079646017699115,
+      "other": 0.012987012987012988
+    }
+  },
+  "12": {
+    "within_domain_accuracy": 1.0,
+    "transfer_accuracy": 0.27722772277227725,
+    "transfer_gap": 0.7227722772277227,
+    "per_class": {
+      "user": 0.7433628318584071,
+      "self": 0.0,
+      "other": 0.0
+    }
+  },
+  "16": {
+    "within_domain_accuracy": 1.0,
+    "transfer_accuracy": 0.33003300330033003,
+    "transfer_gap": 0.66996699669967,
+    "per_class": {
+      "user": 0.8849557522123894,
+      "self": 0.0,
+      "other": 0.0
+    }
+  },
+  "20": {
+    "within_domain_accuracy": 1.0,
+    "transfer_accuracy": 0.30033003300330036,
+    "transfer_gap": 0.6996699669966997,
+    "per_class": {
+      "user": 0.7964601769911505,
+      "self": 0.008849557522123894,
+      "other": 0.0
+    }
+  },
+  "24": {
+    "within_domain_accuracy": 1.0,
+    "transfer_accuracy": 0.35973597359735976,
+    "transfer_gap": 0.6402640264026402,
+    "per_class": {
+      "user": 0.9203539823008849,
+      "self": 0.0,
+      "other": 0.06493506493506493
+    }
+  },
+  "28": {
+    "within_domain_accuracy": 0.99915611814346,
+    "transfer_accuracy": 0.3333333333333333,
+    "transfer_gap": 0.6658227848101266,
+    "per_class": {
+      "user": 0.40707964601769914,
+      "self": 0.008849557522123894,
+      "other": 0.7012987012987013
+    }
+  },
+  "32": {
+    "within_domain_accuracy": 0.99915611814346,
+    "transfer_accuracy": 0.20132013201320131,
+    "transfer_gap": 0.7978359861302586,
+    "per_class": {
+      "user": 0.23893805309734514,
+      "self": 0.13274336283185842,
+      "other": 0.24675324675324675
+    }
+  },
+  "35": {
+    "within_domain_accuracy": 0.99915611814346,
+    "transfer_accuracy": 0.4389438943894389,
+    "transfer_gap": 0.560212223754021,
+    "per_class": {
+      "user": 0.13274336283185842,
+      "self": 0.7345132743362832,
+      "other": 0.45454545454545453
+    }
+  }
+}

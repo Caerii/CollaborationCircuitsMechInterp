@@ -1,0 +1,38 @@
+{
+  "layers": [
+    0,
+    12,
+    24,
+    35
+  ],
+  "analysis": {
+    "0": {
+      "belief_first_cosine": 0.030234735035951095,
+      "belief_actual_cosine": 0.034438301983579125,
+      "real_acc": 1.0,
+      "random_baseline": 0.23657142857142857,
+      "selectivity": 0.7634285714285715
+    },
+    "12": {
+      "belief_first_cosine": 0.12363505339914098,
+      "belief_actual_cosine": 0.00782547176531287,
+      "real_acc": 1.0,
+      "random_baseline": 0.16266666666666668,
+      "selectivity": 0.8373333333333333
+    },
+    "24": {
+      "belief_first_cosine": 0.029956996797362488,
+      "belief_actual_cosine": 0.12016278669922356,
+      "real_acc": 1.0,
+      "random_baseline": 0.2038095238095238,
+      "selectivity": 0.7961904761904762
+    },
+    "35": {
+      "belief_first_cosine": 0.8063290262789069,
+      "belief_actual_cosine": 0.7021691157353535,
+      "real_acc": 1.0,
+      "random_baseline": 0.20828571428571427,
+      "selectivity": 0.7917142857142857
+    }
+  }
+}

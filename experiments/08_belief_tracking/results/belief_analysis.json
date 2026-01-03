@@ -1,0 +1,138 @@
+{
+  "layers": [
+    0,
+    8,
+    16,
+    24,
+    35
+  ],
+  "minimal_pairs": {
+    "0": {
+      "agent_classification": {
+        "accuracy": 0.675,
+        "std": 0.06123724356957946,
+        "p_value": 0.01923865414210013
+      },
+      "cross_content_generalization": {
+        "password": 0.9,
+        "location": 1.0,
+        "plan": 1.0,
+        "fact": 1.0
+      },
+      "avg_generalization": 0.975,
+      "orthogonality": {
+        "mean_cosine": 0.023877660681412605,
+        "max_cosine": 0.034980109108858654,
+        "orthogonal": true
+      }
+    },
+    "8": {
+      "agent_classification": {
+        "accuracy": 1.0,
+        "std": 0.0,
+        "p_value": 9.094947017729282e-13
+      },
+      "cross_content_generalization": {
+        "password": 1.0,
+        "location": 1.0,
+        "plan": 1.0,
+        "fact": 1.0
+      },
+      "avg_generalization": 1.0,
+      "orthogonality": {
+        "mean_cosine": 0.022849378806285934,
+        "max_cosine": 0.04153962422244689,
+        "orthogonal": true
+      }
+    },
+    "16": {
+      "agent_classification": {
+        "accuracy": 1.0,
+        "std": 0.0,
+        "p_value": 9.094947017729282e-13
+      },
+      "cross_content_generalization": {
+        "password": 1.0,
+        "location": 1.0,
+        "plan": 1.0,
+        "fact": 1.0
+      },
+      "avg_generalization": 1.0,
+      "orthogonality": {
+        "mean_cosine": 0.03653204481316683,
+        "max_cosine": 0.05643648038159123,
+        "orthogonal": true
+      }
+    },
+    "24": {
+      "agent_classification": {
+        "accuracy": 1.0,
+        "std": 0.0,
+        "p_value": 9.094947017729282e-13
+      },
+      "cross_content_generalization": {
+        "password": 1.0,
+        "location": 1.0,
+        "plan": 1.0,
+        "fact": 1.0
+      },
+      "avg_generalization": 1.0,
+      "orthogonality": {
+        "mean_cosine": 0.04385305947549374,
+        "max_cosine": 0.05226147811848267,
+        "orthogonal": true
+      }
+    },
+    "35": {
+      "agent_classification": {
+        "accuracy": 1.0,
+        "std": 0.0,
+        "p_value": 9.094947017729282e-13
+      },
+      "cross_content_generalization": {
+        "password": 1.0,
+        "location": 1.0,
+        "plan": 1.0,
+        "fact": 1.0
+      },
+      "avg_generalization": 1.0,
+      "orthogonality": {
+        "mean_cosine": 0.05858725360256838,
+        "max_cosine": 0.09042698096182503,
+        "orthogonal": true
+      }
+    }
+  },
+  "belief_scenarios": {
+    "0": {
+      "alice_knows_acc": 1.0,
+      "bob_knows_acc": 1.0,
+      "state_4way_acc": 1.0,
+      "state_4way_chance": 0.25
+    },
+    "8": {
+      "alice_knows_acc": 1.0,
+      "bob_knows_acc": 1.0,
+      "state_4way_acc": 1.0,
+      "state_4way_chance": 0.25
+    },
+    "16": {
+      "alice_knows_acc": 1.0,
+      "bob_knows_acc": 1.0,
+      "state_4way_acc": 1.0,
+      "state_4way_chance": 0.25
+    },
+    "24": {
+      "alice_knows_acc": 1.0,
+      "bob_knows_acc": 1.0,
+      "state_4way_acc": 1.0,
+      "state_4way_chance": 0.25
+    },
+    "35": {
+      "alice_knows_acc": 1.0,
+      "bob_knows_acc": 1.0,
+      "state_4way_acc": 1.0,
+      "state_4way_chance": 0.25
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "layers": [
+    0,
+    12,
+    24,
+    35
+  ],
+  "analysis": {
+    "0": {
+      "believed_acc": 1.0,
+      "actual_acc": 1.0,
+      "first_mentioned_acc": 1.0,
+      "belief_reality_cosine": 0.034438301983579125,
+      "chance": 0.16666666666666666,
+      "n_classes": 6
+    },
+    "12": {
+      "believed_acc": 1.0,
+      "actual_acc": 1.0,
+      "first_mentioned_acc": 1.0,
+      "belief_reality_cosine": 0.062393145584087886,
+      "chance": 0.16666666666666666,
+      "n_classes": 6
+    },
+    "24": {
+      "believed_acc": 1.0,
+      "actual_acc": 1.0,
+      "first_mentioned_acc": 1.0,
+      "belief_reality_cosine": 0.12016278669922356,
+      "chance": 0.16666666666666666,
+      "n_classes": 6
+    },
+    "35": {
+      "believed_acc": 1.0,
+      "actual_acc": 1.0,
+      "first_mentioned_acc": 1.0,
+      "belief_reality_cosine": 0.7021691157353535,
+      "chance": 0.16666666666666666,
+      "n_classes": 6
+    }
+  }
+}

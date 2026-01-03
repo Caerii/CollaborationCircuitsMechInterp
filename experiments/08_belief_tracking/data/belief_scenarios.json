@@ -1,0 +1,722 @@
+[
+  {
+    "id": "belief_9",
+    "text": "Alice told Bob that the PIN is 0451. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "password",
+    "content_item": "the PIN is 0451"
+  },
+  {
+    "id": "belief_0",
+    "text": "Alice knows the password is 7492. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "password",
+    "content_item": "the password is 7492"
+  },
+  {
+    "id": "belief_25",
+    "text": "Alice told Bob that the key is hidden in the red box. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "location",
+    "content_item": "the key is hidden in the red box"
+  },
+  {
+    "id": "belief_76",
+    "text": "Alice knows the team has 8 members. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "fact",
+    "content_item": "the team has 8 members"
+  },
+  {
+    "id": "belief_49",
+    "text": "Alice told Bob that the approach is to ask for help first. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "plan",
+    "content_item": "the approach is to ask for help first"
+  },
+  {
+    "id": "belief_16",
+    "text": "Alice knows the secret phrase is 'blue moon'. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "password",
+    "content_item": "the secret phrase is 'blue moon'"
+  },
+  {
+    "id": "belief_62",
+    "text": "Bob knows the company was founded in 1987. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "fact",
+    "content_item": "the company was founded in 1987"
+  },
+  {
+    "id": "belief_71",
+    "text": "Neither Alice nor Bob knows the project budget is $50,000.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "fact",
+    "content_item": "the project budget is $50,000"
+  },
+  {
+    "id": "belief_3",
+    "text": "Neither Alice nor Bob knows the password is 7492.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "password",
+    "content_item": "the password is 7492"
+  },
+  {
+    "id": "belief_11",
+    "text": "Neither Alice nor Bob knows the PIN is 0451.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "password",
+    "content_item": "the PIN is 0451"
+  },
+  {
+    "id": "belief_47",
+    "text": "Neither Alice nor Bob knows the strategy is to wait until Tuesday.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "plan",
+    "content_item": "the strategy is to wait until Tuesday"
+  },
+  {
+    "id": "belief_21",
+    "text": "Alice told Bob that the treasure is buried under the oak tree. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "location",
+    "content_item": "the treasure is buried under the oak tree"
+  },
+  {
+    "id": "belief_30",
+    "text": "Bob knows the document is in the top drawer. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "location",
+    "content_item": "the document is in the top drawer"
+  },
+  {
+    "id": "belief_19",
+    "text": "Neither Alice nor Bob knows the secret phrase is 'blue moon'.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "password",
+    "content_item": "the secret phrase is 'blue moon'"
+  },
+  {
+    "id": "belief_32",
+    "text": "Alice knows the car is parked on level 3. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "location",
+    "content_item": "the car is parked on level 3"
+  },
+  {
+    "id": "belief_50",
+    "text": "Bob knows the approach is to ask for help first. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "plan",
+    "content_item": "the approach is to ask for help first"
+  },
+  {
+    "id": "belief_63",
+    "text": "Neither Alice nor Bob knows the company was founded in 1987.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "fact",
+    "content_item": "the company was founded in 1987"
+  },
+  {
+    "id": "belief_31",
+    "text": "Neither Alice nor Bob knows the document is in the top drawer.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "location",
+    "content_item": "the document is in the top drawer"
+  },
+  {
+    "id": "belief_28",
+    "text": "Alice knows the document is in the top drawer. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "location",
+    "content_item": "the document is in the top drawer"
+  },
+  {
+    "id": "belief_18",
+    "text": "Bob knows the secret phrase is 'blue moon'. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "password",
+    "content_item": "the secret phrase is 'blue moon'"
+  },
+  {
+    "id": "belief_74",
+    "text": "Bob knows the deadline is next Friday. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "fact",
+    "content_item": "the deadline is next Friday"
+  },
+  {
+    "id": "belief_2",
+    "text": "Bob knows the password is 7492. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "password",
+    "content_item": "the password is 7492"
+  },
+  {
+    "id": "belief_66",
+    "text": "Bob knows the building has 12 floors. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "fact",
+    "content_item": "the building has 12 floors"
+  },
+  {
+    "id": "belief_12",
+    "text": "Alice knows the access key is XRAY7. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "password",
+    "content_item": "the access key is XRAY7"
+  },
+  {
+    "id": "belief_36",
+    "text": "Alice knows the meeting point is the north gate. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "location",
+    "content_item": "the meeting point is the north gate"
+  },
+  {
+    "id": "belief_27",
+    "text": "Neither Alice nor Bob knows the key is hidden in the red box.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "location",
+    "content_item": "the key is hidden in the red box"
+  },
+  {
+    "id": "belief_7",
+    "text": "Neither Alice nor Bob knows the code is DELTA-9.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "password",
+    "content_item": "the code is DELTA-9"
+  },
+  {
+    "id": "belief_1",
+    "text": "Alice told Bob that the password is 7492. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "password",
+    "content_item": "the password is 7492"
+  },
+  {
+    "id": "belief_35",
+    "text": "Neither Alice nor Bob knows the car is parked on level 3.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "location",
+    "content_item": "the car is parked on level 3"
+  },
+  {
+    "id": "belief_79",
+    "text": "Neither Alice nor Bob knows the team has 8 members.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "fact",
+    "content_item": "the team has 8 members"
+  },
+  {
+    "id": "belief_26",
+    "text": "Bob knows the key is hidden in the red box. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "location",
+    "content_item": "the key is hidden in the red box"
+  },
+  {
+    "id": "belief_20",
+    "text": "Alice knows the treasure is buried under the oak tree. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "location",
+    "content_item": "the treasure is buried under the oak tree"
+  },
+  {
+    "id": "belief_60",
+    "text": "Alice knows the company was founded in 1987. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "fact",
+    "content_item": "the company was founded in 1987"
+  },
+  {
+    "id": "belief_73",
+    "text": "Alice told Bob that the deadline is next Friday. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "fact",
+    "content_item": "the deadline is next Friday"
+  },
+  {
+    "id": "belief_57",
+    "text": "Alice told Bob that the decision is to postpone until spring. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "plan",
+    "content_item": "the decision is to postpone until spring"
+  },
+  {
+    "id": "belief_59",
+    "text": "Neither Alice nor Bob knows the decision is to postpone until spring.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "plan",
+    "content_item": "the decision is to postpone until spring"
+  },
+  {
+    "id": "belief_39",
+    "text": "Neither Alice nor Bob knows the meeting point is the north gate.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "location",
+    "content_item": "the meeting point is the north gate"
+  },
+  {
+    "id": "belief_72",
+    "text": "Alice knows the deadline is next Friday. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "fact",
+    "content_item": "the deadline is next Friday"
+  },
+  {
+    "id": "belief_34",
+    "text": "Bob knows the car is parked on level 3. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "location",
+    "content_item": "the car is parked on level 3"
+  },
+  {
+    "id": "belief_51",
+    "text": "Neither Alice nor Bob knows the approach is to ask for help first.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "plan",
+    "content_item": "the approach is to ask for help first"
+  },
+  {
+    "id": "belief_61",
+    "text": "Alice told Bob that the company was founded in 1987. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "fact",
+    "content_item": "the company was founded in 1987"
+  },
+  {
+    "id": "belief_38",
+    "text": "Bob knows the meeting point is the north gate. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "location",
+    "content_item": "the meeting point is the north gate"
+  },
+  {
+    "id": "belief_4",
+    "text": "Alice knows the code is DELTA-9. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "password",
+    "content_item": "the code is DELTA-9"
+  },
+  {
+    "id": "belief_41",
+    "text": "Alice told Bob that the plan is to leave at midnight. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "plan",
+    "content_item": "the plan is to leave at midnight"
+  },
+  {
+    "id": "belief_43",
+    "text": "Neither Alice nor Bob knows the plan is to leave at midnight.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "plan",
+    "content_item": "the plan is to leave at midnight"
+  },
+  {
+    "id": "belief_78",
+    "text": "Bob knows the team has 8 members. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "fact",
+    "content_item": "the team has 8 members"
+  },
+  {
+    "id": "belief_56",
+    "text": "Alice knows the decision is to postpone until spring. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "plan",
+    "content_item": "the decision is to postpone until spring"
+  },
+  {
+    "id": "belief_42",
+    "text": "Bob knows the plan is to leave at midnight. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "plan",
+    "content_item": "the plan is to leave at midnight"
+  },
+  {
+    "id": "belief_13",
+    "text": "Alice told Bob that the access key is XRAY7. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "password",
+    "content_item": "the access key is XRAY7"
+  },
+  {
+    "id": "belief_22",
+    "text": "Bob knows the treasure is buried under the oak tree. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "location",
+    "content_item": "the treasure is buried under the oak tree"
+  },
+  {
+    "id": "belief_52",
+    "text": "Alice knows the idea is to split into two groups. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "plan",
+    "content_item": "the idea is to split into two groups"
+  },
+  {
+    "id": "belief_70",
+    "text": "Bob knows the project budget is $50,000. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "fact",
+    "content_item": "the project budget is $50,000"
+  },
+  {
+    "id": "belief_23",
+    "text": "Neither Alice nor Bob knows the treasure is buried under the oak tree.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "location",
+    "content_item": "the treasure is buried under the oak tree"
+  },
+  {
+    "id": "belief_53",
+    "text": "Alice told Bob that the idea is to split into two groups. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "plan",
+    "content_item": "the idea is to split into two groups"
+  },
+  {
+    "id": "belief_40",
+    "text": "Alice knows the plan is to leave at midnight. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "plan",
+    "content_item": "the plan is to leave at midnight"
+  },
+  {
+    "id": "belief_64",
+    "text": "Alice knows the building has 12 floors. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "fact",
+    "content_item": "the building has 12 floors"
+  },
+  {
+    "id": "belief_17",
+    "text": "Alice told Bob that the secret phrase is 'blue moon'. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "password",
+    "content_item": "the secret phrase is 'blue moon'"
+  },
+  {
+    "id": "belief_67",
+    "text": "Neither Alice nor Bob knows the building has 12 floors.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "fact",
+    "content_item": "the building has 12 floors"
+  },
+  {
+    "id": "belief_6",
+    "text": "Bob knows the code is DELTA-9. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "password",
+    "content_item": "the code is DELTA-9"
+  },
+  {
+    "id": "belief_55",
+    "text": "Neither Alice nor Bob knows the idea is to split into two groups.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "plan",
+    "content_item": "the idea is to split into two groups"
+  },
+  {
+    "id": "belief_14",
+    "text": "Bob knows the access key is XRAY7. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "password",
+    "content_item": "the access key is XRAY7"
+  },
+  {
+    "id": "belief_54",
+    "text": "Bob knows the idea is to split into two groups. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "plan",
+    "content_item": "the idea is to split into two groups"
+  },
+  {
+    "id": "belief_65",
+    "text": "Alice told Bob that the building has 12 floors. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "fact",
+    "content_item": "the building has 12 floors"
+  },
+  {
+    "id": "belief_69",
+    "text": "Alice told Bob that the project budget is $50,000. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "fact",
+    "content_item": "the project budget is $50,000"
+  },
+  {
+    "id": "belief_29",
+    "text": "Alice told Bob that the document is in the top drawer. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "location",
+    "content_item": "the document is in the top drawer"
+  },
+  {
+    "id": "belief_75",
+    "text": "Neither Alice nor Bob knows the deadline is next Friday.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "fact",
+    "content_item": "the deadline is next Friday"
+  },
+  {
+    "id": "belief_8",
+    "text": "Alice knows the PIN is 0451. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "password",
+    "content_item": "the PIN is 0451"
+  },
+  {
+    "id": "belief_24",
+    "text": "Alice knows the key is hidden in the red box. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "location",
+    "content_item": "the key is hidden in the red box"
+  },
+  {
+    "id": "belief_46",
+    "text": "Bob knows the strategy is to wait until Tuesday. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "plan",
+    "content_item": "the strategy is to wait until Tuesday"
+  },
+  {
+    "id": "belief_37",
+    "text": "Alice told Bob that the meeting point is the north gate. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "location",
+    "content_item": "the meeting point is the north gate"
+  },
+  {
+    "id": "belief_10",
+    "text": "Bob knows the PIN is 0451. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "password",
+    "content_item": "the PIN is 0451"
+  },
+  {
+    "id": "belief_48",
+    "text": "Alice knows the approach is to ask for help first. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "plan",
+    "content_item": "the approach is to ask for help first"
+  },
+  {
+    "id": "belief_15",
+    "text": "Neither Alice nor Bob knows the access key is XRAY7.",
+    "alice_knows": false,
+    "bob_knows": false,
+    "state": "neither",
+    "content_category": "password",
+    "content_item": "the access key is XRAY7"
+  },
+  {
+    "id": "belief_68",
+    "text": "Alice knows the project budget is $50,000. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "fact",
+    "content_item": "the project budget is $50,000"
+  },
+  {
+    "id": "belief_58",
+    "text": "Bob knows the decision is to postpone until spring. Alice is unaware of this.",
+    "alice_knows": false,
+    "bob_knows": true,
+    "state": "bob_only",
+    "content_category": "plan",
+    "content_item": "the decision is to postpone until spring"
+  },
+  {
+    "id": "belief_5",
+    "text": "Alice told Bob that the code is DELTA-9. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "password",
+    "content_item": "the code is DELTA-9"
+  },
+  {
+    "id": "belief_33",
+    "text": "Alice told Bob that the car is parked on level 3. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "location",
+    "content_item": "the car is parked on level 3"
+  },
+  {
+    "id": "belief_77",
+    "text": "Alice told Bob that the team has 8 members. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "fact",
+    "content_item": "the team has 8 members"
+  },
+  {
+    "id": "belief_44",
+    "text": "Alice knows the strategy is to wait until Tuesday. Bob does not know this yet.",
+    "alice_knows": true,
+    "bob_knows": false,
+    "state": "alice_only",
+    "content_category": "plan",
+    "content_item": "the strategy is to wait until Tuesday"
+  },
+  {
+    "id": "belief_45",
+    "text": "Alice told Bob that the strategy is to wait until Tuesday. Now they both know.",
+    "alice_knows": true,
+    "bob_knows": true,
+    "state": "both_know",
+    "content_category": "plan",
+    "content_item": "the strategy is to wait until Tuesday"
+  }
+]

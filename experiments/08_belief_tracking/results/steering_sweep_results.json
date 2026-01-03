@@ -1,0 +1,80 @@
+{
+  "layer": 16,
+  "strengths": [
+    -5.0,
+    -2.5,
+    0,
+    2.5,
+    5.0,
+    10.0
+  ],
+  "results": [
+    {
+      "prompt": "In the story, the one who knows the secret password is",
+      "completions": {
+        "-5.0": "the only one who can open the door. What does this imply about the nature of the password?\n\nThe fact that only the one who knows the secret",
+        "-2.5": "the only one who can open the door. What does this imply about the nature of the password?\n\nThe fact that only the one who knows the secret",
+        "0": "the only one who can open the door. What does this imply about the nature of the password?\n\nThe fact that only the one who knows the secret",
+        "2.5": "the only one who can open the door. What does this imply about the nature of the password?\n\nThe fact that only the one who knows the secret",
+        "5.0": "the only one who can open the door. What does this imply about the nature of the password?\n\nThe fact that only the one who knows the secret",
+        "10.0": "the only one who can open the door. What does the password consist of, and how can we determine it?\n\nTo determine the password, let's"
+      }
+    },
+    {
+      "prompt": "The character who has the hidden information is named",
+      "completions": {
+        "-5.0": "\"A\" and the character who has the hidden information is named \"B\". The character named \"A\" has the hidden information, and the character",
+        "-2.5": "\"A\" and the character who has the hidden information is named \"B\". The character named \"A\" has the hidden information, and the character",
+        "0": "\"A\" and the character who has the hidden information is named \"B\". The character named \"A\" has the hidden information, and the character",
+        "2.5": "\"A\" and the character who has the hidden information is named \"B\". The character named \"A\" has the hidden information, and the character",
+        "5.0": "\"A\" and the character who has the hidden information is named \"B\". The character who has the hidden information is named \"A\" and the",
+        "10.0": "\"A\". The character who has the hidden information is named \"B\". The character who has the hidden information is named \"C\". The character who"
+      }
+    },
+    {
+      "prompt": "The person holding the classified document is",
+      "completions": {
+        "-5.0": "responsible for the safety of the document, and must not take it out of the office area or use it for purposes other than those specified.\nA.",
+        "-2.5": "responsible for the safety of the document, and must not take it out of the office area or use it for purposes other than those specified.\nA.",
+        "0": "responsible for its safekeeping, and the person who receives the classified document is responsible for its safekeeping. A. Correct B. Incorrect\nAnswer:",
+        "2.5": "responsible for its safekeeping, and the person who receives the classified document is responsible for its safekeeping. A. Correct B. Incorrect\nAnswer:",
+        "5.0": "responsible for its safekeeping and must not lend, transfer, or privately copy the document. A. Correct B. Incorrect\nAnswer:\nA\n\nThe",
+        "10.0": "responsible for its safekeeping and must not lend, transfer, or use it for other purposes without authorization. A. Correct B. Incorrect\nAnswer:"
+      }
+    },
+    {
+      "prompt": "Between Alice and Bob, the one who discovered the truth first was",
+      "completions": {
+        "-5.0": "Alice. Alice and Bob are both mathematicians. Alice discovered the truth about the number of prime numbers less than 100. Bob discovered the",
+        "-2.5": "Alice. Alice and Bob are both mathematicians. Alice discovered the truth about the number of prime numbers less than 100. Bob discovered the",
+        "0": "Alice. Alice and Bob are both mathematicians. Alice discovered the truth about the number of prime numbers less than 100. Bob discovered the",
+        "2.5": "Alice. Alice and Bob are both working on a project involving a sequence of numbers. Alice discovered that the sequence is arithmetic, while Bob discovered that the",
+        "5.0": "Alice. Alice and Bob are both working on a project involving a sequence of numbers. They each have a different sequence of numbers. Alice's sequence is",
+        "10.0": "Bob. Bob discovered the truth after 10 minutes, and Alice discovered the truth after 15 minutes. What is the difference in time between"
+      }
+    },
+    {
+      "prompt": "The knowledgeable one in this scenario is",
+      "completions": {
+        "-5.0": "the one who has the most information about the subject, and the one who is most capable of making a decision. This is not necessarily the one who",
+        "-2.5": "the one who has the most information about the subject, and the one who is most capable of making a decision. This is not necessarily the one who",
+        "0": "the one who has the most information about the subject, and the one who is most likely to be correct. The one who is most knowledgeable is the",
+        "2.5": "the one who has the most information about the subject, and the one who is most likely to be correct. The one who is most knowledgeable is the",
+        "5.0": "the one who has the most information about the subject matter, and the one who can provide the most accurate and reliable answers. In the context of the",
+        "10.0": "the one who knows the most about the subject, and the one who knows the most about the subject is the one who has the most experience. Therefore"
+      }
+    }
+  ],
+  "shifts": [
+    "NONE",
+    "NONE",
+    "NONE",
+    "NONE",
+    "NONE"
+  ],
+  "summary": {
+    "n_flip": 0,
+    "n_partial": 0,
+    "n_none": 5
+  }
+}

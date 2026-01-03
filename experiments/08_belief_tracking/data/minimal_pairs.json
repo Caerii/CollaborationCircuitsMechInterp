@@ -1,0 +1,322 @@
+[
+  {
+    "id": "password_4",
+    "text": "Bob knows the secret phrase is 'blue moon'.",
+    "agent": "Bob",
+    "content_category": "password",
+    "content_item": "the secret phrase is 'blue moon'",
+    "pair_group": "password_4"
+  },
+  {
+    "id": "password_1",
+    "text": "Bob knows the code is DELTA-9.",
+    "agent": "Bob",
+    "content_category": "password",
+    "content_item": "the code is DELTA-9",
+    "pair_group": "password_1"
+  },
+  {
+    "id": "location_5",
+    "text": "Alice knows the treasure is buried under the oak tree.",
+    "agent": "Alice",
+    "content_category": "location",
+    "content_item": "the treasure is buried under the oak tree",
+    "pair_group": "location_0"
+  },
+  {
+    "id": "fact_18",
+    "text": "Alice knows the deadline is next Friday.",
+    "agent": "Alice",
+    "content_category": "fact",
+    "content_item": "the deadline is next Friday",
+    "pair_group": "fact_3"
+  },
+  {
+    "id": "plan_12",
+    "text": "Bob knows the approach is to ask for help first.",
+    "agent": "Bob",
+    "content_category": "plan",
+    "content_item": "the approach is to ask for help first",
+    "pair_group": "plan_2"
+  },
+  {
+    "id": "plan_12",
+    "text": "Alice knows the approach is to ask for help first.",
+    "agent": "Alice",
+    "content_category": "plan",
+    "content_item": "the approach is to ask for help first",
+    "pair_group": "plan_2"
+  },
+  {
+    "id": "fact_15",
+    "text": "Alice knows the company was founded in 1987.",
+    "agent": "Alice",
+    "content_category": "fact",
+    "content_item": "the company was founded in 1987",
+    "pair_group": "fact_0"
+  },
+  {
+    "id": "location_5",
+    "text": "Bob knows the treasure is buried under the oak tree.",
+    "agent": "Bob",
+    "content_category": "location",
+    "content_item": "the treasure is buried under the oak tree",
+    "pair_group": "location_0"
+  },
+  {
+    "id": "password_2",
+    "text": "Alice knows the PIN is 0451.",
+    "agent": "Alice",
+    "content_category": "password",
+    "content_item": "the PIN is 0451",
+    "pair_group": "password_2"
+  },
+  {
+    "id": "fact_16",
+    "text": "Alice knows the building has 12 floors.",
+    "agent": "Alice",
+    "content_category": "fact",
+    "content_item": "the building has 12 floors",
+    "pair_group": "fact_1"
+  },
+  {
+    "id": "plan_10",
+    "text": "Bob knows the plan is to leave at midnight.",
+    "agent": "Bob",
+    "content_category": "plan",
+    "content_item": "the plan is to leave at midnight",
+    "pair_group": "plan_0"
+  },
+  {
+    "id": "plan_14",
+    "text": "Alice knows the decision is to postpone until spring.",
+    "agent": "Alice",
+    "content_category": "plan",
+    "content_item": "the decision is to postpone until spring",
+    "pair_group": "plan_4"
+  },
+  {
+    "id": "plan_11",
+    "text": "Bob knows the strategy is to wait until Tuesday.",
+    "agent": "Bob",
+    "content_category": "plan",
+    "content_item": "the strategy is to wait until Tuesday",
+    "pair_group": "plan_1"
+  },
+  {
+    "id": "location_9",
+    "text": "Alice knows the meeting point is the north gate.",
+    "agent": "Alice",
+    "content_category": "location",
+    "content_item": "the meeting point is the north gate",
+    "pair_group": "location_4"
+  },
+  {
+    "id": "location_6",
+    "text": "Alice knows the key is hidden in the red box.",
+    "agent": "Alice",
+    "content_category": "location",
+    "content_item": "the key is hidden in the red box",
+    "pair_group": "location_1"
+  },
+  {
+    "id": "fact_17",
+    "text": "Alice knows the project budget is $50,000.",
+    "agent": "Alice",
+    "content_category": "fact",
+    "content_item": "the project budget is $50,000",
+    "pair_group": "fact_2"
+  },
+  {
+    "id": "fact_17",
+    "text": "Bob knows the project budget is $50,000.",
+    "agent": "Bob",
+    "content_category": "fact",
+    "content_item": "the project budget is $50,000",
+    "pair_group": "fact_2"
+  },
+  {
+    "id": "plan_13",
+    "text": "Alice knows the idea is to split into two groups.",
+    "agent": "Alice",
+    "content_category": "plan",
+    "content_item": "the idea is to split into two groups",
+    "pair_group": "plan_3"
+  },
+  {
+    "id": "location_6",
+    "text": "Bob knows the key is hidden in the red box.",
+    "agent": "Bob",
+    "content_category": "location",
+    "content_item": "the key is hidden in the red box",
+    "pair_group": "location_1"
+  },
+  {
+    "id": "plan_11",
+    "text": "Alice knows the strategy is to wait until Tuesday.",
+    "agent": "Alice",
+    "content_category": "plan",
+    "content_item": "the strategy is to wait until Tuesday",
+    "pair_group": "plan_1"
+  },
+  {
+    "id": "plan_10",
+    "text": "Alice knows the plan is to leave at midnight.",
+    "agent": "Alice",
+    "content_category": "plan",
+    "content_item": "the plan is to leave at midnight",
+    "pair_group": "plan_0"
+  },
+  {
+    "id": "fact_15",
+    "text": "Bob knows the company was founded in 1987.",
+    "agent": "Bob",
+    "content_category": "fact",
+    "content_item": "the company was founded in 1987",
+    "pair_group": "fact_0"
+  },
+  {
+    "id": "fact_18",
+    "text": "Bob knows the deadline is next Friday.",
+    "agent": "Bob",
+    "content_category": "fact",
+    "content_item": "the deadline is next Friday",
+    "pair_group": "fact_3"
+  },
+  {
+    "id": "plan_14",
+    "text": "Bob knows the decision is to postpone until spring.",
+    "agent": "Bob",
+    "content_category": "plan",
+    "content_item": "the decision is to postpone until spring",
+    "pair_group": "plan_4"
+  },
+  {
+    "id": "location_9",
+    "text": "Bob knows the meeting point is the north gate.",
+    "agent": "Bob",
+    "content_category": "location",
+    "content_item": "the meeting point is the north gate",
+    "pair_group": "location_4"
+  },
+  {
+    "id": "location_8",
+    "text": "Alice knows the car is parked on level 3.",
+    "agent": "Alice",
+    "content_category": "location",
+    "content_item": "the car is parked on level 3",
+    "pair_group": "location_3"
+  },
+  {
+    "id": "fact_19",
+    "text": "Bob knows the team has 8 members.",
+    "agent": "Bob",
+    "content_category": "fact",
+    "content_item": "the team has 8 members",
+    "pair_group": "fact_4"
+  },
+  {
+    "id": "fact_16",
+    "text": "Bob knows the building has 12 floors.",
+    "agent": "Bob",
+    "content_category": "fact",
+    "content_item": "the building has 12 floors",
+    "pair_group": "fact_1"
+  },
+  {
+    "id": "password_1",
+    "text": "Alice knows the code is DELTA-9.",
+    "agent": "Alice",
+    "content_category": "password",
+    "content_item": "the code is DELTA-9",
+    "pair_group": "password_1"
+  },
+  {
+    "id": "password_0",
+    "text": "Alice knows the password is 7492.",
+    "agent": "Alice",
+    "content_category": "password",
+    "content_item": "the password is 7492",
+    "pair_group": "password_0"
+  },
+  {
+    "id": "fact_19",
+    "text": "Alice knows the team has 8 members.",
+    "agent": "Alice",
+    "content_category": "fact",
+    "content_item": "the team has 8 members",
+    "pair_group": "fact_4"
+  },
+  {
+    "id": "plan_13",
+    "text": "Bob knows the idea is to split into two groups.",
+    "agent": "Bob",
+    "content_category": "plan",
+    "content_item": "the idea is to split into two groups",
+    "pair_group": "plan_3"
+  },
+  {
+    "id": "password_2",
+    "text": "Bob knows the PIN is 0451.",
+    "agent": "Bob",
+    "content_category": "password",
+    "content_item": "the PIN is 0451",
+    "pair_group": "password_2"
+  },
+  {
+    "id": "password_3",
+    "text": "Alice knows the access key is XRAY7.",
+    "agent": "Alice",
+    "content_category": "password",
+    "content_item": "the access key is XRAY7",
+    "pair_group": "password_3"
+  },
+  {
+    "id": "password_4",
+    "text": "Alice knows the secret phrase is 'blue moon'.",
+    "agent": "Alice",
+    "content_category": "password",
+    "content_item": "the secret phrase is 'blue moon'",
+    "pair_group": "password_4"
+  },
+  {
+    "id": "location_7",
+    "text": "Alice knows the document is in the top drawer.",
+    "agent": "Alice",
+    "content_category": "location",
+    "content_item": "the document is in the top drawer",
+    "pair_group": "location_2"
+  },
+  {
+    "id": "location_7",
+    "text": "Bob knows the document is in the top drawer.",
+    "agent": "Bob",
+    "content_category": "location",
+    "content_item": "the document is in the top drawer",
+    "pair_group": "location_2"
+  },
+  {
+    "id": "location_8",
+    "text": "Bob knows the car is parked on level 3.",
+    "agent": "Bob",
+    "content_category": "location",
+    "content_item": "the car is parked on level 3",
+    "pair_group": "location_3"
+  },
+  {
+    "id": "password_0",
+    "text": "Bob knows the password is 7492.",
+    "agent": "Bob",
+    "content_category": "password",
+    "content_item": "the password is 7492",
+    "pair_group": "password_0"
+  },
+  {
+    "id": "password_3",
+    "text": "Bob knows the access key is XRAY7.",
+    "agent": "Bob",
+    "content_category": "password",
+    "content_item": "the access key is XRAY7",
+    "pair_group": "password_3"
+  }
+]

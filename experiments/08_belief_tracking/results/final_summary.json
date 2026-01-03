@@ -1,0 +1,21 @@
+{
+  "representation_findings": {
+    "avg_agent_classification": 0.9349999999999999,
+    "avg_cross_content_generalization": 0.9949999999999999,
+    "avg_orthogonality_cosine": 0.037139879475785495,
+    "avg_belief_state_decoding": 1.0
+  },
+  "causal_findings": {
+    "steering_flip_detected": true,
+    "flip_prompt": "Between Alice and Bob, the one who discovered the truth first was",
+    "base_answer": "Alice",
+    "steered_answer": "Bob",
+    "steering_strength_required": 10.0
+  },
+  "conclusions": {
+    "separable_representations": true,
+    "compositional_structure": true,
+    "causal_relevance": "partial",
+    "overall_evidence": "moderate"
+  }
+}

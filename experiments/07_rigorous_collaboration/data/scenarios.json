@@ -1,0 +1,502 @@
+[
+  {
+    "id": "private_44",
+    "condition": "private",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "shared_11",
+    "condition": "shared",
+    "dialogue": "User: We need more time\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_20",
+    "condition": "private",
+    "dialogue": "User: The password is secret123\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_30",
+    "condition": "shared",
+    "dialogue": "User: The password is secret123\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_18",
+    "condition": "private",
+    "dialogue": "User: I'm planning a surprise\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "private_35",
+    "condition": "private",
+    "dialogue": "User: There's been a change\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "shared_36",
+    "condition": "shared",
+    "dialogue": "User: There's been a change\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_28",
+    "condition": "shared",
+    "dialogue": "User: I'm planning a surprise\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_11",
+    "condition": "private",
+    "dialogue": "User: The password is secret123\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "shared_38",
+    "condition": "shared",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "shared_44",
+    "condition": "shared",
+    "dialogue": "User: The deadline is next Friday\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_38",
+    "condition": "private",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_45",
+    "condition": "private",
+    "dialogue": "User: The password is secret123\nYou: I'll remember that.\nHelper: Did I miss something?\nYou: No, all good."
+  },
+  {
+    "id": "private_1",
+    "condition": "private",
+    "dialogue": "User: The budget is $5000\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_19",
+    "condition": "private",
+    "dialogue": "User: The deadline is next Friday\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "shared_46",
+    "condition": "shared",
+    "dialogue": "User: The budget is $5000\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_9",
+    "condition": "shared",
+    "dialogue": "User: We need more time\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "shared_0",
+    "condition": "shared",
+    "dialogue": "User: I'm planning a surprise\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_5",
+    "condition": "private",
+    "dialogue": "User: The password is secret123\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "shared_2",
+    "condition": "shared",
+    "dialogue": "User: The deadline is next Friday\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_8",
+    "condition": "shared",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_14",
+    "condition": "private",
+    "dialogue": "User: I'm planning a surprise\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_42",
+    "condition": "shared",
+    "dialogue": "User: We have new requirements\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_24",
+    "condition": "private",
+    "dialogue": "User: We need more time\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_39",
+    "condition": "shared",
+    "dialogue": "User: I'm planning a surprise\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_15",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "shared_49",
+    "condition": "shared",
+    "dialogue": "User: We need more time\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_37",
+    "condition": "private",
+    "dialogue": "User: My phone number is 555-1234\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "shared_3",
+    "condition": "shared",
+    "dialogue": "User: I got some news\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "private_10",
+    "condition": "private",
+    "dialogue": "User: The budget is $5000\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "private_23",
+    "condition": "private",
+    "dialogue": "User: I'm planning a surprise\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "shared_33",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_31",
+    "condition": "shared",
+    "dialogue": "User: My phone number is 555-1234\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "private_40",
+    "condition": "private",
+    "dialogue": "User: The deal went through\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "private_3",
+    "condition": "private",
+    "dialogue": "User: The deal went through\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_14",
+    "condition": "shared",
+    "dialogue": "User: The budget is $5000\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_22",
+    "condition": "shared",
+    "dialogue": "User: We have new requirements\nYou: Let's make sure everyone knows.\nHelper: Got it.\nYou: Great."
+  },
+  {
+    "id": "shared_32",
+    "condition": "shared",
+    "dialogue": "User: We need more time\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_22",
+    "condition": "private",
+    "dialogue": "User: We have new requirements\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "shared_35",
+    "condition": "shared",
+    "dialogue": "User: There's been a change\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_41",
+    "condition": "private",
+    "dialogue": "User: We need more time\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_6",
+    "condition": "private",
+    "dialogue": "User: The meeting is at 3pm tomorrow\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "private_12",
+    "condition": "private",
+    "dialogue": "User: My phone number is 555-1234\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "private_26",
+    "condition": "private",
+    "dialogue": "User: I got some news\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "private_49",
+    "condition": "private",
+    "dialogue": "User: The budget is $5000\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_29",
+    "condition": "shared",
+    "dialogue": "User: The deadline is next Friday\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_30",
+    "condition": "private",
+    "dialogue": "User: We have new requirements\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_48",
+    "condition": "private",
+    "dialogue": "User: There's been a change\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_36",
+    "condition": "private",
+    "dialogue": "User: The password is secret123\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "private_46",
+    "condition": "private",
+    "dialogue": "User: I got some news\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "shared_13",
+    "condition": "shared",
+    "dialogue": "User: The password is secret123\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "private_34",
+    "condition": "private",
+    "dialogue": "User: The deadline is next Friday\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_13",
+    "condition": "private",
+    "dialogue": "User: The client wants changes\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "shared_25",
+    "condition": "shared",
+    "dialogue": "User: The deal went through\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_42",
+    "condition": "private",
+    "dialogue": "User: We have new requirements\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "private_17",
+    "condition": "private",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "shared_26",
+    "condition": "shared",
+    "dialogue": "User: The deal went through\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_32",
+    "condition": "private",
+    "dialogue": "User: The meeting is at 3pm tomorrow\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "private_4",
+    "condition": "private",
+    "dialogue": "User: The deadline is next Friday\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "shared_40",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "shared_5",
+    "condition": "shared",
+    "dialogue": "User: The budget is $5000\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "shared_21",
+    "condition": "shared",
+    "dialogue": "User: The password is secret123\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "shared_37",
+    "condition": "shared",
+    "dialogue": "User: We have new requirements\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "shared_23",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: Let's make sure everyone knows.\nHelper: Got it.\nYou: Great."
+  },
+  {
+    "id": "shared_43",
+    "condition": "shared",
+    "dialogue": "User: My phone number is 555-1234\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_7",
+    "condition": "private",
+    "dialogue": "User: The budget is $5000\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "private_9",
+    "condition": "private",
+    "dialogue": "User: The meeting is at 3pm tomorrow\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "private_0",
+    "condition": "private",
+    "dialogue": "User: The meeting is at 3pm tomorrow\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_24",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_29",
+    "condition": "private",
+    "dialogue": "User: I got some news\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "shared_41",
+    "condition": "shared",
+    "dialogue": "User: I got some news\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "private_2",
+    "condition": "private",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "private_43",
+    "condition": "private",
+    "dialogue": "User: The project is delayed\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "shared_48",
+    "condition": "shared",
+    "dialogue": "User: The deadline is next Friday\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "private_28",
+    "condition": "private",
+    "dialogue": "User: The client wants changes\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "private_31",
+    "condition": "private",
+    "dialogue": "User: We need more time\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "private_15",
+    "condition": "private",
+    "dialogue": "User: We need more time\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "shared_7",
+    "condition": "shared",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Let's make sure everyone knows.\nHelper: Got it.\nYou: Great."
+  },
+  {
+    "id": "shared_16",
+    "condition": "shared",
+    "dialogue": "User: The deadline is next Friday\nYou: Let's make sure everyone knows.\nHelper: Got it.\nYou: Great."
+  },
+  {
+    "id": "shared_6",
+    "condition": "shared",
+    "dialogue": "User: The password is secret123\nYou: Let's make sure everyone knows.\nHelper: Got it.\nYou: Great."
+  },
+  {
+    "id": "private_47",
+    "condition": "private",
+    "dialogue": "User: The budget is $5000\nYou: Noted.\nHelper: What did I miss?\nYou: Just checking in."
+  },
+  {
+    "id": "shared_1",
+    "condition": "shared",
+    "dialogue": "User: The password is secret123\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_39",
+    "condition": "private",
+    "dialogue": "User: I prefer the blue design\nYou: Understood completely.\nHelper: What's going on?\nYou: Private matter."
+  },
+  {
+    "id": "private_25",
+    "condition": "private",
+    "dialogue": "User: The project is delayed\nYou: I'll remember that.\nHelper: Did I miss something?\nYou: No, all good."
+  },
+  {
+    "id": "shared_19",
+    "condition": "shared",
+    "dialogue": "User: I'm planning a surprise\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "private_27",
+    "condition": "private",
+    "dialogue": "User: The deadline is next Friday\nYou: I'll remember that.\nHelper: Did I miss something?\nYou: No, all good."
+  },
+  {
+    "id": "shared_4",
+    "condition": "shared",
+    "dialogue": "User: I got some news\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "shared_27",
+    "condition": "shared",
+    "dialogue": "User: I'm planning a surprise\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "shared_17",
+    "condition": "shared",
+    "dialogue": "User: There's been a change\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_33",
+    "condition": "private",
+    "dialogue": "User: I'm planning a surprise\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "private_21",
+    "condition": "private",
+    "dialogue": "User: I prefer the blue design\nYou: I understand.\nHelper: What are you discussing?\nYou: Just helping the user."
+  },
+  {
+    "id": "shared_20",
+    "condition": "shared",
+    "dialogue": "User: We have new requirements\nYou: Let's make sure everyone knows.\nHelper: Got it.\nYou: Great."
+  },
+  {
+    "id": "shared_10",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  },
+  {
+    "id": "shared_34",
+    "condition": "shared",
+    "dialogue": "User: The project is delayed\nYou: Helper should know this too.\nHelper: Good to know.\nYou: Now we're on the same page."
+  },
+  {
+    "id": "shared_45",
+    "condition": "shared",
+    "dialogue": "User: I got some news\nYou: I'll pass this along.\nHelper: Thanks for the update.\nYou: Of course."
+  },
+  {
+    "id": "private_16",
+    "condition": "private",
+    "dialogue": "User: I prefer the blue design\nYou: I'll remember that.\nHelper: Did I miss something?\nYou: No, all good."
+  },
+  {
+    "id": "shared_18",
+    "condition": "shared",
+    "dialogue": "User: We're meeting at the coffee shop\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "shared_47",
+    "condition": "shared",
+    "dialogue": "User: The budget is $5000\nYou: Let me share that with Helper.\nHelper: Thanks for letting me know!\nYou: No problem."
+  },
+  {
+    "id": "private_8",
+    "condition": "private",
+    "dialogue": "User: The project is delayed\nYou: Got it, noted.\nHelper: Any updates?\nYou: Nothing to share right now."
+  },
+  {
+    "id": "shared_12",
+    "condition": "shared",
+    "dialogue": "User: The password is secret123\nYou: Sharing with the team.\nHelper: Understood.\nYou: Perfect."
+  }
+]

@@ -1,0 +1,416 @@
+{
+  "summary": {
+    "false_belief": {
+      "belief_correct": 22,
+      "reality_correct": 10,
+      "total": 22
+    },
+    "true_belief": {
+      "belief_correct": 5,
+      "reality_correct": 7,
+      "total": 18
+    }
+  },
+  "detailed": [
+    {
+      "id": "true_belief_61",
+      "type": "true_belief",
+      "belief_generated": "basket.\n\nexplanation: alice",
+      "belief_expected": "basket",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: initially",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_89",
+      "type": "true_belief",
+      "belief_generated": "closet.\n\nstep-by-step",
+      "belief_expected": "desk",
+      "belief_correct": false,
+      "reality_generated": "desk.\n\nexplanation: alice",
+      "reality_expected": "desk",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_104",
+      "type": "false_belief",
+      "belief_generated": "drawer.\n\nexplanation: alice",
+      "belief_expected": "drawer",
+      "belief_correct": true,
+      "reality_generated": "drawer.\n\nexplanation: alice",
+      "reality_expected": "shelf",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_42",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: bob",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: initially",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_143",
+      "type": "true_belief",
+      "belief_generated": "basket.\n\nwhy? because",
+      "belief_expected": "basket",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: bob",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_85",
+      "type": "true_belief",
+      "belief_generated": "drawer.\n\nexplanation: alice",
+      "belief_expected": "shelf",
+      "belief_correct": false,
+      "reality_generated": "drawer.\n\nexplanation: alice",
+      "reality_expected": "shelf",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_133",
+      "type": "true_belief",
+      "belief_generated": "bag.\n\nexplanation: alice",
+      "belief_expected": "table",
+      "belief_correct": false,
+      "reality_generated": "bag.\n\nexplanation: alice",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_11",
+      "type": "true_belief",
+      "belief_generated": "closet.\n\nstep-by-step",
+      "belief_expected": "desk",
+      "belief_correct": false,
+      "reality_generated": "closet.\n\nexplanation: the",
+      "reality_expected": "desk",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_136",
+      "type": "false_belief",
+      "belief_generated": "cabinet.\n\nexplanation: alice",
+      "belief_expected": "cabinet",
+      "belief_correct": true,
+      "reality_generated": "counter.\n\nexplanation: alice",
+      "reality_expected": "counter",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_66",
+      "type": "false_belief",
+      "belief_generated": "drawer.\n\nstep-by-step",
+      "belief_expected": "drawer",
+      "belief_correct": true,
+      "reality_generated": "drawer.\n\nexplanation: the",
+      "reality_expected": "shelf",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_30",
+      "type": "false_belief",
+      "belief_generated": "closet.\n\nexplanation: bob",
+      "belief_expected": "closet",
+      "belief_correct": true,
+      "reality_generated": "desk. \n\nexplanation:",
+      "reality_expected": "desk",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_140",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: alice",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: alice",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_151",
+      "type": "true_belief",
+      "belief_generated": "closet.\n\nstep-by-step",
+      "belief_expected": "desk",
+      "belief_correct": false,
+      "reality_generated": "desk.\n\nexplanation: bob",
+      "reality_expected": "desk",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_18",
+      "type": "false_belief",
+      "belief_generated": "cabinet.\n\nexplanation: bob",
+      "belief_expected": "cabinet",
+      "belief_correct": true,
+      "reality_generated": "cabinet.\n\nexplanation: the",
+      "reality_expected": "counter",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_96",
+      "type": "false_belief",
+      "belief_generated": "cabinet.\n\nexplanation: alice",
+      "belief_expected": "cabinet",
+      "belief_correct": true,
+      "reality_generated": "cabinet.\n\nexplanation: the",
+      "reality_expected": "counter",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_120",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: alice",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: alice",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_0",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: alice",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: alice",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_17",
+      "type": "true_belief",
+      "belief_generated": "cabinet.\n\nwhy? because",
+      "belief_expected": "counter",
+      "belief_correct": false,
+      "reality_generated": "cabinet.\n\nexplanation: the",
+      "reality_expected": "counter",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_52",
+      "type": "false_belief",
+      "belief_generated": "bag.\n\nexplanation: alice",
+      "belief_expected": "bag",
+      "belief_correct": true,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_122",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: bob",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: initially",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_38",
+      "type": "false_belief",
+      "belief_generated": "cabinet.\n\nexplanation: bob",
+      "belief_expected": "cabinet",
+      "belief_correct": true,
+      "reality_generated": "counter. \n\nexplanation:",
+      "reality_expected": "counter",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_72",
+      "type": "false_belief",
+      "belief_generated": "bag.\n\nexplanation: alice",
+      "belief_expected": "bag",
+      "belief_correct": true,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_131",
+      "type": "true_belief",
+      "belief_generated": "closet.\n\nstep-by-step",
+      "belief_expected": "desk",
+      "belief_correct": false,
+      "reality_generated": "closet.\n\nexplanation: the",
+      "reality_expected": "desk",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_94",
+      "type": "false_belief",
+      "belief_generated": "bag.\n\nexplanation: bob",
+      "belief_expected": "bag",
+      "belief_correct": true,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_2",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: bob",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: bob",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_19",
+      "type": "true_belief",
+      "belief_generated": "cabinet.\n\nstep-by-step",
+      "belief_expected": "counter",
+      "belief_correct": false,
+      "reality_generated": "cabinet.\n\nexplanation: the",
+      "reality_expected": "counter",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_76",
+      "type": "false_belief",
+      "belief_generated": "cabinet.\n\nexplanation: alice",
+      "belief_expected": "cabinet",
+      "belief_correct": true,
+      "reality_generated": "cabinet.\n\nexplanation: the",
+      "reality_expected": "counter",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_123",
+      "type": "true_belief",
+      "belief_generated": "basket.\n\nwhy? because",
+      "belief_expected": "basket",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: bob",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_67",
+      "type": "true_belief",
+      "belief_generated": "drawer.\n\nwhy? because",
+      "belief_expected": "shelf",
+      "belief_correct": false,
+      "reality_generated": "drawer.\n\nexplanation: the",
+      "reality_expected": "shelf",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_156",
+      "type": "false_belief",
+      "belief_generated": "cabinet.\n\nexplanation: alice",
+      "belief_expected": "cabinet",
+      "belief_correct": true,
+      "reality_generated": "cabinet.\n\nexplanation: the",
+      "reality_expected": "counter",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_155",
+      "type": "true_belief",
+      "belief_generated": "bag.\n\nexplanation: bob",
+      "belief_expected": "table",
+      "belief_correct": false,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_142",
+      "type": "false_belief",
+      "belief_generated": "box.\n\nexplanation: bob",
+      "belief_expected": "box",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: bob",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_111",
+      "type": "true_belief",
+      "belief_generated": "closet.\n\nstep-by-step",
+      "belief_expected": "desk",
+      "belief_correct": false,
+      "reality_generated": "closet.\n\nexplanation: bob",
+      "reality_expected": "desk",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_3",
+      "type": "true_belief",
+      "belief_generated": "basket.\n\nwhy? because",
+      "belief_expected": "basket",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: bob",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "true_belief_101",
+      "type": "true_belief",
+      "belief_generated": "basket.\n\nwhy?\nbecause",
+      "belief_expected": "basket",
+      "belief_correct": true,
+      "reality_generated": "basket.\n\nexplanation: alice",
+      "reality_expected": "basket",
+      "reality_correct": true
+    },
+    {
+      "id": "false_belief_54",
+      "type": "false_belief",
+      "belief_generated": "bag.\n\nexplanation: bob",
+      "belief_expected": "bag",
+      "belief_correct": true,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_32",
+      "type": "false_belief",
+      "belief_generated": "bag.\n\nexplanation: alice",
+      "belief_expected": "bag",
+      "belief_correct": true,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_75",
+      "type": "true_belief",
+      "belief_generated": "bag.\n\nstep-by-step",
+      "belief_expected": "table",
+      "belief_correct": false,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "false_belief_14",
+      "type": "false_belief",
+      "belief_generated": "bag.\n\nexplanation: bob",
+      "belief_expected": "bag",
+      "belief_correct": true,
+      "reality_generated": "bag.\n\nexplanation: the",
+      "reality_expected": "table",
+      "reality_correct": false
+    },
+    {
+      "id": "true_belief_127",
+      "type": "true_belief",
+      "belief_generated": "drawer.\n\nwhy? because",
+      "belief_expected": "shelf",
+      "belief_correct": false,
+      "reality_generated": "drawer.\n\nexplanation: the",
+      "reality_expected": "shelf",
+      "reality_correct": false
+    }
+  ]
+}

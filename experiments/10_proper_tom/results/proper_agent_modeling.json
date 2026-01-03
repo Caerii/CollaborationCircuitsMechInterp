@@ -1,0 +1,30 @@
+{
+  "layers": [
+    0,
+    12,
+    24,
+    35
+  ],
+  "analysis": {
+    "0": {
+      "b_agrees_acc": 0.5,
+      "a_correct_acc": 0.5,
+      "independence_cosine": 0.08431801103340614
+    },
+    "12": {
+      "b_agrees_acc": 0.8125,
+      "a_correct_acc": 0.375,
+      "independence_cosine": 0.0065694154786532545
+    },
+    "24": {
+      "b_agrees_acc": 0.8125,
+      "a_correct_acc": 0.5625,
+      "independence_cosine": 0.0869011925138577
+    },
+    "35": {
+      "b_agrees_acc": 0.875,
+      "a_correct_acc": 0.375,
+      "independence_cosine": 0.1083748798888463
+    }
+  }
+}

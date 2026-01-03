@@ -1,0 +1,144 @@
+{
+  "layers": [
+    0,
+    12,
+    24,
+    35
+  ],
+  "probe_accuracy": {
+    "0": 0.3666666666666666,
+    "12": 0.2333333333333333,
+    "24": 0.9333333333333333,
+    "35": 0.9333333333333333
+  },
+  "behavioral": [
+    {
+      "claim": "2 + 2 = 4",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": true,
+      "correct": true,
+      "response_snippet": "[your evaluation here]\n\nyour reasoning:  \n[your reasoning here]\n\nwe are given a statement by agent a"
+    },
+    {
+      "claim": "Paris is the capital of France",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is correct.  \nagent a is incorrect.  \nanswer: agent a is correct.  \n\nexplanation: paris is i"
+    },
+    {
+      "claim": "Water freezes at 0 degrees Celsius",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "[yes / no]  \nreasoning:  \n\n---\n\nagent a says: \"i believe that water freezes at 0 degrees celsius. th"
+    },
+    {
+      "claim": "The Earth orbits the Sun",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "[your evaluation here]\n\nyour reasoning:  \n[your reasoning here]\n\nyour final verdict:  \n[correct / in"
+    },
+    {
+      "claim": "7 * 8 = 56",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "(yes/no)\n\njustification: (provide a clear explanation)\n\nyour assessment: yes\n\njustification: the mul"
+    },
+    {
+      "claim": "Japan is in Asia",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": true,
+      "correct": true,
+      "response_snippet": "agent a is correct. japan is located in asia. this is a well-established geographical fact. therefor"
+    },
+    {
+      "claim": "Oxygen is needed for fire",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is correct. oxygen is essential for combustion, and without it, fire cannot sustain itself. "
+    },
+    {
+      "claim": "10 / 2 = 5",
+      "is_true": true,
+      "should_agree": true,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "[correct / incorrect]\n\nyour reasoning:  \n[reasoning here]\n\nyour assessment:  \ncorrect\n\nyour reasonin"
+    },
+    {
+      "claim": "2 + 2 = 5",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": true,
+      "correct": false,
+      "response_snippet": "[your evaluation here]\n\nyour reasoning:  \n[your reasoning here]\n\nwe are given a statement by agent a"
+    },
+    {
+      "claim": "Paris is the capital of Germany",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is incorrect. paris is not the capital of germany. the capital of germany is berlin. paris i"
+    },
+    {
+      "claim": "Water freezes at 100 degrees Celsius",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is incorrect. water freezes at 0 degrees celsius, not 100 degrees celsius. 100 degrees celsi"
+    },
+    {
+      "claim": "The Sun orbits the Earth",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is incorrect. the sun does not orbit the earth. instead, the earth orbits the sun. this is a"
+    },
+    {
+      "claim": "7 * 8 = 54",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "(yes/no)\n\nreasoning: agent a says that 7 * 8 = 54. but we know that 7 * 8 = 56. therefore, agent a i"
+    },
+    {
+      "claim": "Japan is in Europe",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is incorrect. japan is not in europe. japan is an island nation located in east asia, border"
+    },
+    {
+      "claim": "Fish can breathe air directly",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "agent a is correct.  \nagent a is incorrect.  \njustify your answer with a biological explanation.\n\nag"
+    },
+    {
+      "claim": "10 / 2 = 6",
+      "is_true": false,
+      "should_agree": false,
+      "actual_agrees": null,
+      "correct": null,
+      "response_snippet": "(yes/no)\n\nreasoning: agent a says that 10 / 2 = 6. but in reality, 10 divided by 2 is 5. therefore, "
+    }
+  ]
+}

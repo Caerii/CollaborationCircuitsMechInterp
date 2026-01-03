@@ -1,0 +1,51 @@
+{
+  "layers": [
+    0,
+    8,
+    16,
+    24,
+    35
+  ],
+  "analysis": {
+    "0": {
+      "belief_decode_acc": 0.19999999999999998,
+      "reality_decode_acc": 0.18,
+      "cross_decode_acc": 0.19999999999999998,
+      "belief_reality_cosine": 0.0518106438312955,
+      "chance_level": 0.1,
+      "n_classes": 10
+    },
+    "8": {
+      "belief_decode_acc": 0.9400000000000001,
+      "reality_decode_acc": 0.9400000000000001,
+      "cross_decode_acc": 0.9400000000000001,
+      "belief_reality_cosine": 0.036163247536863966,
+      "chance_level": 0.1,
+      "n_classes": 10
+    },
+    "16": {
+      "belief_decode_acc": 1.0,
+      "reality_decode_acc": 0.9800000000000001,
+      "cross_decode_acc": 1.0,
+      "belief_reality_cosine": 0.45397332531960377,
+      "chance_level": 0.1,
+      "n_classes": 10
+    },
+    "24": {
+      "belief_decode_acc": 1.0,
+      "reality_decode_acc": 1.0,
+      "cross_decode_acc": 1.0,
+      "belief_reality_cosine": 0.9461616051015046,
+      "chance_level": 0.1,
+      "n_classes": 10
+    },
+    "35": {
+      "belief_decode_acc": 1.0,
+      "reality_decode_acc": 1.0,
+      "cross_decode_acc": 1.0,
+      "belief_reality_cosine": 0.9297182354981397,
+      "chance_level": 0.1,
+      "n_classes": 10
+    }
+  }
+}

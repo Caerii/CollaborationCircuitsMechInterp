@@ -1,0 +1,162 @@
+{
+  "0": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.9962068796157837,
+      "collaboration_vs_secret_kept": 0.9924043416976929,
+      "collaboration_vs_false_belief": 0.9951279759407043,
+      "collaboration_vs_info_shared": 0.9766516089439392,
+      "conflict_vs_secret_kept": 0.9923833608627319,
+      "conflict_vs_false_belief": 0.9926289916038513,
+      "conflict_vs_info_shared": 0.9757735133171082,
+      "false_belief_vs_secret_kept": 0.9906629323959351,
+      "false_belief_vs_info_shared": 0.9772434830665588,
+      "info_shared_vs_secret_kept": 0.9706533551216125
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "4": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.973479151725769,
+      "collaboration_vs_secret_kept": 0.9608498215675354,
+      "collaboration_vs_false_belief": 0.9702001214027405,
+      "collaboration_vs_info_shared": 0.9542585015296936,
+      "conflict_vs_secret_kept": 0.9512442350387573,
+      "conflict_vs_false_belief": 0.9603322148323059,
+      "conflict_vs_info_shared": 0.9453427195549011,
+      "false_belief_vs_secret_kept": 0.9620530009269714,
+      "false_belief_vs_info_shared": 0.9440499544143677,
+      "info_shared_vs_secret_kept": 0.9314536452293396
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "8": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.8641926050186157,
+      "collaboration_vs_secret_kept": 0.7621986865997314,
+      "collaboration_vs_false_belief": 0.9247775673866272,
+      "collaboration_vs_info_shared": 0.8382060527801514,
+      "conflict_vs_secret_kept": 0.7486343383789062,
+      "conflict_vs_false_belief": 0.8449398279190063,
+      "conflict_vs_info_shared": 0.8249149918556213,
+      "false_belief_vs_secret_kept": 0.7789543271064758,
+      "false_belief_vs_info_shared": 0.8247225880622864,
+      "info_shared_vs_secret_kept": 0.7529455423355103
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "12": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.898695170879364,
+      "collaboration_vs_secret_kept": 0.7738246321678162,
+      "collaboration_vs_false_belief": 0.9164713621139526,
+      "collaboration_vs_info_shared": 0.8602100014686584,
+      "conflict_vs_secret_kept": 0.7657806873321533,
+      "conflict_vs_false_belief": 0.840096652507782,
+      "conflict_vs_info_shared": 0.8505688309669495,
+      "false_belief_vs_secret_kept": 0.7868914604187012,
+      "false_belief_vs_info_shared": 0.8358835577964783,
+      "info_shared_vs_secret_kept": 0.7668771743774414
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "16": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.8653275966644287,
+      "collaboration_vs_secret_kept": 0.7481601238250732,
+      "collaboration_vs_false_belief": 0.9044226408004761,
+      "collaboration_vs_info_shared": 0.8307275772094727,
+      "conflict_vs_secret_kept": 0.7539132237434387,
+      "conflict_vs_false_belief": 0.8086637854576111,
+      "conflict_vs_info_shared": 0.8118138909339905,
+      "false_belief_vs_secret_kept": 0.7602770328521729,
+      "false_belief_vs_info_shared": 0.8054186701774597,
+      "info_shared_vs_secret_kept": 0.7189915776252747
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "20": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.8507937788963318,
+      "collaboration_vs_secret_kept": 0.7769482731819153,
+      "collaboration_vs_false_belief": 0.8954196572303772,
+      "collaboration_vs_info_shared": 0.8168714642524719,
+      "conflict_vs_secret_kept": 0.7794263362884521,
+      "conflict_vs_false_belief": 0.8022192716598511,
+      "conflict_vs_info_shared": 0.7928380370140076,
+      "false_belief_vs_secret_kept": 0.8101529479026794,
+      "false_belief_vs_info_shared": 0.8069628477096558,
+      "info_shared_vs_secret_kept": 0.7511293292045593
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "24": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.8741269111633301,
+      "collaboration_vs_secret_kept": 0.8210917711257935,
+      "collaboration_vs_false_belief": 0.9052914977073669,
+      "collaboration_vs_info_shared": 0.820825457572937,
+      "conflict_vs_secret_kept": 0.8409255743026733,
+      "conflict_vs_false_belief": 0.8558782935142517,
+      "conflict_vs_info_shared": 0.8407803773880005,
+      "false_belief_vs_secret_kept": 0.8572087287902832,
+      "false_belief_vs_info_shared": 0.8500790596008301,
+      "info_shared_vs_secret_kept": 0.7976372838020325
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "28": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.8840931057929993,
+      "collaboration_vs_secret_kept": 0.8390491604804993,
+      "collaboration_vs_false_belief": 0.8987528085708618,
+      "collaboration_vs_info_shared": 0.8379570841789246,
+      "conflict_vs_secret_kept": 0.8562882542610168,
+      "conflict_vs_false_belief": 0.8713895082473755,
+      "conflict_vs_info_shared": 0.8637290596961975,
+      "false_belief_vs_secret_kept": 0.8809930086135864,
+      "false_belief_vs_info_shared": 0.8840028643608093,
+      "info_shared_vs_secret_kept": 0.8285660743713379
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "32": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.9094637036323547,
+      "collaboration_vs_secret_kept": 0.8897181749343872,
+      "collaboration_vs_false_belief": 0.927020788192749,
+      "collaboration_vs_info_shared": 0.888810396194458,
+      "conflict_vs_secret_kept": 0.8966774940490723,
+      "conflict_vs_false_belief": 0.9087444543838501,
+      "conflict_vs_info_shared": 0.904367208480835,
+      "false_belief_vs_secret_kept": 0.9201751351356506,
+      "false_belief_vs_info_shared": 0.9267157912254333,
+      "info_shared_vs_secret_kept": 0.8815672993659973
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  },
+  "35": {
+    "scenario_type_similarities": {
+      "collaboration_vs_conflict": 0.8993015289306641,
+      "collaboration_vs_secret_kept": 0.8849425315856934,
+      "collaboration_vs_false_belief": 0.9163108468055725,
+      "collaboration_vs_info_shared": 0.8754935264587402,
+      "conflict_vs_secret_kept": 0.8712899088859558,
+      "conflict_vs_false_belief": 0.8771110773086548,
+      "conflict_vs_info_shared": 0.8850151300430298,
+      "false_belief_vs_secret_kept": 0.914100706577301,
+      "false_belief_vs_info_shared": 0.8947919011116028,
+      "info_shared_vs_secret_kept": 0.8590638637542725
+    },
+    "scenario_classification_acc": 1.0,
+    "n_scenarios": 25
+  }
+}
