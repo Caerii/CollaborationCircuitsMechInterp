@@ -1,0 +1,242 @@
+{
+  "signal_extraction": [
+    {
+      "name": "told_explicit",
+      "signal_magnitude": {
+        "32": 15.1328125,
+        "33": 19.765625,
+        "34": 20.546875
+      },
+      "original_correct": false,
+      "injected_correct": false,
+      "flipped": false,
+      "original_prob": 0.316650390625,
+      "injected_prob": 0.44921875
+    },
+    {
+      "name": "saw_explicit",
+      "signal_magnitude": {
+        "32": 17.859375,
+        "33": 22.40625,
+        "34": 29.3125
+      },
+      "original_correct": false,
+      "injected_correct": true,
+      "flipped": true,
+      "original_prob": 0.44287109375,
+      "injected_prob": 0.5439453125
+    },
+    {
+      "name": "informed",
+      "signal_magnitude": {
+        "32": 29.609375,
+        "33": 39.5,
+        "34": 32.9375
+      },
+      "original_correct": true,
+      "injected_correct": true,
+      "flipped": false,
+      "original_prob": 0.019500732421875,
+      "injected_prob": 0.0970458984375
+    }
+  ],
+  "mlp_analysis": [
+    {
+      "layer": 32,
+      "gate_total_diff": 1579.0,
+      "down_total_diff": 709.0,
+      "gate_top_neurons": [
+        {
+          "idx": 849,
+          "diff": 0.9501953125
+        },
+        {
+          "idx": 4335,
+          "diff": 0.923828125
+        },
+        {
+          "idx": 4115,
+          "diff": 0.84130859375
+        }
+      ],
+      "down_top_neurons": [
+        {
+          "idx": 2355,
+          "diff": 1.19140625
+        },
+        {
+          "idx": 2153,
+          "diff": 1.15625
+        },
+        {
+          "idx": 1253,
+          "diff": 1.138671875
+        }
+      ]
+    },
+    {
+      "layer": 33,
+      "gate_total_diff": 1574.0,
+      "down_total_diff": 1007.0,
+      "gate_top_neurons": [
+        {
+          "idx": 3233,
+          "diff": 1.248046875
+        },
+        {
+          "idx": 2158,
+          "diff": 0.98046875
+        },
+        {
+          "idx": 443,
+          "diff": 0.90234375
+        }
+      ],
+      "down_top_neurons": [
+        {
+          "idx": 293,
+          "diff": 2.14453125
+        },
+        {
+          "idx": 4,
+          "diff": 1.75
+        },
+        {
+          "idx": 2469,
+          "diff": 1.74609375
+        }
+      ]
+    },
+    {
+      "layer": 34,
+      "gate_total_diff": 1715.0,
+      "down_total_diff": 958.0,
+      "gate_top_neurons": [
+        {
+          "idx": 168,
+          "diff": 1.21875
+        },
+        {
+          "idx": 587,
+          "diff": 1.154296875
+        },
+        {
+          "idx": 965,
+          "diff": 1.130859375
+        }
+      ],
+      "down_top_neurons": [
+        {
+          "idx": 0,
+          "diff": 3.53125
+        },
+        {
+          "idx": 9,
+          "diff": 2.5078125
+        },
+        {
+          "idx": 192,
+          "diff": 2.3359375
+        }
+      ]
+    }
+  ],
+  "head_amplification": [
+    {
+      "prompt": "Bob moved it to basket. Alice returns. Alice searches in the",
+      "by_factor": {
+        "0.5": {
+          "correct": true,
+          "logit_diff": 0.609375,
+          "flipped": false,
+          "diff_change": 0.140625
+        },
+        "1.0": {
+          "correct": true,
+          "logit_diff": 0.46875,
+          "flipped": false,
+          "diff_change": 0.0
+        },
+        "1.5": {
+          "correct": true,
+          "logit_diff": 0.359375,
+          "flipped": false,
+          "diff_change": -0.109375
+        },
+        "2.0": {
+          "correct": true,
+          "logit_diff": 0.25,
+          "flipped": false,
+          "diff_change": -0.21875
+        }
+      },
+      "baseline": {
+        "correct": true,
+        "logit_diff": 0.46875
+      }
+    },
+    {
+      "prompt": " Anne moved toy to bin. Sally comes back. Sally looks in the",
+      "by_factor": {
+        "0.5": {
+          "correct": false,
+          "logit_diff": -0.140625,
+          "flipped": false,
+          "diff_change": 0.09375
+        },
+        "1.0": {
+          "correct": false,
+          "logit_diff": -0.234375,
+          "flipped": false,
+          "diff_change": 0.0
+        },
+        "1.5": {
+          "correct": false,
+          "logit_diff": -0.109375,
+          "flipped": false,
+          "diff_change": 0.125
+        },
+        "2.0": {
+          "correct": true,
+          "logit_diff": 0.140625,
+          "flipped": true,
+          "diff_change": 0.375
+        }
+      },
+      "baseline": {
+        "correct": false,
+        "logit_diff": -0.234375
+      }
+    }
+  ],
+  "timestamp": "2025-12-24T14:34:34.980118",
+  "config": {
+    "critical_layers": [
+      32,
+      33,
+      34
+    ],
+    "critical_heads": [
+      [
+        32,
+        0
+      ],
+      [
+        33,
+        4
+      ],
+      [
+        33,
+        16
+      ],
+      [
+        33,
+        28
+      ],
+      [
+        34,
+        0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-12-24T16:39:02.764794",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "first_mention_results": [
+    {
+      "name": "drawer_first",
+      "predicts_first": true,
+      "logit_diff": 1.765625
+    },
+    {
+      "name": "basket_first",
+      "predicts_first": false,
+      "logit_diff": -3.21875
+    },
+    {
+      "name": "box_first",
+      "predicts_first": true,
+      "logit_diff": 10.21875
+    },
+    {
+      "name": "shelf_first",
+      "predicts_first": false,
+      "logit_diff": -0.734375
+    }
+  ],
+  "first_mention_rate": 0.5,
+  "top_first_mention_heads": [
+    {
+      "layer": 23,
+      "head": 4,
+      "attention": 0.9541015625
+    },
+    {
+      "layer": 31,
+      "head": 15,
+      "attention": 0.7890625
+    },
+    {
+      "layer": 23,
+      "head": 5,
+      "attention": 0.6279296875
+    },
+    {
+      "layer": 18,
+      "head": 15,
+      "attention": 0.595703125
+    },
+    {
+      "layer": 13,
+      "head": 10,
+      "attention": 0.55517578125
+    },
+    {
+      "layer": 24,
+      "head": 23,
+      "attention": 0.546875
+    },
+    {
+      "layer": 17,
+      "head": 27,
+      "attention": 0.5400390625
+    },
+    {
+      "layer": 22,
+      "head": 23,
+      "attention": 0.447998046875
+    },
+    {
+      "layer": 28,
+      "head": 23,
+      "attention": 0.437744140625
+    },
+    {
+      "layer": 32,
+      "head": 8,
+      "attention": 0.3896484375
+    }
+  ],
+  "ablation": {
+    "heads": [
+      {
+        "layer": 23,
+        "head": 4
+      },
+      {
+        "layer": 31,
+        "head": 15
+      },
+      {
+        "layer": 23,
+        "head": 5
+      },
+      {
+        "layer": 18,
+        "head": 15
+      },
+      {
+        "layer": 13,
+        "head": 10
+      }
+    ],
+    "baseline_diff": 1.765625,
+    "ablated_diff": 0.9375,
+    "change": -0.828125
+  }
+}

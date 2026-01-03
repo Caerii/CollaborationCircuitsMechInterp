@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-12-24T16:39:36.935279",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "tom_heads": [
+    {
+      "layer": 32,
+      "head": 0
+    },
+    {
+      "layer": 33,
+      "head": 4
+    },
+    {
+      "layer": 33,
+      "head": 16
+    },
+    {
+      "layer": 33,
+      "head": 28
+    },
+    {
+      "layer": 34,
+      "head": 0
+    }
+  ],
+  "inhibitor": {
+    "layer": 18,
+    "head": 16
+  },
+  "results": [
+    {
+      "name": "FB_alice_drawer",
+      "goal": "Keep correct (drawer)",
+      "experiments": [],
+      "baseline": {
+        "logit_diff": -0.046875,
+        "prob1": 0.488037109375,
+        "prob2": 0.51171875,
+        "prediction": " basket"
+      }
+    },
+    {
+      "name": "TB_alice_basket",
+      "goal": "Make correct (basket)",
+      "experiments": [],
+      "baseline": {
+        "logit_diff": -1.5,
+        "prob1": 0.18212890625,
+        "prob2": 0.81640625,
+        "prediction": " drawer"
+      }
+    }
+  ],
+  "summary": {
+    "total_flips": 0,
+    "total_experiments": 0
+  }
+}

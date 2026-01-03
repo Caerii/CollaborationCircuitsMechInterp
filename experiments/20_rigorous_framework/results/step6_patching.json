@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-12-24T14:23:04.918052",
+  "config": {
+    "critical_layers": [
+      32,
+      33,
+      34
+    ],
+    "random_layers": [
+      5,
+      10,
+      15
+    ],
+    "n_pairs": 4
+  },
+  "results": {
+    "critical_layers": [
+      {
+        "pair": "sally_anne",
+        "baseline": "correct",
+        "patched": "wrong",
+        "flipped": true,
+        "logit_change": -2.484375
+      },
+      {
+        "pair": "alice_bob",
+        "baseline": "correct",
+        "patched": "wrong",
+        "flipped": true,
+        "logit_change": -3.125
+      },
+      {
+        "pair": "keys",
+        "baseline": "wrong",
+        "patched": "wrong",
+        "flipped": false,
+        "logit_change": 5.859375
+      },
+      {
+        "pair": "zork_blep",
+        "baseline": "correct",
+        "patched": "correct",
+        "flipped": false,
+        "logit_change": -0.234375
+      }
+    ],
+    "random_layers": [
+      {
+        "pair": "sally_anne",
+        "baseline": "correct",
+        "patched": "wrong",
+        "flipped": true,
+        "logit_change": -2.484375
+      },
+      {
+        "pair": "alice_bob",
+        "baseline": "correct",
+        "patched": "wrong",
+        "flipped": true,
+        "logit_change": -2.96875
+      },
+      {
+        "pair": "keys",
+        "baseline": "wrong",
+        "patched": "wrong",
+        "flipped": false,
+        "logit_change": 6.375
+      },
+      {
+        "pair": "zork_blep",
+        "baseline": "correct",
+        "patched": "correct",
+        "flipped": false,
+        "logit_change": -0.09375
+      }
+    ]
+  },
+  "summary": {
+    "critical_flip_rate": 0.5,
+    "random_flip_rate": 0.5,
+    "critical_mean_change": 0.00390625,
+    "random_mean_change": 0.20703125
+  },
+  "hypothesis_tests": {
+    "H4a_critical_flips_more": false,
+    "H4b_critical_larger_effect": "False"
+  }
+}

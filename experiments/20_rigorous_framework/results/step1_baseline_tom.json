@@ -1,0 +1,267 @@
+{
+  "timestamp": "2025-12-24T23:36:22.228682",
+  "config": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "n_fb_scenarios": 6,
+    "n_tb_scenarios": 6,
+    "max_tokens": 500,
+    "using_library": true
+  },
+  "completion_mode": {
+    "false_belief": {
+      "accuracy": 1.0,
+      "ci_low": 0.6096657120978346,
+      "ci_high": 1,
+      "n": 6,
+      "successes": 6
+    },
+    "true_belief": {
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.39033428790216534,
+      "n": 6,
+      "successes": 0
+    }
+  },
+  "chat_mode": {
+    "false_belief": {
+      "accuracy": 0.5,
+      "ci_low": 0.18761630648265054,
+      "ci_high": 0.8123836935173494,
+      "n": 6,
+      "successes": 3
+    },
+    "true_belief": {
+      "accuracy": 0.16666666666666666,
+      "ci_low": 0.03005336974830658,
+      "ci_high": 0.5635028221864702,
+      "n": 6,
+      "successes": 1
+    }
+  },
+  "heuristic_baselines": {
+    "first_mention": 1.0,
+    "recency": 0.0,
+    "reality": 0.0,
+    "best_heuristic": 1.0,
+    "model_beats_heuristics": false,
+    "margin_over_best": -0.5
+  },
+  "hypothesis_tests": {
+    "H1a_chat_above_80": false,
+    "H1b_comp_below_50": false,
+    "beats_first_mention": false,
+    "beats_recency": true,
+    "beats_reality": true
+  },
+  "timing": {
+    "completion_fb": {
+      "total_time": 0.5876009464263916,
+      "per_scenario": [
+        {
+          "total_time": 0.2607438564300537,
+          "forward_time": 0.2587451934814453,
+          "n_input_tokens": 43
+        },
+        {
+          "total_time": 0.060576677322387695,
+          "forward_time": 0.060576677322387695,
+          "n_input_tokens": 43
+        },
+        {
+          "total_time": 0.07428932189941406,
+          "forward_time": 0.07328963279724121,
+          "n_input_tokens": 42
+        },
+        {
+          "total_time": 0.06629776954650879,
+          "forward_time": 0.06529784202575684,
+          "n_input_tokens": 42
+        },
+        {
+          "total_time": 0.06382346153259277,
+          "forward_time": 0.06382346153259277,
+          "n_input_tokens": 45
+        },
+        {
+          "total_time": 0.06186985969543457,
+          "forward_time": 0.05936408042907715,
+          "n_input_tokens": 45
+        }
+      ]
+    },
+    "completion_tb": {
+      "total_time": 0.39832067489624023,
+      "per_scenario": [
+        {
+          "total_time": 0.06353759765625,
+          "forward_time": 0.06253671646118164,
+          "n_input_tokens": 45
+        },
+        {
+          "total_time": 0.05955004692077637,
+          "forward_time": 0.05880880355834961,
+          "n_input_tokens": 45
+        },
+        {
+          "total_time": 0.06977462768554688,
+          "forward_time": 0.06977462768554688,
+          "n_input_tokens": 44
+        },
+        {
+          "total_time": 0.07491183280944824,
+          "forward_time": 0.06749749183654785,
+          "n_input_tokens": 44
+        },
+        {
+          "total_time": 0.07455801963806152,
+          "forward_time": 0.07254910469055176,
+          "n_input_tokens": 47
+        },
+        {
+          "total_time": 0.05598855018615723,
+          "forward_time": 0.05498838424682617,
+          "n_input_tokens": 47
+        }
+      ]
+    },
+    "chat_fb": {
+      "total_time": 182.67208695411682,
+      "per_scenario": [
+        {
+          "total_time": 28.14431357383728
+        },
+        {
+          "total_time": 36.98413395881653
+        },
+        {
+          "total_time": 31.207393407821655
+        },
+        {
+          "total_time": 28.979517459869385
+        },
+        {
+          "total_time": 28.696062326431274
+        },
+        {
+          "total_time": 28.6606662273407
+        }
+      ],
+      "tokens_generated": 1685
+    },
+    "chat_tb": {
+      "total_time": 168.6486587524414,
+      "per_scenario": [
+        {
+          "total_time": 28.08159375190735
+        },
+        {
+          "total_time": 26.852665185928345
+        },
+        {
+          "total_time": 28.530195713043213
+        },
+        {
+          "total_time": 28.393863916397095
+        },
+        {
+          "total_time": 28.98015856742859
+        },
+        {
+          "total_time": 27.810181617736816
+        }
+      ],
+      "tokens_generated": 1731
+    }
+  },
+  "raw_results": {
+    "completion_fb": [
+      {
+        "scenario_id": 0,
+        "correct": true,
+        "correct_logit": 22.171875,
+        "wrong_logit": 19.484375,
+        "diff": 2.6875
+      },
+      {
+        "scenario_id": 1,
+        "correct": true,
+        "correct_logit": 21.84375,
+        "wrong_logit": 19.453125,
+        "diff": 2.390625
+      },
+      {
+        "scenario_id": 2,
+        "correct": true,
+        "correct_logit": 21.484375,
+        "wrong_logit": 20.78125,
+        "diff": 0.703125
+      },
+      {
+        "scenario_id": 3,
+        "correct": true,
+        "correct_logit": 22.671875,
+        "wrong_logit": 20.65625,
+        "diff": 2.015625
+      },
+      {
+        "scenario_id": 4,
+        "correct": true,
+        "correct_logit": 22.265625,
+        "wrong_logit": 19.828125,
+        "diff": 2.4375
+      },
+      {
+        "scenario_id": 5,
+        "correct": true,
+        "correct_logit": 22.078125,
+        "wrong_logit": 20.640625,
+        "diff": 1.4375
+      }
+    ],
+    "chat_fb": [
+      {
+        "scenario_id": 0,
+        "correct": true,
+        "response": "Quell put the token in the Area-1. Quell left. Jaxar moved the token to the Unit-Gamma.\n\nWhere will Quell look for the token? (Answer with one word: Unit-Gamma or Area-1)inqu\ninquassistant\nQuell put the token in the Area-1. Quell left. Jaxar moved the token to the Unit-Gamma.\n\nWhere will Quell look ",
+        "parsed_answer": "Area-1",
+        "expected": "Area-1"
+      },
+      {
+        "scenario_id": 1,
+        "correct": false,
+        "response": "Quell put the token in the Unit-Gamma. Quell left. Jaxar moved the token to the Area-1.\n\nWhere will Quell look for the token? (Answer with one word: Area-1 or Unit-Gamma)inquell\ninquellassistant\nQuell put the token in the Unit-Gamma. Quell left. Jaxar moved the token to the Area-1.\n\nWhere will Quell",
+        "parsed_answer": null,
+        "expected": "Unit-Gamma"
+      },
+      {
+        "scenario_id": 2,
+        "correct": true,
+        "response": "Blip put the cube in the Area-1. Blip left. Krix moved the cube to the Unit-Gamma.\n\nWhere will Blip look for the cube? (Answer with one word: Unit-Gamma or Area-1)\u533a\u7ba1\u59d4\u4f1a\n\u533a\u7ba1\u59d4\u4f1aassistant\nBlip put the cube in the Area-1. Blip left. Krix moved the cube to the Unit-Gamma.\n\nWhere will Blip look for the cube?",
+        "parsed_answer": "Area-1",
+        "expected": "Area-1"
+      },
+      {
+        "scenario_id": 3,
+        "correct": true,
+        "response": "Blip put the cube in the Unit-Gamma. Blip left. Krix moved the cube to the Area-1.\n\nWhere will Blip look for the cube? (Answer with one word: Unit-Gamma or Area-1)\u533a\u7ba1\u59d4\u4f1a\n\u533a\u7ba1\u59d4\u4f1aassistant\nBlip put the cube in the Unit-Gamma. Blip left. Krix moved the cube to the Area-1.\n\nWhere will Blip look for the cube?",
+        "parsed_answer": "Unit-Gamma",
+        "expected": "Unit-Gamma"
+      },
+      {
+        "scenario_id": 4,
+        "correct": false,
+        "response": "Jaxar put the cube in the Container-Alpha. Jaxar left. Vorn moved the cube to the Bay-Beta.\n\nWhere will Jaxar look for the cube? (Answer with one word: Container-Alpha or Bay-Beta)\u897f\u73ed\n\u897f\u73edassistant\nJaxar put the cube in the Container-Alpha. Jaxar left. Vorn moved the cube to the Bay-Beta.\n\nWhere will J",
+        "parsed_answer": null,
+        "expected": "Container-Alpha"
+      },
+      {
+        "scenario_id": 5,
+        "correct": false,
+        "response": "Jaxar put the cube in the Bay-Beta. Jaxar left. Vorn moved the cube to the Container-Alpha.\n\nWhere will Jaxar look for the cube? (Answer with one word: Bay-Beta or Container-Alpha)\u897f\u73ed\n\u897f\u73edassistant\nJaxar put the cube in the Bay-Beta. Jaxar left. Vorn moved the cube to the Container-Alpha.\n\nWhere will J",
+        "parsed_answer": null,
+        "expected": "Bay-Beta"
+      }
+    ]
+  }
+}

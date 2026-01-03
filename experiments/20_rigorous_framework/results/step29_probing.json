@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-12-24T16:48:40.157847",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "n_scenarios": 100
+  },
+  "layer_accuracies": [
+    {
+      "layer": 0,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 6,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 12,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 16,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 20,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 24,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 28,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 32,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "layer": 35,
+      "mean_accuracy": 1.0,
+      "std_accuracy": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "best_layer": {
+    "layer": 0,
+    "accuracy": 1.0
+  },
+  "probe_analysis": {
+    "top_tb_dimensions": [
+      0,
+      373,
+      15,
+      255,
+      2374,
+      1140,
+      1654,
+      262,
+      1192,
+      74
+    ],
+    "top_fb_dimensions": [
+      564,
+      21,
+      77,
+      407,
+      16,
+      50,
+      890,
+      9,
+      103,
+      258
+    ],
+    "weight_norm": 4.087057751198715
+  }
+}

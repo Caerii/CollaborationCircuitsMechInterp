@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-24T16:33:05.890212",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "layer": 28,
+    "n_scenarios": 50,
+    "d_sparse": 5120
+  },
+  "training": {
+    "final_loss": 9.463389142183587e-05,
+    "n_epochs": 1000
+  },
+  "analysis": {
+    "mean_active_features": 184.22000122070312,
+    "sparsity": 0.0359804704785347,
+    "reconstruction_mse": 0.0002515198721084744,
+    "reconstruction_cos_sim": 0.9998932480812073
+  },
+  "top_features": [
+    {
+      "idx": 2989,
+      "diff": 3.2358474731445312,
+      "direction": "FB>TB"
+    },
+    {
+      "idx": 4674,
+      "diff": 3.203265905380249,
+      "direction": "TB>FB"
+    },
+    {
+      "idx": 480,
+      "diff": 3.0857419967651367,
+      "direction": "TB>FB"
+    },
+    {
+      "idx": 4672,
+      "diff": 2.665311574935913,
+      "direction": "FB>TB"
+    },
+    {
+      "idx": 1678,
+      "diff": 2.417215347290039,
+      "direction": "TB>FB"
+    }
+  ]
+}

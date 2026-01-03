@@ -1,0 +1,397 @@
+{
+  "timestamp": "2025-12-24T17:44:43.930518",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "mode": "chat",
+    "max_tokens": 500
+  },
+  "results": {
+    "basic_tom": {
+      "false_belief": 0.75,
+      "true_belief": 0.95,
+      "n": 20
+    },
+    "order_1": 1.0,
+    "order_2": 1.0,
+    "order_3": 0.0,
+    "entity_human": 1.0,
+    "entity_animal": 1.0,
+    "entity_ai": 1.0,
+    "entity_abstract": 1.0,
+    "multi_agent": 1.0
+  },
+  "details": {
+    "basic_tom": {
+      "false_belief": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Alice thinks the ball is. So, the problem says that Alice put the ball in the drawer. Then she left the room. After that, Bob moved the ball to the cupboard. The question is, where does Alice think the ball is?\n\nHmm, so first, Alice initially put the ball ",
+          "gen_tokens": 236,
+          "time": 27.125041484832764
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Bob thinks the key is. So the problem says:\n\nBob put the key in the basket. Bob left the room. Carol moved the key to the box. Where does Bob think the key is?\n\nHmm. Let's break it down step by step. First, Bob puts the key in the basket. So initially, the",
+          "gen_tokens": 207,
+          "time": 17.59605598449707
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Carol thinks the book is. So, the problem says:\n\nCarol put the book in the shelf. Carol left the room. David moved the book to the closet. Where does Carol think the book is?\n\nHmm. Let's break this down step by step. First, Carol puts the book on the shelf",
+          "gen_tokens": 208,
+          "time": 17.570279836654663
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where David thinks the phone is. So, the problem says:\n\nDavid put the phone in the table. David left the room. Emma moved the phone to the desk. Where does David think the phone is?\n\nHmm. Let's break this down step by step. First, David puts the phone on the tab",
+          "gen_tokens": 236,
+          "time": 19.71255087852478
+        },
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's try to figure out where Emma thinks the wallet is. So, the scenario is: Emma put the wallet in the cabinet. Then she left the room. After that, Frank moved the wallet to the bin. The question is asking where Emma thinks the wallet is.\n\nFirst, I need to break down the sequence of ",
+          "gen_tokens": 210,
+          "time": 17.952651262283325
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Frank thinks the cup is. So the problem says:\n\nFrank put the cup in the drawer. Frank left the room. Grace moved the cup to the cupboard. Where does Frank think the cup is?\n\nHmm. So first, Frank initially puts the cup in the drawer. Then he leaves the room",
+          "gen_tokens": 265,
+          "time": 23.417789220809937
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Grace thinks the pen is. So, the problem says:\n\nGrace put the pen in the basket. Grace left the room. Henry moved the pen to the box. Where does Grace think the pen is?\n\nFirst, I need to break down each action step by step. Let's start with the first sente",
+          "gen_tokens": 283,
+          "time": 25.01310968399048
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Henry thinks the toy is after a series of actions. Let me go through each step carefully.\n\nFirst, Henry puts the toy on the shelf. So initially, the toy is on the shelf. Then Henry leaves the room. So he's no longer there. Next, Ivy mo",
+          "gen_tokens": 179,
+          "time": 14.96944260597229
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure this out. So the question is about where Ivy thinks the watch is after a series of actions. Let me break down the events step by step.\n\nFirst, Ivy puts the watch on the table. Then she leaves the room. After she leaves, Jack moves the watch to the desk. Now, the que",
+          "gen_tokens": 252,
+          "time": 21.23617696762085
+        },
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's try to figure out where Jack thinks the ring is. So the problem says:\n\nJack put the ring in the cabinet. Jack left the room. Kate moved the ring to the bin. Where does Jack think the ring is?\n\nFirst, I need to break down each action step by step. Let's start with the first senten",
+          "gen_tokens": 378,
+          "time": 31.31670641899109
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Kate thinks the coin is. So, the problem says that Kate put the coin in the drawer. Then she left the room. After that, Leo moved the coin to the cupboard. The question is asking where Kate thinks the coin is.\n\nFirst, I need to consider the sequence of eve",
+          "gen_tokens": 209,
+          "time": 17.37962555885315
+        },
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's break this down. The problem is about figuring out where Leo thinks the card is based on the sequence of events described. Let me go through each part step by step.\n\nFirst, Leo puts the card in the basket. So initially, the card is in the basket. Then, Leo leaves the room. So aft",
+          "gen_tokens": 500,
+          "time": 41.85156750679016
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Mia thinks the note is after a series of actions. Let me go through each step carefully.\n\nFirst, Mia put the note in the shelf. So initially, the note is on the shelf. Then, Mia left the room. So after she leaves, the note is still on ",
+          "gen_tokens": 205,
+          "time": 16.968011140823364
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Noah thinks the badge is after a series of actions. Let me go through each step carefully.\n\nFirst, Noah puts the badge in the table. So initially, the badge is on the table. Then Noah leaves the room. So after he leaves, Olivia moves t",
+          "gen_tokens": 184,
+          "time": 15.44300889968872
+        },
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's try to figure out where Olivia thinks the box is. So, the problem says that Olivia put the box in the cabinet. Then she left the room. After that, Paul moved the box to the bin. The question is asking where Olivia thinks the box is.\n\nFirst, I need to break down the sequence of ev",
+          "gen_tokens": 341,
+          "time": 27.975630044937134
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Paul thinks the bag is. So the problem says:\n\nPaul put the bag in the drawer. Paul left the room. Quinn moved the bag to the cupboard. Where does Paul think the bag is?\n\nHmm. So first, Paul put the bag in the drawer. Then he left the room. After that, Quin",
+          "gen_tokens": 373,
+          "time": 30.568157196044922
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Quinn thinks the hat is. So the problem says:\n\nQuinn put the hat in the basket. Quinn left the room. Ruby moved the hat to the box. Where does Quinn think the hat is?\n\nHmm. Let's break it down step by step. First, Quinn puts the hat in the basket. So at th",
+          "gen_tokens": 210,
+          "time": 17.365832567214966
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Ruby thinks the scarf is after a series of actions. Let me go through each step carefully.\n\nFirst, Ruby puts the scarf on the shelf. So initially, the scarf is on the shelf. Then Ruby leaves the room. So while Ruby is gone, Sam moves t",
+          "gen_tokens": 158,
+          "time": 13.261326551437378
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Sam thinks the glove is. So the problem says:\n\nSam put the glove in the table. Sam left the room. Tina moved the glove to the desk. Where does Sam think the glove is?\n\nHmm. Let's break this down step by step. First, Sam puts the glove on the table. Then he",
+          "gen_tokens": 239,
+          "time": 19.822124242782593
+        },
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's try to figure out where Tina thinks the shoe is. So, the scenario is: Tina put the shoe in the cabinet. Then she left the room. After that, Alice moved the shoe to the bin. The question is asking where Tina thinks the shoe is.\n\nFirst, I need to break down the sequence of events. ",
+          "gen_tokens": 434,
+          "time": 35.7911274433136
+        }
+      ],
+      "true_belief": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Alice thinks the ball is after she put it in the drawer and watched Bob move it to the cupboard. So, the key here is to figure out Alice's perspective.\n\nFirst, Alice initially puts the ball in the drawer. Then she watches Bob move it to the cupboa",
+          "gen_tokens": 331,
+          "time": 27.88962697982788
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Bob thinks the key is after a series of actions. Let me read the scenario again carefully.\n\nFirst, Bob put the key in the basket. So initially, the key is in the basket. Then, Bob watched Carol move the key to the box. So Carol took th",
+          "gen_tokens": 260,
+          "time": 21.933560609817505
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Carol thinks the book is. Let me break down the information given.\n\nFirst, Carol put the book on the shelf. So initially, the book is on the shelf. Then, Carol watched David move the book to the closet. So David moved it from the shelf to the clos",
+          "gen_tokens": 367,
+          "time": 30.720078229904175
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where David thinks the phone is. The scenario given is that David put the phone on the table. Then he watched Emma move the phone to the desk. So, the key here is to figure out David's perception of the phone's location after these two actions.\n\nFirst, ",
+          "gen_tokens": 351,
+          "time": 29.782628297805786
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Emma thinks the wallet is after two actions. First, Emma put the wallet in the cabinet. Then she watched Frank move the wallet to the bin. The question is asking where Emma thinks the wallet is.\n\nSo, the key here is to figure out Emma's perception",
+          "gen_tokens": 277,
+          "time": 23.944444179534912
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Frank thinks the cup is. The scenario given is that Frank put the cup in the drawer. Then he watched Grace move the cup to the cupboard. So, I need to figure out where Frank believes the cup is located based on these actions.\n\nFirst, Frank initial",
+          "gen_tokens": 428,
+          "time": 37.04182267189026
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Grace thinks the pen is. Let me break down the information given.\n\nFirst, Grace put the pen in the basket. So initially, the pen is in the basket. Then, Grace watched Henry move the pen to the box. So Henry took the pen from the basket and put it ",
+          "gen_tokens": 271,
+          "time": 22.717498064041138
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Henry thinks the toy is. So, the scenario is that Henry put the toy on the shelf. Then he watched Ivy move the toy to the closet. The question is asking where Henry thinks the toy is.\n\nFirst, I need to break down the sequence of events. Henry firs",
+          "gen_tokens": 362,
+          "time": 30.540031909942627
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Ivy thinks the watch is. The scenario is that Ivy put the watch on the table. Then she watched Jack move the watch to the desk. So, the key here is to figure out Ivy's perception.\n\nFirst, Ivy initially placed the watch on the table. Then she obser",
+          "gen_tokens": 386,
+          "time": 31.621751308441162
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Jack thinks the ring is after a series of actions. Let me read the scenario again carefully.\n\nFirst, Jack puts the ring in the cabinet. Then, he watches Kate move the ring to the bin. The question is asking where Jack thinks the ring i",
+          "gen_tokens": 500,
+          "time": 40.85539221763611
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Kate thinks the coin is. The scenario says that Kate put the coin in the drawer. Then she watched Leo move the coin to the cupboard. So, the key here is to figure out Kate's perspective.\n\nFirst, when Kate put the coin in the drawer, she knows it's",
+          "gen_tokens": 249,
+          "time": 20.88528323173523
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The problem says that Leo put the card in the basket. Then he watched Mia move the card to the box. The question is asking where Leo thinks the card is.\n\nSo first, Leo initially put the card in the basket. But then Mia moved it to the box. Now, Leo saw Mia move it. So, if Le",
+          "gen_tokens": 179,
+          "time": 15.182860851287842
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The problem says that Mia put the note in the shelf. Then she watched Noah move the note to the closet. The question is asking where Mia thinks the note is.\n\nSo first, Mia initially placed the note on the shelf. Then Noah moved it to the closet. But Mia didn't see Noah move ",
+          "gen_tokens": 216,
+          "time": 17.74564242362976
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The problem says Noah put the badge in the table. Then Noah watched Olivia move the badge to the desk. The question is where does Noah think the badge is?\n\nSo, first, I need to figure out the sequence of events. Initially, Noah placed the badge on the table. Then Olivia move",
+          "gen_tokens": 335,
+          "time": 27.368483066558838
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Olivia thinks the box is. The scenario given is that Olivia put the box in the cabinet. Then she watched Paul move the box to the bin. So, first, Olivia initially put the box in the cabinet. But then she saw Paul move it to the bin. Now, the quest",
+          "gen_tokens": 445,
+          "time": 36.59887456893921
+        },
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's break this down. The question is about where Paul thinks the bag is after two actions. First, Paul puts the bag in the drawer. Then he watches Quinn move the bag to the cupboard. The key here is to figure out Paul's perception of the bag's location.\n\nSo, initially, Paul puts the ",
+          "gen_tokens": 500,
+          "time": 40.85800075531006
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Quinn thinks the hat is after a series of actions. Let me read the sentences again carefully.\n\nFirst, Quinn put the hat in the basket. So initially, the hat is in the basket. Then, Quinn watched Ruby move the hat to the box. So Ruby to",
+          "gen_tokens": 298,
+          "time": 25.075095176696777
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The problem is about figuring out where Ruby thinks the scarf is based on the given sentences. Let me break it down step by step.\n\nFirst, the first sentence says, \"Ruby put the scarf in the shelf.\" So, Ruby placed the scarf on the shelf. That means, at that point, the scarf ",
+          "gen_tokens": 416,
+          "time": 34.73177671432495
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Sam thinks the glove is after a series of actions. Let me read the scenario again carefully.\n\nSam put the glove in the table. Then Sam watched Tina move the glove to the desk. The question is asking where Sam thinks the glove is. So, I",
+          "gen_tokens": 425,
+          "time": 34.94552731513977
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Tina thinks the shoe is. Let me break down the sentences.\n\nFirst, Tina put the shoe in the cabinet. So initially, the shoe is in the cabinet. Then, Tina watched Alice move the shoe to the bin. Wait, so Alice moved the shoe from the cabinet to the ",
+          "gen_tokens": 289,
+          "time": 23.939685106277466
+        }
+      ]
+    },
+    "higher_order": {
+      "1": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Alice thinks the ball is. So, the problem says that Alice put the ball in the drawer. Then Alice left. After that, Bob moved it to the basket. The question is, where does Alice think the ball is?\n\nHmm, so first, Alice initially put the ball in the drawer. ",
+          "gen_tokens": 308,
+          "time": 25.42989206314087
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Tom thinks the key is. The scenario says that Tom hid the key in the box. Then Tom stayed and watched Jerry move the key to the shelf. So, the key was originally in the box, but Jerry moved it to the shelf. But the question is asking where Tom thi",
+          "gen_tokens": 383,
+          "time": 31.585411310195923
+        }
+      ],
+      "2": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks the ball is. So, the sequence of events is:\n\n1. Alice puts the ball in the drawer.\n2. Alice leaves.\n3. Bob sees it in the drawer.\n4. Bob leaves.\n5. Carol moves it to the basket.\n\nThe question is about Alice's belief regarding Bob's ",
+          "gen_tokens": 500,
+          "time": 41.256688594818115
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure this out. So the question is about Alice's belief regarding where Bob thinks the ball is. Let me break down the scenario step by step.\n\nFirst, Alice puts the ball in the drawer. Then, Alice stays and watches Bob watch Carol move the ball to the basket. Wait, so the ",
+          "gen_tokens": 500,
+          "time": 41.77980446815491
+        }
+      ],
+      "3": [
+        {
+          "correct": false,
+          "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks Carol thinks the ball is. So, the problem says that Alice put the ball in the drawer. Then she told Bob where it was. So, Bob knows it's in the drawer. Then Bob told Carol. So Carol also knows it's in the drawer. Then David moved th",
+          "gen_tokens": 500,
+          "time": 41.507246017456055
+        }
+      ]
+    },
+    "entity": {
+      "human": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure out where Alice thinks the ball is. So, the problem says that Alice put the ball in the drawer. Then Alice left. After that, Bob moved it to the basket. The question is, where does Alice think the ball is?\n\nHmm, so first, Alice initially put the ball in the drawer. ",
+          "gen_tokens": 308,
+          "time": 25.495893478393555
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Carol thinks the key is. The scenario given is that Carol put the key in the box. Then she watched David move it to the shelf. So, I need to figure out where Carol believes the key is now.\n\nFirst, let's break down the events. Carol initially puts ",
+          "gen_tokens": 256,
+          "time": 21.280511379241943
+        }
+      ],
+      "animal": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure this out. The question is about where the cat thinks the food is. Let me go through the sentences step by step.\n\nFirst, the cat hid the food in the drawer. So initially, the food was in the drawer. Then the cat left. So the cat is no longer there. Then the dog moved",
+          "gen_tokens": 333,
+          "time": 27.610793113708496
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The problem says that the bird hid seeds in the box. Then the bird watched the rabbit move them to the jar. The question is asking where the bird thinks the seeds are.\n\nSo, first, the bird initially hid the seeds in the box. But then the rabbit moved them to the jar. The bir",
+          "gen_tokens": 285,
+          "time": 24.07651114463806
+        }
+      ],
+      "ai": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure this out. So the question is about where Claude thinks the file is after some events. Let me break down the information given.\n\nFirst, Claude the assistant stored the file in folder A. Then, Claude went offline. After that, the system moved the file to folder B. The",
+          "gen_tokens": 308,
+          "time": 25.308364868164062
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's try to figure this out. So the question is about where Alex thinks the tool is after some actions by Alex and Bob. Let me break down the information step by step.\n\nFirst, the robot Alex put the tool in drawer 1. So initially, the tool was in drawer 1. Then Alex went to recharge. ",
+          "gen_tokens": 336,
+          "time": 28.100877046585083
+        }
+      ],
+      "abstract": [
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's break this down. The question is about where Team Alpha thinks the resources are after some events. Let me read it again carefully.\n\nSo, Team Alpha stored resources in warehouse A. Then, Team Alpha's members left. After that, Team Beta moved resources to warehouse B. The question",
+          "gen_tokens": 500,
+          "time": 41.40027689933777
+        },
+        {
+          "correct": true,
+          "response": "<think>\nOkay, let's see. The question is about where Department X thinks the documents are. So, the scenario is that Department X filed documents in cabinet 1. Then, Department X staff observed Department Y moving them to cabinet 2. The question is asking where Department X thinks the documents are.",
+          "gen_tokens": 500,
+          "time": 41.47844457626343
+        }
+      ]
+    },
+    "multi_agent": [
+      {
+        "correct": true,
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks her ball is. So, the problem says that Alice put the ball in drawer A. Then Bob put the key in drawer B. Then Carol moved Alice's ball to drawer B without Alice seeing, and also moved Bob's key to drawer A without Bob seeing. The question is, ",
+        "gen_tokens": 491,
+        "time": 40.56056785583496,
+        "name": "two_agents_diff_knowledge"
+      },
+      {
+        "correct": true,
+        "response": "<think>\nOkay, let's break this down. So, Alice hid treasure in the cave. Bob saw that. Then Bob told Alice, \"Your treasure is in the forest,\" but that's a lie. Alice believed Bob. The question is, where does Alice think her treasure is?\n\nFirst, the key points here. Alice actually hid the treasure in",
+        "gen_tokens": 395,
+        "time": 32.524102449417114,
+        "name": "deception"
+      },
+      {
+        "correct": true,
+        "response": "<think>\nOkay, let's try to figure this out. The question is about Alice and Bob watching Carol move a ball from the drawer to the basket. We need to determine where Alice thinks Bob thinks the ball is.\n\nFirst, I remember that this is a classic example of a logic puzzle involving false beliefs. The k",
+        "gen_tokens": 500,
+        "time": 41.54250478744507,
+        "name": "shared_knowledge"
+      },
+      {
+        "correct": true,
+        "response": "<think>\nOkay, let's break this down. So the question is about where Alice thinks the ball is after a series of events. Let me go through each step carefully.\n\nFirst, Alice puts the ball in the drawer. So initially, the ball is in the drawer. Then Alice leaves. So she's no longer there. Then Bob move",
+        "gen_tokens": 307,
+        "time": 25.56121850013733,
+        "name": "communication"
+      }
+    ]
+  }
+}

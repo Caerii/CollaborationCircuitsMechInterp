@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-12-24T16:17:01.039184",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "layers_analyzed": [
+      12,
+      28,
+      32
+    ]
+  },
+  "layer_results": {
+    "12": {
+      "mlp_structure": {
+        "input_dim": 2560,
+        "intermediate_dim": 9728
+      },
+      "diff_direction_norm": 4.092617511749268,
+      "alignment": 0.20343342423439026,
+      "amplification": 0.010618587024509907,
+      "top_gate_neurons": [
+        219,
+        4540,
+        974,
+        1080,
+        32
+      ],
+      "top_hidden_neurons": [
+        4530,
+        9597,
+        974,
+        302,
+        1616
+      ],
+      "top_output_dims": [
+        2301,
+        2237,
+        4,
+        1882,
+        2417,
+        993,
+        1108,
+        1557,
+        942,
+        55
+      ]
+    },
+    "28": {
+      "mlp_structure": {
+        "input_dim": 2560,
+        "intermediate_dim": 9728
+      },
+      "diff_direction_norm": 32.174110412597656,
+      "alignment": 5.670497193932533e-05,
+      "amplification": 0.0011050403118133545,
+      "top_gate_neurons": [
+        1500,
+        2339,
+        8547,
+        7054,
+        4081
+      ],
+      "top_hidden_neurons": [
+        6184,
+        4235,
+        7161,
+        6651,
+        4686
+      ],
+      "top_output_dims": [
+        451,
+        1143,
+        1245,
+        2470,
+        1732,
+        2424,
+        380,
+        1784,
+        1547,
+        2511
+      ]
+    },
+    "32": {
+      "mlp_structure": {
+        "input_dim": 2560,
+        "intermediate_dim": 9728
+      },
+      "diff_direction_norm": 59.97718811035156,
+      "alignment": 0.044943924993276596,
+      "amplification": 0.0006503004697151482,
+      "top_gate_neurons": [
+        7135,
+        4756,
+        7194,
+        3699,
+        456
+      ],
+      "top_hidden_neurons": [
+        296,
+        599,
+        531,
+        3595,
+        2221
+      ],
+      "top_output_dims": [
+        1221,
+        2512,
+        1867,
+        2170,
+        1045,
+        807,
+        1466,
+        1780,
+        292,
+        1050
+      ]
+    }
+  },
+  "key_insight": "Direct MLP weight analysis shows how belief difference is transformed layer by layer"
+}

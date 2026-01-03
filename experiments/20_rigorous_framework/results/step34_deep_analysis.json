@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-12-24T17:55:37.160144",
+  "scenario": {
+    "name": "Classic Sally-Anne",
+    "question": "Sally put the ball in the basket. Sally left the room. Anne moved the ball to the box. Sally came back. Where does Sally think the ball is?",
+    "correct": "basket",
+    "wrong": "box",
+    "label": 0
+  },
+  "response": "<think>\nOkay, let's break this down. So the question is about where Sally thinks the ball is after a series of actions. Let me go through each step carefully.\n\nFirst, Sally puts the ball in the basket. So initially, the ball is in the basket. Then Sally leaves the room. So while she's away, someone else, Anne, moves the ball to the box. So now the ball is in the box. But here's the key point: Sally left the room, so she's not aware of Anne moving the ball. When Sally comes back, she doesn't know that Anne moved the ball. Therefore, Sally would still think the ball is where she last saw it, which was in the basket. Even though the ball was moved, Sally's knowledge is based on her last action, not the subsequent changes. So the answer should be the basket.\n</think>\n\nbasket",
+  "n_tokens": 181,
+  "think_span": [
+    48,
+    225
+  ],
+  "transcoder_results": {
+    "12": {
+      "layer": 12,
+      "n_samples": 8,
+      "accuracy": 0.7777777777777777,
+      "std": 0.15713484026367724
+    },
+    "20": {
+      "layer": 20,
+      "n_samples": 8,
+      "accuracy": 1.0,
+      "std": 0.0
+    },
+    "28": {
+      "layer": 28,
+      "n_samples": 8,
+      "accuracy": 0.8888888888888888,
+      "std": 0.15713484026367724
+    },
+    "32": {
+      "layer": 32,
+      "n_samples": 8,
+      "accuracy": 0.8888888888888888,
+      "std": 0.15713484026367724
+    }
+  }
+}

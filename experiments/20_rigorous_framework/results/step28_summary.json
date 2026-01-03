@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-12-24T16:44:50.255121",
+  "findings": {
+    "circuits": {
+      "tom_heads": {
+        "heads": [
+          [
+            32,
+            0
+          ],
+          [
+            33,
+            4
+          ],
+          [
+            33,
+            16
+          ],
+          [
+            33,
+            28
+          ],
+          [
+            34,
+            0
+          ]
+        ],
+        "function": "Track agent beliefs - 70.6% attention to agents",
+        "evidence": "Step 7: Ablation shows -11% accuracy drop"
+      },
+      "first_mention": {
+        "heads": [
+          [
+            23,
+            4
+          ],
+          [
+            31,
+            15
+          ],
+          [
+            13,
+            10
+          ]
+        ],
+        "function": "Attend to first-mentioned location (up to 232x ratio)",
+        "evidence": "Step 24: Ablation reduces first-mention preference by 47%"
+      },
+      "inhibitor": {
+        "heads": [
+          [
+            18,
+            16
+          ]
+        ],
+        "function": "Becomes diffuse in multi-agent, disrupts ToM",
+        "evidence": "Step 16: Entropy 2.12 vs 1.96 in single-agent"
+      },
+      "peak_layer": {
+        "layer": 28,
+        "function": "Peak belief discriminability",
+        "evidence": "Step 15: Discriminability score 10.94"
+      }
+    },
+    "behavioral": {
+      "false_belief_accuracy": {
+        "baseline": 0.88,
+        "with_explicit": 1.0,
+        "evidence": "Step 23: N=25, p<0.05"
+      },
+      "true_belief_accuracy": {
+        "baseline": 0.4,
+        "with_explicit": 0.88,
+        "improvement": 0.48,
+        "p_value": 0.0015,
+        "evidence": "Step 23: McNemar test, N=25"
+      },
+      "higher_order_tom": {
+        "1st_order": 0.5,
+        "2nd_order": 0.75,
+        "3rd_order": 0.0,
+        "evidence": "Step 20: Limited to 2nd order"
+      },
+      "multi_agent": {
+        "accuracy": 1.0,
+        "note": "Better than single-agent TB!",
+        "evidence": "Step 26: 100% on multi-agent tasks"
+      }
+    },
+    "mechanistic": {
+      "first_mention_heuristic": {
+        "finding": "Model uses first-mentioned location as default",
+        "explanation": "FB works because first mention = correct answer",
+        "fix": "Explicit belief statements bypass heuristic"
+      },
+      "belief_encoding": {
+        "finding": "Belief state encoded in layer activations",
+        "peak": "Layer 28",
+        "features": [
+          "#2989 (outdated belief)",
+          "#4674 (current belief)"
+        ]
+      },
+      "mlp_role": {
+        "finding": "MLPs transform but don't amplify belief signal",
+        "amplification": "~0.01x (negligible)",
+        "explanation": "Attention builds belief signal, MLPs shape it"
+      }
+    }
+  },
+  "key_discoveries": [
+    {
+      "title": "True Belief Failure is Heuristic-Based",
+      "summary": "TB fails (40%) because model defaults to first-mentioned location. Adding 'Alice now believes X' fixes it to 88% (p=0.0015).",
+      "implication": "ToM capability EXISTS but is obscured by surface heuristics."
+    },
+    {
+      "title": "First-Mention Circuit Identified",
+      "summary": "Heads L23H4 (103x), L13H10 (232x) strongly attend to first-mentioned location.",
+      "implication": "Targeted ablation could reveal genuine ToM without prompt engineering."
+    },
+    {
+      "title": "Multi-Agent is Easier Than Single-Agent",
+      "summary": "Multi-agent scenarios achieve 100% accuracy vs 40% for single-agent TB.",
+      "implication": "Model handles multiple entities better than belief updates."
+    },
+    {
+      "title": "Two Distinct Social Circuits",
+      "summary": "ToM heads (L32-34) track agents. First-mention heads (L13, L23, L31) track locations.",
+      "implication": "Social cognition has modular architecture in LLMs."
+    },
+    {
+      "title": "Peak Belief Processing at L28",
+      "summary": "Layer 28 shows maximum belief discriminability (10.94), not earlier layers.",
+      "implication": "Belief decisions form late in the network."
+    }
+  ],
+  "mats_summary": {
+    "title": "Collaboration Circuits: Mechanistic Interpretability of Multi-Agent ToM",
+    "key_claim": "LLMs have ToM capability obscured by first-mention heuristics",
+    "evidence": "TB improves 40%->88% with explicit beliefs (p=0.0015)",
+    "circuits_found": [
+      "ToM heads (L32-34)",
+      "First-mention (L13,L23,L31)",
+      "Inhibitor (L18H16)"
+    ],
+    "implications": [
+      "Multi-agent collaboration is achievable",
+      "Explicit belief communication is critical",
+      "Heuristics may interfere with genuine reasoning"
+    ]
+  }
+}

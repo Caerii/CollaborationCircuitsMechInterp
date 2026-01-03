@@ -1,0 +1,180 @@
+{
+  "timestamp": "2025-12-24T15:44:24.952492",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "target_layer": 18,
+    "target_head": 16
+  },
+  "attention_analysis": {
+    "single_agent": [
+      {
+        "prompt": "Alice put the ball in the drawer. Alice left. Bob moved the ball to the basket. Where does Alice think the ball is?",
+        "top_attended": [
+          [
+            "?",
+            0.319091796875
+          ],
+          [
+            "Alice",
+            0.275146484375
+          ],
+          [
+            "?think",
+            0.180419921875
+          ],
+          [
+            "?is",
+            0.040435791015625
+          ],
+          [
+            "?Where",
+            0.03826904296875
+          ]
+        ],
+        "entropy": 1.923828125
+      },
+      {
+        "prompt": "Tom hid the key in the box. Tom left. Jerry moved the key to the drawer. Where does Tom think the key is?",
+        "top_attended": [
+          [
+            "Tom",
+            0.294677734375
+          ],
+          [
+            "?",
+            0.279052734375
+          ],
+          [
+            "?think",
+            0.190185546875
+          ],
+          [
+            "?is",
+            0.048095703125
+          ],
+          [
+            "?Where",
+            0.032806396484375
+          ]
+        ],
+        "entropy": 1.9951171875
+      }
+    ],
+    "multi_agent": [
+      {
+        "prompt": "Alice put the ball in the drawer. Bob saw this. Alice left. Carol moved the ball to the basket. Bob watched. Where does Alice think the ball is?",
+        "top_attended": [
+          [
+            "?",
+            0.30419921875
+          ],
+          [
+            "Alice",
+            0.2252197265625
+          ],
+          [
+            "?think",
+            0.1978759765625
+          ],
+          [
+            "?is",
+            0.045379638671875
+          ],
+          [
+            "?Where",
+            0.04180908203125
+          ]
+        ],
+        "entropy": 2.1171875
+      },
+      {
+        "prompt": "Tom hid the key in the box. Jerry saw this. Tom left. Spike moved the key to the drawer. Jerry watched. Where does Tom think the key is?",
+        "top_attended": [
+          [
+            "Tom",
+            0.252197265625
+          ],
+          [
+            "?",
+            0.2406005859375
+          ],
+          [
+            "?think",
+            0.23876953125
+          ],
+          [
+            "?is",
+            0.056915283203125
+          ],
+          [
+            "?the",
+            0.04248046875
+          ]
+        ],
+        "entropy": 2.119140625
+      }
+    ],
+    "control": [
+      {
+        "prompt": "The ball is in the basket. Where is the ball?",
+        "top_attended": [
+          [
+            "The",
+            0.264892578125
+          ],
+          [
+            "?Where",
+            0.1842041015625
+          ],
+          [
+            "?",
+            0.173095703125
+          ],
+          [
+            "?the",
+            0.0804443359375
+          ],
+          [
+            "?ball",
+            0.07708740234375
+          ]
+        ],
+        "entropy": 2.07421875
+      },
+      {
+        "prompt": "The key is in the drawer. Where is the key?",
+        "top_attended": [
+          [
+            "?Where",
+            0.25732421875
+          ],
+          [
+            "The",
+            0.2044677734375
+          ],
+          [
+            "?the",
+            0.1319580078125
+          ],
+          [
+            "?",
+            0.126953125
+          ],
+          [
+            ".",
+            0.0758056640625
+          ]
+        ],
+        "entropy": 2.03125
+      }
+    ]
+  },
+  "entropy": {
+    "single_agent": 1.95947265625,
+    "multi_agent": 2.1181640625,
+    "control": 2.052734375
+  },
+  "hypotheses": {
+    "H1_more_diffuse_in_multi": "True"
+  }
+}

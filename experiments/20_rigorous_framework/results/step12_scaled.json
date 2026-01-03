@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-12-24T15:03:17.004409",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "n_false_belief": 14,
+    "n_true_belief": 14,
+    "critical_heads": [
+      [
+        32,
+        0
+      ],
+      [
+        33,
+        4
+      ],
+      [
+        33,
+        16
+      ],
+      [
+        33,
+        28
+      ],
+      [
+        34,
+        0
+      ]
+    ]
+  },
+  "false_belief": {
+    "baseline_accuracy": 0.7857142857142857,
+    "baseline_ci": [
+      0.524107694133997,
+      0.9242861328730683
+    ],
+    "ablated_accuracy": 0.7142857142857143,
+    "ablated_ci": [
+      0.4535091567010681,
+      0.8827862135542308
+    ],
+    "n_correct": 11,
+    "n_total": 14
+  },
+  "true_belief": {
+    "accuracy": 0.2857142857142857,
+    "ci": [
+      0.11721378644576919,
+      0.5464908432989318
+    ],
+    "n_correct": 4,
+    "n_total": 14
+  },
+  "statistics": {
+    "ablation_change": -0.0714285714285714,
+    "ablation_effect_size": 0.16533453483657068,
+    "ablation_mcnemar_stat": 0.0,
+    "ablation_mcnemar_p": 1.0,
+    "ablation_significant": "False",
+    "fb_vs_tb_diff": 0.5,
+    "fb_vs_tb_effect_size": 1.0511566229838485,
+    "fb_vs_tb_chi2": 5.169230769230769,
+    "fb_vs_tb_p": 0.022990394092464842
+  }
+}

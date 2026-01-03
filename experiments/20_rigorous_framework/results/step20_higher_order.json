@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-24T16:29:46.667636",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "results_by_order": {
+    "1": [
+      {
+        "name": "1st_fb_alice",
+        "correct": true,
+        "expected": "drawer",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks the ball is. So the problem says:\n\nAlice put the ball in the drawer. Alice left. Bob moved the ball to the basket.\n\nFirst, I need to track the "
+      },
+      {
+        "name": "1st_tb_alice",
+        "correct": false,
+        "expected": "basket",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks the ball is. So the scenario is: Alice put the ball in the drawer. Then she stayed and watched. Then Bob moved the ball to the basket. The ques"
+      }
+    ],
+    "2": [
+      {
+        "name": "2nd_fb_fb",
+        "correct": true,
+        "expected": "drawer",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks the ball is. So, the scenario is:\n\nAlice put the ball in the drawer. Then Alice left. Bob saw the ball in the drawer. Then Bob left."
+      },
+      {
+        "name": "2nd_fb_tb",
+        "correct": true,
+        "expected": "drawer",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks the ball is. So, the scenario is: Alice put the ball in the drawer. Then Alice left. After that, Bob watched Carol move the ball to "
+      },
+      {
+        "name": "2nd_tb_fb",
+        "correct": true,
+        "expected": "drawer",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks the ball is. So, the scenario is:\n\nAlice puts the ball in the drawer. Then Alice stays and watches Bob look in the drawer. After tha"
+      },
+      {
+        "name": "2nd_tb_tb",
+        "correct": false,
+        "expected": "basket",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks the ball is. So the scenario is that Alice put the ball in the drawer. Then Alice stayed and watched Bob watch Carol move the ball t"
+      }
+    ],
+    "3": [
+      {
+        "name": "3rd_nested",
+        "correct": false,
+        "expected": "basket",
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks Bob thinks Carol thinks the ball is. Let me break down the scenario step by step.\n\nFirst, Alice put the ball in the drawer. Then she left. So, "
+      }
+    ]
+  },
+  "accuracy_by_order": {
+    "1": 0.5,
+    "2": 0.75,
+    "3": 0.0
+  }
+}

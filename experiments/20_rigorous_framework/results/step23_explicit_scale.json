@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-24T16:38:29.165190",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "n_per_condition": 25
+  },
+  "summary": {
+    "false_belief_std": {
+      "n_correct": 22,
+      "n_total": 25,
+      "accuracy": 0.88,
+      "ci_95": [
+        0.7004420607907267,
+        0.9583318284955964
+      ],
+      "mean_logit_diff": 3.9090625
+    },
+    "false_belief_exp": {
+      "n_correct": 25,
+      "n_total": 25,
+      "accuracy": 1.0,
+      "ci_95": [
+        0.8668077490609515,
+        0.9999999999999999
+      ],
+      "mean_logit_diff": 5.875
+    },
+    "true_belief_std": {
+      "n_correct": 10,
+      "n_total": 25,
+      "accuracy": 0.4,
+      "ci_95": [
+        0.23403302377747973,
+        0.5926054264103301
+      ],
+      "mean_logit_diff": -1.194375
+    },
+    "true_belief_exp": {
+      "n_correct": 22,
+      "n_total": 25,
+      "accuracy": 0.88,
+      "ci_95": [
+        0.7004420607907267,
+        0.9583318284955964
+      ],
+      "mean_logit_diff": 2.9603125
+    }
+  },
+  "mcnemar": {
+    "both_correct": 10,
+    "std_only": 0,
+    "exp_only": 12,
+    "both_wrong": 3
+  },
+  "conclusion": "explicit_helps"
+}

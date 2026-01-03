@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-12-24T15:28:33.460931",
+  "config": {
+    "model": "Qwen/Qwen3-4B",
+    "target_layer": 12
+  },
+  "sae_features": {
+    "fb_features": [
+      6730,
+      7266,
+      7516,
+      4005,
+      9493
+    ],
+    "tb_features": [
+      1376,
+      1498,
+      4040,
+      1108,
+      9591
+    ]
+  },
+  "results": [
+    {
+      "name": "flip_fb_to_tb",
+      "goal": "Make model predict basket (as if Alice knew)",
+      "baseline": {
+        "prediction": "target",
+        "target_logit": 22.484375,
+        "contrast_logit": 18.515625,
+        "logit_diff": 3.96875
+      },
+      "steering_results": [
+        {
+          "method": "suppress_fb_features",
+          "result": {
+            "prediction": "target",
+            "target_logit": 22.578125,
+            "contrast_logit": 17.90625,
+            "logit_diff": 4.671875
+          },
+          "flipped": false
+        },
+        {
+          "method": "boost_tb_features",
+          "result": {
+            "prediction": "target",
+            "target_logit": 22.59375,
+            "contrast_logit": 17.90625,
+            "logit_diff": 4.6875
+          },
+          "flipped": false
+        },
+        {
+          "method": "suppress_fb_boost_tb",
+          "result": {
+            "prediction": "target",
+            "target_logit": 22.59375,
+            "contrast_logit": 17.90625,
+            "logit_diff": 4.6875
+          },
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "name": "strengthen_fb",
+      "goal": "Make model predict box (as if Tom didn't see)",
+      "baseline": {
+        "prediction": "contrast",
+        "target_logit": 22.0,
+        "contrast_logit": 26.078125,
+        "logit_diff": -4.078125
+      },
+      "steering_results": [
+        {
+          "method": "suppress_fb_features",
+          "result": {
+            "prediction": "contrast",
+            "target_logit": 20.828125,
+            "contrast_logit": 25.0625,
+            "logit_diff": -4.234375
+          },
+          "flipped": false
+        },
+        {
+          "method": "boost_tb_features",
+          "result": {
+            "prediction": "contrast",
+            "target_logit": 20.765625,
+            "contrast_logit": 25.09375,
+            "logit_diff": -4.328125
+          },
+          "flipped": false
+        },
+        {
+          "method": "suppress_fb_boost_tb",
+          "result": {
+            "prediction": "contrast",
+            "target_logit": 20.8125,
+            "contrast_logit": 25.046875,
+            "logit_diff": -4.234375
+          },
+          "flipped": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_attempts": 6,
+    "total_flips": 0,
+    "flip_rate": 0.0
+  }
+}

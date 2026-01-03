@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-12-24T16:40:09.218858",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "results": [
+    {
+      "correct": true,
+      "logit_diff": 0.96875,
+      "type": "multiagent_belief",
+      "explicit": false
+    },
+    {
+      "correct": true,
+      "logit_diff": 2.953125,
+      "type": "multiagent_belief",
+      "explicit": true
+    },
+    {
+      "correct": true,
+      "logit_diff": 2.03125,
+      "type": "deception",
+      "explicit": false
+    },
+    {
+      "correct": true,
+      "logit_diff": 2.765625,
+      "type": "deception",
+      "explicit": true
+    },
+    {
+      "correct": true,
+      "logit_diff": 0.859375,
+      "type": "different_knowledge",
+      "explicit": false
+    },
+    {
+      "correct": true,
+      "logit_diff": 3.046875,
+      "type": "different_knowledge",
+      "explicit": true
+    },
+    {
+      "correct": true,
+      "logit_diff": 0.421875,
+      "type": "multiagent_true_belief",
+      "explicit": false
+    },
+    {
+      "correct": false,
+      "logit_diff": -0.453125,
+      "type": "multiagent_true_belief",
+      "explicit": true
+    }
+  ],
+  "comparison": {
+    "multiagent_belief": {
+      "standard_acc": 1.0,
+      "explicit_acc": 1.0,
+      "standard_diff": 0.96875,
+      "explicit_diff": 2.953125,
+      "improvement": 0.0,
+      "diff_change": 1.984375
+    },
+    "deception": {
+      "standard_acc": 1.0,
+      "explicit_acc": 1.0,
+      "standard_diff": 2.03125,
+      "explicit_diff": 2.765625,
+      "improvement": 0.0,
+      "diff_change": 0.734375
+    },
+    "different_knowledge": {
+      "standard_acc": 1.0,
+      "explicit_acc": 1.0,
+      "standard_diff": 0.859375,
+      "explicit_diff": 3.046875,
+      "improvement": 0.0,
+      "diff_change": 2.1875
+    },
+    "multiagent_true_belief": {
+      "standard_acc": 1.0,
+      "explicit_acc": 0.0,
+      "standard_diff": 0.421875,
+      "explicit_diff": -0.453125,
+      "improvement": -1.0,
+      "diff_change": -0.875
+    }
+  },
+  "overall": {
+    "standard_accuracy": 1.0,
+    "explicit_accuracy": 0.75,
+    "improvement": -0.25
+  }
+}

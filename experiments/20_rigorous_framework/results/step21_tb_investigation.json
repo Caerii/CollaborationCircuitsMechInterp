@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-12-24T16:30:20.717714",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "phrasing_results": [
+    {
+      "prediction": " drawer",
+      "option1_logit": 21.71875,
+      "option2_logit": 23.609375,
+      "logit_diff": -1.890625,
+      "correct": false,
+      "name": "original",
+      "prompt": "Alice put the ball in the drawer. Alice stayed and watched. Bob moved the ball to the basket. Where does Alice think the ball is? Alice looks in the"
+    },
+    {
+      "prediction": " drawer",
+      "option1_logit": 19.9375,
+      "option2_logit": 23.265625,
+      "logit_diff": -3.328125,
+      "correct": false,
+      "name": "explicit_saw",
+      "prompt": "Alice put the ball in the drawer. Alice SAW Bob move the ball to the basket. Where does Alice think the ball is? Alice looks in the"
+    },
+    {
+      "prediction": " basket",
+      "option1_logit": 24.671875,
+      "option2_logit": 24.296875,
+      "logit_diff": 0.375,
+      "correct": true,
+      "name": "very_explicit",
+      "prompt": "Alice put the ball in the drawer. Bob moved the ball to the basket WHILE ALICE WATCHED. Alice knows the ball is now in the basket. Where does Alice think the ball is? Alice looks in the"
+    },
+    {
+      "prediction": " drawer",
+      "option1_logit": 23.203125,
+      "option2_logit": 25.203125,
+      "logit_diff": -2.0,
+      "correct": false,
+      "name": "with_explanation",
+      "prompt": "Alice put the ball in the drawer. Alice stayed in the room and watched Bob move the ball to the basket. Because Alice saw the move, she knows where the ball is now. Where does Alice think the ball is? Alice looks in the"
+    },
+    {
+      "prediction": " basket",
+      "option1_logit": 25.09375,
+      "option2_logit": 24.140625,
+      "logit_diff": 0.953125,
+      "correct": true,
+      "name": "direct_knowledge",
+      "prompt": "Alice put the ball in the drawer. Bob moved the ball to the basket. Alice knows the ball is in the basket because she saw the move. Where does Alice think the ball is? Alice looks in the"
+    }
+  ],
+  "heuristic_results": [
+    {
+      "prediction": " basket",
+      "option1_logit": 24.28125,
+      "option2_logit": 24.328125,
+      "logit_diff": -0.046875,
+      "correct": false,
+      "name": "drawer_first_FB",
+      "first_is_correct": true
+    },
+    {
+      "prediction": " drawer",
+      "option1_logit": 21.0625,
+      "option2_logit": 22.5625,
+      "logit_diff": -1.5,
+      "correct": false,
+      "name": "drawer_first_TB",
+      "first_is_correct": false
+    },
+    {
+      "prediction": " basket",
+      "option1_logit": 23.5,
+      "option2_logit": 23.09375,
+      "logit_diff": 0.40625,
+      "correct": true,
+      "name": "basket_first_FB",
+      "first_is_correct": true
+    },
+    {
+      "prediction": " drawer",
+      "option1_logit": 23.5625,
+      "option2_logit": 21.546875,
+      "logit_diff": 2.015625,
+      "correct": true,
+      "name": "basket_first_TB",
+      "first_is_correct": false
+    }
+  ],
+  "explicit_results": [
+    {
+      "prediction": " drawer",
+      "option1_logit": 24.140625,
+      "option2_logit": 25.75,
+      "logit_diff": -1.609375,
+      "correct": false,
+      "name": "TB_no_explicit"
+    },
+    {
+      "prediction": " basket",
+      "option1_logit": 28.21875,
+      "option2_logit": 25.921875,
+      "logit_diff": 2.296875,
+      "correct": true,
+      "name": "TB_explicit"
+    },
+    {
+      "prediction": " basket",
+      "option1_logit": 26.21875,
+      "option2_logit": 25.5,
+      "logit_diff": 0.71875,
+      "correct": true,
+      "name": "TB_very_explicit"
+    }
+  ],
+  "summary": {
+    "phrasing_accuracy": 0.4,
+    "first_correct_accuracy": 0.5,
+    "first_wrong_accuracy": 0.5,
+    "likely_issue": "unknown"
+  }
+}

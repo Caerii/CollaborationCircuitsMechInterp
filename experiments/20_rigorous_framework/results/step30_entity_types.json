@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-12-24T16:49:15.089308",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "summary": {
+    "animal": {
+      "false_belief": 1.0,
+      "true_belief": 0.0,
+      "overall": 0.5
+    },
+    "human": {
+      "false_belief": 1.0,
+      "true_belief": 0.0,
+      "overall": 0.5
+    },
+    "abstract": {
+      "false_belief": 0.0,
+      "true_belief": 0.0,
+      "overall": 0.0
+    },
+    "ai": {
+      "false_belief": 0.0,
+      "true_belief": 0.0,
+      "overall": 0.0
+    }
+  },
+  "all_results": [
+    {
+      "correct": true,
+      "logit_diff": 2.5625,
+      "entity_type": "human",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": -1.609375,
+      "entity_type": "human",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": true,
+      "logit_diff": 3.859375,
+      "entity_type": "human",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": -3.5,
+      "entity_type": "human",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": true,
+      "logit_diff": 2.40625,
+      "entity_type": "human",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": -1.875,
+      "entity_type": "human",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": true,
+      "logit_diff": 4.171875,
+      "entity_type": "animal",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": -1.34375,
+      "entity_type": "animal",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": true,
+      "logit_diff": 5.765625,
+      "entity_type": "animal",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": -2.921875,
+      "entity_type": "animal",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": true,
+      "logit_diff": 3.40625,
+      "entity_type": "animal",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": -2.40625,
+      "entity_type": "animal",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "ai",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "ai",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "ai",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "ai",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "ai",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "ai",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "abstract",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "abstract",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "abstract",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "abstract",
+      "belief_type": "true_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "abstract",
+      "belief_type": "false_belief"
+    },
+    {
+      "correct": false,
+      "logit_diff": 0.0,
+      "entity_type": "abstract",
+      "belief_type": "true_belief"
+    }
+  ]
+}

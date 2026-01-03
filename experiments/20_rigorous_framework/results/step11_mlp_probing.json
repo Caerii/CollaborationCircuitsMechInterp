@@ -1,0 +1,322 @@
+{
+  "timestamp": "2025-12-24T15:01:09.995869",
+  "config": {
+    "n_scenarios": 16,
+    "layers_probed": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "probe_results": {
+    "0": {
+      "mean_accuracy": 0.8166666666666667,
+      "std_accuracy": 0.1527525231651947,
+      "scores": [
+        0.75,
+        0.6666666666666666,
+        1.0,
+        0.6666666666666666,
+        1.0
+      ]
+    },
+    "4": {
+      "mean_accuracy": 0.4999999999999999,
+      "std_accuracy": 0.2581988897471611,
+      "scores": [
+        0.5,
+        0.6666666666666666,
+        0.0,
+        0.6666666666666666,
+        0.6666666666666666
+      ]
+    },
+    "8": {
+      "mean_accuracy": 0.8166666666666667,
+      "std_accuracy": 0.1527525231651947,
+      "scores": [
+        0.75,
+        0.6666666666666666,
+        1.0,
+        1.0,
+        0.6666666666666666
+      ]
+    },
+    "12": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "16": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "20": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "24": {
+      "mean_accuracy": 0.8833333333333334,
+      "std_accuracy": 0.1452966314513558,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        0.6666666666666666
+      ]
+    },
+    "28": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "30": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "31": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "32": {
+      "mean_accuracy": 0.95,
+      "std_accuracy": 0.09999999999999999,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "33": {
+      "mean_accuracy": 0.8833333333333332,
+      "std_accuracy": 0.1452966314513558,
+      "scores": [
+        0.75,
+        1.0,
+        0.6666666666666666,
+        1.0,
+        1.0
+      ]
+    },
+    "34": {
+      "mean_accuracy": 0.8833333333333332,
+      "std_accuracy": 0.1452966314513558,
+      "scores": [
+        0.75,
+        1.0,
+        1.0,
+        0.6666666666666666,
+        1.0
+      ]
+    },
+    "35": {
+      "mean_accuracy": 0.8166666666666667,
+      "std_accuracy": 0.1527525231651947,
+      "scores": [
+        0.75,
+        0.6666666666666666,
+        1.0,
+        0.6666666666666666,
+        1.0
+      ]
+    }
+  },
+  "top_layers": [
+    [
+      12,
+      0.95
+    ],
+    [
+      16,
+      0.95
+    ],
+    [
+      20,
+      0.95
+    ],
+    [
+      28,
+      0.95
+    ],
+    [
+      30,
+      0.95
+    ]
+  ],
+  "top_layer_neurons": [
+    {
+      "neuron": 0,
+      "diff": "0.4734",
+      "false_belief_mean": "0.4187",
+      "true_belief_mean": "0.892"
+    },
+    {
+      "neuron": 4,
+      "diff": "0.2266",
+      "false_belief_mean": "0.9395",
+      "true_belief_mean": "1.166"
+    },
+    {
+      "neuron": 96,
+      "diff": "0.1484",
+      "false_belief_mean": "0.2927",
+      "true_belief_mean": "0.1443"
+    },
+    {
+      "neuron": 99,
+      "diff": "0.1284",
+      "false_belief_mean": "-0.1875",
+      "true_belief_mean": "-0.05908"
+    },
+    {
+      "neuron": 70,
+      "diff": "0.1182",
+      "false_belief_mean": "-0.06525",
+      "true_belief_mean": "-0.1835"
+    },
+    {
+      "neuron": 66,
+      "diff": "0.10065",
+      "false_belief_mean": "-0.1174",
+      "true_belief_mean": "-0.218"
+    },
+    {
+      "neuron": 67,
+      "diff": "0.10034",
+      "false_belief_mean": "0.3396",
+      "true_belief_mean": "0.44"
+    },
+    {
+      "neuron": 34,
+      "diff": "0.09973",
+      "false_belief_mean": "-0.1311",
+      "true_belief_mean": "-0.03134"
+    },
+    {
+      "neuron": 95,
+      "diff": "0.0883",
+      "false_belief_mean": "-0.006893",
+      "true_belief_mean": "-0.0952"
+    },
+    {
+      "neuron": 82,
+      "diff": "0.088",
+      "false_belief_mean": "0.02979",
+      "true_belief_mean": "-0.0582"
+    },
+    {
+      "neuron": 24,
+      "diff": "0.0852",
+      "false_belief_mean": "0.2178",
+      "true_belief_mean": "0.303"
+    },
+    {
+      "neuron": 8,
+      "diff": "0.0812",
+      "false_belief_mean": "0.10034",
+      "true_belief_mean": "0.1815"
+    },
+    {
+      "neuron": 74,
+      "diff": "0.0801",
+      "false_belief_mean": "0.2075",
+      "true_belief_mean": "0.1274"
+    },
+    {
+      "neuron": 11,
+      "diff": "0.07886",
+      "false_belief_mean": "-0.2417",
+      "true_belief_mean": "-0.3206"
+    },
+    {
+      "neuron": 38,
+      "diff": "0.07605",
+      "false_belief_mean": "-0.03091",
+      "true_belief_mean": "-0.10693"
+    },
+    {
+      "neuron": 2,
+      "diff": "0.0759",
+      "false_belief_mean": "0.1732",
+      "true_belief_mean": "0.0973"
+    },
+    {
+      "neuron": 43,
+      "diff": "0.0753",
+      "false_belief_mean": "-0.01923",
+      "true_belief_mean": "0.05606"
+    },
+    {
+      "neuron": 78,
+      "diff": "0.0727",
+      "false_belief_mean": "-0.03714",
+      "true_belief_mean": "0.03555"
+    },
+    {
+      "neuron": 19,
+      "diff": "0.0691",
+      "false_belief_mean": "0.01831",
+      "true_belief_mean": "-0.05078"
+    },
+    {
+      "neuron": 86,
+      "diff": "0.0686",
+      "false_belief_mean": "-0.2197",
+      "true_belief_mean": "-0.2883"
+    }
+  ]
+}

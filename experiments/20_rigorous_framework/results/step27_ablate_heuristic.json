@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-12-24T16:44:35.513763",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "first_mention_heads": [
+    {
+      "layer": 23,
+      "head": 4
+    },
+    {
+      "layer": 31,
+      "head": 15
+    },
+    {
+      "layer": 13,
+      "head": 10
+    },
+    {
+      "layer": 23,
+      "head": 5
+    },
+    {
+      "layer": 18,
+      "head": 15
+    }
+  ],
+  "baseline": {
+    "false_belief": 0.85,
+    "true_belief": 0.45
+  },
+  "ablated": {
+    "false_belief": 0.8,
+    "true_belief": 0.45
+  },
+  "changes": {
+    "false_belief": -0.04999999999999993,
+    "true_belief": 0.0
+  }
+}

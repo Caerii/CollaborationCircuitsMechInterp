@@ -1,0 +1,22 @@
+{
+  "accuracy": 1.0,
+  "n": 15,
+  "n_correct": 15,
+  "individual": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

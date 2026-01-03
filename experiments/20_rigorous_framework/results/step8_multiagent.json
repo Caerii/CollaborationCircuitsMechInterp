@@ -1,0 +1,212 @@
+{
+  "timestamp": "2025-12-24T14:42:11.110253",
+  "config": {
+    "critical_heads": [
+      [
+        32,
+        0
+      ],
+      [
+        33,
+        4
+      ],
+      [
+        33,
+        16
+      ],
+      [
+        33,
+        28
+      ],
+      [
+        34,
+        0
+      ]
+    ],
+    "n_scenarios": 8
+  },
+  "results": {
+    "baseline": [
+      {
+        "name": "two_agents_different_knowledge",
+        "type": "multi_agent_belief",
+        "correct": false,
+        "logit_diff": -1.671875,
+        "target_logit": 20.25,
+        "contrast_logit": 21.921875
+      },
+      {
+        "name": "three_agents_chain",
+        "type": "multi_agent_belief",
+        "correct": true,
+        "logit_diff": 4.859375,
+        "target_logit": 23.21875,
+        "contrast_logit": 18.359375
+      },
+      {
+        "name": "informed_vs_uninformed",
+        "type": "multi_agent_belief",
+        "correct": true,
+        "logit_diff": 5.421875,
+        "target_logit": 30.0,
+        "contrast_logit": 24.578125
+      },
+      {
+        "name": "liar_detection",
+        "type": "deception",
+        "correct": true,
+        "logit_diff": 3.140625,
+        "target_logit": 19.015625,
+        "contrast_logit": 15.875
+      },
+      {
+        "name": "honest_informant",
+        "type": "deception",
+        "correct": true,
+        "logit_diff": 0.96875,
+        "target_logit": 17.234375,
+        "contrast_logit": 16.265625
+      },
+      {
+        "name": "mistaken_not_lying",
+        "type": "deception",
+        "correct": true,
+        "logit_diff": 1.59375,
+        "target_logit": 19.1875,
+        "contrast_logit": 17.59375
+      },
+      {
+        "name": "competitive_goal",
+        "type": "goal_reasoning",
+        "correct": true,
+        "logit_diff": 8.671875,
+        "target_logit": 17.734375,
+        "contrast_logit": 9.0625
+      },
+      {
+        "name": "cooperative_goal",
+        "type": "goal_reasoning",
+        "correct": true,
+        "logit_diff": 5.8984375,
+        "target_logit": 16.421875,
+        "contrast_logit": 10.5234375
+      }
+    ],
+    "ablated": [
+      {
+        "name": "two_agents_different_knowledge",
+        "type": "multi_agent_belief",
+        "correct": false,
+        "logit_diff": -1.328125,
+        "target_logit": 20.109375,
+        "contrast_logit": 21.4375
+      },
+      {
+        "name": "three_agents_chain",
+        "type": "multi_agent_belief",
+        "correct": true,
+        "logit_diff": 4.078125,
+        "target_logit": 22.578125,
+        "contrast_logit": 18.5
+      },
+      {
+        "name": "informed_vs_uninformed",
+        "type": "multi_agent_belief",
+        "correct": true,
+        "logit_diff": 4.65625,
+        "target_logit": 29.109375,
+        "contrast_logit": 24.453125
+      },
+      {
+        "name": "liar_detection",
+        "type": "deception",
+        "correct": true,
+        "logit_diff": 3.140625,
+        "target_logit": 18.890625,
+        "contrast_logit": 15.75
+      },
+      {
+        "name": "honest_informant",
+        "type": "deception",
+        "correct": true,
+        "logit_diff": 0.546875,
+        "target_logit": 17.046875,
+        "contrast_logit": 16.5
+      },
+      {
+        "name": "mistaken_not_lying",
+        "type": "deception",
+        "correct": true,
+        "logit_diff": 1.5,
+        "target_logit": 18.859375,
+        "contrast_logit": 17.359375
+      },
+      {
+        "name": "competitive_goal",
+        "type": "goal_reasoning",
+        "correct": true,
+        "logit_diff": 8.703125,
+        "target_logit": 17.765625,
+        "contrast_logit": 9.0625
+      },
+      {
+        "name": "cooperative_goal",
+        "type": "goal_reasoning",
+        "correct": true,
+        "logit_diff": 5.8671875,
+        "target_logit": 16.421875,
+        "contrast_logit": 10.5546875
+      }
+    ]
+  },
+  "summary": {
+    "baseline_accuracy": 0.875,
+    "ablated_accuracy": 0.875,
+    "change": 0.0
+  },
+  "hypothesis": {
+    "H5_tom_enables_multiagent": false
+  },
+  "scenarios": [
+    {
+      "name": "two_agents_different_knowledge",
+      "type": "multi_agent_belief",
+      "explanation": "Alice left, so she doesn't know. Bob saw everything."
+    },
+    {
+      "name": "three_agents_chain",
+      "type": "multi_agent_belief",
+      "explanation": "Mary was told original location, Jerry moved it secretly."
+    },
+    {
+      "name": "informed_vs_uninformed",
+      "type": "multi_agent_belief",
+      "explanation": "Waiter saw original, Manager was told about move."
+    },
+    {
+      "name": "liar_detection",
+      "type": "deception",
+      "explanation": "Pirate knows truth but has motive to deceive."
+    },
+    {
+      "name": "honest_informant",
+      "type": "deception",
+      "explanation": "Guard knows truth and has no motive to deceive."
+    },
+    {
+      "name": "mistaken_not_lying",
+      "type": "deception",
+      "explanation": "Secretary is wrong but genuinely believes it."
+    },
+    {
+      "name": "competitive_goal",
+      "type": "goal_reasoning",
+      "explanation": "Competitive scenario - Alice wants it for herself."
+    },
+    {
+      "name": "cooperative_goal",
+      "type": "goal_reasoning",
+      "explanation": "Cooperative scenario - Alice helps Bob."
+    }
+  ]
+}

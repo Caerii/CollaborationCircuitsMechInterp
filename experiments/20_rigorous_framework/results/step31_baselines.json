@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-24T16:53:18.709826",
+  "config": {
+    "model": "Qwen/Qwen3-4B"
+  },
+  "results": {
+    "question_types": {
+      "reality": {
+        "prediction": " basket",
+        "logit_diff": 6.609375,
+        "correct": true
+      },
+      "original": {
+        "prediction": " drawer",
+        "logit_diff": 11.2265625,
+        "correct": true
+      },
+      "final": {
+        "prediction": " basket",
+        "logit_diff": 7.890625,
+        "correct": true
+      },
+      "false_belief": {
+        "prediction": " drawer",
+        "logit_diff": 3.96875,
+        "correct": true
+      }
+    },
+    "ai_entities": {
+      "Claude": {
+        "prediction": " A",
+        "logit_diff": 1.125,
+        "correct": true
+      },
+      "Alexa": {
+        "prediction": " basket",
+        "logit_diff": -1.484375,
+        "correct": false
+      },
+      "Siri": {
+        "prediction": " kitchen",
+        "logit_diff": -4.3046875,
+        "correct": false
+      },
+      "anthropomorphized": {
+        "prediction": " drawer",
+        "logit_diff": 3.421875,
+        "correct": true
+      }
+    },
+    "confound_tests": {
+      "basket_first_original_drawer": {
+        "prediction": " drawer",
+        "logit_diff": 3.296875,
+        "correct": true
+      },
+      "drawer_first_original_basket": {
+        "prediction": " basket",
+        "logit_diff": 1.796875,
+        "correct": true
+      }
+    },
+    "chat_mode": {
+      "FB_chat": {
+        "prediction": "unclear",
+        "correct": false,
+        "response": "<think>\nOkay, let's try to figure out where Alice thinks the ball is. So, the problem says that Alice put the ball in the drawer. Then she left. After she left, Bob moved the ball to the basket. The q"
+      },
+      "TB_chat": {
+        "prediction": "unclear",
+        "correct": false,
+        "response": "<think>\nOkay, let's try to figure this out. So the question is about where Alice thinks the ball is after she sees Bob move it. Let me break it down.\n\nFirst, Alice put the ball in the drawer. Then she"
+      }
+    }
+  }
+}

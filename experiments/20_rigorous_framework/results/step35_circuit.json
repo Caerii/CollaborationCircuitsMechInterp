@@ -1,0 +1,243 @@
+{
+  "timestamp": "2025-12-24T18:21:07.615471",
+  "config": {
+    "mode": "chat",
+    "max_tokens": 300,
+    "n_scenarios": 4
+  },
+  "baseline": 1.0,
+  "ablations": {
+    "20": {
+      "0": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "8": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "16": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "24": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    "24": {
+      "0": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "8": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "16": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "24": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    "28": {
+      "0": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "8": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "16": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "24": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    "32": {
+      "0": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "8": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "16": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "24": {
+        "accuracy": 1.0,
+        "diff": 0.0,
+        "individual": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    }
+  },
+  "top_helpful": [
+    {
+      "layer": 20,
+      "head": 0,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 20,
+      "head": 8,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 20,
+      "head": 16,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 20,
+      "head": 24,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 24,
+      "head": 0,
+      "diff": 0.0,
+      "acc": 1.0
+    }
+  ],
+  "top_inhibitory": [
+    {
+      "layer": 28,
+      "head": 24,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 32,
+      "head": 0,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 32,
+      "head": 8,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 32,
+      "head": 16,
+      "diff": 0.0,
+      "acc": 1.0
+    },
+    {
+      "layer": 32,
+      "head": 24,
+      "diff": 0.0,
+      "acc": 1.0
+    }
+  ]
+}
