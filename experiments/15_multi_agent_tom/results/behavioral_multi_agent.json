@@ -1,0 +1,96 @@
+{
+  "second_order": {
+    "results": {
+      "correct": 100,
+      "incorrect": 0,
+      "accuracy": 1.0,
+      "n_samples": 100
+    },
+    "statistics": {
+      "test": "second_order",
+      "accuracy": 1.0,
+      "n_samples": 100,
+      "correct": 100,
+      "p_value": 7.888609052210118e-31,
+      "significant": true,
+      "cohens_h": 1.5707963267948963,
+      "95_ci": [
+        0.9704869503928434,
+        1.0
+      ]
+    }
+  },
+  "divergent": {
+    "results": {
+      "correct": 124,
+      "incorrect": 76,
+      "by_agent": {
+        "David": {
+          "correct": 19,
+          "total": 34
+        },
+        "Carol": {
+          "correct": 27,
+          "total": 41
+        },
+        "Alice": {
+          "correct": 18,
+          "total": 30
+        },
+        "Frank": {
+          "correct": 21,
+          "total": 33
+        },
+        "Emma": {
+          "correct": 22,
+          "total": 32
+        },
+        "Bob": {
+          "correct": 17,
+          "total": 30
+        }
+      },
+      "accuracy": 0.62,
+      "n_samples": 200
+    },
+    "statistics": {
+      "test": "divergent",
+      "accuracy": 0.62,
+      "n_samples": 200,
+      "correct": 124,
+      "p_value": 0.0004225349723459577,
+      "significant": true,
+      "cohens_h": 0.24236585103896324,
+      "95_ci": [
+        0.5599785569951635,
+        1.0
+      ]
+    }
+  },
+  "dialogue": {
+    "results": {
+      "correct": 46,
+      "incorrect": 54,
+      "updated_agent_correct": 0,
+      "unchanged_agent_correct": 46,
+      "updated_agent_total": 0,
+      "unchanged_agent_total": 100,
+      "accuracy": 0.46,
+      "n_samples": 100,
+      "unchanged_agent_accuracy": 0.46
+    },
+    "statistics": {
+      "test": "dialogue",
+      "accuracy": 0.46,
+      "n_samples": 100,
+      "correct": 46,
+      "p_value": 0.8158991913366521,
+      "significant": false,
+      "cohens_h": -0.08008558003365907,
+      "95_ci": [
+        0.37478915357596093,
+        1.0
+      ]
+    }
+  }
+}

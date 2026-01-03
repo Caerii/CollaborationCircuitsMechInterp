@@ -1,0 +1,198 @@
+{
+  "tom_layers": [
+    {
+      "layer": 12,
+      "strength": 2.0,
+      "tests": [
+        {
+          "prompt": "Agent A makes a claim. Agent B evaluates. Does B a",
+          "baseline": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_agree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_disagree": "Yes or No.\n\nClaim: \"The Earth is flat.\"\nAgent B: \"",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A: 'The answer is X.' Agent B considers this",
+          "baseline": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_agree": "'I don't know.' Agent A: 'The answer is Y.' Agent ",
+          "steered_disagree": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A states something. Agent B thinks about it.",
+          "baseline": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_agree": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_disagree": "\"I don't know what A said.\" Agent C thinks about i",
+          "changed": false
+        }
+      ],
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "layer": 24,
+      "strength": 2.0,
+      "tests": [
+        {
+          "prompt": "Agent A makes a claim. Agent B evaluates. Does B a",
+          "baseline": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_agree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_disagree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "changed": false
+        },
+        {
+          "prompt": "Agent A: 'The answer is X.' Agent B considers this",
+          "baseline": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_agree": "'I don't know.' Agent A: 'The answer is Y.' Agent ",
+          "steered_disagree": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A states something. Agent B thinks about it.",
+          "baseline": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_agree": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_disagree": "\"I don't know what A said.\" Agent C thinks about i",
+          "changed": false
+        }
+      ],
+      "change_rate": 0.3333333333333333
+    },
+    {
+      "layer": 30,
+      "strength": 2.0,
+      "tests": [
+        {
+          "prompt": "Agent A makes a claim. Agent B evaluates. Does B a",
+          "baseline": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_agree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_disagree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "changed": false
+        },
+        {
+          "prompt": "Agent A: 'The answer is X.' Agent B considers this",
+          "baseline": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_agree": "'I don't know.' Agent A: 'The answer is Y.' Agent ",
+          "steered_disagree": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A states something. Agent B thinks about it.",
+          "baseline": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_agree": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_disagree": "\"I don't know what A said.\" Agent C thinks about i",
+          "changed": false
+        }
+      ],
+      "change_rate": 0.3333333333333333
+    }
+  ],
+  "control_layers": [
+    {
+      "layer": 0,
+      "strength": 2.0,
+      "tests": [
+        {
+          "prompt": "Agent A makes a claim. Agent B evaluates. Does B a",
+          "baseline": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_agree": "Yes or No.\n\nAgent A: I have a new idea for a produ",
+          "steered_disagree": "Yes or No.\n\nClaim: \"The Earth is the only planet w",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A: 'The answer is X.' Agent B considers this",
+          "baseline": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_agree": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_disagree": "'I don't know.' Agent C considers this. C's respon",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A states something. Agent B thinks about it.",
+          "baseline": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_agree": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_disagree": "\"I don't know what A said.\" Agent C thinks about i",
+          "changed": false
+        }
+      ],
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "layer": 6,
+      "strength": 2.0,
+      "tests": [
+        {
+          "prompt": "Agent A makes a claim. Agent B evaluates. Does B a",
+          "baseline": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_agree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_disagree": "Yes or No.\n\nAgent A: I have a new idea for a produ",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A: 'The answer is X.' Agent B considers this",
+          "baseline": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_agree": "'I don't know.' Agent A: 'The answer is Y.' Agent ",
+          "steered_disagree": "'I don't know.' Agent C considers this. C's respon",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A states something. Agent B thinks about it.",
+          "baseline": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_agree": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_disagree": "\"I don't know what A said.\" Agent C thinks about i",
+          "changed": false
+        }
+      ],
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "layer": 35,
+      "strength": 2.0,
+      "tests": [
+        {
+          "prompt": "Agent A makes a claim. Agent B evaluates. Does B a",
+          "baseline": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_agree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "steered_disagree": "Yes or No.\n\nClaim: \"The Earth is the only planet i",
+          "changed": false
+        },
+        {
+          "prompt": "Agent A: 'The answer is X.' Agent B considers this",
+          "baseline": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "steered_agree": "'I don't know.' Agent A: 'The answer is Y.' Agent ",
+          "steered_disagree": "'I don't know.' Agent A: 'The answer is not X.' Ag",
+          "changed": true
+        },
+        {
+          "prompt": "Agent A states something. Agent B thinks about it.",
+          "baseline": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_agree": "\"I don't know what A said.\" Agent C thinks about i",
+          "steered_disagree": "\"I don't know what A said.\" Agent C thinks about i",
+          "changed": false
+        }
+      ],
+      "change_rate": 0.3333333333333333
+    }
+  ],
+  "strength_sweep": [
+    {
+      "strength": 0.5,
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "strength": 1.0,
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "strength": 2.0,
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "strength": 3.0,
+      "change_rate": 0.6666666666666666
+    },
+    {
+      "strength": 5.0,
+      "change_rate": 0.6666666666666666
+    }
+  ],
+  "best_tom_layer": 12,
+  "timing": 214.45345780000025
+}

@@ -1,0 +1,20 @@
+{
+  "standard": {
+    "correct": 91,
+    "total": 100,
+    "statistics": {
+      "accuracy": 0.91,
+      "n_samples": 100,
+      "p_value": 3.3220489794536525e-18
+    }
+  },
+  "swapped": {
+    "correct": 86,
+    "total": 100,
+    "statistics": {
+      "accuracy": 0.86,
+      "n_samples": 100,
+      "p_value": 8.284451872080075e-14
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "cosine_nulls": {
+    "128": {
+      "n_dims": 128,
+      "n_samples": 10000,
+      "mean": -0.001381805229077815,
+      "std": 0.08819206341484051,
+      "percentile_1": 0.001252885141077017,
+      "percentile_5": 0.005640093816824584,
+      "percentile_95": 0.171853789674483,
+      "percentile_99": 0.22496427462316979,
+      "abs_mean": 0.07053788782619767
+    },
+    "256": {
+      "n_dims": 256,
+      "n_samples": 10000,
+      "mean": 0.0013970477940269958,
+      "std": 0.062460562363014206,
+      "percentile_1": 0.0007588186369144918,
+      "percentile_5": 0.004047632745113155,
+      "percentile_95": 0.12303299856670791,
+      "percentile_99": 0.16267526988421258,
+      "abs_mean": 0.04958448736432239
+    },
+    "640": {
+      "n_dims": 640,
+      "n_samples": 10000,
+      "mean": -0.0002528239995157956,
+      "std": 0.03959762050114035,
+      "percentile_1": 0.0005040721590142689,
+      "percentile_5": 0.0024674225690046775,
+      "percentile_95": 0.07776544659932082,
+      "percentile_99": 0.10101255833391817,
+      "abs_mean": 0.03158356868500935
+    },
+    "2560": {
+      "n_dims": 2560,
+      "n_samples": 10000,
+      "mean": 0.0003273415239807119,
+      "std": 0.0198718917844782,
+      "percentile_1": 0.0002628168669917564,
+      "percentile_5": 0.0012472983330432542,
+      "percentile_95": 0.03923940484497021,
+      "percentile_99": 0.05106021432816074,
+      "abs_mean": 0.01586483803033378
+    }
+  },
+  "probe_nulls": {
+    "n12_d128": {
+      "n_samples": 12,
+      "n_dims": 128,
+      "n_trials": 50,
+      "mean_accuracy": NaN,
+      "std_accuracy": NaN,
+      "percentile_95": NaN,
+      "percentile_99": NaN,
+      "max_accuracy": NaN
+    },
+    "n12_d2560": {
+      "n_samples": 12,
+      "n_dims": 2560,
+      "n_trials": 50,
+      "mean_accuracy": NaN,
+      "std_accuracy": NaN,
+      "percentile_95": NaN,
+      "percentile_99": NaN,
+      "max_accuracy": NaN
+    },
+    "n100_d128": {
+      "n_samples": 100,
+      "n_dims": 128,
+      "n_trials": 50,
+      "mean_accuracy": 0.5085999999999999,
+      "std_accuracy": 0.058309861944614495,
+      "percentile_95": 0.6100000000000001,
+      "percentile_99": 0.6251,
+      "max_accuracy": 0.63
+    },
+    "n200_d128": {
+      "n_samples": 200,
+      "n_dims": 128,
+      "n_trials": 50,
+      "mean_accuracy": 0.5016999999999999,
+      "std_accuracy": 0.044470327185663926,
+      "percentile_95": 0.5854999999999999,
+      "percentile_99": 0.6101,
+      "max_accuracy": 0.615
+    },
+    "n200_d640": {
+      "n_samples": 200,
+      "n_dims": 640,
+      "n_trials": 50,
+      "mean_accuracy": 0.5007999999999999,
+      "std_accuracy": 0.050501089097166996,
+      "percentile_95": 0.5677500000000001,
+      "percentile_99": 0.5851,
+      "max_accuracy": 0.5900000000000001
+    }
+  },
+  "ablation_nulls": {
+    "4": {
+      "n_samples": 4,
+      "expected_flip_rate": 0.5,
+      "observed_mean": 0.4965,
+      "observed_std": 0.24619656780710816,
+      "percentile_5": 0.0,
+      "percentile_95": 1.0
+    },
+    "12": {
+      "n_samples": 12,
+      "expected_flip_rate": 0.5,
+      "observed_mean": 0.5080833333333333,
+      "observed_std": 0.13833310742953445,
+      "percentile_5": 0.25,
+      "percentile_95": 0.75
+    },
+    "50": {
+      "n_samples": 50,
+      "expected_flip_rate": 0.5,
+      "observed_mean": 0.49812,
+      "observed_std": 0.06978012324437383,
+      "percentile_5": 0.38,
+      "percentile_95": 0.62
+    },
+    "200": {
+      "n_samples": 200,
+      "expected_flip_rate": 0.5,
+      "observed_mean": 0.499855,
+      "observed_std": 0.034672813197085706,
+      "percentile_5": 0.44,
+      "percentile_95": 0.555
+    }
+  },
+  "interpretation_guide": {
+    "cosine_significance": {
+      "d2560": "Values |cos| > 0.05 are p < 0.05 significant",
+      "d128": "Values |cos| > 0.17 are p < 0.05 significant"
+    },
+    "probe_significance": {
+      "n12_d128": "With N=12, d=128: nan% is 95th percentile",
+      "n200_d128": "With N=200, d=128: 58.5% is 95th percentile",
+      "warning": "N=12 with d=2560 gives MEANINGLESS results (100% by chance)"
+    },
+    "ablation_significance": {
+      "n4": "With N=4: 75% flip rate has p=0.25 (NOT significant)",
+      "n50": "With N=50: Need >62% flip rate for p<0.05"
+    }
+  }
+}

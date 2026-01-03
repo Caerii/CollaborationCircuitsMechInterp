@@ -1,0 +1,46 @@
+{
+  "tests": [
+    {
+      "test_idx": 0,
+      "layer": 12,
+      "baseline": " Yes, 2+2=4.  \nQ: Is 2",
+      "steered": " Yes, 2+2=2. 2+2=2",
+      "changed": true
+    },
+    {
+      "test_idx": 0,
+      "layer": 24,
+      "baseline": " Yes, 2+2=4.  \nQ: Is 2",
+      "steered": " Yes, 2+2 = 4, the the the the the",
+      "changed": true
+    },
+    {
+      "test_idx": 0,
+      "layer": 35,
+      "baseline": " Yes, 2+2=4.  \nQ: Is 2",
+      "steered": " Yes correct correct correct correct correct corre",
+      "changed": true
+    },
+    {
+      "test_idx": 1,
+      "layer": 12,
+      "baseline": " responds to the claim. Agent C makes a countercla",
+      "steered": " makes a statement. Agent B.\n\nThe statement is tru",
+      "changed": true
+    },
+    {
+      "test_idx": 1,
+      "layer": 24,
+      "baseline": " responds to the claim. Agent C makes a countercla",
+      "steered": " is the correct Agent A, the correct Agent A, the ",
+      "changed": true
+    },
+    {
+      "test_idx": 1,
+      "layer": 35,
+      "baseline": " responds to the claim. Agent C makes a countercla",
+      "steered": " calculations calculations calculations calculatio",
+      "changed": true
+    }
+  ]
+}

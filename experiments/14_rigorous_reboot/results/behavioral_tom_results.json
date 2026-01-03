@@ -1,0 +1,13 @@
+{
+  "false_belief": {
+    "summary": {
+      "belief_rate": 0.81,
+      "reality_rate": 0.19,
+      "n_samples": 200
+    },
+    "statistics": {
+      "n_samples": 200,
+      "belief_wins": 162,
+      "belief_rate": 0.81,
+      "p_value": 9.921850443705584e-20,
+      "significant_05": 

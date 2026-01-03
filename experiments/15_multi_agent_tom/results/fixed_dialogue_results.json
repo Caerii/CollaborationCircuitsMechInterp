@@ -1,0 +1,33 @@
+{
+  "overall": {
+    "correct": 50,
+    "incorrect": 50
+  },
+  "updated_agent": {
+    "correct": 1,
+    "total": 50
+  },
+  "unchanged_agent": {
+    "correct": 49,
+    "total": 50
+  },
+  "statistics": {
+    "overall": {
+      "n_samples": 100,
+      "correct": 50,
+      "accuracy": 0.5,
+      "p_value": 0.5397946186935895,
+      "significant": 0
+    },
+    "updated_agent": {
+      "accuracy": 0.02,
+      "n_samples": 50,
+      "correct": 1
+    },
+    "unchanged_agent": {
+      "accuracy": 0.98,
+      "n_samples": 50,
+      "correct": 49
+    }
+  }
+}

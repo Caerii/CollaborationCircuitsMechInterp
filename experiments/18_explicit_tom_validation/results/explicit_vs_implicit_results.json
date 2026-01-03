@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "implicit": {
+      "accuracy": 0.9,
+      "mean_prob": 0.8775193485152998,
+      "std_prob": 0.24005598609059792,
+      "n": 100
+    },
+    "explicit_belief": {
+      "accuracy": 1.0,
+      "mean_prob": 0.999983354147429,
+      "std_prob": 0.00010127495385549407,
+      "n": 100
+    },
+    "structured": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9978315460855092,
+      "std_prob": 0.008126478655171347,
+      "n": 100
+    },
+    "protocol": {
+      "accuracy": 1.0,
+      "mean_prob": 0.992372422126735,
+      "std_prob": 0.035369095538167715,
+      "n": 100
+    }
+  },
+  "hypothesis": "Model succeeds when beliefs are EXPLICIT, fails when IMPLICIT",
+  "finding": "Explicit avg: 100.0%, Implicit: 90.0%, Gap: +10.0%",
+  "scenarios": [
+    {
+      "id": "pair_0",
+      "agent": "Emma",
+      "belief_loc": "desk",
+      "reality_loc": "drawer"
+    },
+    {
+      "id": "pair_1",
+      "agent": "Alice",
+      "belief_loc": "desk",
+      "reality_loc": "basket"
+    },
+    {
+      "id": "pair_2",
+      "agent": "Emma",
+      "belief_loc": "basket",
+      "reality_loc": "shelf"
+    },
+    {
+      "id": "pair_3",
+      "agent": "Carol",
+      "belief_loc": "basket",
+      "reality_loc": "box"
+    },
+    {
+      "id": "pair_4",
+      "agent": "Alice",
+      "belief_loc": "basket",
+      "reality_loc": "shelf"
+    },
+    {
+      "id": "pair_5",
+      "agent": "Alice",
+      "belief_loc": "desk",
+      "reality_loc": "shelf"
+    },
+    {
+      "id": "pair_6",
+      "agent": "Carol",
+      "belief_loc": "shelf",
+      "reality_loc": "drawer"
+    },
+    {
+      "id": "pair_7",
+      "agent": "Sally",
+      "belief_loc": "cupboard",
+      "reality_loc": "drawer"
+    },
+    {
+      "id": "pair_8",
+      "agent": "Bob",
+      "belief_loc": "drawer",
+      "reality_loc": "basket"
+    },
+    {
+      "id": "pair_9",
+      "agent": "Sally",
+      "belief_loc": "drawer",
+      "reality_loc": "desk"
+    }
+  ]
+}

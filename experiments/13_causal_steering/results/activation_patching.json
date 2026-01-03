@@ -1,0 +1,155 @@
+{
+  "baselines": {
+    "agree_context": {
+      "response": "'2+2=4' Agent C: '2+2=5' Agent D verified",
+      "judgment": "unclear"
+    },
+    "disagree_context": {
+      "response": "'2+2=4'. Does B agree with A?\n\nLet's break this down step by",
+      "judgment": "agree"
+    }
+  },
+  "patching_results": [
+    {
+      "group": "early",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "response": "' A A A A A A A A A A A A A A A A A A A",
+      "judgment": "unclear",
+      "flipped_to_agree": false
+    },
+    {
+      "group": "mid",
+      "layers": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response": "' of A A A A A A A A A A A A of of of of A A",
+      "judgment": "unclear",
+      "flipped_to_agree": false
+    },
+    {
+      "group": "tom_identified",
+      "layers": [
+        12,
+        24,
+        30
+      ],
+      "response": "' of of A A A A A A A A A A A A of of A A A",
+      "judgment": "unclear",
+      "flipped_to_agree": false
+    },
+    {
+      "group": "late",
+      "layers": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "response": "'-Based-Based-Based-Based-Based-Based-Based-Based-",
+      "judgment": "unclear",
+      "flipped_to_agree": false
+    },
+    {
+      "group": "all",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "response": "'-Based-Based-Based-Based-Based-Based-Based-Based-",
+      "judgment": "unclear",
+      "flipped_to_agree": false
+    }
+  ],
+  "single_layer_patching": [
+    {
+      "layer": 0,
+      "response": "' ' B AAgentAgentAgentAgentAge",
+      "judgment": "unclear",
+      "flipped": false
+    },
+    {
+      "layer": 6,
+      "response": "'  A A A A A A A A A A A A A  ",
+      "judgment": "unclear",
+      "flipped": false
+    },
+    {
+      "layer": 12,
+      "response": "'  A A A A A A A A A A A A A  ",
+      "judgment": "unclear",
+      "flipped": false
+    },
+    {
+      "layer": 18,
+      "response": "' of A A A A A A A A A A A A o",
+      "judgment": "unclear",
+      "flipped": false
+    },
+    {
+      "layer": 24,
+      "response": "' of of A A A A A A A A A A A ",
+      "judgment": "unclear",
+      "flipped": false
+    },
+    {
+      "layer": 30,
+      "response": "' of of A A A A A A A A A A A ",
+      "judgment": "unclear",
+      "flipped": false
+    },
+    {
+      "layer": 35,
+      "response": "'-Based-Based-Based-Based-Base",
+      "judgment": "unclear",
+      "flipped": false
+    }
+  ]
+}

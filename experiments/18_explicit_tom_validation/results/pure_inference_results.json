@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "pure_update": {
+      "accuracy": 0.17,
+      "mean_prob": 0.2367420174385256
+    },
+    "pure_unchanged": {
+      "accuracy": 0.98,
+      "mean_prob": 0.9503146449884662
+    },
+    "explicit_update": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999999882013358
+    },
+    "explicit_unchanged": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999159120696571
+    },
+    "dialogue_update": {
+      "accuracy": 0.07,
+      "mean_prob": 0.08972128311349538
+    },
+    "dialogue_unchanged": {
+      "accuracy": 0.95,
+      "mean_prob": 0.9163658343194393
+    }
+  },
+  "key_finding": "Pure update: 17.0%, Pure unchanged: 98.0%"
+}

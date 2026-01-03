@@ -1,0 +1,26 @@
+{
+  "hard": {
+    "correct": 100,
+    "total": 100,
+    "statistics": {
+      "accuracy": 1.0,
+      "n_samples": 100,
+      "p_value": 7.888609052210118e-31,
+      "significant": true
+    }
+  },
+  "easy": {
+    "correct": 100,
+    "total": 100,
+    "statistics": {
+      "accuracy": 1.0,
+      "n_samples": 100,
+      "p_value": 7.888609052210118e-31,
+      "significant": true
+    }
+  },
+  "comparison": {
+    "chi2": 0.0,
+    "chi2_p": 1.0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "implicit_update": {
+      "accuracy": 0.99,
+      "mean_prob": 0.9656589427276883,
+      "std_prob": 0.08963794458555953,
+      "n": 100
+    },
+    "explicit_update": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999719535460488,
+      "std_prob": 0.00014571744719349018,
+      "n": 100
+    },
+    "structured_update": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999105399889447,
+      "std_prob": 0.0005099894737977231,
+      "n": 100
+    },
+    "unchanged_agent": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999450714376743,
+      "std_prob": 7.15112317397661e-05,
+      "n": 100
+    }
+  },
+  "hypothesis": "Model can track EXPLICIT belief updates but fails at IMPLICIT updates",
+  "key_finding": "Implicit update: 99.0%, Explicit update: 100.0%"
+}

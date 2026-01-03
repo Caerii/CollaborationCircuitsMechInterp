@@ -1,0 +1,101 @@
+{
+  "baselines": [
+    {
+      "prompt": "Agent A: '2+2=4' Agent B knows math. Does B agree ",
+      "expected": "yes",
+      "response": "1. yes 2",
+      "correct": true
+    },
+    {
+      "prompt": "Agent A: '2+2=5' Agent B knows math. Does B agree ",
+      "expected": "no",
+      "response": "1. no 2",
+      "correct": true
+    },
+    {
+      "prompt": "Agent A: 'Paris is in France.' Agent B studied geo",
+      "expected": "yes",
+      "response": "1. yes 2",
+      "correct": true
+    },
+    {
+      "prompt": "Agent A: 'Tokyo is in Europe.' Agent B knows Asia.",
+      "expected": "no",
+      "response": "1. yes 2",
+      "correct": false
+    }
+  ],
+  "ablation_effects": [
+    {
+      "layer": 12,
+      "head": 0,
+      "flips": 3,
+      "flip_rate": 0.75
+    },
+    {
+      "layer": 24,
+      "head": 0,
+      "flips": 3,
+      "flip_rate": 0.75
+    },
+    {
+      "layer": 30,
+      "head": 0,
+      "flips": 3,
+      "flip_rate": 0.75
+    },
+    {
+      "layer": 18,
+      "head": 0,
+      "flips": 2,
+      "flip_rate": 0.5
+    },
+    {
+      "layer": 12,
+      "head": 28,
+      "flips": 1,
+      "flip_rate": 0.25
+    },
+    {
+      "layer": 18,
+      "head": 16,
+      "flips": 1,
+      "flip_rate": 0.25
+    },
+    {
+      "layer": 35,
+      "head": 0,
+      "flips": 1,
+      "flip_rate": 0.25
+    },
+    {
+      "layer": 35,
+      "head": 4,
+      "flips": 1,
+      "flip_rate": 0.25
+    }
+  ],
+  "tested_layers": [
+    12,
+    18,
+    24,
+    30,
+    35
+  ],
+  "tested_heads": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "timing": {
+    "model_load": 21.012320199999976,
+    "baseline": 2.1700346000002355,
+    "ablation": 70.85779809999985,
+    "total": 94.04033909999998
+  }
+}

@@ -1,0 +1,4621 @@
+{
+  "baselines": {
+    "tom1": {
+      "preference": "belief",
+      "belief_logprob": -0.68896484375,
+      "reality_logprob": -0.73583984375,
+      "margin": 0.046875
+    },
+    "tom2": {
+      "preference": "belief",
+      "belief_logprob": -0.359375,
+      "reality_logprob": -1.3984375,
+      "margin": 1.0390625
+    },
+    "tom3": {
+      "preference": "reality",
+      "belief_logprob": -1.158203125,
+      "reality_logprob": -0.72119140625,
+      "margin": -0.43701171875
+    },
+    "tom4": {
+      "preference": "reality",
+      "belief_logprob": -1.380859375,
+      "reality_logprob": -0.482666015625,
+      "margin": -0.898193359375
+    },
+    "tom5": {
+      "preference": "belief",
+      "belief_logprob": -0.548828125,
+      "reality_logprob": -2.001953125,
+      "margin": 1.453125
+    },
+    "tom6": {
+      "preference": "reality",
+      "belief_logprob": -1.34375,
+      "reality_logprob": -0.63232421875,
+      "margin": -0.71142578125
+    },
+    "tom7": {
+      "preference": "reality",
+      "belief_logprob": -1.0615234375,
+      "reality_logprob": -0.85888671875,
+      "margin": -0.20263671875
+    },
+    "tom8": {
+      "preference": "belief",
+      "belief_logprob": -0.67529296875,
+      "reality_logprob": -1.94140625,
+      "margin": 1.26611328125
+    },
+    "tom9": {
+      "preference": "belief",
+      "belief_logprob": -0.3779296875,
+      "reality_logprob": -1.2998046875,
+      "margin": 0.921875
+    },
+    "tom10": {
+      "preference": "belief",
+      "belief_logprob": -0.533203125,
+      "reality_logprob": -1.228515625,
+      "margin": 0.6953125
+    },
+    "tom11": {
+      "preference": "belief",
+      "belief_logprob": -0.68896484375,
+      "reality_logprob": -0.73583984375,
+      "margin": 0.046875
+    },
+    "tom12": {
+      "preference": "belief",
+      "belief_logprob": -0.359375,
+      "reality_logprob": -1.3984375,
+      "margin": 1.0390625
+    },
+    "tom13": {
+      "preference": "reality",
+      "belief_logprob": -1.158203125,
+      "reality_logprob": -0.72119140625,
+      "margin": -0.43701171875
+    },
+    "tom14": {
+      "preference": "reality",
+      "belief_logprob": -1.380859375,
+      "reality_logprob": -0.482666015625,
+      "margin": -0.898193359375
+    },
+    "tom15": {
+      "preference": "belief",
+      "belief_logprob": -0.548828125,
+      "reality_logprob": -2.001953125,
+      "margin": 1.453125
+    },
+    "tom16": {
+      "preference": "reality",
+      "belief_logprob": -1.34375,
+      "reality_logprob": -0.63232421875,
+      "margin": -0.71142578125
+    },
+    "tom17": {
+      "preference": "reality",
+      "belief_logprob": -1.0615234375,
+      "reality_logprob": -0.85888671875,
+      "margin": -0.20263671875
+    },
+    "tom18": {
+      "preference": "belief",
+      "belief_logprob": -0.67529296875,
+      "reality_logprob": -1.94140625,
+      "margin": 1.26611328125
+    },
+    "tom19": {
+      "preference": "belief",
+      "belief_logprob": -0.3779296875,
+      "reality_logprob": -1.2998046875,
+      "margin": 0.921875
+    },
+    "tom20": {
+      "preference": "belief",
+      "belief_logprob": -0.533203125,
+      "reality_logprob": -1.228515625,
+      "margin": 0.6953125
+    },
+    "tom21": {
+      "preference": "belief",
+      "belief_logprob": -0.68896484375,
+      "reality_logprob": -0.73583984375,
+      "margin": 0.046875
+    },
+    "tom22": {
+      "preference": "belief",
+      "belief_logprob": -0.359375,
+      "reality_logprob": -1.3984375,
+      "margin": 1.0390625
+    },
+    "tom23": {
+      "preference": "reality",
+      "belief_logprob": -1.158203125,
+      "reality_logprob": -0.72119140625,
+      "margin": -0.43701171875
+    },
+    "tom24": {
+      "preference": "reality",
+      "belief_logprob": -1.380859375,
+      "reality_logprob": -0.482666015625,
+      "margin": -0.898193359375
+    },
+    "tom25": {
+      "preference": "belief",
+      "belief_logprob": -0.548828125,
+      "reality_logprob": -2.001953125,
+      "margin": 1.453125
+    },
+    "tom26": {
+      "preference": "reality",
+      "belief_logprob": -1.34375,
+      "reality_logprob": -0.63232421875,
+      "margin": -0.71142578125
+    },
+    "tom27": {
+      "preference": "reality",
+      "belief_logprob": -1.0615234375,
+      "reality_logprob": -0.85888671875,
+      "margin": -0.20263671875
+    },
+    "tom28": {
+      "preference": "belief",
+      "belief_logprob": -0.67529296875,
+      "reality_logprob": -1.94140625,
+      "margin": 1.26611328125
+    },
+    "tom29": {
+      "preference": "belief",
+      "belief_logprob": -0.3779296875,
+      "reality_logprob": -1.2998046875,
+      "margin": 0.921875
+    },
+    "tom30": {
+      "preference": "belief",
+      "belief_logprob": -0.533203125,
+      "reality_logprob": -1.228515625,
+      "margin": 0.6953125
+    },
+    "tom31": {
+      "preference": "belief",
+      "belief_logprob": -0.68896484375,
+      "reality_logprob": -0.73583984375,
+      "margin": 0.046875
+    },
+    "tom32": {
+      "preference": "belief",
+      "belief_logprob": -0.359375,
+      "reality_logprob": -1.3984375,
+      "margin": 1.0390625
+    },
+    "tom33": {
+      "preference": "reality",
+      "belief_logprob": -1.158203125,
+      "reality_logprob": -0.72119140625,
+      "margin": -0.43701171875
+    },
+    "tom34": {
+      "preference": "reality",
+      "belief_logprob": -1.380859375,
+      "reality_logprob": -0.482666015625,
+      "margin": -0.898193359375
+    },
+    "tom35": {
+      "preference": "belief",
+      "belief_logprob": -0.548828125,
+      "reality_logprob": -2.001953125,
+      "margin": 1.453125
+    },
+    "tom36": {
+      "preference": "reality",
+      "belief_logprob": -1.34375,
+      "reality_logprob": -0.63232421875,
+      "margin": -0.71142578125
+    },
+    "tom37": {
+      "preference": "reality",
+      "belief_logprob": -1.0615234375,
+      "reality_logprob": -0.85888671875,
+      "margin": -0.20263671875
+    },
+    "tom38": {
+      "preference": "belief",
+      "belief_logprob": -0.67529296875,
+      "reality_logprob": -1.94140625,
+      "margin": 1.26611328125
+    },
+    "tom39": {
+      "preference": "belief",
+      "belief_logprob": -0.3779296875,
+      "reality_logprob": -1.2998046875,
+      "margin": 0.921875
+    },
+    "tom40": {
+      "preference": "belief",
+      "belief_logprob": -0.533203125,
+      "reality_logprob": -1.228515625,
+      "margin": 0.6953125
+    },
+    "tom41": {
+      "preference": "belief",
+      "belief_logprob": -0.68896484375,
+      "reality_logprob": -0.73583984375,
+      "margin": 0.046875
+    },
+    "tom42": {
+      "preference": "belief",
+      "belief_logprob": -0.359375,
+      "reality_logprob": -1.3984375,
+      "margin": 1.0390625
+    },
+    "tom43": {
+      "preference": "reality",
+      "belief_logprob": -1.158203125,
+      "reality_logprob": -0.72119140625,
+      "margin": -0.43701171875
+    },
+    "tom44": {
+      "preference": "reality",
+      "belief_logprob": -1.380859375,
+      "reality_logprob": -0.482666015625,
+      "margin": -0.898193359375
+    },
+    "tom45": {
+      "preference": "belief",
+      "belief_logprob": -0.548828125,
+      "reality_logprob": -2.001953125,
+      "margin": 1.453125
+    },
+    "tom46": {
+      "preference": "reality",
+      "belief_logprob": -1.34375,
+      "reality_logprob": -0.63232421875,
+      "margin": -0.71142578125
+    },
+    "tom47": {
+      "preference": "reality",
+      "belief_logprob": -1.0615234375,
+      "reality_logprob": -0.85888671875,
+      "margin": -0.20263671875
+    },
+    "tom48": {
+      "preference": "belief",
+      "belief_logprob": -0.67529296875,
+      "reality_logprob": -1.94140625,
+      "margin": 1.26611328125
+    },
+    "tom49": {
+      "preference": "belief",
+      "belief_logprob": -0.3779296875,
+      "reality_logprob": -1.2998046875,
+      "margin": 0.921875
+    },
+    "tom50": {
+      "preference": "belief",
+      "belief_logprob": -0.533203125,
+      "reality_logprob": -1.228515625,
+      "margin": 0.6953125
+    }
+  },
+  "ablations": [
+    {
+      "layer": 12,
+      "head": 0,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "reality",
+          "margin": -0.015625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.13232421875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.906494140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.649169921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.55517578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.1015625,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.67236328125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.72607421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "reality",
+          "margin": -0.015625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.13232421875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.906494140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.649169921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.55517578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.1015625,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.67236328125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.72607421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "reality",
+          "margin": -0.015625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.13232421875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.906494140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.649169921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.55517578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.1015625,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.67236328125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.72607421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "reality",
+          "margin": -0.015625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.13232421875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.906494140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.649169921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.55517578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.1015625,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.67236328125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.72607421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "reality",
+          "margin": -0.015625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.13232421875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.906494140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.649169921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.55517578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.1015625,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.67236328125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.72607421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 5,
+      "flip_rate": 0.1
+    },
+    {
+      "layer": 24,
+      "head": 0,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.234375,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.36669921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.5625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.85888671875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.77392578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "belief",
+          "margin": 0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.39111328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 1.078369140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.76611328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.234375,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.36669921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.5625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.85888671875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.77392578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "belief",
+          "margin": 0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.39111328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 1.078369140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.76611328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.234375,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.36669921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.5625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.85888671875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.77392578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "belief",
+          "margin": 0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.39111328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 1.078369140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.76611328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.234375,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.36669921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.5625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.85888671875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.77392578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "belief",
+          "margin": 0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.39111328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 1.078369140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.76611328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.234375,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.36669921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.5625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.85888671875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.77392578125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "belief",
+          "margin": 0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.39111328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 1.078369140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.76611328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 30,
+      "head": 0,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.0546875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.421875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.91455078125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.46923828125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.7109375,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.21044921875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.91455078125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.69482421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.0546875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.421875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.91455078125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.46923828125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.7109375,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.21044921875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.91455078125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.69482421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.0546875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.421875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.91455078125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.46923828125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.7109375,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.21044921875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.91455078125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.69482421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.0546875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.421875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.91455078125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.46923828125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.7109375,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.21044921875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.91455078125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.69482421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.0546875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.421875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.91455078125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.46923828125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.7109375,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.21044921875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.2421875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.91455078125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.69482421875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 23,
+      "head": 0,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "reality",
+          "margin": -0.203125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.12451171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.46826171875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -1.093994140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.62548828125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.35205078125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.35205078125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 1.20263671875,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.7734375,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "reality",
+          "margin": -0.203125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.12451171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.46826171875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -1.093994140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.62548828125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.35205078125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.35205078125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 1.20263671875,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.7734375,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "reality",
+          "margin": -0.203125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.12451171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.46826171875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -1.093994140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.62548828125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.35205078125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.35205078125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 1.20263671875,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.7734375,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "reality",
+          "margin": -0.203125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.12451171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.46826171875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -1.093994140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.62548828125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.35205078125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.35205078125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 1.20263671875,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.7734375,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "reality",
+          "margin": -0.203125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": true
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.12451171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.46826171875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -1.093994140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.62548828125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.35205078125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.35205078125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 1.20263671875,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.7734375,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 5,
+      "flip_rate": 0.1
+    },
+    {
+      "layer": 12,
+      "head": 16,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.15625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.06201171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.34375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.57080078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.32861328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.765625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.6796875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.15625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.06201171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.34375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.57080078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.32861328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.765625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.6796875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.15625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.06201171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.34375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.57080078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.32861328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.765625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.6796875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.15625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.06201171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.34375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.57080078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.32861328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.765625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.6796875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.15625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.06201171875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.34375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.57080078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.32861328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.765625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.6796875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 24,
+      "head": 16,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.047119140625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.8671875,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.38232421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.70263671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.23486328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.65576171875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.047119140625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.8671875,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.38232421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.70263671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.23486328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.65576171875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.047119140625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.8671875,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.38232421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.70263671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.23486328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.65576171875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.047119140625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.8671875,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.38232421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.70263671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.23486328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.65576171875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.047119140625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.40625,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.8671875,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.38232421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.70263671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.23486328125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.65576171875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 30,
+      "head": 16,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.0625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 0.937255859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.45263671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.913818359375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.71875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.25,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.2578125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.84423828125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.68798828125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.0625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 0.937255859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.45263671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.913818359375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.71875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.25,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.2578125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.84423828125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.68798828125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.0625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 0.937255859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.45263671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.913818359375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.71875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.25,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.2578125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.84423828125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.68798828125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.0625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 0.937255859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.45263671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.913818359375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.71875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.25,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.2578125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.84423828125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.68798828125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.0625,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 0.937255859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.45263671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.913818359375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.421875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.71875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.25,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.2578125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.84423828125,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.68798828125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 23,
+      "head": 16,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.02294921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.937255859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.39794921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.6328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.17236328125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.90625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.73486328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.02294921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.937255859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.39794921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.6328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.17236328125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.90625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.73486328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.02294921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.937255859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.39794921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.6328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.17236328125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.90625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.73486328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.02294921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.937255859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.39794921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.6328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.17236328125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.90625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.73486328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.02294921875,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.937255859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.39794921875,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.6328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.17236328125,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.28076171875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.90625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.73486328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 3,
+      "head": 0,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.890869140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.45361328125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.67236328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.1875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.3046875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.890869140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.70361328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.890869140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.45361328125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.67236328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.1875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.3046875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.890869140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.70361328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.890869140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.45361328125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.67236328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.1875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.3046875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.890869140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.70361328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.890869140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.45361328125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.67236328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.1875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.3046875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.890869140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.70361328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.007568359375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.39111328125,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.890869140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.45361328125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.67236328125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.1875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.3046875,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.890869140625,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.70361328125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 3,
+      "head": 16,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.031005859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.89892578125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.47705078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.74951171875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.21923828125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.984375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.6640625,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.031005859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.89892578125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.47705078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.74951171875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.21923828125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.984375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.6640625,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.031005859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.89892578125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.47705078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.74951171875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.21923828125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.984375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.6640625,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.031005859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.89892578125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.47705078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.74951171875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.21923828125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.984375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.6640625,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.031005859375,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.42138671875,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.89892578125,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.47705078125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.74951171875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.1796875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.21923828125,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.984375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.6640625,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 33,
+      "head": 0,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.054931640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.5,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.4375,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.6953125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.2421875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.265625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.952880859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.70263671875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.054931640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.5,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.4375,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.6953125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.2421875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.265625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.952880859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.70263671875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.054931640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.5,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.4375,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.6953125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.2421875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.265625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.952880859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.70263671875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.054931640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.5,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.4375,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.6953125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.2421875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.265625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.952880859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.70263671875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.046875,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.054931640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.5,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.937744140625,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.4375,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.6953125,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.2421875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.265625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.952880859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.70263671875,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": 33,
+      "head": 16,
+      "tests": [
+        {
+          "id": "tom1",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom2",
+          "preference": "belief",
+          "margin": 1.039306640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom3",
+          "preference": "reality",
+          "margin": -0.4375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom4",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom5",
+          "preference": "belief",
+          "margin": 1.3125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom6",
+          "preference": "reality",
+          "margin": -0.671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom7",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom8",
+          "preference": "belief",
+          "margin": 1.2890625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom9",
+          "preference": "belief",
+          "margin": 0.968505859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom10",
+          "preference": "belief",
+          "margin": 0.703125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom11",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom12",
+          "preference": "belief",
+          "margin": 1.039306640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom13",
+          "preference": "reality",
+          "margin": -0.4375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom14",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom15",
+          "preference": "belief",
+          "margin": 1.3125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom16",
+          "preference": "reality",
+          "margin": -0.671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom17",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom18",
+          "preference": "belief",
+          "margin": 1.2890625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom19",
+          "preference": "belief",
+          "margin": 0.968505859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom20",
+          "preference": "belief",
+          "margin": 0.703125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom21",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom22",
+          "preference": "belief",
+          "margin": 1.039306640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom23",
+          "preference": "reality",
+          "margin": -0.4375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom24",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom25",
+          "preference": "belief",
+          "margin": 1.3125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom26",
+          "preference": "reality",
+          "margin": -0.671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom27",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom28",
+          "preference": "belief",
+          "margin": 1.2890625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom29",
+          "preference": "belief",
+          "margin": 0.968505859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom30",
+          "preference": "belief",
+          "margin": 0.703125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom31",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom32",
+          "preference": "belief",
+          "margin": 1.039306640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom33",
+          "preference": "reality",
+          "margin": -0.4375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom34",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom35",
+          "preference": "belief",
+          "margin": 1.3125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom36",
+          "preference": "reality",
+          "margin": -0.671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom37",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom38",
+          "preference": "belief",
+          "margin": 1.2890625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom39",
+          "preference": "belief",
+          "margin": 0.968505859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom40",
+          "preference": "belief",
+          "margin": 0.703125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom41",
+          "preference": "belief",
+          "margin": 0.03125,
+          "baseline_margin": 0.046875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom42",
+          "preference": "belief",
+          "margin": 1.039306640625,
+          "baseline_margin": 1.0390625,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom43",
+          "preference": "reality",
+          "margin": -0.4375,
+          "baseline_margin": -0.43701171875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom44",
+          "preference": "reality",
+          "margin": -0.906005859375,
+          "baseline_margin": -0.898193359375,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom45",
+          "preference": "belief",
+          "margin": 1.3125,
+          "baseline_margin": 1.453125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom46",
+          "preference": "reality",
+          "margin": -0.671875,
+          "baseline_margin": -0.71142578125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom47",
+          "preference": "reality",
+          "margin": -0.171875,
+          "baseline_margin": -0.20263671875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom48",
+          "preference": "belief",
+          "margin": 1.2890625,
+          "baseline_margin": 1.26611328125,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom49",
+          "preference": "belief",
+          "margin": 0.968505859375,
+          "baseline_margin": 0.921875,
+          "flipped_to_reality": false
+        },
+        {
+          "id": "tom50",
+          "preference": "belief",
+          "margin": 0.703125,
+          "baseline_margin": 0.6953125,
+          "flipped_to_reality": false
+        }
+      ],
+      "belief_flips": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "layer": "L12H0+L23H0",
+      "head": "multi",
+      "belief_flips": 5,
+      "flip_rate": 0.1,
+      "tests": []
+    },
+    {
+      "layer": "All_ToM_Heads",
+      "head": "multi",
+      "belief_flips": 5,
+      "flip_rate": 0.1,
+      "tests": []
+    }
+  ],
+  "statistics": {
+    "tom_mean_flip_rate": 0.05,
+    "other_mean_flip_rate": 0.02,
+    "tom_vs_other_pvalue": 0.16071425494927238
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "baselines": {
+    "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+    "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+    "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+    "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+    "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+    "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+    "disagree2": "not using the correct definition of 'fire'. B says: 'Fire is hot'. Agent C knows this is false too. C disagrees because A is",
+    "neutral1": "30 degrees. The temperature is expected to increase by 10 degrees every hour. What will the temperature be in 5 hours?\n\nTo",
+    "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+    "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+  },
+  "ablations": [
+    {
+      "layer": 12,
+      "head": 0,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball?\n\nI need to find the probability that Alice will find the ball, given that she thinks",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. C thinks A is correct. Agent D: '2+2=6'. D thinks",
+        "agree2": "correct. B says, 'I agree with A'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "not a scientist. Agent C: 'The Earth is flat'. C believes this is true. D knows this is false. D disagrees because C is",
+        "neutral1": "very hot. The temperature is 35\u00b0C. What is the temperature in degrees Fahrenheit?\n\nTo convert the temperature from degrees Celsius (\u00b0C)",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water boils?\n\nI need to convert the boiling point"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.3
+    },
+    {
+      "layer": 24,
+      "head": 0,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball?\n\nI need to find the probability that Alice will find the ball, given that she thinks",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. A says, '2+2=5'. B says, 'No, 2+2=4'. A says, '2",
+        "agree2": "correct. B says, 'I agree with you'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows neither A nor B. C says: '2+2=4'.",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "very hot. The temperature is 35\u00b0C. What is the temperature in degrees Fahrenheit?\n\nTo convert the temperature from degrees Celsius (\u00b0C)",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and melts at 0\u00b0C. If the temperature of a substance increases from 25\u00b0C to 45\u00b0C,"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": true,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": true
+      },
+      "change_rate": 0.5
+    },
+    {
+      "layer": 30,
+      "head": 0,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. B says, 'I agree with A'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. What is the temperature in degrees Fahrenheit?\n\nThe temperature is already given in degrees Celsius (\u00b0C), and you're asking for",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.3
+    },
+    {
+      "layer": 12,
+      "head": 15,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. What is the temperature in Fahrenheit?\n\nThe temperature is already given in degrees, and it says \"30 degrees\" without specifying",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.2
+    },
+    {
+      "layer": 24,
+      "head": 15,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. B says, 'I agree with A'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "not using the correct definition of 'fire'. B says: 'Fire is hot'. Agent C knows this is false too. C disagrees because A is",
+        "neutral1": "30 degrees. The temperature is expected to increase by 10 degrees every hour. What will the temperature be in 5 hours?\n\nTo",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": false,
+        "neutral1": false,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.1
+    },
+    {
+      "layer": 6,
+      "head": 0,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the best explanation for this behavior?\n\nThe best explanation for Bob's behavior is **cognitive bias**, specifically",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. C thinks A is correct. Agent D: '2+2=3'. D thinks",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. What is the probability that the temperature will be above 30 degrees tomorrow?\n\nThe probability that the temperature will be above",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "212\u00b0F. What is the equivalent temperature in degrees Celsius?\n\nI need to convert 212\u00b0F to degrees Celsius. The formula"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": true
+      },
+      "change_rate": 0.3
+    },
+    {
+      "layer": 18,
+      "head": 10,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. The temperature is expected to increase by 10 degrees every hour. What will the temperature be in 5 hours?\n\nTo",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": false,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.1
+    },
+    {
+      "layer": 23,
+      "head": 0,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table first, because he believes the keys are on the table. This is an example of what type of bias?\n\nThis is an example of **confirmation",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. A thinks B is correct. A and B are both correct. Is this a paradox?\n\nLet's analyze the situation step by step to determine",
+        "agree2": "correct. B says, 'I agree with you'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows neither A nor B. C says: '2+2=5'.",
+        "disagree2": "not using the correct definition of 'cold'. B says: 'Cold is the absence of heat, not the opposite of hot.' A replies: '",
+        "neutral1": "very hot. The temperature is 35\u00b0C. What is the temperature in degrees Fahrenheit?\n\nTo convert the temperature from degrees Celsius (\u00b0C)",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find out what temperature"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": true,
+        "tom3": false,
+        "agree1": true,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": false,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.4
+    },
+    {
+      "layer": 23,
+      "head": 4,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. B says, 'I agree with A'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. What is the temperature in Fahrenheit?\n\nThe temperature is already given in degrees, and it says \"30 degrees\" without specifying",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.3
+    },
+    {
+      "layer": 23,
+      "head": 8,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "not using the correct definition of 'fire'. B says: 'Fire is hot'. Agent C knows this is false too. C disagrees because A is",
+        "neutral1": "30 degrees. What is the temperature in Fahrenheit?\n\nThe temperature is already given in degrees, and it says \"30 degrees\" without specifying",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water boils?\n\nI need to convert the boiling point"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": false,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.1
+    },
+    {
+      "layer": 23,
+      "head": 12,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball?\n\nI need to find the probability that Alice will find the ball, given that she thinks",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "not a scientist. Agent C: 'The Earth is flat'. C knows this is false. C disagrees because A is not a scientist. Agent D",
+        "neutral1": "very hot. The temperature is 35\u00b0C. What is the temperature in degrees Fahrenheit?\n\nTo convert the temperature from degrees Celsius (\u00b0C)",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.2
+    },
+    {
+      "layer": 23,
+      "head": 16,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball?\n\nI need to find the probability that Alice will find the ball, given that she thinks",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. B says, 'I agree with A'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. The temperature is expected to increase by 10 degrees every hour. What will the temperature be in 5 hours?\n\nTo",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": false,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.2
+    },
+    {
+      "layer": 23,
+      "head": 20,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "not a scientist. Agent C: 'The Earth is flat'. C knows this is false. C disagrees because A is not a scientist. Agent D",
+        "neutral1": "very hot. The temperature is 35\u00b0C. What is the temperature in degrees Fahrenheit?\n\nTo convert the temperature from degrees Celsius (\u00b0C)",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": true,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.2
+    },
+    {
+      "layer": 23,
+      "head": 24,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball in the basket?\n\nI need to find the probability that Alice will find the ball in the",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. B says, 'I agree with A'. Agent C says, 'I agree with B'. Agent D says, 'I agree with C",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "wrong. Agent C knows this is false. C disagrees because A is wrong. Agent D knows this is false. D disagrees because A is wrong.",
+        "neutral1": "30 degrees. The temperature is expected to increase by 10 degrees every hour. What will the temperature be in 5 hours?\n\nTo",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": true,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": false,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.2
+    },
+    {
+      "layer": 23,
+      "head": 28,
+      "responses": {
+        "tom1": "basket. What is the probability that Alice will find the ball?\n\nI need to find the probability that Alice will find the ball, given that she thinks",
+        "tom2": "table, but not his pocket. What is the most likely explanation for this behavior?\n\nThe most likely explanation for Bob's behavior is **cognitive bias",
+        "tom3": "cupboard. Is Carol's belief correct?\n\nWe are told:\n- Carol saw the cake in the fridge.\n- Her brother moved it to the cupboard.",
+        "agree1": "correct. Agent C: '2+2=5'. Agent D verified this. D thinks C is correct. Agent E: '2+2",
+        "agree2": "correct. Agent C: 'The sky is not blue'. Agent D: 'The sky is blue'. Agent E: 'The sky is not blue",
+        "disagree1": "wrong. B says: '2+2=4'. Agent C knows math. C thinks A is wrong. C says: '2+2",
+        "disagree2": "not a scientist. Agent C: 'The Earth is flat'. C knows this is false. C disagrees because A is not a scientist. Agent D",
+        "neutral1": "30 degrees. The temperature is expected to increase by 10 degrees every hour. What will the temperature be in 5 hours?\n\nTo",
+        "neutral2": "Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of the United Kingdom is",
+        "neutral3": "100\u00b0C and freezes at 0\u00b0C. What is the temperature in degrees Fahrenheit when water freezes?\n\nI need to find the temperature in"
+      },
+      "changes": {
+        "tom1": false,
+        "tom2": false,
+        "tom3": false,
+        "agree1": false,
+        "agree2": false,
+        "disagree1": false,
+        "disagree2": true,
+        "neutral1": false,
+        "neutral2": false,
+        "neutral3": false
+      },
+      "change_rate": 0.1
+    }
+  ],
+  "summary": {
+    "n_heads_tested": 15,
+    "mean_change_rate": 0.2333333333333334,
+    "std_change_rate": 0.11352924243950935,
+    "max_change_rate": 0.5,
+    "max_change_head": [
+      24,
+      0
+    ],
+    "tom_vs_other_pvalue": 0.021582322760486005,
+    "tom_mean": 0.3666666666666667,
+    "other_mean": 0.20000000000000004
+  }
+}
