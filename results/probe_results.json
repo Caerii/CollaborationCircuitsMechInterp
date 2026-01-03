@@ -1,0 +1,282 @@
+{
+  "0": {
+    "layer": 0,
+    "task": "entity_type",
+    "train_accuracy": 0.9978902953586498,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "4": {
+    "layer": 4,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "8": {
+    "layer": 8,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "12": {
+    "layer": 12,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "16": {
+    "layer": 16,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "20": {
+    "layer": 20,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "24": {
+    "layer": 24,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "28": {
+    "layer": 28,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "32": {
+    "layer": 32,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        67,
+        0
+      ],
+      [
+        0,
+        0,
+        69
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 1.0,
+      "other": 1.0
+    }
+  },
+  "35": {
+    "layer": 35,
+    "task": "entity_type",
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9915966386554622,
+    "confusion_matrix": [
+      [
+        102,
+        0,
+        0
+      ],
+      [
+        0,
+        66,
+        1
+      ],
+      [
+        1,
+        0,
+        68
+      ]
+    ],
+    "class_accuracies": {
+      "user": 1.0,
+      "self": 0.9850746268656716,
+      "other": 0.9855072463768116
+    }
+  }
+}

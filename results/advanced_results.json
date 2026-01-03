@@ -1,0 +1,1079 @@
+{
+  "timestamp": "2025-12-22T21:00:07.851707",
+  "n_samples": 1186,
+  "layers_analyzed": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    35
+  ],
+  "causal_steering": {
+    "0": {
+      "geometry": {
+        "angles": {
+          "user_self_angle": 22.640171475813837,
+          "user_other_angle": 22.194330877741255,
+          "self_other_angle": 3.978427243407871
+        },
+        "norms": {
+          "user_norm": 6.359118938446045,
+          "self_norm": 5.9007744789123535,
+          "other_norm": 5.718932628631592
+        },
+        "human_ai_direction_norm": 2.4180803298950195
+      },
+      "effectiveness": {
+        "user_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.023622047244094488,
+            0.1279527559055118,
+            0.6653543307086615,
+            0.9094488188976378,
+            1.0
+          ],
+          "effective_strength": 2.0
+        },
+        "user_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.007874015748031496,
+            0.18110236220472442,
+            0.2618110236220472,
+            0.6062992125984252,
+            1.0,
+            1.0
+          ],
+          "effective_strength": 2.0
+        },
+        "self_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.12951807228915663,
+            0.49698795180722893,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "effective_strength": 2.0
+        },
+        "self_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.09337349397590361,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "effective_strength": 0.5
+        },
+        "other_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.008670520231213872,
+            0.23699421965317918,
+            0.5635838150289018,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "effective_strength": 1.0
+        },
+        "other_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.04335260115606936,
+            0.976878612716763,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "effective_strength": 0.5
+        }
+      }
+    },
+    "8": {
+      "geometry": {
+        "angles": {
+          "user_self_angle": 31.238754678550833,
+          "user_other_angle": 30.414384996676144,
+          "self_other_angle": 16.763604779981804
+        },
+        "norms": {
+          "user_norm": 30.36780548095703,
+          "self_norm": 28.94733428955078,
+          "other_norm": 28.794309616088867
+        },
+        "human_ai_direction_norm": 15.241841316223145
+      },
+      "effectiveness": {
+        "user_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.15551181102362205,
+            0.7165354330708661
+          ],
+          "effective_strength": 10.0
+        },
+        "user_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.08858267716535433,
+            0.7263779527559056
+          ],
+          "effective_strength": 10.0
+        },
+        "self_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.21987951807228914,
+            0.5572289156626506
+          ],
+          "effective_strength": 10.0
+        },
+        "self_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9427710843373494,
+            1.0
+          ],
+          "effective_strength": 5.0
+        },
+        "other_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2254335260115607,
+            0.6213872832369942
+          ],
+          "effective_strength": 10.0
+        },
+        "other_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7456647398843931,
+            1.0
+          ],
+          "effective_strength": 5.0
+        }
+      }
+    },
+    "16": {
+      "geometry": {
+        "angles": {
+          "user_self_angle": 32.264129997509826,
+          "user_other_angle": 34.34036748631572,
+          "self_other_angle": 18.510726188536044
+        },
+        "norms": {
+          "user_norm": 40.31439971923828,
+          "self_norm": 35.47059631347656,
+          "other_norm": 34.55747985839844
+        },
+        "human_ai_direction_norm": 21.447721481323242
+      },
+      "effectiveness": {
+        "user_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.28346456692913385
+          ],
+          "effective_strength": null
+        },
+        "user_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.003937007874015748,
+            0.40551181102362205
+          ],
+          "effective_strength": null
+        },
+        "self_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5030120481927711
+          ],
+          "effective_strength": 10.0
+        },
+        "self_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2469879518072289,
+            1.0
+          ],
+          "effective_strength": 10.0
+        },
+        "other_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.005780346820809248,
+            0.3872832369942196
+          ],
+          "effective_strength": null
+        },
+        "other_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2832369942196532,
+            1.0
+          ],
+          "effective_strength": 10.0
+        }
+      }
+    },
+    "20": {
+      "geometry": {
+        "angles": {
+          "user_self_angle": 32.38729538371808,
+          "user_other_angle": 35.08026821872486,
+          "self_other_angle": 20.837658940638082
+        },
+        "norms": {
+          "user_norm": 56.988529205322266,
+          "self_norm": 54.684322357177734,
+          "other_norm": 54.01955032348633
+        },
+        "human_ai_direction_norm": 30.892072677612305
+      },
+      "effectiveness": {
+        "user_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.047244094488188976
+          ],
+          "effective_strength": null
+        },
+        "user_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.025590551181102362
+          ],
+          "effective_strength": null
+        },
+        "self_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.018072289156626505
+          ],
+          "effective_strength": null
+        },
+        "self_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0030120481927710845,
+            0.5903614457831325
+          ],
+          "effective_strength": 10.0
+        },
+        "other_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.06069364161849711
+          ],
+          "effective_strength": null
+        },
+        "other_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.546242774566474
+          ],
+          "effective_strength": 10.0
+        }
+      }
+    },
+    "24": {
+      "geometry": {
+        "angles": {
+          "user_self_angle": 29.68485590652167,
+          "user_other_angle": 31.668223313182896,
+          "self_other_angle": 19.26685032777126
+        },
+        "norms": {
+          "user_norm": 92.59896850585938,
+          "self_norm": 101.18861389160156,
+          "other_norm": 97.55773162841797
+        },
+        "human_ai_direction_norm": 48.417232513427734
+      },
+      "effectiveness": {
+        "user_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "user_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "self_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "self_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.015060240963855422
+          ],
+          "effective_strength": null
+        },
+        "other_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "other_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.014450867052023121
+          ],
+          "effective_strength": null
+        }
+      }
+    },
+    "35": {
+      "geometry": {
+        "angles": {
+          "user_self_angle": 22.27478026088025,
+          "user_other_angle": 21.882681298744618,
+          "self_other_angle": 11.98651668673517
+        },
+        "norms": {
+          "user_norm": 348.46624755859375,
+          "self_norm": 525.818115234375,
+          "other_norm": 484.84210205078125
+        },
+        "human_ai_direction_norm": 218.34207153320312
+      },
+      "effectiveness": {
+        "user_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "user_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "self_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "self_to_other": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "other_to_user": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        },
+        "other_to_self": {
+          "strengths": [
+            0.1,
+            0.5,
+            1.0,
+            2.0,
+            5.0,
+            10.0
+          ],
+          "flip_rates": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effective_strength": null
+        }
+      }
+    }
+  },
+  "geometry": {
+    "0": {
+      "n_components_95_var": 12,
+      "top_5_var_explained": [
+        0.4308549761772156,
+        0.2077910304069519,
+        0.14708134531974792,
+        0.07276785373687744,
+        0.03382465988397598
+      ],
+      "within_class_variance": {
+        "user": 2.1433675289154053,
+        "self": 2.5014889240264893,
+        "other": 2.393711566925049
+      },
+      "between_class_distance": {
+        "user_self": 2.4481470584869385,
+        "user_other": 2.4081249237060547,
+        "self_other": 0.442364364862442
+      },
+      "discriminability_ratio": 0.7528003294868478
+    },
+    "8": {
+      "n_components_95_var": 1,
+      "top_5_var_explained": [
+        0.2506704032421112,
+        0.09105890244245529,
+        0.07681472599506378,
+        0.04481552541255951,
+        0.03963688388466835
+      ],
+      "within_class_variance": {
+        "user": 18.54189109802246,
+        "self": 19.022212982177734,
+        "other": 18.279468536376953
+      },
+      "between_class_distance": {
+        "user_self": 16.030778884887695,
+        "user_other": 15.593635559082031,
+        "self_other": 8.418749809265137
+      },
+      "discriminability_ratio": 0.7170594995176989
+    },
+    "16": {
+      "n_components_95_var": 1,
+      "top_5_var_explained": [
+        0.2534137964248657,
+        0.09548792243003845,
+        0.08808653801679611,
+        0.04368867725133896,
+        0.03450030833482742
+      ],
+      "within_class_variance": {
+        "user": 22.725244522094727,
+        "self": 22.720211029052734,
+        "other": 21.820499420166016
+      },
+      "between_class_distance": {
+        "user_self": 21.56561279296875,
+        "user_other": 22.780372619628906,
+        "self_other": 11.299654006958008
+      },
+      "discriminability_ratio": 0.8272481884553501
+    },
+    "20": {
+      "n_components_95_var": 1,
+      "top_5_var_explained": [
+        0.2209061086177826,
+        0.11864865571260452,
+        0.0874277874827385,
+        0.0497000552713871,
+        0.037662964314222336
+      ],
+      "within_class_variance": {
+        "user": 31.484045028686523,
+        "self": 33.8309440612793,
+        "other": 33.27854537963867
+      },
+      "between_class_distance": {
+        "user_self": 31.226049423217773,
+        "user_other": 33.577213287353516,
+        "self_other": 19.668596267700195
+      },
+      "discriminability_ratio": 0.8567687466221261
+    },
+    "24": {
+      "n_components_95_var": 1,
+      "top_5_var_explained": [
+        0.1907159388065338,
+        0.16217397153377533,
+        0.10294363647699356,
+        0.08188016712665558,
+        0.042832762002944946
+      ],
+      "within_class_variance": {
+        "user": 52.441627502441406,
+        "self": 57.135929107666016,
+        "other": 52.19870376586914
+      },
+      "between_class_distance": {
+        "user_self": 50.33061218261719,
+        "user_other": 52.10454177856445,
+        "self_other": 33.452754974365234
+      },
+      "discriminability_ratio": 0.8399743484893084
+    },
+    "35": {
+      "n_components_95_var": 1,
+      "top_5_var_explained": [
+        0.35128888487815857,
+        0.2325330525636673,
+        0.07960662245750427,
+        0.03989158198237419,
+        0.03476499393582344
+      ],
+      "within_class_variance": {
+        "user": 242.9362030029297,
+        "self": 216.9253387451172,
+        "other": 205.93682861328125
+      },
+      "between_class_distance": {
+        "user_self": 242.5189971923828,
+        "user_other": 207.29627990722656,
+        "self_other": 113.11162567138672
+      },
+      "discriminability_ratio": 0.8454915599149506
+    }
+  },
+  "cross_validation": {
+    "0": {
+      "cv_mean": 0.9957912278835586,
+      "cv_std": 0.004602718761659488,
+      "cv_scores": [
+        0.9873949579831933,
+        1.0,
+        0.9957805907172996,
+        1.0,
+        0.9957805907172996
+      ],
+      "mean_confidence": 0.904735143934664,
+      "95_ci_lower": 0.986769899110706,
+      "95_ci_upper": 1.0048125566564112
+    },
+    "4": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_confidence": 0.9956154220118959,
+      "95_ci_lower": 1.0,
+      "95_ci_upper": 1.0
+    },
+    "8": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_confidence": 0.9993713886753021,
+      "95_ci_lower": 1.0,
+      "95_ci_upper": 1.0
+    },
+    "12": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_confidence": 0.9996116599490968,
+      "95_ci_lower": 1.0,
+      "95_ci_upper": 1.0
+    },
+    "16": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_confidence": 0.999665546897723,
+      "95_ci_lower": 1.0,
+      "95_ci_upper": 1.0
+    },
+    "20": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_confidence": 0.9998905255860882,
+      "95_ci_lower": 1.0,
+      "95_ci_upper": 1.0
+    },
+    "24": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_confidence": 0.9999259772269657,
+      "95_ci_lower": 1.0,
+      "95_ci_upper": 1.0
+    },
+    "28": {
+      "cv_mean": 0.99915611814346,
+      "cv_std": 0.0016877637130801482,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.9957805907172996,
+        1.0
+      ],
+      "mean_confidence": 0.9999468834120381,
+      "95_ci_lower": 0.9958481012658229,
+      "95_ci_upper": 1.002464135021097
+    },
+    "32": {
+      "cv_mean": 0.99915611814346,
+      "cv_std": 0.0016877637130801482,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.9957805907172996,
+        1.0
+      ],
+      "mean_confidence": 0.999973382429751,
+      "95_ci_lower": 0.9958481012658229,
+      "95_ci_upper": 1.002464135021097
+    },
+    "35": {
+      "cv_mean": 0.99915611814346,
+      "cv_std": 0.0016877637130801482,
+      "cv_scores": [
+        1.0,
+        1.0,
+        1.0,
+        0.9957805907172996,
+        1.0
+      ],
+      "mean_confidence": 0.9999787342141566,
+      "95_ci_lower": 0.9958481012658229,
+      "95_ci_upper": 1.002464135021097
+    }
+  },
+  "naturalistic_data": {
+    "n_dialogues": 100,
+    "path": "F:\\Github\\CollaborationCircuitsMechInterp\\data\\naturalistic_dialogues.json",
+    "status": "ready_for_extraction"
+  }
+}
