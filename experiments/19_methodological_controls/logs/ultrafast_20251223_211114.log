@@ -1,0 +1,42 @@
+2025-12-23 21:11:14,939 | INFO | Starting at 2025-12-23 21:11:14.936991
+2025-12-23 21:11:14,939 | INFO | Configuration:
+2025-12-23 21:11:14,939 | INFO |   BATCH_SIZE: 16
+2025-12-23 21:11:14,939 | INFO |   SCENARIOS_PER_VERB: 20
+2025-12-23 21:11:14,939 | INFO |   MAX_VERBS: ALL
+2025-12-23 21:11:14,939 | INFO | ======================================================================
+2025-12-23 21:11:14,939 | INFO | ULTRA-FAST GARGANTUAN SWEEP
+2025-12-23 21:11:14,939 | INFO | ======================================================================
+2025-12-23 21:11:14,939 | INFO | 
+[PHASE 1] Loading model with SDPA attention...
+2025-12-23 21:11:18,724 | INFO | We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 21:11:18,782 | ERROR | Error: [Errno 22] Invalid argument
+Traceback (most recent call last):
+  File "F:\Github\CollaborationCircuitsMechInterp\experiments\19_methodological_controls\scripts\step19_ultrafast_sweep.py", line 522, in <module>
+    results = run_ultrafast_sweep()
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\experiments\19_methodological_controls\scripts\step19_ultrafast_sweep.py", line 346, in run_ultrafast_sweep
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 604, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\transformers\modeling_utils.py", line 277, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\transformers\modeling_utils.py", line 5048, in from_pretrained
+    ) = cls._load_pretrained_model(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\transformers\modeling_utils.py", line 5465, in _load_pretrained_model
+    args_list = logging.tqdm(args_list, desc="Loading checkpoint shards")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\transformers\utils\logging.py", line 376, in __call__
+    return tqdm_lib.tqdm(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\tqdm\asyncio.py", line 24, in __init__
+    super().__init__(iterable, *args, **kwargs)
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\tqdm\std.py", line 1096, in __init__
+    self.sp = self.status_printer(self.fp)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Github\CollaborationCircuitsMechInterp\.venv\Lib\site-packages\tqdm\std.py", line 448, in status_printer
+    getattr(sys.stderr, 'flush', lambda: None)()
+OSError: [Errno 22] Invalid argument

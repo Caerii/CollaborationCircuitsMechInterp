@@ -1,0 +1,179 @@
+{
+  "Qwen3-4B": {
+    "model": "Qwen3-4B",
+    "conditions": {
+      "finite_clause": {
+        "accuracy": 1.0,
+        "ci_lower": 0.8388748419471806,
+        "ci_upper": 1.0,
+        "n_correct": 20,
+        "n_total": 20,
+        "mean_diff": 1.44375,
+        "std_diff": 0.9066055337080179
+      },
+      "infinitive_clause": {
+        "accuracy": 1.0,
+        "ci_lower": 0.8388748419471806,
+        "ci_upper": 1.0,
+        "n_correct": 20,
+        "n_total": 20,
+        "mean_diff": 3.7203125,
+        "std_diff": 1.421534986818826
+      },
+      "action_looks": {
+        "accuracy": 1.0,
+        "ci_lower": 0.8388748419471806,
+        "ci_upper": 1.0,
+        "n_correct": 20,
+        "n_total": 20,
+        "mean_diff": 2.29375,
+        "std_diff": 2.192948571558394
+      },
+      "action_searches": {
+        "accuracy": 1.0,
+        "ci_lower": 0.8388748419471806,
+        "ci_upper": 1.0,
+        "n_correct": 20,
+        "n_total": 20,
+        "mean_diff": 2.321875,
+        "std_diff": 2.066133163665885
+      },
+      "state_believes": {
+        "accuracy": 1.0,
+        "ci_lower": 0.8388748419471806,
+        "ci_upper": 1.0,
+        "n_correct": 20,
+        "n_total": 20,
+        "mean_diff": 3.34375,
+        "std_diff": 0.8571847087996846
+      },
+      "state_expects": {
+        "accuracy": 1.0,
+        "ci_lower": 0.8388748419471806,
+        "ci_upper": 1.0,
+        "n_correct": 20,
+        "n_total": 20,
+        "mean_diff": 6.915625,
+        "std_diff": 2.731853301503853
+      }
+    }
+  },
+  "Qwen2.5-1.5B": {
+    "model": "Qwen2.5-1.5B",
+    "conditions": {
+      "finite_clause": {
+        "accuracy": 0.6,
+        "ci_lower": 0.38658150076225317,
+        "ci_upper": 0.7811934676271829,
+        "n_correct": 12,
+        "n_total": 20,
+        "mean_diff": 0.2875,
+        "std_diff": 0.8114536531743509
+      },
+      "infinitive_clause": {
+        "accuracy": 0.8,
+        "ci_lower": 0.5839825677481064,
+        "ci_upper": 0.919342337420202,
+        "n_correct": 16,
+        "n_total": 20,
+        "mean_diff": 0.2375,
+        "std_diff": 0.4280679706541941
+      },
+      "action_looks": {
+        "accuracy": 0.8,
+        "ci_lower": 0.5839825677481064,
+        "ci_upper": 0.919342337420202,
+        "n_correct": 16,
+        "n_total": 20,
+        "mean_diff": 0.41875,
+        "std_diff": 0.7060978818478356
+      },
+      "action_searches": {
+        "accuracy": 0.8,
+        "ci_lower": 0.5839825677481064,
+        "ci_upper": 0.919342337420202,
+        "n_correct": 16,
+        "n_total": 20,
+        "mean_diff": 0.4,
+        "std_diff": 0.7040341344707655
+      },
+      "state_believes": {
+        "accuracy": 0.6,
+        "ci_lower": 0.38658150076225317,
+        "ci_upper": 0.7811934676271829,
+        "n_correct": 12,
+        "n_total": 20,
+        "mean_diff": 0.33125,
+        "std_diff": 0.6484958558078842
+      },
+      "state_expects": {
+        "accuracy": 0.6,
+        "ci_lower": 0.38658150076225317,
+        "ci_upper": 0.7811934676271829,
+        "n_correct": 12,
+        "n_total": 20,
+        "mean_diff": 0.46875,
+        "std_diff": 0.897587913521567
+      }
+    }
+  },
+  "Qwen2.5-0.5B": {
+    "model": "Qwen2.5-0.5B",
+    "conditions": {
+      "finite_clause": {
+        "accuracy": 0.4,
+        "ci_lower": 0.21880653237281708,
+        "ci_upper": 0.6134184992377468,
+        "n_correct": 8,
+        "n_total": 20,
+        "mean_diff": -0.3546875,
+        "std_diff": 1.5055853045825731
+      },
+      "infinitive_clause": {
+        "accuracy": 0.4,
+        "ci_lower": 0.21880653237281708,
+        "ci_upper": 0.6134184992377468,
+        "n_correct": 8,
+        "n_total": 20,
+        "mean_diff": -0.2515625,
+        "std_diff": 1.3748437411211498
+      },
+      "action_looks": {
+        "accuracy": 0.4,
+        "ci_lower": 0.21880653237281708,
+        "ci_upper": 0.6134184992377468,
+        "n_correct": 8,
+        "n_total": 20,
+        "mean_diff": -0.434375,
+        "std_diff": 1.5892215075312819
+      },
+      "action_searches": {
+        "accuracy": 0.4,
+        "ci_lower": 0.21880653237281708,
+        "ci_upper": 0.6134184992377468,
+        "n_correct": 8,
+        "n_total": 20,
+        "mean_diff": -0.49375,
+        "std_diff": 1.496695579017323
+      },
+      "state_believes": {
+        "accuracy": 0.4,
+        "ci_lower": 0.21880653237281708,
+        "ci_upper": 0.6134184992377468,
+        "n_correct": 8,
+        "n_total": 20,
+        "mean_diff": -0.3171875,
+        "std_diff": 1.4712213251241297
+      },
+      "state_expects": {
+        "accuracy": 0.4,
+        "ci_lower": 0.21880653237281708,
+        "ci_upper": 0.6134184992377468,
+        "n_correct": 8,
+        "n_total": 20,
+        "mean_diff": -0.18125,
+        "std_diff": 1.5657653380216332
+      }
+    }
+  }
+}

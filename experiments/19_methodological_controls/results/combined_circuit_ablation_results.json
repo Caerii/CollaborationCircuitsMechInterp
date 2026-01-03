@@ -1,0 +1,547 @@
+{
+  "timestamp": "2025-12-23T22:01:42.446220",
+  "circuits": {
+    "early": [
+      [
+        17,
+        4
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        30
+      ],
+      [
+        21,
+        17
+      ]
+    ],
+    "late": [
+      [
+        35,
+        0
+      ],
+      [
+        35,
+        1
+      ],
+      [
+        35,
+        17
+      ],
+      [
+        33,
+        6
+      ],
+      [
+        33,
+        13
+      ],
+      [
+        33,
+        17
+      ],
+      [
+        33,
+        31
+      ],
+      [
+        32,
+        6
+      ],
+      [
+        32,
+        31
+      ],
+      [
+        34,
+        17
+      ]
+    ],
+    "combined": [
+      [
+        17,
+        4
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        30
+      ],
+      [
+        21,
+        17
+      ],
+      [
+        35,
+        0
+      ],
+      [
+        35,
+        1
+      ],
+      [
+        35,
+        17
+      ],
+      [
+        33,
+        6
+      ],
+      [
+        33,
+        13
+      ],
+      [
+        33,
+        17
+      ],
+      [
+        33,
+        31
+      ],
+      [
+        32,
+        6
+      ],
+      [
+        32,
+        31
+      ],
+      [
+        34,
+        17
+      ]
+    ]
+  },
+  "results": {
+    "told": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.984375,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.984375,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 0.53125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 0.546875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "said": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.296875,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.28125,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.25,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.28125,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "mentioned": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.1875,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.375,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.3125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.171875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "stated": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.25,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.328125,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.28125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.21875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "informed": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.46875,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.5625,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.078125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.0,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "notified": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.109375,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.25,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.390625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.296875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "wrote": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.5625,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.640625,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 0.875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 0.8125,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "emailed": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.9375,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -1.265625,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 0.671875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 0.34375,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "texted": {
+      "category": "bad_verbs",
+      "Baseline": {
+        "diff": -0.828125,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -1.03125,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 0.6875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 0.515625,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "announced": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 0.59375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.4375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 2.109375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.96875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "asked": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 0.46875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.953125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.890625,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "explained": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 0.125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.0625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.65625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.609375,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "hinted": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 1.0625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 1.015625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 2.484375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 2.46875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "shouted": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 0.640625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.5,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 2.125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 2.015625,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "questioned": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 0.0625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.03125,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.578125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.484375,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "declared": {
+      "category": "good_verbs",
+      "Baseline": {
+        "diff": 0.25,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.1875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.75,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.734375,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "communicated": {
+      "category": "mid_verbs",
+      "Baseline": {
+        "diff": 0.515625,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 2.0,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.90625,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "indicated": {
+      "category": "mid_verbs",
+      "Baseline": {
+        "diff": 0.71875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.59375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 2.171875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 2.09375,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "signaled": {
+      "category": "mid_verbs",
+      "Baseline": {
+        "diff": 0.9375,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": 0.703125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 2.421875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 2.1875,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    },
+    "reported": {
+      "category": "mid_verbs",
+      "Baseline": {
+        "diff": 0.046875,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Early Only": {
+        "diff": -0.078125,
+        "correct": "tensor(False, device='cuda:0')"
+      },
+      "Late Only": {
+        "diff": 1.578125,
+        "correct": "tensor(True, device='cuda:0')"
+      },
+      "Combined": {
+        "diff": 1.484375,
+        "correct": "tensor(True, device='cuda:0')"
+      }
+    }
+  },
+  "summary": {
+    "Baseline": {
+      "overall_accuracy": 0.55,
+      "by_category": {
+        "bad_verbs": 0.0,
+        "good_verbs": 1.0,
+        "mid_verbs": 1.0
+      }
+    },
+    "Early Only": {
+      "overall_accuracy": 0.45,
+      "by_category": {
+        "bad_verbs": 0.0,
+        "good_verbs": 0.8571428571428571,
+        "mid_verbs": 0.75
+      }
+    },
+    "Late Only": {
+      "overall_accuracy": 1.0,
+      "by_category": {
+        "bad_verbs": 1.0,
+        "good_verbs": 1.0,
+        "mid_verbs": 1.0
+      }
+    },
+    "Combined": {
+      "overall_accuracy": 1.0,
+      "by_category": {
+        "bad_verbs": 1.0,
+        "good_verbs": 1.0,
+        "mid_verbs": 1.0
+      }
+    }
+  }
+}

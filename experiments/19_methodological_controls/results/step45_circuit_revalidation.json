@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-23T23:07:36.234552",
+  "n_scenarios": 60,
+  "results": {
+    "baseline": {
+      "implicit": {
+        "accuracy": 76.66666666666667,
+        "n": 30
+      },
+      "explicit": {
+        "accuracy": 100.0,
+        "n": 30
+      }
+    },
+    "L17H4_ablation": {
+      "implicit": {
+        "accuracy": 76.66666666666667,
+        "n": 30
+      },
+      "explicit": {
+        "accuracy": 100.0,
+        "n": 30
+      }
+    },
+    "three_head_ablation": {
+      "implicit": {
+        "accuracy": 63.33333333333333,
+        "n": 30
+      },
+      "explicit": {
+        "accuracy": 100.0,
+        "n": 30
+      }
+    },
+    "random_ablation": {
+      "implicit": {
+        "accuracy": 76.66666666666667,
+        "n": 30
+      },
+      "explicit": {
+        "accuracy": 100.0,
+        "n": 30
+      }
+    }
+  },
+  "effects": {
+    "three_head_implicit": -13.333333333333343,
+    "three_head_explicit": 0.0,
+    "random_control": 0.0
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "baseline": {
+      "accuracy": 0.18
+    },
+    "full_cot": {
+      "accuracy": 1.0
+    },
+    "cot_prefix_only": {
+      "accuracy": 0.54
+    },
+    "cot_steps_no_conclusion": {
+      "accuracy": 0.96
+    },
+    "cot_conclusion_only": {
+      "accuracy": 1.0
+    },
+    "single_step_heard": {
+      "accuracy": 0.72
+    },
+    "single_step_knows": {
+      "accuracy": 0.92
+    },
+    "minimal_believed": {
+      "accuracy": 0.82
+    },
+    "minimal_updated": {
+      "accuracy": 0.98
+    },
+    "causal_because": {
+      "accuracy": 0.98
+    },
+    "contrastive": {
+      "accuracy": 1.0
+    },
+    "given_that": {
+      "accuracy": 0.8
+    }
+  },
+  "sorted_results": [
+    [
+      "full_cot",
+      1.0
+    ],
+    [
+      "cot_conclusion_only",
+      1.0
+    ],
+    [
+      "contrastive",
+      1.0
+    ],
+    [
+      "minimal_updated",
+      0.98
+    ],
+    [
+      "causal_because",
+      0.98
+    ],
+    [
+      "cot_steps_no_conclusion",
+      0.96
+    ],
+    [
+      "single_step_knows",
+      0.92
+    ],
+    [
+      "minimal_believed",
+      0.82
+    ],
+    [
+      "given_that",
+      0.8
+    ],
+    [
+      "single_step_heard",
+      0.72
+    ],
+    [
+      "cot_prefix_only",
+      0.54
+    ],
+    [
+      "baseline",
+      0.18
+    ]
+  ],
+  "baseline": 0.18,
+  "full_cot": 1.0,
+  "minimal_success": [
+    "contrastive",
+    1.0
+  ]
+}

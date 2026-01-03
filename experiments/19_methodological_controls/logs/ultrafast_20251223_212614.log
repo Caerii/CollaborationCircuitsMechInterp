@@ -1,0 +1,6 @@
+2025-12-23 21:26:14,315 | INFO | ======================================================================
+2025-12-23 21:26:14,316 | INFO | ULTRA-FAST GARGANTUAN SWEEP
+2025-12-23 21:26:14,316 | INFO | ======================================================================
+2025-12-23 21:26:14,316 | INFO | 
+[PHASE 1] Loading model with SDPA attention...
+2025-12-23 21:26:19,725 | INFO | We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).

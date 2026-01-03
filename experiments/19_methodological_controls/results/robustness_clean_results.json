@@ -1,0 +1,298 @@
+{
+  "templates": {
+    "original": {
+      "baseline": {
+        "n": 20,
+        "accuracy": 0.75,
+        "ci_low": 0.5312949900419365,
+        "ci_high": 0.888139947210597,
+        "successes": 15
+      },
+      "ablated": {
+        "n": 20,
+        "accuracy": 0.8,
+        "ci_low": 0.5839782779742401,
+        "ci_high": 0.9193436467288,
+        "successes": 16
+      },
+      "boost": 0.050000000000000044
+    },
+    "passive": {
+      "baseline": {
+        "n": 20,
+        "accuracy": 0.4,
+        "ci_low": 0.21880396741419272,
+        "ci_high": 0.613422057684794,
+        "successes": 8
+      },
+      "ablated": {
+        "n": 20,
+        "accuracy": 0.45,
+        "ci_low": 0.25819502085709295,
+        "ci_high": 0.6579179916924003,
+        "successes": 9
+      },
+      "boost": 0.04999999999999999
+    },
+    "story": {
+      "baseline": {
+        "n": 20,
+        "accuracy": 0.65,
+        "ci_low": 0.43285051021946463,
+        "ci_high": 0.8188104521320554,
+        "successes": 13
+      },
+      "ablated": {
+        "n": 20,
+        "accuracy": 0.75,
+        "ci_low": 0.5312949900419365,
+        "ci_high": 0.888139947210597,
+        "successes": 15
+      },
+      "boost": 0.09999999999999998
+    },
+    "formal": {
+      "baseline": {
+        "n": 20,
+        "accuracy": 1.0,
+        "ci_low": 0.8388698745050668,
+        "ci_high": 0.9999999999999999,
+        "successes": 20
+      },
+      "ablated": {
+        "n": 20,
+        "accuracy": 1.0,
+        "ci_low": 0.8388698745050668,
+        "ci_high": 0.9999999999999999,
+        "successes": 20
+      },
+      "boost": 0.0
+    },
+    "casual": {
+      "baseline": {
+        "n": 20,
+        "accuracy": 0.65,
+        "ci_low": 0.43285051021946463,
+        "ci_high": 0.8188104521320554,
+        "successes": 13
+      },
+      "ablated": {
+        "n": 20,
+        "accuracy": 0.8,
+        "ci_low": 0.5839782779742401,
+        "ci_high": 0.9193436467288,
+        "successes": 16
+      },
+      "boost": 0.15000000000000002
+    }
+  },
+  "verbs": {
+    "called": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.4,
+        "ci_low": 0.19824228082594664,
+        "ci_high": 0.642535572434923,
+        "successes": 6
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 0.9333333333333333,
+        "ci_low": 0.7018292244757601,
+        "ci_high": 0.9881334113938051,
+        "successes": 14
+      }
+    },
+    "emailed": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.4666666666666667,
+        "ci_low": 0.24809225259746442,
+        "ci_high": 0.6988336984894921,
+        "successes": 7
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 1.0,
+        "ci_low": 0.7961107336956521,
+        "ci_high": 1.0,
+        "successes": 15
+      }
+    },
+    "informed": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.7333333333333333,
+        "ci_low": 0.4804911034231324,
+        "ci_high": 0.8910272389681718,
+        "successes": 11
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 1.0,
+        "ci_low": 0.7961107336956521,
+        "ci_high": 1.0,
+        "successes": 15
+      }
+    },
+    "mentioned": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.3333333333333333,
+        "ci_low": 0.15176100694691236,
+        "ci_high": 0.5828687484878701,
+        "successes": 5
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 1.0,
+        "ci_low": 0.7961107336956521,
+        "ci_high": 1.0,
+        "successes": 15
+      }
+    },
+    "messaged": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.4666666666666667,
+        "ci_low": 0.24809225259746442,
+        "ci_high": 0.6988336984894921,
+        "successes": 7
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 1.0,
+        "ci_low": 0.7961107336956521,
+        "ci_high": 1.0,
+        "successes": 15
+      }
+    },
+    "notified": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.6,
+        "ci_low": 0.357464427565077,
+        "ci_high": 0.8017577191740534,
+        "successes": 9
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 1.0,
+        "ci_low": 0.7961107336956521,
+        "ci_high": 1.0,
+        "successes": 15
+      }
+    },
+    "texted": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.6,
+        "ci_low": 0.357464427565077,
+        "ci_high": 0.8017577191740534,
+        "successes": 9
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 0.8666666666666667,
+        "ci_low": 0.6211750079348376,
+        "ci_high": 0.9626395301086407,
+        "successes": 13
+      }
+    },
+    "told": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.13333333333333333,
+        "ci_low": 0.0373604698913593,
+        "ci_high": 0.3788249920651624,
+        "successes": 2
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 0.7333333333333333,
+        "ci_low": 0.4804911034231324,
+        "ci_high": 0.8910272389681718,
+        "successes": 11
+      }
+    },
+    "wrote": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.5333333333333333,
+        "ci_low": 0.3011663015105079,
+        "ci_high": 0.7519077474025355,
+        "successes": 8
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 1.0,
+        "ci_low": 0.7961107336956521,
+        "ci_high": 1.0,
+        "successes": 15
+      }
+    }
+  },
+  "negative_controls": {
+    "negative_didnt_hear": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.6,
+        "ci_low": 0.357464427565077,
+        "ci_high": 0.8017577191740534,
+        "successes": 9
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 0.4666666666666667,
+        "ci_low": 0.24809225259746442,
+        "ci_high": 0.6988336984894921,
+        "successes": 7
+      }
+    },
+    "negative_message_failed": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.6666666666666666,
+        "ci_low": 0.41713125151212976,
+        "ci_high": 0.8482389930530876,
+        "successes": 10
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 0.4666666666666667,
+        "ci_low": 0.24809225259746442,
+        "ci_high": 0.6988336984894921,
+        "successes": 7
+      }
+    },
+    "negative_not_told": {
+      "baseline": {
+        "n": 15,
+        "accuracy": 0.7333333333333333,
+        "ci_low": 0.4804911034231324,
+        "ci_high": 0.8910272389681718,
+        "successes": 11
+      },
+      "ablated": {
+        "n": 15,
+        "accuracy": 0.6,
+        "ci_low": 0.357464427565077,
+        "ci_high": 0.8017577191740534,
+        "successes": 9
+      }
+    }
+  },
+  "summary": {
+    "n_conditions": 14,
+    "mean_baseline": 0.5511904761904761,
+    "mean_ablated": 0.880952380952381,
+    "mean_boost": 0.3297619047619049,
+    "effect_size": {
+      "cohens_h": 0.7636882498949025,
+      "absolute_h": 0.7636882498949025,
+      "magnitude": "medium",
+      "direction": "improvement",
+      "accuracy_diff": 0.3297619047619049
+    }
+  }
+}

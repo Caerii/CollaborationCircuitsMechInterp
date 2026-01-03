@@ -1,0 +1,27 @@
+{
+  "verb_pairs": {
+    "expect_suspect": {
+      "verb_a": "expects the ball in the",
+      "verb_b": "suspects the ball is in the",
+      "hypothesis": "Expectation vs suspicion framing",
+      "result_a": {
+        "accuracy": 1.0,
+        "ci_lower": 0.7224598312333834,
+        "ci_upper": 1.0,
+        "n_correct": 10,
+        "n_total": 10,
+        "mean_diff": 4.90546875,
+        "std_diff": 2.518453500112036
+      },
+      "result_b": {
+        "accuracy": 0.2,
+        "ci_lower": 0.05668094798069326,
+        "ci_upper": 0.5098431532792767,
+        "n_correct": 2,
+        "n_total": 10,
+        "mean_diff": -1.309375,
+        "std_diff": 2.1222385550109584
+      },
+      "p_value": 0.0007144558228149558,
+      "odds_ratio": Infinity,
+      "significant": 

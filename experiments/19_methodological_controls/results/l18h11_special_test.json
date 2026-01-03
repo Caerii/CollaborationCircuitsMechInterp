@@ -1,0 +1,9 @@
+{
+  "baseline": 0.37,
+  "ablate_17_4_and_18_14": 1.0,
+  "ablate_18_11_alone": 0.87,
+  "ablate_17_4_alone": 0.87,
+  "ablate_all_three": 1.0,
+  "amplify_18_11_2x": 0.13,
+  "amplify_18_11_3x": 0.13
+}

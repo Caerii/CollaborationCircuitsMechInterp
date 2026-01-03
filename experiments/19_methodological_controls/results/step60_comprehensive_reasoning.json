@@ -1,0 +1,116 @@
+{
+  "timestamp": "1766552132.998286",
+  "total_accuracy": 75.0,
+  "type_results": {
+    "FB": {
+      "correct": 9,
+      "total": 9
+    },
+    "TB": {
+      "correct": 0,
+      "total": 2
+    },
+    "TOLD": {
+      "correct": 0,
+      "total": 1
+    }
+  },
+  "detailed_results": [
+    {
+      "name": "Sally-Anne Classic",
+      "type": "FB",
+      "correct_answer": "basket",
+      "model_answer": "basket",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So the question is about where Sally will look for the ball after a series of actions. Let me go through each step carefully.\n\nFirst, Sally puts the ball in the basket. So initially, the ball is in the basket. Then Sally leaves. So after she leaves, Anne comes in and moves the ball to the box. So now the ball is in the box. Then Sally returns. Now, when Sally comes back, she would look for the ball. But where would she look? \n\nWait, but when Sally left, she h"
+    },
+    {
+      "name": "Alice-Bob Classic",
+      "type": "FB",
+      "correct_answer": "drawer",
+      "model_answer": "drawer",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So the question is about where Alice will look for the ball after a series of actions. Let me go through each step carefully.\n\nFirst, Alice puts the ball in the drawer. So initially, the ball is in the drawer. Then Alice leaves the room. While she's away, Bob moves the ball to the basket. So now the ball is in the basket. Then Alice comes back. The question is, where will she look for the ball?\n\nHmm. So Alice's last interaction with the ball was when she put "
+    },
+    {
+      "name": "True Belief - Watched",
+      "type": "TB",
+      "correct_answer": "basket",
+      "model_answer": "drawer",
+      "is_correct": false,
+      "reasoning": "<think>\nOkay, let's break this down. So, the question is about where Alice will look for the ball after some actions by Alice and Bob. Let me start by recalling the sequence of events.\n\nFirst, Alice put the ball in the drawer. Then Bob moved the ball to the basket. Finally, Alice watched everything. The question is asking where Alice will look for the ball next.\n\nHmm. So, initially, the ball was in the drawer. Then Bob took it out and put it in the basket. But Alice was watching the entire time."
+    },
+    {
+      "name": "True Belief - Stayed",
+      "type": "TB",
+      "correct_answer": "basket",
+      "model_answer": "drawer",
+      "is_correct": false,
+      "reasoning": "<think>\nOkay, let's break this down. So, the question is about where Alice will look for the ball after a series of actions. Let me start by recalling the events in order.\n\nFirst, Alice put the ball in the drawer. Then, she stayed in the room. After that, Bob moved the ball to the basket. So, the ball was initially in the drawer, then Bob took it to the basket. Now, the question is where Alice will look for the ball. \n\nWait, but Alice already put the ball in the drawer. Then she stayed in the ro"
+    },
+    {
+      "name": "Told About Move",
+      "type": "TOLD",
+      "correct_answer": "basket",
+      "model_answer": "drawer",
+      "is_correct": false,
+      "reasoning": "<think>\nOkay, let's break this down. So, the question is about where Alice will look for the ball after a series of events. Let me go through each step carefully.\n\nFirst, Alice puts the ball in the drawer. Then she leaves. So initially, the ball is in the drawer. Then Bob moves the ball to the basket. But when Alice comes back, Bob tells her he moved the ball to the basket. Now, the key here is what Alice knows. \n\nWhen Alice left, she had put the ball in the drawer. She didn't know what Bob did "
+    },
+    {
+      "name": "Different Object - Key",
+      "type": "FB",
+      "correct_answer": "table",
+      "model_answer": "table",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So the problem is about where John will look for his keys after a series of actions. Let me go through each step carefully.\n\nFirst, John puts his keys on the table. So initially, the keys are on the table. Then John goes to the kitchen. While he's in the kitchen, Mary moves the keys to the drawer. So after Mary moves them, the keys are now in the drawer. Then John comes back. Now, when John comes back, he's probably going to look where he last saw the keys. B"
+    },
+    {
+      "name": "Novel Locations X/Y",
+      "type": "FB",
+      "correct_answer": "X",
+      "model_answer": "X",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So, the problem is about where Alice will look for the ball after a series of events. Let me go through each step carefully.\n\nFirst, Alice puts the ball in container X. Then she leaves. So, when she's not there, Bob moves the ball to container Y. Then Alice comes back. Now, the question is, where will she look for the ball?\n\nHmm. So, the key here is understanding what Alice knows. When she first put the ball in container X, she probably knows that's where it "
+    },
+    {
+      "name": "Novel Locations Alpha/Beta",
+      "type": "FB",
+      "correct_answer": "alpha",
+      "model_answer": "alpha",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's try to figure this out. So the question is about where Alice will look for the ball after a series of events. Let me break it down step by step.\n\nFirst, Alice puts the ball in the alpha-box. Then she leaves. So when she's not there, Bob comes in and moves the ball to the beta-box. Then Alice returns. Now, the question is, where will she look for the ball?\n\nHmm. So the key here is understanding what Alice's knowledge is. When she first put the ball in the alpha-box, she probab"
+    },
+    {
+      "name": "Reversed - Basket First",
+      "type": "FB",
+      "correct_answer": "basket",
+      "model_answer": "basket",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So the question is about where Alice will look for the ball after a series of actions. Let me go through each step carefully.\n\nFirst, Alice puts the ball in the basket. So initially, the ball is in the basket. Then Alice leaves. So while she's away, Bob moves the ball to the drawer. That means when Alice comes back, the ball is no longer in the basket but in the drawer. But wait, the question is asking where Alice will look for the ball. \n\nNow, Alice returns."
+    },
+    {
+      "name": "Three Agents",
+      "type": "FB",
+      "correct_answer": "drawer",
+      "model_answer": "drawer",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So the question is about where Alice will look for the ball after a series of events. Let me go through each step carefully.\n\nFirst, Alice puts the ball in the drawer. Then she leaves. So initially, the ball is in the drawer. Then Bob moves the ball to the basket. Carol sees Bob do that. Then Alice comes back. Now, the key here is to figure out where Alice would look for the ball. \n\nWhen Alice first put the ball in the drawer, she probably expected it to be t"
+    },
+    {
+      "name": "Multiple Moves",
+      "type": "FB",
+      "correct_answer": "drawer",
+      "model_answer": "drawer",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's try to figure out where Alice will look for the ball. So, the sequence of events is:\n\n1. Alice puts the ball in the drawer.\n2. Alice leaves.\n3. Bob moves the ball to the basket.\n4. Bob then moves it to the box.\n5. Alice returns.\n\nSo, initially, the ball was in the drawer. But after Alice left, Bob moved it twice: first to the basket, then to the box. Now, when Alice comes back, she might not remember where the ball was moved. But she might think it's still in the drawer becau"
+    },
+    {
+      "name": "Explicit FB Question",
+      "type": "FB",
+      "correct_answer": "drawer",
+      "model_answer": "drawer",
+      "is_correct": true,
+      "reasoning": "<think>\nOkay, let's break this down. So the question is about where Alice thinks the ball is after a series of actions. Let me go through each step carefully.\n\nFirst, Alice puts the ball in the drawer. So at that point, the ball is in the drawer. Then Alice leaves. So when she leaves, she's no longer present. Then Bob moves the ball to the basket. But here's the thing: Alice isn't there when Bob moves it. So from Alice's perspective, she left, so she doesn't know about Bob's action. \n\nNow, Alice"
+    }
+  ]
+}

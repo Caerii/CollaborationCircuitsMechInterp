@@ -1,0 +1,1167 @@
+{
+  "verbs": {
+    "by_verb": {
+      "said": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "neutral"
+      },
+      "told": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "neutral"
+      },
+      "spoke": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "neutral"
+      },
+      "stated": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "neutral"
+      },
+      "mentioned": {
+        "baseline": 0.5,
+        "ablated": 0.8,
+        "n": 10,
+        "category": "neutral"
+      },
+      "noted": {
+        "baseline": 0.0,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "neutral"
+      },
+      "remarked": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "neutral"
+      },
+      "informed": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "informing"
+      },
+      "notified": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "informing"
+      },
+      "alerted": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "informing"
+      },
+      "advised": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "informing"
+      },
+      "warned": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "informing"
+      },
+      "apprised": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "informing"
+      },
+      "briefed": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "informing"
+      },
+      "updated": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "informing"
+      },
+      "reported": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "informing"
+      },
+      "explained": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "explaining"
+      },
+      "clarified": {
+        "baseline": 0.0,
+        "ablated": 0.9,
+        "n": 10,
+        "category": "explaining"
+      },
+      "elaborated": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "explaining"
+      },
+      "described": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "explaining"
+      },
+      "illustrated": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "explaining"
+      },
+      "demonstrated": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "explaining"
+      },
+      "declared": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "asserting"
+      },
+      "announced": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "asserting"
+      },
+      "proclaimed": {
+        "baseline": 0.5,
+        "ablated": 0.7,
+        "n": 10,
+        "category": "asserting"
+      },
+      "affirmed": {
+        "baseline": 0.1,
+        "ablated": 0.8,
+        "n": 10,
+        "category": "asserting"
+      },
+      "asserted": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "asserting"
+      },
+      "confirmed": {
+        "baseline": 0.1,
+        "ablated": 1.0,
+        "n": 10,
+        "category": "asserting"
+      },
+      "insisted": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "asserting"
+      },
+      "suggested": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "suggesting"
+      },
+      "hinted": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "suggesting"
+      },
+      "implied": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "suggesting"
+      },
+      "indicated": {
+        "baseline": 0.0,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "suggesting"
+      },
+      "intimated": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "suggesting"
+      },
+      "insinuated": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "suggesting"
+      },
+      "asked": {
+        "baseline": 0.0,
+        "ablated": 0.4,
+        "n": 5,
+        "category": "asking"
+      },
+      "requested": {
+        "baseline": 0.0,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "asking"
+      },
+      "inquired": {
+        "baseline": 0.1,
+        "ablated": 0.8,
+        "n": 10,
+        "category": "asking"
+      },
+      "queried": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "asking"
+      },
+      "questioned": {
+        "baseline": 0.3,
+        "ablated": 0.9,
+        "n": 10,
+        "category": "asking"
+      },
+      "chatted": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "casual"
+      },
+      "talked": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "casual"
+      },
+      "shared": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "casual"
+      },
+      "let know": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "casual"
+      },
+      "filled in": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "casual"
+      },
+      "clued in": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "casual"
+      },
+      "gave a heads up": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "casual"
+      },
+      "communicated": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "formal"
+      },
+      "conveyed": {
+        "baseline": 0.0,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "formal"
+      },
+      "transmitted": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "formal"
+      },
+      "relayed": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "formal"
+      },
+      "disseminated": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 10,
+        "category": "formal"
+      },
+      "circulated": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "formal"
+      },
+      "dispatched": {
+        "baseline": 1.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "formal"
+      },
+      "wrote": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "written"
+      },
+      "emailed": {
+        "baseline": 0.0,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "written"
+      },
+      "texted": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 10,
+        "category": "written"
+      },
+      "messaged": {
+        "baseline": 0.6,
+        "ablated": 0.9,
+        "n": 10,
+        "category": "written"
+      },
+      "typed": {
+        "baseline": 0.7,
+        "ablated": 0.9,
+        "n": 10,
+        "category": "written"
+      },
+      "posted": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "written"
+      },
+      "sent": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "written"
+      },
+      "forwarded": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "written"
+      },
+      "called": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "verbal"
+      },
+      "phoned": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "verbal"
+      },
+      "rang": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "verbal"
+      },
+      "shouted": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "verbal"
+      },
+      "whispered": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "verbal"
+      },
+      "yelled": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "verbal"
+      },
+      "murmured": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "verbal"
+      },
+      "uttered": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "verbal"
+      },
+      "pinged": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "digital"
+      },
+      "DMed": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "digital"
+      },
+      "slacked": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "digital"
+      },
+      "tweeted": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "digital"
+      },
+      "snapped": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "digital"
+      },
+      "smacked": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "sermonised": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "railed": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "emphasized": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "caroled": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "drawed": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "covered": {
+        "baseline": 0.0,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "pried": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "instructed": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "intoned": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "misstated": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "corrected": {
+        "baseline": 0.0,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "observed": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "enquired": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "slured": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "oriented": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "revolutionized": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "affianced": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "bumbled": {
+        "baseline": 0.6,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "dedicated": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "depreciated": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "rushed": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "disputed": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "recorded": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "recognized": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "signed": {
+        "baseline": 0.0,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "placarded": {
+        "baseline": 0.8,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "provided": {
+        "baseline": 1.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "harmonised": {
+        "baseline": 0.8,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "reflected": {
+        "baseline": 0.8,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "dictated": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "rejoined": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "advanced": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "belaboured": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "reconsecrated": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "counseled": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "indoctrinated": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "overstressed": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "framed": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "particularised": {
+        "baseline": 0.0,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "supported": {
+        "baseline": 1.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "rasped": {
+        "baseline": 0.6,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "hyperbolised": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "versed": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "expounded": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "ballyhooed": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "reeked": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "lexicalized": {
+        "baseline": 0.0,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "cracked": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "praied": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "lucubrated": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "singularized": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "moderated": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "editorialised": {
+        "baseline": 0.8,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "mistimed": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "clocked": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "deplored": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "muttered": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "contraindicated": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "cosigned": {
+        "baseline": 0.8,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "premeditated": {
+        "baseline": 0.6,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "rewrited": {
+        "baseline": 0.6,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "romanced": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "rambled": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "triumphed": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "incriminated": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "brabbled": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "paded": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "madrigaled": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "catechized": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "discoursed": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "bulletined": {
+        "baseline": 0.0,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "congratulated": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "melded": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "generalised": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "instilled": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "embodied": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "chastened": {
+        "baseline": 0.6,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "crowed": {
+        "baseline": 0.4,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "jabbered": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "savaged": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "paned": {
+        "baseline": 0.0,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "clapperclawed": {
+        "baseline": 0.2,
+        "ablated": 0.6,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "manifested": {
+        "baseline": 0.8,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "verbalized": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "worded": {
+        "baseline": 0.8,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "decried": {
+        "baseline": 0.2,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "blowed": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "styled": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "crystalized": {
+        "baseline": 0.4,
+        "ablated": 0.8,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "leaved": {
+        "baseline": 0.2,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      },
+      "menaced": {
+        "baseline": 0.4,
+        "ablated": 1.0,
+        "n": 5,
+        "category": "wordnet"
+      }
+    },
+    "by_category": {
+      "neutral": {
+        "baseline": 0.38571428571428573,
+        "ablated": 0.8857142857142856,
+        "n_verbs": 7
+      },
+      "informing": {
+        "baseline": 0.4888888888888888,
+        "ablated": 0.911111111111111,
+        "n_verbs": 9
+      },
+      "explaining": {
+        "baseline": 0.3333333333333333,
+        "ablated": 0.8833333333333333,
+        "n_verbs": 6
+      },
+      "asserting": {
+        "baseline": 0.27142857142857146,
+        "ablated": 0.8714285714285713,
+        "n_verbs": 7
+      },
+      "suggesting": {
+        "baseline": 0.3666666666666667,
+        "ablated": 0.9,
+        "n_verbs": 6
+      },
+      "asking": {
+        "baseline": 0.08,
+        "ablated": 0.74,
+        "n_verbs": 5
+      },
+      "casual": {
+        "baseline": 0.5714285714285714,
+        "ablated": 0.8857142857142858,
+        "n_verbs": 7
+      },
+      "formal": {
+        "baseline": 0.34285714285714286,
+        "ablated": 0.8571428571428571,
+        "n_verbs": 7
+      },
+      "written": {
+        "baseline": 0.5125,
+        "ablated": 0.9,
+        "n_verbs": 8
+      },
+      "verbal": {
+        "baseline": 0.47500000000000003,
+        "ablated": 0.9,
+        "n_verbs": 8
+      },
+      "digital": {
+        "baseline": 0.6000000000000001,
+        "ablated": 0.8800000000000001,
+        "n_verbs": 5
+      },
+      "wordnet": {
+        "baseline": 0.41086956521739126,
+        "ablated": 0.8652173913043473,
+        "n_verbs": 92
+      }
+    }
+  },
+  "mediums": {
+    "by_medium": {
+      "in_person": {
+        "baseline": 0.21875,
+        "ablated": 0.8125,
+        "n": 32
+      },
+      "phone": {
+        "baseline": 0.375,
+        "ablated": 0.9375,
+        "n": 32
+      },
+      "text": {
+        "baseline": 0.53125,
+        "ablated": 0.90625,
+        "n": 32
+      },
+      "email": {
+        "baseline": 0.3333333333333333,
+        "ablated": 0.9583333333333334,
+        "n": 24
+      },
+      "instant_message": {
+        "baseline": 0.625,
+        "ablated": 0.875,
+        "n": 32
+      },
+      "written_note": {
+        "baseline": 0.5833333333333334,
+        "ablated": 0.9166666666666666,
+        "n": 24
+      },
+      "indirect": {
+        "baseline": 0.5833333333333334,
+        "ablated": 0.75,
+        "n": 24
+      }
+    }
+  },
+  "languages": {
+    "by_language": {
+      "english": {
+        "baseline": 0.92,
+        "ablated": 0.96,
+        "n": 25
+      },
+      "chinese_simple": {
+        "baseline": 0.88,
+        "ablated": 0.92,
+        "n": 25
+      },
+      "spanish": {
+        "baseline": 0.24,
+        "ablated": 0.6,
+        "n": 25
+      },
+      "french": {
+        "baseline": 0.76,
+        "ablated": 0.8,
+        "n": 25
+      },
+      "german": {
+        "baseline": 0.6,
+        "ablated": 0.68,
+        "n": 25
+      }
+    }
+  },
+  "structures": {
+    "by_structure": {
+      "simple": {
+        "baseline": 0.13333333333333333,
+        "ablated": 0.9333333333333333,
+        "n": 15
+      },
+      "compound": {
+        "baseline": 0.06666666666666667,
+        "ablated": 0.8666666666666667,
+        "n": 15
+      },
+      "complex": {
+        "baseline": 0.0,
+        "ablated": 0.6666666666666666,
+        "n": 15
+      },
+      "embedded": {
+        "baseline": 0.5333333333333333,
+        "ablated": 1.0,
+        "n": 15
+      },
+      "indirect_speech": {
+        "baseline": 0.9333333333333333,
+        "ablated": 1.0,
+        "n": 15
+      }
+    }
+  }
+}

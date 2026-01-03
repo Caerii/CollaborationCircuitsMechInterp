@@ -1,0 +1,21 @@
+2025-12-23 21:07:58,309 | INFO | Starting at 2025-12-23 21:07:58.309113
+2025-12-23 21:07:58,309 | INFO | Configuration:
+2025-12-23 21:07:58,309 | INFO |   BATCH_SIZE: 16
+2025-12-23 21:07:58,309 | INFO |   SCENARIOS_PER_VERB: 20
+2025-12-23 21:07:58,310 | INFO |   MAX_VERBS: ALL
+2025-12-23 21:07:58,310 | INFO | ======================================================================
+2025-12-23 21:07:58,310 | INFO | ULTRA-FAST GARGANTUAN SWEEP
+2025-12-23 21:07:58,310 | INFO | ======================================================================
+2025-12-23 21:07:58,310 | INFO | 
+[PHASE 1] Loading model with SDPA attention...
+2025-12-23 21:08:11,501 | INFO | We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 21:08:24,888 | INFO |   Model loaded in 26.6s
+2025-12-23 21:08:24,890 | INFO | 
+[PHASE 2] Generating all scenarios...
+2025-12-23 21:08:27,410 | INFO | Extracting verbs from WordNet...
+2025-12-23 21:08:27,684 | INFO | Found 1278 unique verbs across 16 categories
+2025-12-23 21:08:27,684 | INFO | Generating 1278 verbs × 20 scenarios...
+2025-12-23 21:08:27,794 | INFO | Generated 25560 total scenarios
+2025-12-23 21:08:27,794 | INFO |   Generated in 2.9s
+2025-12-23 21:08:27,794 | INFO | 
+[PHASE 3] Baseline sweep (25560 scenarios, batch_size=16)...

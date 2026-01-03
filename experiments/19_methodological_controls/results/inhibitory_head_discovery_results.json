@@ -1,0 +1,38 @@
+{
+  "no_ablation": {
+    "baseline_acc": 0.33,
+    "bridged_acc": 0.99,
+    "baseline_prob": 0.36143766538995514,
+    "bridged_prob": 0.96490763937151
+  },
+  "ablate_L24H29": {
+    "baseline_acc": 0.51,
+    "bridged_acc": 1.0,
+    "baseline_prob": 0.5136557497340144,
+    "bridged_prob": 0.9930626627266453
+  },
+  "ablate_L24H28": {
+    "baseline_acc": 0.31,
+    "bridged_acc": 0.94,
+    "baseline_prob": 0.3404707709752197,
+    "bridged_prob": 0.9265832962405612
+  },
+  "ablate_L24H30": {
+    "baseline_acc": 0.34,
+    "bridged_acc": 0.99,
+    "baseline_prob": 0.36298036338500805,
+    "bridged_prob": 0.9649663112901148
+  },
+  "ablate_L25H29": {
+    "baseline_acc": 0.34,
+    "bridged_acc": 0.99,
+    "baseline_prob": 0.3620255560266839,
+    "bridged_prob": 0.9643806925074425
+  },
+  "ablate_L23H29": {
+    "baseline_acc": 0.4,
+    "bridged_acc": 0.99,
+    "baseline_prob": 0.399743664969925,
+    "bridged_prob": 0.974246431105566
+  }
+}

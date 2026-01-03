@@ -1,0 +1,95 @@
+{
+  "no_ablation": {
+    "heads": [],
+    "baseline_acc": 0.26,
+    "bridged_acc": 0.94
+  },
+  "all_high_impact": {
+    "heads": [
+      [
+        23,
+        4
+      ],
+      [
+        28,
+        0
+      ],
+      [
+        28,
+        23
+      ],
+      [
+        23,
+        31
+      ],
+      [
+        26,
+        25
+      ]
+    ],
+    "baseline_acc": 0.16,
+    "bridged_acc": 0.82
+  },
+  "inhibitory_only": {
+    "heads": [
+      [
+        24,
+        29
+      ]
+    ],
+    "baseline_acc": 0.54,
+    "bridged_acc": 1.0
+  },
+  "high_impact_minus_inhibitory": {
+    "heads": [
+      [
+        23,
+        4
+      ],
+      [
+        28,
+        0
+      ],
+      [
+        28,
+        23
+      ],
+      [
+        23,
+        31
+      ],
+      [
+        26,
+        25
+      ]
+    ],
+    "baseline_acc": 0.16,
+    "bridged_acc": 0.82
+  },
+  "control_5_heads": {
+    "heads": [
+      [
+        5,
+        5
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        25,
+        25
+      ]
+    ],
+    "baseline_acc": 0.16,
+    "bridged_acc": 0.9
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "clause_type": {
+    "finite_that_explicit": {
+      "diff": -0.96875,
+      "correct": 0,
+      "correct_logit": 23.84375,
+      "wrong_logit": 24.8125
+    },
+    "finite_that_implicit": {
+      "diff": -0.5,
+      "correct": 0,
+      "correct_logit": 24.296875,
+      "wrong_logit": 24.796875
+    },
+    "finite_present": {
+      "diff": 1.296875,
+      "correct": 1,
+      "correct_logit": 25.734375,
+      "wrong_logit": 24.4375
+    },
+    "infinitive_full": {
+      "diff": 1.390625,
+      "correct": 1,
+      "correct_logit": 24.109375,
+      "wrong_logit": 22.71875
+    },
+    "infinitive_simple": {
+      "diff": 1.1875,
+      "correct": 1,
+      "correct_logit": 20.921875,
+      "wrong_logit": 19.734375
+    },
+    "believe_finite_that": {
+      "diff": 0.046875,
+      "correct": 1,
+      "correct_logit": 25.828125,
+      "wrong_logit": 25.78125
+    },
+    "believe_finite_implicit": {
+      "diff": -0.71875,
+      "correct": 0,
+      "correct_logit": 24.421875,
+      "wrong_logit": 25.140625
+    },
+    "believe_finite_it": {
+      "diff": 2.078125,
+      "correct": 1,
+      "correct_logit": 26.484375,
+      "wrong_logit": 24.40625
+    },
+    "believe_infinitive": {
+      "diff": 3.21875,
+      "correct": 1,
+      "correct_logit": 26.671875,
+      "wrong_logit": 23.453125
+    },
+    "thinks_being": {
+      "diff": 2.953125,
+      "correct": 1,
+      "correct_logit": 25.796875,
+      "wrong_logit": 22.84375
+    }
+  },
+  "pronoun_reference": {
+    "pronoun_it": {
+      "diff": 1.296875,
+      "correct": 1,
+      "correct_logit": 25.734375,
+      "wrong_logit": 24.4375
+    },
+    "explicit_ball": {
+      "diff": -0.5,
+      "correct": 0,
+      "correct_logit": 24.296875,
+      "wrong_logit": 24.796875
+    },
+    "explicit_object": {
+      "diff": -0.421875,
+      "correct": 0,
+      "correct_logit": 22.703125,
+      "wrong_logit": 23.125
+    },
+    "demonstrative_that": {
+      "diff": 1.171875,
+      "correct": 1,
+      "correct_logit": 23.4375,
+      "wrong_logit": 22.265625
+    },
+    "no_object": {
+      "diff": 3.234375,
+      "correct": 1,
+      "correct_logit": 18.84375,
+      "wrong_logit": 15.609375
+    }
+  },
+  "copula_tense": {
+    "present_is": {
+      "diff": 1.296875,
+      "correct": 1,
+      "correct_logit": 25.734375,
+      "wrong_logit": 24.4375
+    },
+    "infinitive_be": {
+      "diff": 1.390625,
+      "correct": 1,
+      "correct_logit": 24.109375,
+      "wrong_logit": 22.71875
+    },
+    "past_was": {
+      "diff": 2.859375,
+      "correct": 1,
+      "correct_logit": 24.390625,
+      "wrong_logit": 21.53125
+    },
+    "future_will_be": {
+      "diff": -1.0625,
+      "correct": 0,
+      "correct_logit": 21.5,
+      "wrong_logit": 22.5625
+    },
+    "subjunctive_were": {
+      "diff": 2.1875,
+      "correct": 1,
+      "correct_logit": 24.828125,
+      "wrong_logit": 22.640625
+    },
+    "no_copula": {
+      "diff": 3.34375,
+      "correct": 1,
+      "correct_logit": 22.5625,
+      "wrong_logit": 19.21875
+    }
+  },
+  "word_order": {
+    "standard_SVO": {
+      "diff": 1.296875,
+      "correct": 1,
+      "correct_logit": 25.734375,
+      "wrong_logit": 24.4375
+    },
+    "fronted_location": {
+      "diff": 3.234375,
+      "correct": 1,
+      "correct_logit": 18.84375,
+      "wrong_logit": 15.609375
+    },
+    "postposed_it": {
+      "diff": 3.578125,
+      "correct": 1,
+      "correct_logit": 25.625,
+      "wrong_logit": 22.046875
+    },
+    "cleft": {
+      "diff": 2.734375,
+      "correct": 1,
+      "correct_logit": 26.328125,
+      "wrong_logit": 23.59375
+    },
+    "topicalized": {
+      "diff": 0.84375,
+      "correct": 1,
+      "correct_logit": 22.375,
+      "wrong_logit": 21.53125
+    }
+  },
+  "action_vs_state": {
+    "searches_for": {
+      "diff": 6.40625,
+      "correct": 1,
+      "correct_logit": 25.796875,
+      "wrong_logit": 19.390625
+    },
+    "looks_for": {
+      "diff": 5.234375,
+      "correct": 1,
+      "correct_logit": 26.3125,
+      "wrong_logit": 21.078125
+    },
+    "expects": {
+      "diff": 6.140625,
+      "correct": 1,
+      "correct_logit": 26.59375,
+      "wrong_logit": 20.453125
+    },
+    "remembers": {
+      "diff": 6.375,
+      "correct": 1,
+      "correct_logit": 27.265625,
+      "wrong_logit": 20.890625
+    },
+    "pictures": {
+      "diff": 0.078125,
+      "correct": 1,
+      "correct_logit": 26.359375,
+      "wrong_logit": 26.28125
+    },
+    "believes": {
+      "diff": -0.71875,
+      "correct": 0,
+      "correct_logit": 24.421875,
+      "wrong_logit": 25.140625
+    },
+    "assumes": {
+      "diff": -0.015625,
+      "correct": 0,
+      "correct_logit": 26.796875,
+      "wrong_logit": 26.8125
+    },
+    "knows": {
+      "diff": -2.609375,
+      "correct": 0,
+      "correct_logit": 23.96875,
+      "wrong_logit": 26.578125
+    },
+    "believes_no_is": {
+      "diff": 1.53125,
+      "correct": 1,
+      "correct_logit": 25.21875,
+      "wrong_logit": 23.6875
+    },
+    "assumes_no_is": {
+      "diff": 1.828125,
+      "correct": 1,
+      "correct_logit": 25.203125,
+      "wrong_logit": 23.375
+    },
+    "knows_no_is": {
+      "diff": -0.40625,
+      "correct": 0,
+      "correct_logit": 22.984375,
+      "wrong_logit": 23.390625
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "Qwen3-4B": {
+    "model": "Qwen3-4B",
+    "tomi": {
+      "belief": {
+        "Sally-Anne": {
+          "correct_logit": 23.59375,
+          "wrong_logit": 18.875,
+          "diff": 4.71875,
+          "is_correct": true
+        },
+        "Maxi": {
+          "correct_logit": 21.265625,
+          "wrong_logit": 13.4921875,
+          "diff": 7.7734375,
+          "is_correct": true
+        },
+        "Emma teddy": {
+          "correct_logit": 28.6875,
+          "wrong_logit": 11.25,
+          "diff": 17.4375,
+          "is_correct": true
+        }
+      },
+      "action": {
+        "Sally-Anne": {
+          "correct_logit": 26.03125,
+          "wrong_logit": 23.65625,
+          "diff": 2.375,
+          "is_correct": true
+        },
+        "Maxi": {
+          "correct_logit": 27.5,
+          "wrong_logit": 15.953125,
+          "diff": 11.546875,
+          "is_correct": true
+        },
+        "Emma teddy": {
+          "correct_logit": 25.453125,
+          "wrong_logit": 10.671875,
+          "diff": 14.78125,
+          "is_correct": true
+        }
+      },
+      "belief_accuracy": 1.0,
+      "action_accuracy": 1.0
+    },
+    "verb_type": {
+      "action": {
+        "searched in the": {
+          "correct_logit": 25.671875,
+          "wrong_logit": 24.953125,
+          "diff": 0.71875,
+          "is_correct": true
+        },
+        "looks in the": {
+          "correct_logit": 29.21875,
+          "wrong_logit": 27.640625,
+          "diff": 1.578125,
+          "is_correct": true
+        },
+        "will look in the": {
+          "correct_logit": 25.640625,
+          "wrong_logit": 26.125,
+          "diff": -0.484375,
+          "is_correct": false
+        }
+      },
+      "belief": {
+        "thinks the ball is in the": {
+          "correct_logit": 23.171875,
+          "wrong_logit": 25.609375,
+          "diff": -2.4375,
+          "is_correct": false
+        },
+        "believes the ball is in the": {
+          "correct_logit": 21.453125,
+          "wrong_logit": 26.625,
+          "diff": -5.171875,
+          "is_correct": false
+        },
+        "knows the ball is in the": {
+          "correct_logit": 23.578125,
+          "wrong_logit": 26.6875,
+          "diff": -3.109375,
+          "is_correct": false
+        }
+      },
+      "action_accuracy": 0.6666666666666666,
+      "belief_accuracy": 0.0
+    }
+  },
+  "Qwen2.5-1.5B": {
+    "model": "Qwen2.5-1.5B",
+    "tomi": {
+      "belief": {
+        "Sally-Anne": {
+          "correct_logit": 22.546875,
+          "wrong_logit": 22.25,
+          "diff": 0.296875,
+          "is_correct": true
+        },
+        "Maxi": {
+          "correct_logit": 20.125,
+          "wrong_logit": 21.640625,
+          "diff": -1.515625,
+          "is_correct": false
+        },
+        "Emma teddy": {
+          "correct_logit": 24.234375,
+          "wrong_logit": 17.625,
+          "diff": 6.609375,
+          "is_correct": true
+        }
+      },
+      "action": {
+        "Sally-Anne": {
+          "correct_logit": 22.4375,
+          "wrong_logit": 22.546875,
+          "diff": -0.109375,
+          "is_correct": false
+        },
+        "Maxi": {
+          "correct_logit": 19.796875,
+          "wrong_logit": 20.8125,
+          "diff": -1.015625,
+          "is_correct": false
+        },
+        "Emma teddy": {
+          "correct_logit": 23.484375,
+          "wrong_logit": 18.375,
+          "diff": 5.109375,
+          "is_correct": true
+        }
+      },
+      "belief_accuracy": 0.6666666666666666,
+      "action_accuracy": 0.3333333333333333
+    },
+    "verb_type": {
+      "action": {
+        "searched in the": {
+          "correct_logit": 22.125,
+          "wrong_logit": 19.53125,
+          "diff": 2.59375,
+          "is_correct": true
+        },
+        "looks in the": {
+          "correct_logit": 22.921875,
+          "wrong_logit": 20.953125,
+          "diff": 1.96875,
+          "is_correct": true
+        },
+        "will look in the": {
+          "correct_logit": 21.578125,
+          "wrong_logit": 20.71875,
+          "diff": 0.859375,
+          "is_correct": true
+        }
+      },
+      "belief": {
+        "thinks the ball is in the": {
+          "correct_logit": 20.40625,
+          "wrong_logit": 21.296875,
+          "diff": -0.890625,
+          "is_correct": false
+        },
+        "believes the ball is in the": {
+          "correct_logit": 20.609375,
+          "wrong_logit": 21.515625,
+          "diff": -0.90625,
+          "is_correct": false
+        },
+        "knows the ball is in the": {
+          "correct_logit": 20.3125,
+          "wrong_logit": 22.078125,
+          "diff": -1.765625,
+          "is_correct": false
+        }
+      },
+      "action_accuracy": 1.0,
+      "belief_accuracy": 0.0
+    }
+  },
+  "Qwen2.5-0.5B": {
+    "model": "Qwen2.5-0.5B",
+    "tomi": {
+      "belief": {
+        "Sally-Anne": {
+          "correct_logit": 21.015625,
+          "wrong_logit": 19.390625,
+          "diff": 1.625,
+          "is_correct": true
+        },
+        "Maxi": {
+          "correct_logit": 18.484375,
+          "wrong_logit": 18.0625,
+          "diff": 0.421875,
+          "is_correct": true
+        },
+        "Emma teddy": {
+          "correct_logit": 21.328125,
+          "wrong_logit": 15.171875,
+          "diff": 6.15625,
+          "is_correct": true
+        }
+      },
+      "action": {
+        "Sally-Anne": {
+          "correct_logit": 20.171875,
+          "wrong_logit": 19.109375,
+          "diff": 1.0625,
+          "is_correct": true
+        },
+        "Maxi": {
+          "correct_logit": 16.859375,
+          "wrong_logit": 18.890625,
+          "diff": -2.03125,
+          "is_correct": false
+        },
+        "Emma teddy": {
+          "correct_logit": 19.171875,
+          "wrong_logit": 16.984375,
+          "diff": 2.1875,
+          "is_correct": true
+        }
+      },
+      "belief_accuracy": 1.0,
+      "action_accuracy": 0.6666666666666666
+    },
+    "verb_type": {
+      "action": {
+        "searched in the": {
+          "correct_logit": 19.125,
+          "wrong_logit": 18.171875,
+          "diff": 0.953125,
+          "is_correct": true
+        },
+        "looks in the": {
+          "correct_logit": 19.40625,
+          "wrong_logit": 18.9375,
+          "diff": 0.46875,
+          "is_correct": true
+        },
+        "will look in the": {
+          "correct_logit": 18.65625,
+          "wrong_logit": 19.015625,
+          "diff": -0.359375,
+          "is_correct": false
+        }
+      },
+      "belief": {
+        "thinks the ball is in the": {
+          "correct_logit": 17.78125,
+          "wrong_logit": 18.875,
+          "diff": -1.09375,
+          "is_correct": false
+        },
+        "believes the ball is in the": {
+          "correct_logit": 17.734375,
+          "wrong_logit": 18.953125,
+          "diff": -1.21875,
+          "is_correct": false
+        },
+        "knows the ball is in the": {
+          "correct_logit": 17.1875,
+          "wrong_logit": 18.859375,
+          "diff": -1.671875,
+          "is_correct": false
+        }
+      },
+      "action_accuracy": 0.6666666666666666,
+      "belief_accuracy": 0.0
+    }
+  }
+}

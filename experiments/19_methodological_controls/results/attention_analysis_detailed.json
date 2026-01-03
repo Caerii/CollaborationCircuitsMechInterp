@@ -1,0 +1,42 @@
+{
+  "inhibitors": {
+    "L18H11": {
+      "avg_loc1_attention": 0.01994463602701823,
+      "avg_loc2_attention": 0.0425048828125,
+      "avg_agent_attention": 0.3935750325520833,
+      "ratio_loc1_loc2": 0.4692206044748463
+    },
+    "L17H4": {
+      "avg_loc1_attention": 0.15367838541666667,
+      "avg_loc2_attention": 0.24365234375,
+      "avg_agent_attention": 0.015394083658854167,
+      "ratio_loc1_loc2": 0.6307255342834451
+    },
+    "L18H14": {
+      "avg_loc1_attention": 0.08716227213541666,
+      "avg_loc2_attention": 0.19361572265625,
+      "avg_agent_attention": 0.22146809895833333,
+      "ratio_loc1_loc2": 0.4501794624949099
+    }
+  },
+  "enablers": {
+    "L15H9": {
+      "avg_loc1_attention": 0.28465169270833335,
+      "avg_loc2_attention": 0.25085856119791666,
+      "avg_agent_attention": 0.00815582275390625,
+      "ratio_loc1_loc2": 1.1347053759842793
+    },
+    "L19H2": {
+      "avg_loc1_attention": 0.0182525634765625,
+      "avg_loc2_attention": 0.052129109700520836,
+      "avg_agent_attention": 0.3533203125,
+      "ratio_loc1_loc2": 0.35013476053322284
+    },
+    "L19H15": {
+      "avg_loc1_attention": 0.010308074951171874,
+      "avg_loc2_attention": 0.08582763671875,
+      "avg_agent_attention": 0.288232421875,
+      "ratio_loc1_loc2": 0.12010064874909036
+    }
+  }
+}

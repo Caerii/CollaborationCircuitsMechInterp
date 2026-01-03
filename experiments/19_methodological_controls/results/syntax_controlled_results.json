@@ -1,0 +1,274 @@
+{
+  "action_frame": {
+    "expects it to be in the": {
+      "accuracy": 0.8,
+      "mean_diff": 1.89375,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 0.453125
+        },
+        {
+          "correct": true,
+          "diff": 2.9375
+        },
+        {
+          "correct": true,
+          "diff": 3.8125
+        },
+        {
+          "correct": true,
+          "diff": 3.578125
+        },
+        {
+          "correct": false,
+          "diff": -1.3125
+        }
+      ]
+    },
+    "remembers it being in the": {
+      "accuracy": 1.0,
+      "mean_diff": 5.034375,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 6.828125
+        },
+        {
+          "correct": true,
+          "diff": 7.234375
+        },
+        {
+          "correct": true,
+          "diff": 5.359375
+        },
+        {
+          "correct": true,
+          "diff": 3.515625
+        },
+        {
+          "correct": true,
+          "diff": 2.234375
+        }
+      ]
+    },
+    "pictures it in the": {
+      "accuracy": 0.4,
+      "mean_diff": -0.759375,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 0.703125
+        },
+        {
+          "correct": true,
+          "diff": 0.1875
+        },
+        {
+          "correct": false,
+          "diff": -1.859375
+        },
+        {
+          "correct": false,
+          "diff": -2.15625
+        },
+        {
+          "correct": false,
+          "diff": -0.671875
+        }
+      ]
+    }
+  },
+  "belief_frame": {
+    "believes it to be in the": {
+      "accuracy": 1.0,
+      "mean_diff": 2.425,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 2.34375
+        },
+        {
+          "correct": true,
+          "diff": 4.34375
+        },
+        {
+          "correct": true,
+          "diff": 1.53125
+        },
+        {
+          "correct": true,
+          "diff": 1.890625
+        },
+        {
+          "correct": true,
+          "diff": 2.015625
+        }
+      ]
+    },
+    "assumes it to be in the": {
+      "accuracy": 1.0,
+      "mean_diff": 1.203125,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 0.21875
+        },
+        {
+          "correct": true,
+          "diff": 1.8125
+        },
+        {
+          "correct": true,
+          "diff": 0.359375
+        },
+        {
+          "correct": true,
+          "diff": 3.15625
+        },
+        {
+          "correct": true,
+          "diff": 0.46875
+        }
+      ]
+    },
+    "considers it to be in the": {
+      "accuracy": 0.4,
+      "mean_diff": 0.2,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 1.625
+        },
+        {
+          "correct": false,
+          "diff": -0.328125
+        },
+        {
+          "correct": false,
+          "diff": -0.5625
+        },
+        {
+          "correct": true,
+          "diff": 1.453125
+        },
+        {
+          "correct": false,
+          "diff": -1.1875
+        }
+      ]
+    }
+  },
+  "tense_controls": {
+    "present": {
+      "accuracy": 1.0,
+      "mean_diff": 1.725,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 3.609375
+        },
+        {
+          "correct": true,
+          "diff": 3.515625
+        },
+        {
+          "correct": true,
+          "diff": 0.203125
+        },
+        {
+          "correct": true,
+          "diff": 0.84375
+        },
+        {
+          "correct": true,
+          "diff": 0.453125
+        }
+      ]
+    },
+    "past": {
+      "accuracy": 0.8,
+      "mean_diff": 1.315625,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 3.03125
+        },
+        {
+          "correct": true,
+          "diff": 2.65625
+        },
+        {
+          "correct": false,
+          "diff": -0.5625
+        },
+        {
+          "correct": true,
+          "diff": 1.375
+        },
+        {
+          "correct": true,
+          "diff": 0.078125
+        }
+      ]
+    },
+    "future": {
+      "accuracy": 0.2,
+      "mean_diff": -1.5171875,
+      "n": 5,
+      "results": [
+        {
+          "correct": true,
+          "diff": 0.34375
+        },
+        {
+          "correct": false,
+          "diff": -1.640625
+        },
+        {
+          "correct": false,
+          "diff": -2.65625
+        },
+        {
+          "correct": false,
+          "diff": -1.7734375
+        },
+        {
+          "correct": false,
+          "diff": -1.859375
+        }
+      ]
+    }
+  },
+  "minimal_pairs": [
+    {
+      "verb_a": "expects the ball in the",
+      "verb_b": "suspects the ball is in the",
+      "acc_a": 0.8,
+      "acc_b": 0.0,
+      "diff": 0.8
+    },
+    {
+      "verb_a": "remembers it in the",
+      "verb_b": "forgets it is in the",
+      "acc_a": 1.0,
+      "acc_b": 0.0,
+      "diff": 1.0
+    },
+    {
+      "verb_a": "sees it in the",
+      "verb_b": "imagines it is in the",
+      "acc_a": 0.0,
+      "acc_b": 1.0,
+      "diff": -1.0
+    }
+  ]
+}

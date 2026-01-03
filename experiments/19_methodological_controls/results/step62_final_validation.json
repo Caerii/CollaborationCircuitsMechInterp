@@ -1,0 +1,150 @@
+{
+  "total_accuracy": 80.0,
+  "by_type": {
+    "FB": 90.0,
+    "TB": 83.33333333333334,
+    "TOLD": 50.0
+  },
+  "detailed_results": [
+    {
+      "name": "FB-1: Classic Sally-Anne",
+      "type": "FB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "FB-2: Alice-Bob Standard",
+      "type": "FB",
+      "correct": "drawer",
+      "answer": "drawer",
+      "is_correct": true
+    },
+    {
+      "name": "FB-3: Different Names",
+      "type": "FB",
+      "correct": "shelf",
+      "answer": "desk",
+      "is_correct": false
+    },
+    {
+      "name": "FB-4: Reversed Locations",
+      "type": "FB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "FB-5: Novel Locations",
+      "type": "FB",
+      "correct": "X",
+      "answer": "X",
+      "is_correct": true
+    },
+    {
+      "name": "FB-6: Three Agents",
+      "type": "FB",
+      "correct": "closet",
+      "answer": "closet",
+      "is_correct": true
+    },
+    {
+      "name": "FB-7: Different Object",
+      "type": "FB",
+      "correct": "table",
+      "answer": "table",
+      "is_correct": true
+    },
+    {
+      "name": "FB-8: Made-up Names",
+      "type": "FB",
+      "correct": "alpha",
+      "answer": "alpha",
+      "is_correct": true
+    },
+    {
+      "name": "FB-9: Multiple Moves",
+      "type": "FB",
+      "correct": "drawer",
+      "answer": "drawer",
+      "is_correct": true
+    },
+    {
+      "name": "FB-10: Long Absence",
+      "type": "FB",
+      "correct": "drawer",
+      "answer": "drawer",
+      "is_correct": true
+    },
+    {
+      "name": "TB-1: Watched Move",
+      "type": "TB",
+      "correct": "basket",
+      "answer": "drawer",
+      "is_correct": false
+    },
+    {
+      "name": "TB-2: Stayed in Room",
+      "type": "TB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "TB-3: Saw Action",
+      "type": "TB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "TB-4: Explicit Knowledge",
+      "type": "TB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "TB-5: Participated",
+      "type": "TB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "TB-6: Checked After",
+      "type": "TB",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "TOLD-1: Immediate Tell",
+      "type": "TOLD",
+      "correct": "basket",
+      "answer": "drawer",
+      "is_correct": false
+    },
+    {
+      "name": "TOLD-2: Direct Statement",
+      "type": "TOLD",
+      "correct": "basket",
+      "answer": "drawer",
+      "is_correct": false
+    },
+    {
+      "name": "TOLD-3: Phone Call",
+      "type": "TOLD",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    },
+    {
+      "name": "TOLD-4: Note Left",
+      "type": "TOLD",
+      "correct": "basket",
+      "answer": "basket",
+      "is_correct": true
+    }
+  ]
+}

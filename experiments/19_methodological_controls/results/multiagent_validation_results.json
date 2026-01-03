@@ -1,0 +1,26 @@
+{
+  "agent_to_agent": {
+    "baseline": 1.0,
+    "ablated": 1.0,
+    "boost": 0.0,
+    "n": 50
+  },
+  "second_order": {
+    "baseline": 1.0,
+    "ablated": 1.0,
+    "boost": 0.0,
+    "n": 50
+  },
+  "dialogue": {
+    "baseline": 1.0,
+    "ablated": 1.0,
+    "boost": 0.0,
+    "n": 50
+  },
+  "role_based": {
+    "baseline": 1.0,
+    "ablated": 1.0,
+    "boost": 0.0,
+    "n": 50
+  }
+}

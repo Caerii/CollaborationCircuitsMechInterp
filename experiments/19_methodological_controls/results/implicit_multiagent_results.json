@@ -1,0 +1,22 @@
+{
+  "implicit_comm": {
+    "baseline": 0.24,
+    "ablated": 0.48,
+    "boost": 0.24
+  },
+  "implicit_second_order": {
+    "baseline": 1.0,
+    "ablated": 1.0,
+    "boost": 0.0
+  },
+  "implicit_dialogue": {
+    "baseline": 0.2,
+    "ablated": 0.36,
+    "boost": 0.15999999999999998
+  },
+  "partial_info": {
+    "baseline": 1.0,
+    "ablated": 1.0,
+    "boost": 0.0
+  }
+}

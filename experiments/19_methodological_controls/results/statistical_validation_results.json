@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "n_per_condition": 50,
+  "action": {
+    "n": 50,
+    "correct": 29,
+    "accuracy": 0.58,
+    "ci_lower": 0.4423344176857823,
+    "ci_upper": 0.7062499664528802,
+    "mean_diff": 0.9065625,
+    "std_diff": 3.1077343190266844
+  },
+  "belief": {
+    "n": 50,
+    "correct": 27,
+    "accuracy": 0.54,
+    "ci_lower": 0.4039887139915748,
+    "ci_upper": 0.6703034780777566,
+    "mean_diff": 0.30015625,
+    "std_diff": 3.703815893487629
+  },
+  "comparison": {
+    "fisher_p": 0.8404858014395195,
+    "odds_ratio": 1.1763668430335097,
+    "cohens_h": 0.08060507291825147,
+    "ttest_p": 0.3821134564011237,
+    "significant": 

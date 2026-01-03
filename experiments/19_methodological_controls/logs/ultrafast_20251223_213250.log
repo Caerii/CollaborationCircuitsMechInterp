@@ -1,0 +1,61 @@
+2025-12-23 21:32:50,919 | INFO | Starting at 2025-12-23 21:32:50.919638
+2025-12-23 21:32:50,919 | INFO | Configuration:
+2025-12-23 21:32:50,919 | INFO |   BATCH_SIZE: 8
+2025-12-23 21:32:50,919 | INFO |   SCENARIOS_PER_VERB: 20
+2025-12-23 21:32:50,919 | INFO |   MAX_VERBS: ALL
+2025-12-23 21:32:50,919 | INFO | ======================================================================
+2025-12-23 21:32:50,919 | INFO | ULTRA-FAST GARGANTUAN SWEEP
+2025-12-23 21:32:50,920 | INFO | ======================================================================
+2025-12-23 21:32:50,920 | INFO | 
+[PHASE 1] Loading model with SDPA attention...
+2025-12-23 21:33:16,539 | INFO | We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 21:33:30,733 | INFO |   Model loaded in 39.8s
+2025-12-23 21:33:30,736 | INFO | 
+[PHASE 2] Generating all scenarios...
+2025-12-23 21:33:33,023 | INFO | Extracting verbs from WordNet...
+2025-12-23 21:33:33,240 | INFO | Found 1278 unique verbs across 16 categories
+2025-12-23 21:33:33,241 | INFO | Generating 1278 verbs × 20 scenarios...
+2025-12-23 21:33:33,349 | INFO | Generated 25560 total scenarios
+2025-12-23 21:33:33,349 | INFO |   Generated in 2.6s
+2025-12-23 21:33:33,349 | INFO | 
+[PHASE 3] Baseline sweep (25560 scenarios, batch_size=8)...
+2025-12-23 21:33:33,349 | INFO |   Running sanity check on first batch...
+2025-12-23 21:33:38,843 | INFO |   Sanity check passed! First batch: 5/8 correct
+2025-12-23 21:38:37,815 | INFO |   Baseline complete in 304.5s (84.0 scenarios/sec)
+2025-12-23 21:38:37,815 | INFO |   Baseline accuracy: 46.1%
+2025-12-23 21:38:37,815 | INFO | 
+[PHASE 4] Ablation sweep (25560 scenarios)...
+2025-12-23 21:43:32,534 | INFO |   Ablation complete in 294.7s (86.7 scenarios/sec)
+2025-12-23 21:43:32,534 | INFO |   Ablated accuracy: 67.3%
+2025-12-23 21:43:32,534 | INFO | 
+[PHASE 5] Aggregating results by verb...
+2025-12-23 21:43:32,539 | INFO | 
+[PHASE 6] Saving results...
+2025-12-23 21:43:32,577 | INFO | 
+======================================================================
+2025-12-23 21:43:32,578 | INFO | SUMMARY
+2025-12-23 21:43:32,578 | INFO | ======================================================================
+2025-12-23 21:43:32,578 | INFO | 
+TIMING:
+2025-12-23 21:43:32,578 | INFO |   Baseline: 304.5s (84 scenarios/sec)
+2025-12-23 21:43:32,578 | INFO |   Ablation: 294.7s (87 scenarios/sec)
+2025-12-23 21:43:32,578 | INFO |   TOTAL: 641.7s (10.7 minutes)
+2025-12-23 21:43:32,578 | INFO | 
+RESULTS:
+2025-12-23 21:43:32,578 | INFO |   Verbs tested: 1262
+2025-12-23 21:43:32,578 | INFO |   Scenarios tested: 25560
+2025-12-23 21:43:32,578 | INFO |   Mean baseline: 46.2%
+2025-12-23 21:43:32,578 | INFO |   Mean ablated: 67.3%
+2025-12-23 21:43:32,578 | INFO |   Mean boost: +21.1%
+2025-12-23 21:43:32,578 | INFO |   Verbs at 0% baseline: 0
+2025-12-23 21:43:32,578 | INFO |   Verbs at 100% ablated: 0
+2025-12-23 21:43:32,578 | INFO | 
+WORST VERBS (strongest inhibition):
+2025-12-23 21:43:32,612 | INFO | 
+BEST VERBS (no inhibition):
+2025-12-23 21:43:32,616 | INFO | 
+CATEGORY BREAKDOWN:
+2025-12-23 21:43:32,626 | INFO | 
+Results saved to: F:\Github\CollaborationCircuitsMechInterp\experiments\19_methodological_controls\results\ultrafast
+2025-12-23 21:43:32,648 | INFO | 
+Completed successfully at 2025-12-23 21:43:32.648243

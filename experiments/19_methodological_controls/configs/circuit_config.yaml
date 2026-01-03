@@ -1,0 +1,103 @@
+# Theory of Mind Circuit Configuration for Qwen3-4B
+# ==================================================
+# Based on systematic experiments (steps 1-14)
+
+model:
+  name: "Qwen/Qwen3-4B-Instruct-2507"
+  alias: "qwen3-4b"
+  n_layers: 36
+  n_heads: 32
+  hidden_size: 2560
+
+# Inhibitory heads (ablating these IMPROVES implicit ToM)
+# These are the "Decision Heads" - they carry the belief-update signal
+# but by default compute "no update" for implicit scenarios
+inhibitors:
+  # Top tier (strongest effect when ablated)
+  - layer: 18
+    head: 11
+    ablation_boost: 0.467  # +46.7% when ablated
+    role: "primary_decision"
+    
+  - layer: 17
+    head: 4
+    ablation_boost: 0.400  # +40.0% when ablated
+    role: "primary_decision"
+    
+  - layer: 19
+    head: 30
+    ablation_boost: 0.400
+    role: "secondary_decision"
+    
+  - layer: 18
+    head: 14
+    ablation_boost: 0.333
+    role: "secondary_decision"
+    
+  - layer: 21
+    head: 17
+    ablation_boost: 0.333
+    role: "secondary_decision"
+
+# Enabling heads (ablating these HURTS ToM - they are essential)
+# These process but don't decide - necessary for ToM computation
+enablers:
+  - layer: 15
+    head: 9
+    critical: true  # Ablation causes 0% accuracy
+    role: "essential_processing"
+    
+  - layer: 19
+    head: 2
+    critical: true
+    role: "essential_processing"
+    
+  - layer: 19
+    head: 15
+    critical: true
+    role: "essential_processing"
+
+# Layer groupings
+layers:
+  # Where most ToM processing happens
+  core_tom: [15, 16, 17, 18, 19, 20, 21]
+  
+  # Full inhibitory network
+  inhibitor_span: [14, 15, 16, 17, 18, 19, 20, 21, 22]
+  
+  # Path patching showed these are most important
+  signal_carriers: [17, 18, 19]
+
+# Recommended interventions
+interventions:
+  # Minimal intervention for 100% ToM
+  minimal_tom_fix:
+    type: "ablation"
+    heads: [[17, 4], [18, 14]]
+    expected_accuracy: 1.00
+    
+  # Maximum implicit multi-agent ToM
+  max_multiagent:
+    type: "ablation"
+    heads: [[17, 4], [18, 11], [18, 14], [19, 30], [21, 17]]
+    expected_accuracy: 0.92
+    
+  # Enabler amplification (alternative approach)
+  enabler_boost:
+    type: "amplification"
+    heads_scales: [[19, 2, 3.0], [19, 15, 3.0]]
+    expected_accuracy: 0.87
+
+# Key findings from experiments
+findings:
+  baseline_implicit_tom: 0.24  # 24% on implicit belief update
+  baseline_explicit_tom: 1.00  # 100% on explicit belief cues
+  
+  # Path patching discovery
+  signal_distribution: "all_positions"  # ToM signal is at all token positions
+  inhibitors_carry_signal: true  # Surprisingly, inhibitors are the signal carriers
+  
+  # What bridging phrases do
+  bridge_effect: "changes default from 'no update' to 'update'"
+
+

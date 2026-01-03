@@ -1,0 +1,343 @@
+{
+  "baseline": {
+    "First-order control": {
+      "correct_logit": 20.421875,
+      "max_wrong_logit": 10.828125,
+      "diff": 9.59375,
+      "is_correct": true,
+      "top_5_tokens": [
+        "jacket",
+        "pocket",
+        "coat",
+        "front",
+        "left"
+      ],
+      "top_5_logits": [
+        20.421875,
+        19.953125,
+        14.4375,
+        12.984375,
+        12.9453125
+      ],
+      "order": 1
+    },
+    "Second-order: A thinks B thinks": {
+      "correct_logit": 24.578125,
+      "max_wrong_logit": 13.6171875,
+      "diff": 10.9609375,
+      "is_correct": true,
+      "top_5_tokens": [
+        "jacket",
+        "same",
+        "coat",
+        "pocket",
+        "Jacket"
+      ],
+      "top_5_logits": [
+        24.578125,
+        15.671875,
+        15.21875,
+        15.1484375,
+        14.9765625
+      ],
+      "order": 2
+    },
+    "Second-order: What A thinks B believes": {
+      "correct_logit": 28.890625,
+      "max_wrong_logit": 20.671875,
+      "diff": 8.21875,
+      "is_correct": true,
+      "top_5_tokens": [
+        "jar",
+        "box",
+        "jar",
+        "",
+        "Jar"
+      ],
+      "top_5_logits": [
+        28.890625,
+        20.671875,
+        19.328125,
+        18.46875,
+        18.453125
+      ],
+      "order": 2
+    },
+    "Second-order: Perspective taking": {
+      "correct_logit": 26.390625,
+      "max_wrong_logit": 13.7578125,
+      "diff": 12.6328125,
+      "is_correct": true,
+      "top_5_tokens": [
+        "basket",
+        "original",
+        "__",
+        "basket",
+        "basketball"
+      ],
+      "top_5_logits": [
+        26.390625,
+        16.171875,
+        16.15625,
+        15.984375,
+        15.9765625
+      ],
+      "order": 2
+    },
+    "Third-order: A thinks B thinks C thinks": {
+      "correct_logit": 29.328125,
+      "max_wrong_logit": 24.0625,
+      "diff": 5.265625,
+      "is_correct": true,
+      "top_5_tokens": [
+        "B",
+        "A",
+        "C",
+        "...",
+        "..."
+      ],
+      "top_5_logits": [
+        29.328125,
+        24.0625,
+        19.5,
+        19.390625,
+        19.296875
+      ],
+      "order": 3
+    },
+    "Second-order with communication": {
+      "correct_logit": 29.671875,
+      "max_wrong_logit": 29.671875,
+      "diff": 0.0,
+      "is_correct": false,
+      "top_5_tokens": [
+        "",
+        "**",
+        "__",
+        "$",
+        "("
+      ],
+      "top_5_logits": [
+        29.671875,
+        22.25,
+        20.03125,
+        19.5625,
+        19.484375
+      ],
+      "order": 2
+    },
+    "Second-order: false belief about false belief": {
+      "correct_logit": 27.65625,
+      "max_wrong_logit": 26.671875,
+      "diff": 0.984375,
+      "is_correct": true,
+      "top_5_tokens": [
+        "box",
+        "basket",
+        "",
+        "____",
+        "__"
+      ],
+      "top_5_logits": [
+        27.65625,
+        26.671875,
+        17.78125,
+        17.0,
+        16.6875
+      ],
+      "order": 2
+    },
+    "Second-order: simple": {
+      "correct_logit": 26.5625,
+      "max_wrong_logit": 20.25,
+      "diff": 6.3125,
+      "is_correct": true,
+      "top_5_tokens": [
+        "A",
+        "B",
+        "C",
+        "",
+        "..."
+      ],
+      "top_5_logits": [
+        26.5625,
+        20.25,
+        17.75,
+        17.5625,
+        17.515625
+      ],
+      "order": 2
+    }
+  },
+  "with_late_ablation": {
+    "First-order control": {
+      "correct_logit": 20.828125,
+      "max_wrong_logit": 11.5078125,
+      "diff": 9.3203125,
+      "is_correct": true,
+      "top_5_tokens": [
+        "jacket",
+        "pocket",
+        "coat",
+        "left",
+        "front"
+      ],
+      "top_5_logits": [
+        20.828125,
+        20.515625,
+        14.71875,
+        13.90625,
+        13.671875
+      ],
+      "order": 1
+    },
+    "Second-order: A thinks B thinks": {
+      "correct_logit": 24.671875,
+      "max_wrong_logit": 14.34375,
+      "diff": 10.328125,
+      "is_correct": true,
+      "top_5_tokens": [
+        "jacket",
+        "same",
+        "Jacket",
+        "pocket",
+        "coat"
+      ],
+      "top_5_logits": [
+        24.671875,
+        16.59375,
+        15.7265625,
+        15.6015625,
+        15.1875
+      ],
+      "order": 2
+    },
+    "Second-order: What A thinks B believes": {
+      "correct_logit": 28.015625,
+      "max_wrong_logit": 20.21875,
+      "diff": 7.796875,
+      "is_correct": true,
+      "top_5_tokens": [
+        "jar",
+        "box",
+        "jar",
+        "Jar",
+        ""
+      ],
+      "top_5_logits": [
+        28.015625,
+        20.21875,
+        18.734375,
+        18.328125,
+        17.578125
+      ],
+      "order": 2
+    },
+    "Second-order: Perspective taking": {
+      "correct_logit": 26.078125,
+      "max_wrong_logit": 14.2421875,
+      "diff": 11.8359375,
+      "is_correct": true,
+      "top_5_tokens": [
+        "basket",
+        "original",
+        "basketball",
+        "__",
+        "____"
+      ],
+      "top_5_logits": [
+        26.078125,
+        17.34375,
+        16.640625,
+        16.546875,
+        16.171875
+      ],
+      "order": 2
+    },
+    "Third-order: A thinks B thinks C thinks": {
+      "correct_logit": 31.640625,
+      "max_wrong_logit": 27.28125,
+      "diff": 4.359375,
+      "is_correct": true,
+      "top_5_tokens": [
+        "B",
+        "A",
+        "...",
+        "C",
+        "$"
+      ],
+      "top_5_logits": [
+        31.640625,
+        27.28125,
+        22.671875,
+        22.453125,
+        22.375
+      ],
+      "order": 3
+    },
+    "Second-order with communication": {
+      "correct_logit": 32.46875,
+      "max_wrong_logit": 32.46875,
+      "diff": 0.0,
+      "is_correct": false,
+      "top_5_tokens": [
+        "",
+        "**",
+        "$",
+        "__",
+        "______"
+      ],
+      "top_5_logits": [
+        32.46875,
+        25.734375,
+        23.875,
+        23.6875,
+        22.828125
+      ],
+      "order": 2
+    },
+    "Second-order: false belief about false belief": {
+      "correct_logit": 28.546875,
+      "max_wrong_logit": 27.140625,
+      "diff": 1.40625,
+      "is_correct": true,
+      "top_5_tokens": [
+        "box",
+        "basket",
+        "",
+        "____",
+        "..."
+      ],
+      "top_5_logits": [
+        28.546875,
+        27.140625,
+        18.046875,
+        17.859375,
+        17.546875
+      ],
+      "order": 2
+    },
+    "Second-order: simple": {
+      "correct_logit": 29.34375,
+      "max_wrong_logit": 23.765625,
+      "diff": 5.578125,
+      "is_correct": true,
+      "top_5_tokens": [
+        "A",
+        "B",
+        "...",
+        "C",
+        ""
+      ],
+      "top_5_logits": [
+        29.34375,
+        23.765625,
+        21.171875,
+        21.078125,
+        20.625
+      ],
+      "order": 2
+    }
+  },
+  "circuit_search": {}
+}

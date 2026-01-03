@@ -1,0 +1,288 @@
+{
+  "baseline": {
+    "multi_turn_Two belief updates": {
+      "correct_logit": 19.828125,
+      "max_wrong_logit": 19.671875,
+      "logit_diff": 0.15625,
+      "top_prediction": "fridge",
+      "is_correct": true,
+      "category": "multi_turn",
+      "name": "Two belief updates",
+      "correct_answer": "fridge"
+    },
+    "multi_turn_Witnessed vs told": {
+      "correct_logit": 23.515625,
+      "max_wrong_logit": 18.59375,
+      "logit_diff": 4.921875,
+      "top_prediction": "mountain",
+      "is_correct": true,
+      "category": "multi_turn",
+      "name": "Witnessed vs told",
+      "correct_answer": "mountain"
+    },
+    "three_agents_Three agents different knowledge": {
+      "correct_logit": 26.546875,
+      "max_wrong_logit": 14.2265625,
+      "logit_diff": 12.3203125,
+      "top_prediction": "shelf",
+      "is_correct": true,
+      "category": "three_agents",
+      "name": "Three agents different knowledge",
+      "correct_answer": "shelf"
+    },
+    "three_agents_Chain of communication": {
+      "correct_logit": 25.953125,
+      "max_wrong_logit": 13.4921875,
+      "logit_diff": 12.4609375,
+      "top_prediction": "drawer",
+      "is_correct": true,
+      "category": "three_agents",
+      "name": "Chain of communication",
+      "correct_answer": "drawer"
+    },
+    "three_agents_Partial communication": {
+      "correct_logit": 28.796875,
+      "max_wrong_logit": 20.5625,
+      "logit_diff": 8.234375,
+      "top_prediction": "A",
+      "is_correct": true,
+      "category": "three_agents",
+      "name": "Partial communication",
+      "correct_answer": "A"
+    },
+    "nested_beliefs_Alice thinks Bob thinks": {
+      "correct_logit": 17.421875,
+      "max_wrong_logit": 26.671875,
+      "logit_diff": -9.25,
+      "top_prediction": "jacket",
+      "is_correct": false,
+      "category": "nested_beliefs",
+      "name": "Alice thinks Bob thinks",
+      "correct_answer": "bag"
+    },
+    "nested_beliefs_False belief about false belief": {
+      "correct_logit": 38.59375,
+      "max_wrong_logit": 8.1640625,
+      "logit_diff": 30.4296875,
+      "top_prediction": "closet",
+      "is_correct": true,
+      "category": "nested_beliefs",
+      "name": "False belief about false belief",
+      "correct_answer": "closet"
+    },
+    "different_domain_Secret knowledge": {
+      "correct_logit": 16.703125,
+      "max_wrong_logit": 18.140625,
+      "logit_diff": -1.4375,
+      "top_prediction": "to",
+      "is_correct": false,
+      "category": "different_domain",
+      "name": "Secret knowledge",
+      "correct_answer": "blue123"
+    },
+    "different_domain_Schedule belief": {
+      "correct_logit": 27.375,
+      "max_wrong_logit": 27.375,
+      "logit_diff": 0.0,
+      "top_prediction": "",
+      "is_correct": false,
+      "category": "different_domain",
+      "name": "Schedule belief",
+      "correct_answer": "2pm"
+    },
+    "different_domain_Price knowledge": {
+      "correct_logit": 23.65625,
+      "max_wrong_logit": 23.65625,
+      "logit_diff": 0.0,
+      "top_prediction": "the",
+      "is_correct": false,
+      "category": "different_domain",
+      "name": "Price knowledge",
+      "correct_answer": "$20,000"
+    },
+    "told_verb_Standard told scenario": {
+      "correct_logit": 21.765625,
+      "max_wrong_logit": 23.53125,
+      "logit_diff": -1.765625,
+      "top_prediction": "basket",
+      "is_correct": false,
+      "category": "told_verb",
+      "name": "Standard told scenario",
+      "correct_answer": "drawer"
+    },
+    "told_verb_Complex told scenario": {
+      "correct_logit": 25.8125,
+      "max_wrong_logit": 20.75,
+      "logit_diff": 5.0625,
+      "top_prediction": "A",
+      "is_correct": true,
+      "category": "told_verb",
+      "name": "Complex told scenario",
+      "correct_answer": "A"
+    }
+  },
+  "ablated": {
+    "multi_turn_Two belief updates": {
+      "correct_logit": 20.390625,
+      "max_wrong_logit": 20.140625,
+      "logit_diff": 0.25,
+      "top_prediction": "fridge",
+      "is_correct": true,
+      "category": "multi_turn",
+      "name": "Two belief updates",
+      "correct_answer": "fridge"
+    },
+    "multi_turn_Witnessed vs told": {
+      "correct_logit": 25.15625,
+      "max_wrong_logit": 20.203125,
+      "logit_diff": 4.953125,
+      "top_prediction": "mountain",
+      "is_correct": true,
+      "category": "multi_turn",
+      "name": "Witnessed vs told",
+      "correct_answer": "mountain"
+    },
+    "three_agents_Three agents different knowledge": {
+      "correct_logit": 26.4375,
+      "max_wrong_logit": 14.0,
+      "logit_diff": 12.4375,
+      "top_prediction": "shelf",
+      "is_correct": true,
+      "category": "three_agents",
+      "name": "Three agents different knowledge",
+      "correct_answer": "shelf"
+    },
+    "three_agents_Chain of communication": {
+      "correct_logit": 27.15625,
+      "max_wrong_logit": 14.359375,
+      "logit_diff": 12.796875,
+      "top_prediction": "drawer",
+      "is_correct": true,
+      "category": "three_agents",
+      "name": "Chain of communication",
+      "correct_answer": "drawer"
+    },
+    "three_agents_Partial communication": {
+      "correct_logit": 30.640625,
+      "max_wrong_logit": 23.078125,
+      "logit_diff": 7.5625,
+      "top_prediction": "A",
+      "is_correct": true,
+      "category": "three_agents",
+      "name": "Partial communication",
+      "correct_answer": "A"
+    },
+    "nested_beliefs_Alice thinks Bob thinks": {
+      "correct_logit": 18.4375,
+      "max_wrong_logit": 26.984375,
+      "logit_diff": -8.546875,
+      "top_prediction": "jacket",
+      "is_correct": false,
+      "category": "nested_beliefs",
+      "name": "Alice thinks Bob thinks",
+      "correct_answer": "bag"
+    },
+    "nested_beliefs_False belief about false belief": {
+      "correct_logit": 39.71875,
+      "max_wrong_logit": 11.578125,
+      "logit_diff": 28.140625,
+      "top_prediction": "closet",
+      "is_correct": true,
+      "category": "nested_beliefs",
+      "name": "False belief about false belief",
+      "correct_answer": "closet"
+    },
+    "different_domain_Secret knowledge": {
+      "correct_logit": 17.328125,
+      "max_wrong_logit": 18.875,
+      "logit_diff": -1.546875,
+      "top_prediction": "to",
+      "is_correct": false,
+      "category": "different_domain",
+      "name": "Secret knowledge",
+      "correct_answer": "blue123"
+    },
+    "different_domain_Schedule belief": {
+      "correct_logit": 29.015625,
+      "max_wrong_logit": 29.015625,
+      "logit_diff": 0.0,
+      "top_prediction": "",
+      "is_correct": false,
+      "category": "different_domain",
+      "name": "Schedule belief",
+      "correct_answer": "2pm"
+    },
+    "different_domain_Price knowledge": {
+      "correct_logit": 24.46875,
+      "max_wrong_logit": 24.46875,
+      "logit_diff": 0.0,
+      "top_prediction": "the",
+      "is_correct": false,
+      "category": "different_domain",
+      "name": "Price knowledge",
+      "correct_answer": "$20,000"
+    },
+    "told_verb_Standard told scenario": {
+      "correct_logit": 22.84375,
+      "max_wrong_logit": 23.0,
+      "logit_diff": -0.15625,
+      "top_prediction": "basket",
+      "is_correct": false,
+      "category": "told_verb",
+      "name": "Standard told scenario",
+      "correct_answer": "drawer"
+    },
+    "told_verb_Complex told scenario": {
+      "correct_logit": 26.8125,
+      "max_wrong_logit": 21.96875,
+      "logit_diff": 4.84375,
+      "top_prediction": "A",
+      "is_correct": true,
+      "category": "told_verb",
+      "name": "Complex told scenario",
+      "correct_answer": "A"
+    }
+  },
+  "by_category": {
+    "different_domain": {
+      "baseline_correct": 0,
+      "ablated_correct": 0,
+      "total": 3,
+      "baseline_pct": 0.0,
+      "ablated_pct": 0.0
+    },
+    "multi_turn": {
+      "baseline_correct": 2,
+      "ablated_correct": 2,
+      "total": 2,
+      "baseline_pct": 100.0,
+      "ablated_pct": 100.0
+    },
+    "nested_beliefs": {
+      "baseline_correct": 1,
+      "ablated_correct": 1,
+      "total": 2,
+      "baseline_pct": 50.0,
+      "ablated_pct": 50.0
+    },
+    "three_agents": {
+      "baseline_correct": 3,
+      "ablated_correct": 3,
+      "total": 3,
+      "baseline_pct": 100.0,
+      "ablated_pct": 100.0
+    },
+    "told_verb": {
+      "baseline_correct": 1,
+      "ablated_correct": 1,
+      "total": 2,
+      "baseline_pct": 50.0,
+      "ablated_pct": 50.0
+    }
+  },
+  "overall": {
+    "baseline_correct": 7,
+    "ablated_correct": 7,
+    "total": 12
+  }
+}

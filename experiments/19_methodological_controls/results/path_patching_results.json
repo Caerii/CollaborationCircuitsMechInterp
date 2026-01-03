@@ -1,0 +1,103 @@
+{
+  "head_patching": {
+    "clean_accuracy": 1.0,
+    "corrupted_accuracy": 0.3199999928474426,
+    "gap": 0.6800000071525574,
+    "head_summaries": {
+      "L15H9": {
+        "type": "enabler",
+        "restoration_rate": 0.0,
+        "avg_prob_change": -0.022485324144363404
+      },
+      "L17H4": {
+        "type": "inhibitor",
+        "restoration_rate": 0.2199999988079071,
+        "avg_prob_change": 0.060114227533340454
+      },
+      "L18H11": {
+        "type": "inhibitor",
+        "restoration_rate": 0.35999998450279236,
+        "avg_prob_change": 0.08649911522865296
+      },
+      "L18H14": {
+        "type": "inhibitor",
+        "restoration_rate": 0.03999999910593033,
+        "avg_prob_change": -0.001762453317642212
+      },
+      "L19H15": {
+        "type": "enabler",
+        "restoration_rate": 0.0,
+        "avg_prob_change": -0.013947079181671143
+      },
+      "L19H2": {
+        "type": "enabler",
+        "restoration_rate": 0.0,
+        "avg_prob_change": -0.009343163967132568
+      }
+    }
+  },
+  "layer_patching": {
+    "12": {
+      "restoration_rate": 0.13333334028720856,
+      "avg_prob_change": 0.00461803674697876
+    },
+    "13": {
+      "restoration_rate": 0.03333333507180214,
+      "avg_prob_change": 0.026057843367258707
+    },
+    "14": {
+      "restoration_rate": 0.1666666716337204,
+      "avg_prob_change": 0.08723700443903605
+    },
+    "15": {
+      "restoration_rate": 0.0,
+      "avg_prob_change": 0.005650381247202556
+    },
+    "16": {
+      "restoration_rate": 0.10000000894069672,
+      "avg_prob_change": 0.036161969105402626
+    },
+    "17": {
+      "restoration_rate": 0.23333334922790527,
+      "avg_prob_change": 0.13947407007217408
+    },
+    "18": {
+      "restoration_rate": 0.4333333671092987,
+      "avg_prob_change": 0.21256462335586548
+    },
+    "19": {
+      "restoration_rate": 0.36666667461395264,
+      "avg_prob_change": 0.26521049737930297
+    },
+    "20": {
+      "restoration_rate": 0.06666667014360428,
+      "avg_prob_change": 0.07147448460261027
+    },
+    "21": {
+      "restoration_rate": 0.06666667014360428,
+      "avg_prob_change": 0.17879692316055298
+    },
+    "22": {
+      "restoration_rate": 0.0,
+      "avg_prob_change": 0.023354425032933553
+    },
+    "23": {
+      "restoration_rate": 0.23333334922790527,
+      "avg_prob_change": 0.16763181289037068
+    },
+    "24": {
+      "restoration_rate": 0.0,
+      "avg_prob_change": 0.0322887380917867
+    }
+  },
+  "path_tracing": {
+    "enabler_early": 0.06666666666666667,
+    "inhibitor_17": 0.5666666666666667,
+    "inhibitor_18": 0.5,
+    "enabler_late": 0.06666666666666667,
+    "early_to_mid": 0.4,
+    "mid_to_late": 0.4666666666666667,
+    "full_enabler_path": 0.06666666666666667,
+    "skip_inhibitors": 0.06666666666666667
+  }
+}

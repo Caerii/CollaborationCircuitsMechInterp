@@ -1,0 +1,98 @@
+{
+  "Qwen3-4B": {
+    "baseline": {
+      "bad_verbs": {
+        "told": {
+          "drawer": 27.421875,
+          "basket": 19.046875,
+          "diff": 8.375,
+          "correct": true
+        },
+        "said": {
+          "drawer": 25.640625,
+          "basket": 18.234375,
+          "diff": 7.40625,
+          "correct": true
+        },
+        "mentioned": {
+          "drawer": 26.75,
+          "basket": 18.046875,
+          "diff": 8.703125,
+          "correct": true
+        }
+      },
+      "good_verbs": {
+        "announced": {
+          "drawer": 25.765625,
+          "basket": 18.375,
+          "diff": 7.390625,
+          "correct": true
+        },
+        "asked": {
+          "drawer": 25.40625,
+          "basket": 16.53125,
+          "diff": 8.875,
+          "correct": true
+        },
+        "hinted": {
+          "drawer": 24.8125,
+          "basket": 17.03125,
+          "diff": 7.78125,
+          "correct": true
+        }
+      }
+    },
+    "circuit_search": {
+      "baseline_correct": true,
+      "improving_heads": []
+    }
+  },
+  "Qwen2.5-1.5B": {
+    "baseline": {
+      "bad_verbs": {
+        "told": {
+          "drawer": 20.71875,
+          "basket": 18.796875,
+          "diff": 1.921875,
+          "correct": true
+        },
+        "said": {
+          "drawer": 20.453125,
+          "basket": 18.125,
+          "diff": 2.328125,
+          "correct": true
+        },
+        "mentioned": {
+          "drawer": 20.625,
+          "basket": 18.6875,
+          "diff": 1.9375,
+          "correct": true
+        }
+      },
+      "good_verbs": {
+        "announced": {
+          "drawer": 20.453125,
+          "basket": 18.640625,
+          "diff": 1.8125,
+          "correct": true
+        },
+        "asked": {
+          "drawer": 20.625,
+          "basket": 18.296875,
+          "diff": 2.328125,
+          "correct": true
+        },
+        "hinted": {
+          "drawer": 20.578125,
+          "basket": 18.34375,
+          "diff": 2.234375,
+          "correct": true
+        }
+      }
+    },
+    "circuit_search": {
+      "baseline_correct": true,
+      "improving_heads": []
+    }
+  }
+}

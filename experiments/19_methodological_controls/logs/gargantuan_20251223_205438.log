@@ -1,0 +1,43 @@
+2025-12-23 20:54:38,403 | INFO | Starting at 2025-12-23 20:54:38.403046
+2025-12-23 20:54:38,403 | INFO | Configuration:
+2025-12-23 20:54:38,403 | INFO |   MAX_VERBS: 500
+2025-12-23 20:54:38,403 | INFO |   SCENARIOS_PER_VERB: 30
+2025-12-23 20:54:38,403 | INFO |   CHECKPOINT_EVERY: 50
+2025-12-23 20:54:38,403 | INFO | ======================================================================
+2025-12-23 20:54:38,404 | INFO | GARGANTUAN LINGUISTIC SWEEP
+2025-12-23 20:54:38,404 | INFO | ======================================================================
+2025-12-23 20:54:38,404 | INFO | 
+[1/6] Loading model...
+2025-12-23 20:54:41,566 | INFO | We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-23 20:54:53,403 | INFO | Model loaded in 15.0s
+2025-12-23 20:54:53,404 | INFO |   Layers: 36
+2025-12-23 20:54:53,404 | INFO |   Heads: 32
+2025-12-23 20:54:53,404 | INFO | 
+[2/6] Expanding vocabulary...
+2025-12-23 20:54:55,713 | INFO | Extracting communication verbs from WordNet...
+2025-12-23 20:54:55,911 | WARNING | Could not process synset reply.v.02: Lemma 'reply' with part of speech 'v' only has 1 sense
+2025-12-23 20:54:55,911 | WARNING | Could not process synset notify.v.02: Lemma 'notify' with part of speech 'v' only has 1 sense
+2025-12-23 20:54:55,912 | WARNING | Could not process synset hint.v.02: Lemma 'hint' with part of speech 'v' only has 1 sense
+2025-12-23 20:54:55,912 | INFO | Found 1325 unique verbs across 17 categories
+2025-12-23 20:54:55,912 | INFO |   communicate: 865 verbs
+2025-12-23 20:54:55,912 | INFO |   tell: 234 verbs
+2025-12-23 20:54:55,912 | INFO |   ask: 60 verbs
+2025-12-23 20:54:55,912 | INFO |   inform: 42 verbs
+2025-12-23 20:54:55,912 | INFO |   express: 41 verbs
+2025-12-23 20:54:55,912 | INFO |   write: 26 verbs
+2025-12-23 20:54:55,912 | INFO |   mention: 12 verbs
+2025-12-23 20:54:55,912 | INFO |   speak: 9 verbs
+2025-12-23 20:54:55,912 | INFO |   digital: 7 verbs
+2025-12-23 20:54:55,912 | INFO |   emotional: 6 verbs
+2025-12-23 20:54:55,912 | INFO |   casual: 5 verbs
+2025-12-23 20:54:55,912 | INFO |   formal: 5 verbs
+2025-12-23 20:54:55,912 | INFO |   advise: 4 verbs
+2025-12-23 20:54:55,912 | INFO |   declare: 3 verbs
+2025-12-23 20:54:55,912 | INFO |   say: 2 verbs
+2025-12-23 20:54:55,912 | INFO |   explain: 2 verbs
+2025-12-23 20:54:55,912 | INFO |   describe: 2 verbs
+2025-12-23 20:54:55,912 | INFO | Selected 500 verbs for testing
+2025-12-23 20:54:55,914 | INFO | Remaining verbs to test: 500
+2025-12-23 20:54:55,914 | INFO | 
+[3/6] Running baseline + ablation sweep...
+2025-12-23 20:59:49,009 | INFO | Saved checkpoint: F:\Github\CollaborationCircuitsMechInterp\experiments\19_methodological_controls\results\gargantuan\checkpoints\checkpoint_0001.json

@@ -1,0 +1,466 @@
+{
+  "template_original": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.6666666666666666,
+      "ci_low": 0.48779725813830266,
+      "ci_high": 0.807697044731538,
+      "successes": 20
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 0.8,
+      "ci_low": 0.6269395261897256,
+      "ci_high": 0.9049502189759876,
+      "successes": 24
+    }
+  },
+  "template_passive": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.8666666666666667,
+      "ci_low": 0.7031831605558306,
+      "ci_high": 0.9469043057578189,
+      "successes": 26
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 0.9666666666666667,
+      "ci_low": 0.8332924860304112,
+      "ci_high": 0.9940915620051425,
+      "successes": 29
+    }
+  },
+  "template_story": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    }
+  },
+  "template_formal": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    }
+  },
+  "template_casual": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.1,
+      "ci_low": 0.034599259959716175,
+      "ci_high": 0.2562144131526662,
+      "successes": 3
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 0.16666666666666666,
+      "ci_low": 0.07336434240351686,
+      "ci_high": 0.33564705185680177,
+      "successes": 5
+    }
+  },
+  "template_third_person": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.9666666666666667,
+      "ci_low": 0.8332924860304112,
+      "ci_high": 0.9940915620051425,
+      "successes": 29
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    }
+  },
+  "verb_called": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.13319649395317873,
+      "successes": 0
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 0.92,
+      "ci_low": 0.7503348787704218,
+      "ci_high": 0.977780066308908,
+      "successes": 23
+    }
+  },
+  "verb_emailed": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.08,
+      "ci_low": 0.02221993369109193,
+      "ci_high": 0.24966512122957818,
+      "successes": 2
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_informed": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.13319649395317873,
+      "successes": 0
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_let_know": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.04,
+      "ci_low": 0.007096050386699165,
+      "ci_high": 0.19544472405022525,
+      "successes": 1
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 0.92,
+      "ci_low": 0.7503348787704218,
+      "ci_high": 0.977780066308908,
+      "successes": 23
+    }
+  },
+  "verb_mentioned": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.13319649395317873,
+      "successes": 0
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_messaged": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.08,
+      "ci_low": 0.02221993369109193,
+      "ci_high": 0.24966512122957818,
+      "successes": 2
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_notified": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.08,
+      "ci_low": 0.02221993369109193,
+      "ci_high": 0.24966512122957818,
+      "successes": 2
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_texted": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.28,
+      "ci_low": 0.1428367383738157,
+      "ci_high": 0.47576971896558296,
+      "successes": 7
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_told": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.13319649395317873,
+      "successes": 0
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "verb_wrote": {
+    "baseline": {
+      "n": 25,
+      "accuracy": 0.12,
+      "ci_low": 0.04166741357068093,
+      "ci_high": 0.2995619218337349,
+      "successes": 3
+    },
+    "ablated": {
+      "n": 25,
+      "accuracy": 1.0,
+      "ci_low": 0.8668035060468213,
+      "ci_high": 1,
+      "successes": 25
+    }
+  },
+  "lang_english": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    }
+  },
+  "lang_spanish": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.113517091390478,
+      "successes": 0
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.113517091390478,
+      "successes": 0
+    }
+  },
+  "lang_french": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.7666666666666667,
+      "ci_low": 0.5907132766967574,
+      "ci_high": 0.8820776078949878,
+      "successes": 23
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 0.7666666666666667,
+      "ci_low": 0.5907132766967574,
+      "ci_high": 0.8820776078949878,
+      "successes": 23
+    }
+  },
+  "lang_german": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.113517091390478,
+      "successes": 0
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 0.0,
+      "ci_low": 0,
+      "ci_high": 0.113517091390478,
+      "successes": 0
+    }
+  },
+  "lang_chinese": {
+    "baseline": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    },
+    "ablated": {
+      "n": 30,
+      "accuracy": 1.0,
+      "ci_low": 0.8864829086095221,
+      "ci_high": 1,
+      "successes": 30
+    }
+  },
+  "edge_multiple_moves": {
+    "baseline": {
+      "n": 10,
+      "accuracy": 0.4,
+      "ci_low": 0.16817758120350967,
+      "ci_high": 0.6873304525498135,
+      "successes": 4
+    },
+    "ablated": {
+      "n": 10,
+      "accuracy": 1.0,
+      "ci_low": 0.7224598312333834,
+      "ci_high": 1,
+      "successes": 10
+    }
+  },
+  "edge_wrong_info": {
+    "baseline": {
+      "n": 10,
+      "accuracy": 1.0,
+      "ci_low": 0.7224598312333834,
+      "ci_high": 1,
+      "successes": 10
+    },
+    "ablated": {
+      "n": 10,
+      "accuracy": 1.0,
+      "ci_low": 0.7224598312333834,
+      "ci_high": 1,
+      "successes": 10
+    }
+  },
+  "edge_delayed": {
+    "baseline": {
+      "n": 10,
+      "accuracy": 0.6,
+      "ci_low": 0.3126695474501864,
+      "ci_high": 0.8318224187964902,
+      "successes": 6
+    },
+    "ablated": {
+      "n": 10,
+      "accuracy": 0.9,
+      "ci_low": 0.5958436145024278,
+      "ci_high": 0.9821242504842788,
+      "successes": 9
+    }
+  },
+  "edge_chain": {
+    "baseline": {
+      "n": 10,
+      "accuracy": 0.5,
+      "ci_low": 0.23658959361548731,
+      "ci_high": 0.7634104063845126,
+      "successes": 5
+    },
+    "ablated": {
+      "n": 10,
+      "accuracy": 0.6,
+      "ci_low": 0.3126695474501864,
+      "ci_high": 0.8318224187964902,
+      "successes": 6
+    }
+  },
+  "edge_negation": {
+    "baseline": {
+      "n": 10,
+      "accuracy": 1.0,
+      "ci_low": 0.7224598312333834,
+      "ci_high": 1,
+      "successes": 10
+    },
+    "ablated": {
+      "n": 10,
+      "accuracy": 1.0,
+      "ci_low": 0.7224598312333834,
+      "ci_high": 1,
+      "successes": 10
+    }
+  },
+  "negative_not_told": {
+    "baseline": {
+      "n": 16,
+      "accuracy": 0.75,
+      "ci_low": 0.5050123107060135,
+      "ci_high": 0.8981809801576265,
+      "successes": 12
+    },
+    "ablated": {
+      "n": 16,
+      "accuracy": 0.5,
+      "ci_low": 0.2799923761135083,
+      "ci_high": 0.7200076238864916,
+      "successes": 8
+    }
+  },
+  "negative_didnt_hear": {
+    "baseline": {
+      "n": 16,
+      "accuracy": 0.5,
+      "ci_low": 0.2799923761135083,
+      "ci_high": 0.7200076238864916,
+      "successes": 8
+    },
+    "ablated": {
+      "n": 16,
+      "accuracy": 0.1875,
+      "ci_low": 0.06591478773586765,
+      "ci_high": 0.4300935986845823,
+      "successes": 3
+    }
+  },
+  "negative_message_failed": {
+    "baseline": {
+      "n": 16,
+      "accuracy": 0.5,
+      "ci_low": 0.2799923761135083,
+      "ci_high": 0.7200076238864916,
+      "successes": 8
+    },
+    "ablated": {
+      "n": 16,
+      "accuracy": 0.125,
+      "ci_low": 0.034976749337057134,
+      "ci_high": 0.3602333143674828,
+      "successes": 2
+    }
+  }
+}

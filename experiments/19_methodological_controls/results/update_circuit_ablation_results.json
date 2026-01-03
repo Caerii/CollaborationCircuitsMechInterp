@@ -1,0 +1,78 @@
+{
+  "conditions": {
+    "no_ablation": {
+      "heads_ablated": [],
+      "baseline_accuracy": 0.26,
+      "bridged_accuracy": 0.94
+    },
+    "update_circuit_core": {
+      "heads_ablated": [
+        [
+          23,
+          4
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "baseline_accuracy": 0.18,
+      "bridged_accuracy": 0.84
+    },
+    "update_circuit_extended": {
+      "heads_ablated": [
+        [
+          23,
+          4
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          23,
+          30
+        ]
+      ],
+      "baseline_accuracy": 0.52,
+      "bridged_accuracy": 0.98
+    },
+    "control_random": {
+      "heads_ablated": [
+        [
+          5,
+          5
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "baseline_accuracy": 0.22,
+      "bridged_accuracy": 0.9
+    },
+    "explicit_parser": {
+      "heads_ablated": [
+        [
+          12,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "baseline_accuracy": 0.36,
+      "bridged_accuracy": 0.92
+    }
+  },
+  "summary": {}
+}

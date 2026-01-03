@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-12-23T23:42:02.737399",
+  "prompting_results": {
+    "raw_completion": "{'drawer': 0.91943359375, 'basket': 0.08038330078125, 'correct': True}",
+    "direct_question": "{'response': 'The ball is in the basket. So, the answer is basket.\\n\\nWait, but the problem is that the ball was moved to the basket by Bob. But Alice is not aware of that. So, if Alice is not aware of the ball being', 'mentions_drawer': False, 'mentions_basket': True}",
+    "chat_format": "{'response': \"<think>\\nOkay, let's try to figure out where Alice will look for the ball. So, the story goes like this: Alice puts the ball in the drawer. Then she leaves the room. Bob moves the ball to the basket. Then Alice comes back. The question is, where will Alice look for the ball?\\n\\nFirst, I need to track the sequence of events. Let me break it down step by step.\\n\\n1. Alice puts the ball in the drawer. So initially, the ball\"}",
+    "with_persona": "{'response': \"<think>\\nOkay, let's try to figure this out. So, the question is about where Alice will look for the ball after she comes back. The key here is understanding what Alice knows. Let me break down the events step by step.\\n\\nFirst\"}",
+    "chain_of_thought": "{'response': \"<think>\\nOkay, let's try to figure out what Alice believes about the ball's location. So, the scenario is that Alice first puts the ball in the drawer. Then she leaves the room. Bob moves the ball to the basket. Then Alice comes back.\\n\\nFirst, I need to break down each part step by step. Let's start with the first question: What did Alice see happen to the ball? Well, initially, Alice put the ball in the drawer. So she saw that action. Then she left the room. So while she was in t",
+    "explicit_tom": "{'response': \"<think>\\nOkay, let's try to figure this out. So, the question is about a Theory of Mind test where I need to predict where Alice will look for the ball based on her false belief. Let me break down the story again to make sure I get all the details right.\\n\\nFirst, Alice puts the ball in the drawer. Then she leaves the room. After she's gone, Bob moves the ball to the basket. Then Alice comes back. The key point here is that Alice left\"}",
+    "simtom_style": "{'response': \"<think>\\nOkay, let's tackle this step by step. The user provided a story and wants me to first identify what Alice directly witnessed and then answer the question from her perspective.\\n\\nFirst, the story: Alice puts the ball in the drawer. Then she leaves the room. Bob moves the ball to the basket. Then Alice comes back.\\n\\nFor Step 1, I need to figure out what Alice directly witnessed. So, when does Alice see something? She puts the ball in the drawer. That's her action. Then she",
+    "novel_with_prompting": "{'response': \"<think>\\nOkay, let's try to figure this out. So, the question is about where Alice will look for the ball after Bob moves it. Let me break down the scenario step by step.\\n\\nFirst, Alice puts the ball in container X.\"}"
+  },
+  "batch_results": [
+    {
+      "description": "Standard FB",
+      "tom_answer": "drawer",
+      "response": "<think>\nOkay, let's see. The user is asking where Alice will look for the ball based on her beliefs, not the actual truth. So",
+      "tom_correct": false
+    },
+    {
+      "description": "Reversed FB",
+      "tom_answer": "basket",
+      "response": "<think>\nOkay, let's see. The user is asking where Alice will look for the ball based on her beliefs, not the actual truth. So",
+      "tom_correct": false
+    },
+    {
+      "description": "True Belief",
+      "tom_answer": "basket",
+      "response": "<think>\nOkay, let's see. The user is asking where Alice will look for the ball based on her beliefs, not the actual truth. So",
+      "tom_correct": false
+    },
+    {
+      "description": "Novel locations FB",
+      "tom_answer": "X",
+      "response": "<think>\nOkay, let's see. The user is asking where Alice will look for the ball based on her beliefs, not the actual truth. So",
+      "tom_correct": false
+    },
+    {
+      "description": "Made-up locations FB",
+      "tom_answer": "alpha",
+      "response": "<think>\nOkay, let's see. The user is asking where Alice will look for the ball based on her beliefs, not the actual truth. So",
+      "tom_correct": false
+    }
+  ],
+  "conclusion": "See printed output"
+}

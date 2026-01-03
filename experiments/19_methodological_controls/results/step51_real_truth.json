@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-12-23T23:15:16.879841",
+  "results": [
+    {
+      "name": "Standard Sally-Anne (Alice LEFT)",
+      "first_prob": 0.91943359375,
+      "reality_prob": 0.08038330078125,
+      "model_predicts_first": true,
+      "tom_correct": true
+    },
+    {
+      "name": "Alice STAYED (saw the move)",
+      "first_prob": 0.95654296875,
+      "reality_prob": 0.043365478515625,
+      "model_predicts_first": true,
+      "tom_correct": false
+    },
+    {
+      "name": "Alice was TOLD",
+      "first_prob": 0.5849609375,
+      "reality_prob": 0.414794921875,
+      "model_predicts_first": true,
+      "tom_correct": false
+    },
+    {
+      "name": "Bob tells Alice EXPLICITLY",
+      "first_prob": 0.66162109375,
+      "reality_prob": 0.337890625,
+      "model_predicts_first": true,
+      "tom_correct": false
+    },
+    {
+      "name": "REVERSED order (basket first)",
+      "first_prob": 0.070556640625,
+      "reality_prob": 0.92919921875,
+      "model_predicts_first": false,
+      "tom_correct": false
+    },
+    {
+      "name": "REVERSED + Alice stayed",
+      "first_prob": 0.1710205078125,
+      "reality_prob": 0.82861328125,
+      "model_predicts_first": false,
+      "tom_correct": true
+    }
+  ],
+  "first_mention_rate": 0.6666666666666666,
+  "tom_accuracy": 0.3333333333333333,
+  "discriminating_accuracy": 0.3333333333333333
+}

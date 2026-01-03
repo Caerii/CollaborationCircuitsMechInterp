@@ -1,0 +1,471 @@
+{
+  "searched_in": {
+    "told": {
+      "correct_logit": 27.421875,
+      "wrong_logit": 19.046875,
+      "diff": 8.375,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "places",
+        "same"
+      ]
+    },
+    "said": {
+      "correct_logit": 25.640625,
+      "wrong_logit": 18.234375,
+      "diff": 7.40625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "places",
+        "room"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 26.75,
+      "wrong_logit": 18.046875,
+      "diff": 8.703125,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "drawers",
+        "basket",
+        "place",
+        "places"
+      ]
+    },
+    "announced": {
+      "correct_logit": 25.765625,
+      "wrong_logit": 18.375,
+      "diff": 7.390625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "place",
+        "places"
+      ]
+    },
+    "asked": {
+      "correct_logit": 25.40625,
+      "wrong_logit": 16.53125,
+      "diff": 8.875,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "drawers",
+        "places",
+        "basket",
+        "place"
+      ]
+    }
+  },
+  "thinks_it_is": {
+    "told": {
+      "correct_logit": 23.328125,
+      "wrong_logit": 23.0625,
+      "diff": 0.265625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "__",
+        "______",
+        "____"
+      ]
+    },
+    "said": {
+      "correct_logit": 22.015625,
+      "wrong_logit": 22.40625,
+      "diff": -0.390625,
+      "is_correct": false,
+      "top_5": [
+        "basket",
+        "drawer",
+        "__",
+        "______",
+        "____"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 23.21875,
+      "wrong_logit": 21.453125,
+      "diff": 1.765625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "__",
+        "______",
+        "____"
+      ]
+    },
+    "announced": {
+      "correct_logit": 22.140625,
+      "wrong_logit": 22.125,
+      "diff": 0.015625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "__",
+        "______",
+        "____"
+      ]
+    },
+    "asked": {
+      "correct_logit": 23.171875,
+      "wrong_logit": 21.5,
+      "diff": 1.671875,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "__",
+        "______",
+        "____"
+      ]
+    }
+  },
+  "will_look": {
+    "told": {
+      "correct_logit": 23.859375,
+      "wrong_logit": 23.53125,
+      "diff": 0.328125,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "following",
+        "first",
+        "place"
+      ]
+    },
+    "said": {
+      "correct_logit": 23.265625,
+      "wrong_logit": 21.390625,
+      "diff": 1.875,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "following",
+        "first",
+        "drawers"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 23.640625,
+      "wrong_logit": 22.140625,
+      "diff": 1.5,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "following",
+        "first",
+        "drawers"
+      ]
+    },
+    "announced": {
+      "correct_logit": 22.703125,
+      "wrong_logit": 21.796875,
+      "diff": 0.90625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "first",
+        "following",
+        "drawers"
+      ]
+    },
+    "asked": {
+      "correct_logit": 23.234375,
+      "wrong_logit": 20.140625,
+      "diff": 3.09375,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "first",
+        "following",
+        "same"
+      ]
+    }
+  },
+  "looks_in": {
+    "told": {
+      "correct_logit": 27.84375,
+      "wrong_logit": 24.1875,
+      "diff": 3.65625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "room",
+        "drawer"
+      ]
+    },
+    "said": {
+      "correct_logit": 26.78125,
+      "wrong_logit": 22.015625,
+      "diff": 4.765625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "room",
+        "drawer"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 27.8125,
+      "wrong_logit": 22.671875,
+      "diff": 5.140625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "room",
+        "drawer"
+      ]
+    },
+    "announced": {
+      "correct_logit": 26.28125,
+      "wrong_logit": 22.515625,
+      "diff": 3.765625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "room",
+        "drawers",
+        "cabinet"
+      ]
+    },
+    "asked": {
+      "correct_logit": 27.15625,
+      "wrong_logit": 20.140625,
+      "diff": 7.015625,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "drawers",
+        "room",
+        "Drawer"
+      ]
+    }
+  },
+  "where_alice_look": {
+    "told": {
+      "correct_logit": 27.96875,
+      "wrong_logit": 21.859375,
+      "diff": 6.109375,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "place",
+        "drawers",
+        "same"
+      ]
+    },
+    "said": {
+      "correct_logit": 26.46875,
+      "wrong_logit": 21.296875,
+      "diff": 5.171875,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "place",
+        "drawers",
+        "__"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 26.5,
+      "wrong_logit": 20.765625,
+      "diff": 5.734375,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "place",
+        "drawers",
+        "same"
+      ]
+    },
+    "announced": {
+      "correct_logit": 27.703125,
+      "wrong_logit": 21.828125,
+      "diff": 5.875,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "place",
+        "drawers",
+        ""
+      ]
+    },
+    "asked": {
+      "correct_logit": 26.515625,
+      "wrong_logit": 18.765625,
+      "diff": 7.75,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "place",
+        "drawers",
+        "most"
+      ]
+    }
+  },
+  "sally_anne_classic": {
+    "told": {
+      "correct_logit": 22.078125,
+      "wrong_logit": 21.59375,
+      "diff": 0.484375,
+      "is_correct": true,
+      "top_5": [
+        "basket",
+        "box",
+        "room",
+        "",
+        "__"
+      ]
+    },
+    "said": {
+      "correct_logit": 22.015625,
+      "wrong_logit": 20.609375,
+      "diff": 1.40625,
+      "is_correct": true,
+      "top_5": [
+        "basket",
+        "box",
+        "room",
+        "same",
+        "__"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 22.453125,
+      "wrong_logit": 21.28125,
+      "diff": 1.171875,
+      "is_correct": true,
+      "top_5": [
+        "basket",
+        "box",
+        "room",
+        "same",
+        ""
+      ]
+    },
+    "announced": {
+      "correct_logit": 21.984375,
+      "wrong_logit": 20.953125,
+      "diff": 1.03125,
+      "is_correct": true,
+      "top_5": [
+        "basket",
+        "box",
+        "room",
+        "same",
+        "__"
+      ]
+    },
+    "asked": {
+      "correct_logit": 21.96875,
+      "wrong_logit": 19.609375,
+      "diff": 2.359375,
+      "is_correct": true,
+      "top_5": [
+        "basket",
+        "box",
+        "room",
+        "same",
+        ""
+      ]
+    }
+  },
+  "simple_direct": {
+    "told": {
+      "correct_logit": 21.953125,
+      "wrong_logit": 21.984375,
+      "diff": -0.03125,
+      "is_correct": false,
+      "top_5": [
+        "basket",
+        "drawer",
+        "",
+        "same",
+        "..."
+      ]
+    },
+    "said": {
+      "correct_logit": 20.859375,
+      "wrong_logit": 21.34375,
+      "diff": -0.484375,
+      "is_correct": false,
+      "top_5": [
+        "basket",
+        "drawer",
+        "",
+        "same",
+        "box"
+      ]
+    },
+    "mentioned": {
+      "correct_logit": 21.765625,
+      "wrong_logit": 21.8125,
+      "diff": -0.046875,
+      "is_correct": false,
+      "top_5": [
+        "basket",
+        "drawer",
+        "same",
+        "box",
+        "dresser"
+      ]
+    },
+    "announced": {
+      "correct_logit": 21.15625,
+      "wrong_logit": 21.21875,
+      "diff": -0.0625,
+      "is_correct": false,
+      "top_5": [
+        "basket",
+        "drawer",
+        "same",
+        "box",
+        ""
+      ]
+    },
+    "asked": {
+      "correct_logit": 22.375,
+      "wrong_logit": 22.046875,
+      "diff": 0.328125,
+      "is_correct": true,
+      "top_5": [
+        "drawer",
+        "basket",
+        "same",
+        "",
+        "box"
+      ]
+    }
+  }
+}

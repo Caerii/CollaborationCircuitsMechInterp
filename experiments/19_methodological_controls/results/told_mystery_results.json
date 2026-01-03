@@ -1,0 +1,1244 @@
+{
+  "timestamp": "2025-12-23T21:51:17.934701",
+  "verbs_tested": [
+    "told",
+    "announced",
+    "clarified",
+    "noted",
+    "queried",
+    "provided",
+    "dispatched",
+    "supported",
+    "manifested",
+    "mentioned",
+    "said",
+    "stated",
+    "communicated"
+  ],
+  "accuracies": {
+    "told": {
+      "accuracy": 0.0,
+      "mean_diff": -0.984375
+    },
+    "announced": {
+      "accuracy": 1.0,
+      "mean_diff": 0.609375
+    },
+    "clarified": {
+      "accuracy": 0.0,
+      "mean_diff": -0.3125
+    },
+    "noted": {
+      "accuracy": 1.0,
+      "mean_diff": 1.09375
+    },
+    "queried": {
+      "accuracy": 1.0,
+      "mean_diff": 0.125
+    },
+    "provided": {
+      "accuracy": 1.0,
+      "mean_diff": 0.125
+    },
+    "dispatched": {
+      "accuracy": 0.0,
+      "mean_diff": -0.28125
+    },
+    "supported": {
+      "accuracy": 1.0,
+      "mean_diff": 0.109375
+    },
+    "manifested": {
+      "accuracy": 1.0,
+      "mean_diff": 0.171875
+    },
+    "mentioned": {
+      "accuracy": 0.0,
+      "mean_diff": -0.1875
+    },
+    "said": {
+      "accuracy": 0.0,
+      "mean_diff": -0.265625
+    },
+    "stated": {
+      "accuracy": 0.0,
+      "mean_diff": -0.21875
+    },
+    "communicated": {
+      "accuracy": 1.0,
+      "mean_diff": 0.515625
+    }
+  },
+  "attention_stats": {
+    "told": {
+      "L17H4": {
+        "attn_to_verb": 0.0012760162353515625,
+        "attn_to_alice": 0.025406479835510254,
+        "attn_to_bob": 0.0018863677978515625,
+        "attn_to_carol": 0.0008702278137207031,
+        "attn_to_drawer": 0.1632080078125,
+        "attn_to_basket": 0.03240966796875,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.283766746520996
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0012416839599609375,
+        "attn_to_alice": 0.23047524690628052,
+        "attn_to_bob": 0.0031585693359375,
+        "attn_to_carol": 0.0003998279571533203,
+        "attn_to_drawer": 0.01629638671875,
+        "attn_to_basket": 0.080810546875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.512765645980835
+      },
+      "L18H14": {
+        "attn_to_verb": 0.000514984130859375,
+        "attn_to_alice": 0.1525249481201172,
+        "attn_to_bob": 0.0028514862060546875,
+        "attn_to_carol": 0.0035343170166015625,
+        "attn_to_drawer": 0.2401123046875,
+        "attn_to_basket": 0.1456298828125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.4532904624938965
+      },
+      "L19H30": {
+        "attn_to_verb": 0.0018863677978515625,
+        "attn_to_alice": 0.14781880378723145,
+        "attn_to_bob": 0.0052490234375,
+        "attn_to_carol": 0.0103759765625,
+        "attn_to_drawer": 0.0028934478759765625,
+        "attn_to_basket": 0.04913330078125,
+        "verb_position": 12,
+        "max_attn_position": 29,
+        "entropy": 2.8822760581970215
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0009336471557617188,
+        "attn_to_alice": 0.08978748321533203,
+        "attn_to_bob": 0.0027332305908203125,
+        "attn_to_carol": 0.0016040802001953125,
+        "attn_to_drawer": 0.06915283203125,
+        "attn_to_basket": 0.141357421875,
+        "verb_position": 12,
+        "max_attn_position": 20,
+        "entropy": 2.673323631286621
+      },
+      "L15H9": {
+        "attn_to_verb": 4.7087669372558594e-05,
+        "attn_to_alice": 0.002463221549987793,
+        "attn_to_bob": 0.00025844573974609375,
+        "attn_to_carol": 0.0003116130828857422,
+        "attn_to_drawer": 0.331298828125,
+        "attn_to_basket": 0.0333251953125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.7636115550994873
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0008120536804199219,
+        "attn_to_alice": 0.5711345672607422,
+        "attn_to_bob": 0.002872467041015625,
+        "attn_to_carol": 0.003925323486328125,
+        "attn_to_drawer": 0.0452880859375,
+        "attn_to_basket": 0.0212249755859375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.1569344997406006
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0028858184814453125,
+        "attn_to_alice": 0.3086509704589844,
+        "attn_to_bob": 0.0154266357421875,
+        "attn_to_carol": 0.0159759521484375,
+        "attn_to_drawer": 0.01220703125,
+        "attn_to_basket": 0.0599365234375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.7013840675354004
+      }
+    },
+    "announced": {
+      "L17H4": {
+        "attn_to_verb": 0.000701904296875,
+        "attn_to_alice": 0.04493379592895508,
+        "attn_to_bob": 0.001983642578125,
+        "attn_to_carol": 0.0006146430969238281,
+        "attn_to_drawer": 0.1446533203125,
+        "attn_to_basket": 0.0181121826171875,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.440492630004883
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0009198188781738281,
+        "attn_to_alice": 0.20160871744155884,
+        "attn_to_bob": 0.0025482177734375,
+        "attn_to_carol": 0.0003402233123779297,
+        "attn_to_drawer": 0.020050048828125,
+        "attn_to_basket": 0.08984375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.4854211807250977
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0006732940673828125,
+        "attn_to_alice": 0.16621685028076172,
+        "attn_to_bob": 0.0028896331787109375,
+        "attn_to_carol": 0.0029239654541015625,
+        "attn_to_drawer": 0.2286376953125,
+        "attn_to_basket": 0.1114501953125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.5581514835357666
+      },
+      "L19H30": {
+        "attn_to_verb": 0.0024871826171875,
+        "attn_to_alice": 0.16748905181884766,
+        "attn_to_bob": 0.0065765380859375,
+        "attn_to_carol": 0.0125579833984375,
+        "attn_to_drawer": 0.0037689208984375,
+        "attn_to_basket": 0.050048828125,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.858086585998535
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0006251335144042969,
+        "attn_to_alice": 0.13607311248779297,
+        "attn_to_bob": 0.00315093994140625,
+        "attn_to_carol": 0.0024967193603515625,
+        "attn_to_drawer": 0.07952880859375,
+        "attn_to_basket": 0.161865234375,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.712536096572876
+      },
+      "L15H9": {
+        "attn_to_verb": 0.0003941059112548828,
+        "attn_to_alice": 0.002886652946472168,
+        "attn_to_bob": 0.0003879070281982422,
+        "attn_to_carol": 0.0002951622009277344,
+        "attn_to_drawer": 0.290283203125,
+        "attn_to_basket": 0.0269927978515625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.8143481016159058
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0014047622680664062,
+        "attn_to_alice": 0.552398681640625,
+        "attn_to_bob": 0.0037078857421875,
+        "attn_to_carol": 0.002361297607421875,
+        "attn_to_drawer": 0.06597900390625,
+        "attn_to_basket": 0.018463134765625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.200223207473755
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0036296844482421875,
+        "attn_to_alice": 0.3366127014160156,
+        "attn_to_bob": 0.019439697265625,
+        "attn_to_carol": 0.0164031982421875,
+        "attn_to_drawer": 0.0141143798828125,
+        "attn_to_basket": 0.048492431640625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.7036800384521484
+      }
+    },
+    "clarified": {
+      "L17H4": {
+        "attn_to_verb": 0.00027823448181152344,
+        "attn_to_alice": 0.06139075756072998,
+        "attn_to_bob": 0.00247955322265625,
+        "attn_to_carol": 0.002071380615234375,
+        "attn_to_drawer": 0.123291015625,
+        "attn_to_basket": 0.020599365234375,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.401761531829834
+      },
+      "L18H11": {
+        "attn_to_verb": 0.00019252300262451172,
+        "attn_to_alice": 0.2785953879356384,
+        "attn_to_bob": 0.002857208251953125,
+        "attn_to_carol": 0.0012674331665039062,
+        "attn_to_drawer": 0.01406097412109375,
+        "attn_to_basket": 0.110595703125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.438586711883545
+      },
+      "L18H14": {
+        "attn_to_verb": 0.00039839744567871094,
+        "attn_to_alice": 0.187896728515625,
+        "attn_to_bob": 0.0036563873291015625,
+        "attn_to_carol": 0.00458526611328125,
+        "attn_to_drawer": 0.1876220703125,
+        "attn_to_basket": 0.133056640625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.5581557750701904
+      },
+      "L19H30": {
+        "attn_to_verb": 0.009246826171875,
+        "attn_to_alice": 0.14841079711914062,
+        "attn_to_bob": 0.007213592529296875,
+        "attn_to_carol": 0.014373779296875,
+        "attn_to_drawer": 0.0030841827392578125,
+        "attn_to_basket": 0.041748046875,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.9285740852355957
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0009555816650390625,
+        "attn_to_alice": 0.13547420501708984,
+        "attn_to_bob": 0.00414276123046875,
+        "attn_to_carol": 0.0059356689453125,
+        "attn_to_drawer": 0.10113525390625,
+        "attn_to_basket": 0.12841796875,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.837286949157715
+      },
+      "L15H9": {
+        "attn_to_verb": 0.00013303756713867188,
+        "attn_to_alice": 0.002250194549560547,
+        "attn_to_bob": 0.0003561973571777344,
+        "attn_to_carol": 0.0004680156707763672,
+        "attn_to_drawer": 0.3017578125,
+        "attn_to_basket": 0.03131103515625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.7586658000946045
+      },
+      "L19H2": {
+        "attn_to_verb": 0.00035572052001953125,
+        "attn_to_alice": 0.42935752868652344,
+        "attn_to_bob": 0.005764007568359375,
+        "attn_to_carol": 0.003543853759765625,
+        "attn_to_drawer": 0.06341552734375,
+        "attn_to_basket": 0.046783447265625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.572460412979126
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0012340545654296875,
+        "attn_to_alice": 0.30776405334472656,
+        "attn_to_bob": 0.0182647705078125,
+        "attn_to_carol": 0.01397705078125,
+        "attn_to_drawer": 0.0132598876953125,
+        "attn_to_basket": 0.055511474609375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.746155261993408
+      }
+    },
+    "noted": {
+      "L17H4": {
+        "attn_to_verb": 0.0021381378173828125,
+        "attn_to_alice": 0.039826154708862305,
+        "attn_to_bob": 0.002056121826171875,
+        "attn_to_carol": 0.0012760162353515625,
+        "attn_to_drawer": 0.173828125,
+        "attn_to_basket": 0.0220947265625,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.3581573963165283
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0002942085266113281,
+        "attn_to_alice": 0.21714633703231812,
+        "attn_to_bob": 0.0024585723876953125,
+        "attn_to_carol": 0.00090789794921875,
+        "attn_to_drawer": 0.020263671875,
+        "attn_to_basket": 0.2337646484375,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.4523239135742188
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0007319450378417969,
+        "attn_to_alice": 0.15604782104492188,
+        "attn_to_bob": 0.002895355224609375,
+        "attn_to_carol": 0.0025959014892578125,
+        "attn_to_drawer": 0.216064453125,
+        "attn_to_basket": 0.142822265625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.5564870834350586
+      },
+      "L19H30": {
+        "attn_to_verb": 0.003627777099609375,
+        "attn_to_alice": 0.1576402187347412,
+        "attn_to_bob": 0.005565643310546875,
+        "attn_to_carol": 0.0153961181640625,
+        "attn_to_drawer": 0.0039825439453125,
+        "attn_to_basket": 0.0531005859375,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.9030842781066895
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0005707740783691406,
+        "attn_to_alice": 0.1372079849243164,
+        "attn_to_bob": 0.0031414031982421875,
+        "attn_to_carol": 0.003215789794921875,
+        "attn_to_drawer": 0.07818603515625,
+        "attn_to_basket": 0.1304931640625,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.781020164489746
+      },
+      "L15H9": {
+        "attn_to_verb": 0.0007371902465820312,
+        "attn_to_alice": 0.0027327537536621094,
+        "attn_to_bob": 0.0003428459167480469,
+        "attn_to_carol": 0.0003619194030761719,
+        "attn_to_drawer": 0.35595703125,
+        "attn_to_basket": 0.03363037109375,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.7739698886871338
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0029354095458984375,
+        "attn_to_alice": 0.5094490051269531,
+        "attn_to_bob": 0.004100799560546875,
+        "attn_to_carol": 0.00333404541015625,
+        "attn_to_drawer": 0.08203125,
+        "attn_to_basket": 0.0184478759765625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.29543399810791
+      },
+      "L19H15": {
+        "attn_to_verb": 0.002696990966796875,
+        "attn_to_alice": 0.32967376708984375,
+        "attn_to_bob": 0.0198516845703125,
+        "attn_to_carol": 0.019317626953125,
+        "attn_to_drawer": 0.013946533203125,
+        "attn_to_basket": 0.0570068359375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.740978956222534
+      }
+    },
+    "queried": {
+      "L17H4": {
+        "attn_to_verb": 0.0024871826171875,
+        "attn_to_alice": 0.12360024452209473,
+        "attn_to_bob": 0.00391387939453125,
+        "attn_to_carol": 0.005474090576171875,
+        "attn_to_drawer": 0.12359619140625,
+        "attn_to_basket": 0.01476287841796875,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.587219715118408
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0008635520935058594,
+        "attn_to_alice": 0.3054060935974121,
+        "attn_to_bob": 0.00156402587890625,
+        "attn_to_carol": 0.00026917457580566406,
+        "attn_to_drawer": 0.0086212158203125,
+        "attn_to_basket": 0.12091064453125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.166761636734009
+      },
+      "L18H14": {
+        "attn_to_verb": 0.001110076904296875,
+        "attn_to_alice": 0.2604093551635742,
+        "attn_to_bob": 0.004955291748046875,
+        "attn_to_carol": 0.005275726318359375,
+        "attn_to_drawer": 0.1566162109375,
+        "attn_to_basket": 0.12005615234375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.5716919898986816
+      },
+      "L19H30": {
+        "attn_to_verb": 0.0096893310546875,
+        "attn_to_alice": 0.13309192657470703,
+        "attn_to_bob": 0.00887298583984375,
+        "attn_to_carol": 0.00966644287109375,
+        "attn_to_drawer": 0.0032634735107421875,
+        "attn_to_basket": 0.058746337890625,
+        "verb_position": 12,
+        "max_attn_position": 29,
+        "entropy": 2.976694107055664
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0015325546264648438,
+        "attn_to_alice": 0.16169071197509766,
+        "attn_to_bob": 0.003997802734375,
+        "attn_to_carol": 0.004657745361328125,
+        "attn_to_drawer": 0.115966796875,
+        "attn_to_basket": 0.140380859375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.8064303398132324
+      },
+      "L15H9": {
+        "attn_to_verb": 0.00036025047302246094,
+        "attn_to_alice": 0.003045499324798584,
+        "attn_to_bob": 0.0005240440368652344,
+        "attn_to_carol": 0.0016660690307617188,
+        "attn_to_drawer": 0.2471923828125,
+        "attn_to_basket": 0.028167724609375,
+        "verb_position": 12,
+        "max_attn_position": 5,
+        "entropy": 1.768798589706421
+      },
+      "L19H2": {
+        "attn_to_verb": 0.00263214111328125,
+        "attn_to_alice": 0.4405364990234375,
+        "attn_to_bob": 0.01042938232421875,
+        "attn_to_carol": 0.0050506591796875,
+        "attn_to_drawer": 0.08331298828125,
+        "attn_to_basket": 0.0521240234375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.455432415008545
+      },
+      "L19H15": {
+        "attn_to_verb": 0.00457763671875,
+        "attn_to_alice": 0.26590728759765625,
+        "attn_to_bob": 0.023651123046875,
+        "attn_to_carol": 0.01885986328125,
+        "attn_to_drawer": 0.01288604736328125,
+        "attn_to_basket": 0.047332763671875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.9151360988616943
+      }
+    },
+    "provided": {
+      "L17H4": {
+        "attn_to_verb": 0.001018524169921875,
+        "attn_to_alice": 0.03588271141052246,
+        "attn_to_bob": 0.0022945404052734375,
+        "attn_to_carol": 0.001209259033203125,
+        "attn_to_drawer": 0.179443359375,
+        "attn_to_basket": 0.0143890380859375,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.3998491764068604
+      },
+      "L18H11": {
+        "attn_to_verb": 0.001983642578125,
+        "attn_to_alice": 0.17527657747268677,
+        "attn_to_bob": 0.00232696533203125,
+        "attn_to_carol": 0.00019824504852294922,
+        "attn_to_drawer": 0.030303955078125,
+        "attn_to_basket": 0.1624755859375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.5065042972564697
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0006022453308105469,
+        "attn_to_alice": 0.12753582000732422,
+        "attn_to_bob": 0.0023822784423828125,
+        "attn_to_carol": 0.002246856689453125,
+        "attn_to_drawer": 0.290771484375,
+        "attn_to_basket": 0.10284423828125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.460287570953369
+      },
+      "L19H30": {
+        "attn_to_verb": 0.00164031982421875,
+        "attn_to_alice": 0.1724388599395752,
+        "attn_to_bob": 0.00473785400390625,
+        "attn_to_carol": 0.00518035888671875,
+        "attn_to_drawer": 0.00443267822265625,
+        "attn_to_basket": 0.0782470703125,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.811948776245117
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0013456344604492188,
+        "attn_to_alice": 0.14998626708984375,
+        "attn_to_bob": 0.0025539398193359375,
+        "attn_to_carol": 0.0013456344604492188,
+        "attn_to_drawer": 0.09307861328125,
+        "attn_to_basket": 0.09124755859375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.8160736560821533
+      },
+      "L15H9": {
+        "attn_to_verb": 6.514787673950195e-05,
+        "attn_to_alice": 0.0020880699157714844,
+        "attn_to_bob": 0.00024020671844482422,
+        "attn_to_carol": 0.0010271072387695312,
+        "attn_to_drawer": 0.3544921875,
+        "attn_to_basket": 0.039764404296875,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.75772225856781
+      },
+      "L19H2": {
+        "attn_to_verb": 0.00046181678771972656,
+        "attn_to_alice": 0.5381565093994141,
+        "attn_to_bob": 0.00254058837890625,
+        "attn_to_carol": 0.00261688232421875,
+        "attn_to_drawer": 0.08819580078125,
+        "attn_to_basket": 0.0232696533203125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.174049139022827
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0025081634521484375,
+        "attn_to_alice": 0.3055896759033203,
+        "attn_to_bob": 0.0153045654296875,
+        "attn_to_carol": 0.0115966796875,
+        "attn_to_drawer": 0.01503753662109375,
+        "attn_to_basket": 0.05633544921875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.720064163208008
+      }
+    },
+    "dispatched": {
+      "L17H4": {
+        "attn_to_verb": 0.0006537437438964844,
+        "attn_to_alice": 0.05475461483001709,
+        "attn_to_bob": 0.002605438232421875,
+        "attn_to_carol": 0.002353668212890625,
+        "attn_to_drawer": 0.1514892578125,
+        "attn_to_basket": 0.01409149169921875,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.4563944339752197
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0008120536804199219,
+        "attn_to_alice": 0.17858737707138062,
+        "attn_to_bob": 0.003932952880859375,
+        "attn_to_carol": 0.00023221969604492188,
+        "attn_to_drawer": 0.0301055908203125,
+        "attn_to_basket": 0.11590576171875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.502096176147461
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0004887580871582031,
+        "attn_to_alice": 0.12877178192138672,
+        "attn_to_bob": 0.0036487579345703125,
+        "attn_to_carol": 0.0028743743896484375,
+        "attn_to_drawer": 0.2412109375,
+        "attn_to_basket": 0.131103515625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.534872055053711
+      },
+      "L19H30": {
+        "attn_to_verb": 0.002925872802734375,
+        "attn_to_alice": 0.16438555717468262,
+        "attn_to_bob": 0.006061553955078125,
+        "attn_to_carol": 0.02203369140625,
+        "attn_to_drawer": 0.00403594970703125,
+        "attn_to_basket": 0.0787353515625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.9213969707489014
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0024814605712890625,
+        "attn_to_alice": 0.1409006118774414,
+        "attn_to_bob": 0.0030879974365234375,
+        "attn_to_carol": 0.00421142578125,
+        "attn_to_drawer": 0.10528564453125,
+        "attn_to_basket": 0.1702880859375,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.7997636795043945
+      },
+      "L15H9": {
+        "attn_to_verb": 0.0003056526184082031,
+        "attn_to_alice": 0.002320408821105957,
+        "attn_to_bob": 0.0003600120544433594,
+        "attn_to_carol": 0.00023245811462402344,
+        "attn_to_drawer": 0.33251953125,
+        "attn_to_basket": 0.031402587890625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.7372186183929443
+      },
+      "L19H2": {
+        "attn_to_verb": 0.00162506103515625,
+        "attn_to_alice": 0.484344482421875,
+        "attn_to_bob": 0.004436492919921875,
+        "attn_to_carol": 0.0043487548828125,
+        "attn_to_drawer": 0.07635498046875,
+        "attn_to_basket": 0.02587890625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.38879656791687
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0021800994873046875,
+        "attn_to_alice": 0.32727813720703125,
+        "attn_to_bob": 0.0221099853515625,
+        "attn_to_carol": 0.019622802734375,
+        "attn_to_drawer": 0.016815185546875,
+        "attn_to_basket": 0.06903076171875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.7442739009857178
+      }
+    },
+    "supported": {
+      "L17H4": {
+        "attn_to_verb": 0.0006513595581054688,
+        "attn_to_alice": 0.04783964157104492,
+        "attn_to_bob": 0.002742767333984375,
+        "attn_to_carol": 0.0009326934814453125,
+        "attn_to_drawer": 0.1439208984375,
+        "attn_to_basket": 0.0112762451171875,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.280519723892212
+      },
+      "L18H11": {
+        "attn_to_verb": 0.00017535686492919922,
+        "attn_to_alice": 0.12414854764938354,
+        "attn_to_bob": 0.0012216567993164062,
+        "attn_to_carol": 0.0005421638488769531,
+        "attn_to_drawer": 0.01055908203125,
+        "attn_to_basket": 0.276611328125,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.228461265563965
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0004673004150390625,
+        "attn_to_alice": 0.14011859893798828,
+        "attn_to_bob": 0.0024871826171875,
+        "attn_to_carol": 0.0019292831420898438,
+        "attn_to_drawer": 0.30712890625,
+        "attn_to_basket": 0.0723876953125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.412074565887451
+      },
+      "L19H30": {
+        "attn_to_verb": 0.0022258758544921875,
+        "attn_to_alice": 0.10494232177734375,
+        "attn_to_bob": 0.004497528076171875,
+        "attn_to_carol": 0.01104736328125,
+        "attn_to_drawer": 0.00366973876953125,
+        "attn_to_basket": 0.11920166015625,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.817326068878174
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0027618408203125,
+        "attn_to_alice": 0.13932514190673828,
+        "attn_to_bob": 0.004154205322265625,
+        "attn_to_carol": 0.0016078948974609375,
+        "attn_to_drawer": 0.11358642578125,
+        "attn_to_basket": 0.1607666015625,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.8029744625091553
+      },
+      "L15H9": {
+        "attn_to_verb": 6.538629531860352e-05,
+        "attn_to_alice": 0.0022727251052856445,
+        "attn_to_bob": 0.00040984153747558594,
+        "attn_to_carol": 0.0007481575012207031,
+        "attn_to_drawer": 0.352783203125,
+        "attn_to_basket": 0.032806396484375,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.6905560493469238
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0007548332214355469,
+        "attn_to_alice": 0.6080131530761719,
+        "attn_to_bob": 0.0025234222412109375,
+        "attn_to_carol": 0.002124786376953125,
+        "attn_to_drawer": 0.064453125,
+        "attn_to_basket": 0.01056671142578125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 1.993524193763733
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0022144317626953125,
+        "attn_to_alice": 0.29802513122558594,
+        "attn_to_bob": 0.020416259765625,
+        "attn_to_carol": 0.00917816162109375,
+        "attn_to_drawer": 0.01465606689453125,
+        "attn_to_basket": 0.06256103515625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.6441054344177246
+      }
+    },
+    "manifested": {
+      "L17H4": {
+        "attn_to_verb": 0.0024566650390625,
+        "attn_to_alice": 0.08488011360168457,
+        "attn_to_bob": 0.0032558441162109375,
+        "attn_to_carol": 0.0015134811401367188,
+        "attn_to_drawer": 0.1094970703125,
+        "attn_to_basket": 0.026214599609375,
+        "verb_position": 12,
+        "max_attn_position": 7,
+        "entropy": 2.6419780254364014
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0014629364013671875,
+        "attn_to_alice": 0.15071505308151245,
+        "attn_to_bob": 0.0023021697998046875,
+        "attn_to_carol": 0.0002925395965576172,
+        "attn_to_drawer": 0.01465606689453125,
+        "attn_to_basket": 0.2039794921875,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.4732654094696045
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0012350082397460938,
+        "attn_to_alice": 0.17029380798339844,
+        "attn_to_bob": 0.0035877227783203125,
+        "attn_to_carol": 0.0023174285888671875,
+        "attn_to_drawer": 0.1689453125,
+        "attn_to_basket": 0.1689453125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.605071544647217
+      },
+      "L19H30": {
+        "attn_to_verb": 0.005825042724609375,
+        "attn_to_alice": 0.09790658950805664,
+        "attn_to_bob": 0.004596710205078125,
+        "attn_to_carol": 0.013916015625,
+        "attn_to_drawer": 0.0023021697998046875,
+        "attn_to_basket": 0.048583984375,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.7589845657348633
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0016889572143554688,
+        "attn_to_alice": 0.13599252700805664,
+        "attn_to_bob": 0.003082275390625,
+        "attn_to_carol": 0.0029888153076171875,
+        "attn_to_drawer": 0.09027099609375,
+        "attn_to_basket": 0.16162109375,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.7737889289855957
+      },
+      "L15H9": {
+        "attn_to_verb": 0.0003323554992675781,
+        "attn_to_alice": 0.0026094913482666016,
+        "attn_to_bob": 0.0005970001220703125,
+        "attn_to_carol": 0.0008225440979003906,
+        "attn_to_drawer": 0.258544921875,
+        "attn_to_basket": 0.036102294921875,
+        "verb_position": 12,
+        "max_attn_position": 5,
+        "entropy": 1.8526312112808228
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0013055801391601562,
+        "attn_to_alice": 0.4566650390625,
+        "attn_to_bob": 0.0044403076171875,
+        "attn_to_carol": 0.0034332275390625,
+        "attn_to_drawer": 0.0853271484375,
+        "attn_to_basket": 0.0281219482421875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.4655556678771973
+      },
+      "L19H15": {
+        "attn_to_verb": 0.00270843505859375,
+        "attn_to_alice": 0.26983642578125,
+        "attn_to_bob": 0.021728515625,
+        "attn_to_carol": 0.01100921630859375,
+        "attn_to_drawer": 0.01274871826171875,
+        "attn_to_basket": 0.068359375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.807924270629883
+      }
+    },
+    "mentioned": {
+      "L17H4": {
+        "attn_to_verb": 0.0006961822509765625,
+        "attn_to_alice": 0.029129624366760254,
+        "attn_to_bob": 0.0017366409301757812,
+        "attn_to_carol": 0.0009083747863769531,
+        "attn_to_drawer": 0.1717529296875,
+        "attn_to_basket": 0.0271759033203125,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.304410457611084
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0021457672119140625,
+        "attn_to_alice": 0.18793362379074097,
+        "attn_to_bob": 0.00211334228515625,
+        "attn_to_carol": 0.0003216266632080078,
+        "attn_to_drawer": 0.0134124755859375,
+        "attn_to_basket": 0.190185546875,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.460148811340332
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0008096694946289062,
+        "attn_to_alice": 0.15831375122070312,
+        "attn_to_bob": 0.003215789794921875,
+        "attn_to_carol": 0.0026760101318359375,
+        "attn_to_drawer": 0.231689453125,
+        "attn_to_basket": 0.164306640625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.458181858062744
+      },
+      "L19H30": {
+        "attn_to_verb": 0.00274658203125,
+        "attn_to_alice": 0.15872430801391602,
+        "attn_to_bob": 0.005458831787109375,
+        "attn_to_carol": 0.0102386474609375,
+        "attn_to_drawer": 0.0026874542236328125,
+        "attn_to_basket": 0.051605224609375,
+        "verb_position": 12,
+        "max_attn_position": 29,
+        "entropy": 2.8744027614593506
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0016880035400390625,
+        "attn_to_alice": 0.11086177825927734,
+        "attn_to_bob": 0.003665924072265625,
+        "attn_to_carol": 0.0028820037841796875,
+        "attn_to_drawer": 0.08642578125,
+        "attn_to_basket": 0.1829833984375,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.734139919281006
+      },
+      "L15H9": {
+        "attn_to_verb": 8.219480514526367e-05,
+        "attn_to_alice": 0.0021793246269226074,
+        "attn_to_bob": 0.00026106834411621094,
+        "attn_to_carol": 0.0002434253692626953,
+        "attn_to_drawer": 0.33740234375,
+        "attn_to_basket": 0.0308990478515625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.7335585355758667
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0012378692626953125,
+        "attn_to_alice": 0.5340652465820312,
+        "attn_to_bob": 0.0036830902099609375,
+        "attn_to_carol": 0.0025653839111328125,
+        "attn_to_drawer": 0.057708740234375,
+        "attn_to_basket": 0.02520751953125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.2624130249023438
+      },
+      "L19H15": {
+        "attn_to_verb": 0.00339508056640625,
+        "attn_to_alice": 0.3370094299316406,
+        "attn_to_bob": 0.0192718505859375,
+        "attn_to_carol": 0.0196533203125,
+        "attn_to_drawer": 0.0118560791015625,
+        "attn_to_basket": 0.072021484375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.670196533203125
+      }
+    },
+    "said": {
+      "L17H4": {
+        "attn_to_verb": 0.00032782554626464844,
+        "attn_to_alice": 0.038033485412597656,
+        "attn_to_bob": 0.001552581787109375,
+        "attn_to_carol": 0.000637054443359375,
+        "attn_to_drawer": 0.1583251953125,
+        "attn_to_basket": 0.02142333984375,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.3118271827697754
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0004153251647949219,
+        "attn_to_alice": 0.20444375276565552,
+        "attn_to_bob": 0.0020160675048828125,
+        "attn_to_carol": 0.0004944801330566406,
+        "attn_to_drawer": 0.0172882080078125,
+        "attn_to_basket": 0.10345458984375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.510817527770996
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0005884170532226562,
+        "attn_to_alice": 0.16030406951904297,
+        "attn_to_bob": 0.00279998779296875,
+        "attn_to_carol": 0.00311279296875,
+        "attn_to_drawer": 0.2198486328125,
+        "attn_to_basket": 0.1397705078125,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.5160608291625977
+      },
+      "L19H30": {
+        "attn_to_verb": 0.0027103424072265625,
+        "attn_to_alice": 0.1443462371826172,
+        "attn_to_bob": 0.006526947021484375,
+        "attn_to_carol": 0.0126800537109375,
+        "attn_to_drawer": 0.004070281982421875,
+        "attn_to_basket": 0.0396728515625,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.899390697479248
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0004506111145019531,
+        "attn_to_alice": 0.11606693267822266,
+        "attn_to_bob": 0.0027790069580078125,
+        "attn_to_carol": 0.00266265869140625,
+        "attn_to_drawer": 0.0977783203125,
+        "attn_to_basket": 0.1029052734375,
+        "verb_position": 12,
+        "max_attn_position": 20,
+        "entropy": 2.768702745437622
+      },
+      "L15H9": {
+        "attn_to_verb": 5.882978439331055e-05,
+        "attn_to_alice": 0.002248823642730713,
+        "attn_to_bob": 0.00031304359436035156,
+        "attn_to_carol": 0.0003230571746826172,
+        "attn_to_drawer": 0.259033203125,
+        "attn_to_basket": 0.032928466796875,
+        "verb_position": 12,
+        "max_attn_position": 5,
+        "entropy": 1.7582314014434814
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0018854141235351562,
+        "attn_to_alice": 0.4972496032714844,
+        "attn_to_bob": 0.004974365234375,
+        "attn_to_carol": 0.004199981689453125,
+        "attn_to_drawer": 0.05694580078125,
+        "attn_to_basket": 0.0200653076171875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.4102630615234375
+      },
+      "L19H15": {
+        "attn_to_verb": 0.003932952880859375,
+        "attn_to_alice": 0.2691192626953125,
+        "attn_to_bob": 0.016845703125,
+        "attn_to_carol": 0.01421356201171875,
+        "attn_to_drawer": 0.01306915283203125,
+        "attn_to_basket": 0.06536865234375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.7759385108947754
+      }
+    },
+    "stated": {
+      "L17H4": {
+        "attn_to_verb": 0.000415802001953125,
+        "attn_to_alice": 0.05916106700897217,
+        "attn_to_bob": 0.0019683837890625,
+        "attn_to_carol": 0.0005817413330078125,
+        "attn_to_drawer": 0.1326904296875,
+        "attn_to_basket": 0.0189666748046875,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.423219919204712
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0004754066467285156,
+        "attn_to_alice": 0.22026002407073975,
+        "attn_to_bob": 0.0021724700927734375,
+        "attn_to_carol": 0.0005369186401367188,
+        "attn_to_drawer": 0.01514434814453125,
+        "attn_to_basket": 0.12481689453125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.4756104946136475
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0004897117614746094,
+        "attn_to_alice": 0.19577884674072266,
+        "attn_to_bob": 0.0035495758056640625,
+        "attn_to_carol": 0.003047943115234375,
+        "attn_to_drawer": 0.175048828125,
+        "attn_to_basket": 0.1417236328125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.59678316116333
+      },
+      "L19H30": {
+        "attn_to_verb": 0.002140045166015625,
+        "attn_to_alice": 0.12203264236450195,
+        "attn_to_bob": 0.006439208984375,
+        "attn_to_carol": 0.0115966796875,
+        "attn_to_drawer": 0.00382232666015625,
+        "attn_to_basket": 0.04766845703125,
+        "verb_position": 12,
+        "max_attn_position": 17,
+        "entropy": 2.887099504470825
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0007653236389160156,
+        "attn_to_alice": 0.14684391021728516,
+        "attn_to_bob": 0.003582000732421875,
+        "attn_to_carol": 0.0028781890869140625,
+        "attn_to_drawer": 0.093994140625,
+        "attn_to_basket": 0.1160888671875,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.825686454772949
+      },
+      "L15H9": {
+        "attn_to_verb": 0.00030994415283203125,
+        "attn_to_alice": 0.0029346346855163574,
+        "attn_to_bob": 0.00040411949157714844,
+        "attn_to_carol": 0.0002529621124267578,
+        "attn_to_drawer": 0.258544921875,
+        "attn_to_basket": 0.0299224853515625,
+        "verb_position": 12,
+        "max_attn_position": 5,
+        "entropy": 1.8163716793060303
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0012302398681640625,
+        "attn_to_alice": 0.4590110778808594,
+        "attn_to_bob": 0.005199432373046875,
+        "attn_to_carol": 0.003265380859375,
+        "attn_to_drawer": 0.0751953125,
+        "attn_to_basket": 0.0240325927734375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.493591547012329
+      },
+      "L19H15": {
+        "attn_to_verb": 0.0023860931396484375,
+        "attn_to_alice": 0.28761863708496094,
+        "attn_to_bob": 0.0186767578125,
+        "attn_to_carol": 0.01342010498046875,
+        "attn_to_drawer": 0.01361083984375,
+        "attn_to_basket": 0.05279541015625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.791947841644287
+      }
+    },
+    "communicated": {
+      "L17H4": {
+        "attn_to_verb": 0.0005221366882324219,
+        "attn_to_alice": 0.02883780002593994,
+        "attn_to_bob": 0.0021820068359375,
+        "attn_to_carol": 0.0018091201782226562,
+        "attn_to_drawer": 0.18603515625,
+        "attn_to_basket": 0.01456451416015625,
+        "verb_position": 12,
+        "max_attn_position": 33,
+        "entropy": 2.3352537155151367
+      },
+      "L18H11": {
+        "attn_to_verb": 0.0020275115966796875,
+        "attn_to_alice": 0.19299721717834473,
+        "attn_to_bob": 0.0022525787353515625,
+        "attn_to_carol": 0.00096893310546875,
+        "attn_to_drawer": 0.0195465087890625,
+        "attn_to_basket": 0.12066650390625,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.5562565326690674
+      },
+      "L18H14": {
+        "attn_to_verb": 0.0004494190216064453,
+        "attn_to_alice": 0.1261138916015625,
+        "attn_to_bob": 0.002410888671875,
+        "attn_to_carol": 0.0027103424072265625,
+        "attn_to_drawer": 0.265869140625,
+        "attn_to_basket": 0.1256103515625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 2.480997323989868
+      },
+      "L19H30": {
+        "attn_to_verb": 0.0014486312866210938,
+        "attn_to_alice": 0.12819385528564453,
+        "attn_to_bob": 0.004947662353515625,
+        "attn_to_carol": 0.0209197998046875,
+        "attn_to_drawer": 0.00299072265625,
+        "attn_to_basket": 0.05218505859375,
+        "verb_position": 12,
+        "max_attn_position": 29,
+        "entropy": 2.8670520782470703
+      },
+      "L21H17": {
+        "attn_to_verb": 0.0014619827270507812,
+        "attn_to_alice": 0.11237049102783203,
+        "attn_to_bob": 0.00274658203125,
+        "attn_to_carol": 0.002468109130859375,
+        "attn_to_drawer": 0.0953369140625,
+        "attn_to_basket": 0.16162109375,
+        "verb_position": 12,
+        "max_attn_position": 21,
+        "entropy": 2.7551419734954834
+      },
+      "L15H9": {
+        "attn_to_verb": 0.00017631053924560547,
+        "attn_to_alice": 0.002348780632019043,
+        "attn_to_bob": 0.0002906322479248047,
+        "attn_to_carol": 0.0003345012664794922,
+        "attn_to_drawer": 0.347412109375,
+        "attn_to_basket": 0.03082275390625,
+        "verb_position": 12,
+        "max_attn_position": 6,
+        "entropy": 1.7395851612091064
+      },
+      "L19H2": {
+        "attn_to_verb": 0.0010538101196289062,
+        "attn_to_alice": 0.5199108123779297,
+        "attn_to_bob": 0.00356292724609375,
+        "attn_to_carol": 0.002300262451171875,
+        "attn_to_drawer": 0.07159423828125,
+        "attn_to_basket": 0.032012939453125,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.2924344539642334
+      },
+      "L19H15": {
+        "attn_to_verb": 0.001819610595703125,
+        "attn_to_alice": 0.2898426055908203,
+        "attn_to_bob": 0.01497650146484375,
+        "attn_to_carol": 0.0142364501953125,
+        "attn_to_drawer": 0.01229095458984375,
+        "attn_to_basket": 0.056732177734375,
+        "verb_position": 12,
+        "max_attn_position": 0,
+        "entropy": 2.703789472579956
+      }
+    }
+  }
+}

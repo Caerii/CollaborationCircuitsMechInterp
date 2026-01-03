@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "baseline": {
+      "accuracy": 0.18,
+      "mean_prob": 0.25392107063532277
+    },
+    "social_context": {
+      "accuracy": 0.82,
+      "mean_prob": 0.7881378716781985
+    },
+    "verb_informs": {
+      "accuracy": 0.46,
+      "mean_prob": 0.44098626711108674
+    },
+    "verb_lets_know": {
+      "accuracy": 0.86,
+      "mean_prob": 0.7938880594987908
+    },
+    "verb_updates": {
+      "accuracy": 0.26,
+      "mean_prob": 0.2896418539800244
+    },
+    "tom_framing": {
+      "accuracy": 0.96,
+      "mean_prob": 0.9398076113895003
+    },
+    "chain_of_thought": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999928266310267
+    },
+    "few_shot": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9993051032068991
+    },
+    "direct_belief": {
+      "accuracy": 0.76,
+      "mean_prob": 0.7430155890398739
+    },
+    "heard_understood": {
+      "accuracy": 0.52,
+      "mean_prob": 0.5303491450732486
+    },
+    "narrative_consequence": {
+      "accuracy": 0.96,
+      "mean_prob": 0.8693155047467578
+    },
+    "informer_effect": {
+      "accuracy": 0.96,
+      "mean_prob": 0.8618910874294581
+    },
+    "explicit_baseline": {
+      "accuracy": 1.0,
+      "mean_prob": 0.9999999976431673
+    }
+  },
+  "baseline_accuracy": 0.18,
+  "explicit_accuracy": 1.0,
+  "best_control": {
+    "name": "chain_of_thought",
+    "accuracy": 1.0
+  },
+  "improvement": 0.8200000000000001
+}

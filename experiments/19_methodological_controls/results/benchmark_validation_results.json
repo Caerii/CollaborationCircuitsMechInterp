@@ -1,0 +1,283 @@
+{
+  "tomi": {
+    "belief": {
+      "Sally-Anne (classic)": {
+        "correct_logit": 23.671875,
+        "wrong_logit": 18.375,
+        "diff": 5.296875,
+        "is_correct": true,
+        "top_5": [
+          "basket",
+          "box",
+          "__",
+          "(",
+          "____"
+        ]
+      },
+      "Maxi chocolate": {
+        "correct_logit": 21.84375,
+        "wrong_logit": 16.46875,
+        "diff": 5.375,
+        "is_correct": true,
+        "top_5": [
+          "cupboard",
+          "drawer",
+          "cup",
+          "**",
+          "__"
+        ]
+      },
+      "Teddy bear": {
+        "correct_logit": 27.53125,
+        "wrong_logit": 10.1015625,
+        "diff": 17.4296875,
+        "is_correct": true,
+        "top_5": [
+          "bed",
+          "\u5e8a",
+          "bed",
+          "__",
+          "("
+        ]
+      },
+      "Car keys": {
+        "correct_logit": 25.390625,
+        "wrong_logit": 6.3671875,
+        "diff": 19.0234375,
+        "is_correct": true,
+        "top_5": [
+          "jacket",
+          "pocket",
+          "...",
+          "______",
+          "..."
+        ]
+      },
+      "Cookie jar": {
+        "correct_logit": 21.734375,
+        "wrong_logit": 14.6640625,
+        "diff": 7.0703125,
+        "is_correct": true,
+        "top_5": [
+          "jar",
+          "kitchen",
+          "__",
+          "______",
+          "("
+        ]
+      },
+      "Second-order (ice cream)": {
+        "correct_logit": 14.578125,
+        "wrong_logit": 8.96875,
+        "diff": 5.609375,
+        "is_correct": true,
+        "top_5": [
+          "?",
+          "?",
+          "in",
+          "?",
+          "still"
+        ]
+      },
+      "Second-order (surprise party)": {
+        "correct_logit": 22.3125,
+        "wrong_logit": 20.65625,
+        "diff": 1.65625,
+        "is_correct": true,
+        "top_5": [
+          "doesn",
+          "knows",
+          "does",
+          "is",
+          "might"
+        ]
+      }
+    },
+    "action": {
+      "Sally-Anne (classic)": {
+        "correct_logit": 24.03125,
+        "wrong_logit": 21.265625,
+        "diff": 2.765625,
+        "is_correct": true,
+        "top_5": [
+          "basket",
+          "box",
+          "same",
+          "original",
+          "__"
+        ]
+      },
+      "Maxi chocolate": {
+        "correct_logit": 23.421875,
+        "wrong_logit": 18.0625,
+        "diff": 5.359375,
+        "is_correct": true,
+        "top_5": [
+          "cupboard",
+          "drawer",
+          "same",
+          "place",
+          "cup"
+        ]
+      },
+      "Teddy bear": {
+        "correct_logit": 23.71875,
+        "wrong_logit": 10.9921875,
+        "diff": 12.7265625,
+        "is_correct": true,
+        "top_5": [
+          "bed",
+          "\u5e8a",
+          "",
+          "bed",
+          "beds"
+        ]
+      },
+      "Car keys": {
+        "correct_logit": 27.609375,
+        "wrong_logit": 5.19140625,
+        "diff": 22.41796875,
+        "is_correct": true,
+        "top_5": [
+          "jacket",
+          "pocket",
+          "coat",
+          "...",
+          "-"
+        ]
+      },
+      "Cookie jar": {
+        "correct_logit": 19.25,
+        "wrong_logit": 18.40625,
+        "diff": 0.84375,
+        "is_correct": true,
+        "top_5": [
+          "kitchen",
+          "jar",
+          "box",
+          "__",
+          "place"
+        ]
+      },
+      "Second-order (ice cream)": {
+        "correct_logit": 20.625,
+        "wrong_logit": 7.375,
+        "diff": 13.25,
+        "is_correct": true,
+        "top_5": [
+          "to",
+          "with",
+          "home",
+          "for",
+          "where"
+        ]
+      },
+      "Second-order (surprise party)": {
+        "correct_logit": 20.46875,
+        "wrong_logit": 17.734375,
+        "diff": 2.734375,
+        "is_correct": true,
+        "top_5": [
+          "is",
+          "doesn",
+          "isn",
+          "'s",
+          "has"
+        ]
+      }
+    }
+  },
+  "fantom": {
+    "belief": {
+      "Different perspectives": {
+        "correct_logit": 26.0625,
+        "wrong_logit": 24.34375,
+        "diff": 1.71875,
+        "is_correct": true,
+        "top_5": [
+          "blue",
+          "red",
+          "(",
+          "______",
+          "green"
+        ]
+      },
+      "Knowledge asymmetry": {
+        "correct_logit": 20.09375,
+        "wrong_logit": 22.125,
+        "diff": -2.03125,
+        "is_correct": false,
+        "top_5": [
+          "knows",
+          "doesn",
+          "is",
+          "might",
+          "will"
+        ]
+      },
+      "Communication inference": {
+        "correct_logit": 26.875,
+        "wrong_logit": 26.875,
+        "diff": 0.0,
+        "is_correct": false,
+        "top_5": [
+          "",
+          "...",
+          "__",
+          "(",
+          "______"
+        ]
+      }
+    },
+    "action": {
+      "Different perspectives": {
+        "correct_logit": 24.71875,
+        "wrong_logit": 22.75,
+        "diff": 1.96875,
+        "is_correct": true,
+        "top_5": [
+          "blue",
+          "red",
+          "green",
+          "car",
+          "("
+        ]
+      },
+      "Knowledge asymmetry": {
+        "correct_logit": 2.568359375,
+        "wrong_logit": 6.43359375,
+        "diff": -3.865234375,
+        "is_correct": false,
+        "top_5": [
+          "remind",
+          "not",
+          "have",
+          "probably",
+          "be"
+        ]
+      },
+      "Communication inference": {
+        "correct_logit": 24.796875,
+        "wrong_logit": 24.796875,
+        "diff": 0.0,
+        "is_correct": false,
+        "top_5": [
+          "",
+          "the",
+          "(",
+          "__",
+          "______"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "tomi_belief": 7,
+    "tomi_action": 7,
+    "fantom_belief": 1,
+    "fantom_action": 1,
+    "overall_belief": 8,
+    "overall_action": 8,
+    "total": 10
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "L18H11": {
+    "correct_norm": 2.14453125,
+    "incorrect_norm": 1.91015625,
+    "diff_norm": 0.6552734375,
+    "cosine_similarity": 0.95458984375,
+    "n_correct": 19,
+    "n_incorrect": 31
+  },
+  "L17H4": {
+    "correct_norm": 3.447265625,
+    "incorrect_norm": 3.859375,
+    "diff_norm": 1.333984375,
+    "cosine_similarity": 0.939453125,
+    "n_correct": 19,
+    "n_incorrect": 31
+  },
+  "L18H14": {
+    "correct_norm": 4.01953125,
+    "incorrect_norm": 4.04296875,
+    "diff_norm": 0.90234375,
+    "cosine_similarity": 0.9755859375,
+    "n_correct": 19,
+    "n_incorrect": 31
+  },
+  "L15H9": {
+    "correct_norm": 4.01953125,
+    "incorrect_norm": 4.21484375,
+    "diff_norm": 1.0947265625,
+    "cosine_similarity": 0.9658203125,
+    "n_correct": 19,
+    "n_incorrect": 31
+  },
+  "L19H2": {
+    "correct_norm": 2.048828125,
+    "incorrect_norm": 2.572265625,
+    "diff_norm": 0.85400390625,
+    "cosine_similarity": 0.95703125,
+    "n_correct": 19,
+    "n_incorrect": 31
+  },
+  "L19H15": {
+    "correct_norm": 3.359375,
+    "incorrect_norm": 3.302734375,
+    "diff_norm": 0.6875,
+    "cosine_similarity": 0.97900390625,
+    "n_correct": 19,
+    "n_incorrect": 31
+  },
+  "probe_accuracy": {
+    "L18H11": {
+      "probe_accuracy": 0.86,
+      "coef_norm": 3.042068809709013
+    },
+    "L17H4": {
+      "probe_accuracy": 1.0,
+      "coef_norm": 3.3635315039908904
+    },
+    "L18H14": {
+      "probe_accuracy": 1.0,
+      "coef_norm": 3.4953784800429677
+    },
+    "L15H9": {
+      "probe_accuracy": 1.0,
+      "coef_norm": 3.470481305528634
+    },
+    "L19H2": {
+      "probe_accuracy": 1.0,
+      "coef_norm": 3.398434429667066
+    },
+    "L19H15": {
+      "probe_accuracy": 1.0,
+      "coef_norm": 3.315732970901596
+    }
+  }
+}

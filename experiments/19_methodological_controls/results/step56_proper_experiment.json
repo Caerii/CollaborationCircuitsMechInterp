@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-12-23T23:34:34.938652",
+  "methodology": "8-scenario design with counterbalancing",
+  "n_scenarios": 240,
+  "n_tasks": 30,
+  "analysis": {
+    "accuracy_FB": {
+      "mean": 0.4666666666666667,
+      "ci": 0.126235992989028,
+      "n": 60
+    },
+    "accuracy_TB": {
+      "mean": 0.21666666666666667,
+      "ci": 0.10424369596358404,
+      "n": 60
+    },
+    "accuracy_CTRL": {
+      "mean": 0.4,
+      "ci": 0.08765386471799176,
+      "n": 120
+    },
+    "model_acc": 0.37083333333333335,
+    "first_acc": 0.25,
+    "recent_acc": 0.75,
+    "reality_acc": 0.75,
+    "fb_recency_wrong": 0.4666666666666667,
+    "accuracy_neutral": 0.0,
+    "accuracy_real": 0.7416666666666667,
+    "mcnemar_chi2": 55.10204081632653,
+    "mcnemar_p": 1.1446399383885364e-13,
+    "tasks_passed": 1,
+    "total_tasks": 30
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "baseline": 0.24,
+  "ablate_2_inhibitors": 0.48,
+  "ablate_3_inhibitors": 0.66,
+  "ablate_5_inhibitors": 0.92,
+  "amplify_L19H2_2x": 0.18,
+  "amplify_L19H2_3x": 0.2,
+  "ablate_2_plus_amp_L19H2": 0.24,
+  "ablate_3_plus_amp_2_enablers": 0.32,
+  "maximum_intervention": 0.66,
+  "ablate_3_amp_scale_1.5": 0.54,
+  "ablate_3_amp_scale_2.0": 0.34,
+  "ablate_3_amp_scale_2.5": 0.2,
+  "ablate_3_amp_scale_3.0": 0.04,
+  "ablate_3_amp_scale_4.0": 0.02
+}

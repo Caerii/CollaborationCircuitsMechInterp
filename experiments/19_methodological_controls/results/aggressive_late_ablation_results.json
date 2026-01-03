@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-12-23T21:59:53.381726",
+  "results": {
+    "told": {
+      "baseline": {
+        "correct_logit": 20.109375,
+        "wrong_logit": 21.09375,
+        "diff": -0.984375,
+        "prediction": "wrong"
+      },
+      "ablations": {
+        "Top 5 (previous)": {
+          "heads": 5,
+          "diff": -0.0625,
+          "change": 0.921875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "Top 10": {
+          "heads": 10,
+          "diff": 0.53125,
+          "change": 1.515625,
+          "prediction": "correct",
+          "flipped": true
+        },
+        "All L35": {
+          "heads": 32,
+          "diff": -0.296875,
+          "change": 0.6875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L34+L35": {
+          "heads": 64,
+          "diff": -1.203125,
+          "change": -0.21875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L33-L35": {
+          "heads": 96,
+          "diff": -0.78125,
+          "change": 0.203125,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L32-L35": {
+          "heads": 128,
+          "diff": 2.1953125,
+          "change": 3.1796875,
+          "prediction": "correct",
+          "flipped": true
+        }
+      }
+    },
+    "said": {
+      "baseline": {
+        "correct_logit": 20.203125,
+        "wrong_logit": 21.3125,
+        "diff": -1.109375,
+        "prediction": "wrong"
+      },
+      "ablations": {
+        "Top 5 (previous)": {
+          "heads": 5,
+          "diff": -0.140625,
+          "change": 0.96875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "Top 10": {
+          "heads": 10,
+          "diff": 0.46875,
+          "change": 1.578125,
+          "prediction": "correct",
+          "flipped": true
+        },
+        "All L35": {
+          "heads": 32,
+          "diff": -0.359375,
+          "change": 0.75,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L34+L35": {
+          "heads": 64,
+          "diff": -1.296875,
+          "change": -0.1875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L33-L35": {
+          "heads": 96,
+          "diff": -0.890625,
+          "change": 0.21875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L32-L35": {
+          "heads": 128,
+          "diff": 2.0078125,
+          "change": 3.1171875,
+          "prediction": "correct",
+          "flipped": true
+        }
+      }
+    },
+    "announced": {
+      "baseline": {
+        "correct_logit": 20.515625,
+        "wrong_logit": 20.640625,
+        "diff": -0.125,
+        "prediction": "wrong"
+      },
+      "ablations": {
+        "Top 5 (previous)": {
+          "heads": 5,
+          "diff": 0.796875,
+          "change": 0.921875,
+          "prediction": "correct",
+          "flipped": true
+        },
+        "Top 10": {
+          "heads": 10,
+          "diff": 1.375,
+          "change": 1.5,
+          "prediction": "correct",
+          "flipped": true
+        },
+        "All L35": {
+          "heads": 32,
+          "diff": 0.421875,
+          "change": 0.546875,
+          "prediction": "correct",
+          "flipped": true
+        },
+        "All L34+L35": {
+          "heads": 64,
+          "diff": -0.609375,
+          "change": -0.484375,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L33-L35": {
+          "heads": 96,
+          "diff": -0.296875,
+          "change": -0.171875,
+          "prediction": "wrong",
+          "flipped": false
+        },
+        "All L32-L35": {
+          "heads": 128,
+          "diff": 2.734375,
+          "change": 2.859375,
+          "prediction": "correct",
+          "flipped": true
+        }
+      }
+    }
+  }
+}

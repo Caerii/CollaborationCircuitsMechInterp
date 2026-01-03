@@ -1,0 +1,225 @@
+{
+  "baseline": {
+    "Simple password change": {
+      "domain": "password",
+      "is_correct": false,
+      "diff": 0.0,
+      "top_tokens": [
+        "\"",
+        "still",
+        "now",
+        "correct",
+        "\u201c"
+      ]
+    },
+    "Secret code - reformatted": {
+      "domain": "password",
+      "is_correct": false,
+      "diff": 0.0,
+      "top_tokens": [
+        "that",
+        "in",
+        "",
+        "as",
+        "she"
+      ]
+    },
+    "Meeting time - word format": {
+      "domain": "time",
+      "is_correct": true,
+      "diff": 2.84375,
+      "top_tokens": [
+        "two",
+        "",
+        "three",
+        "the",
+        "__"
+      ]
+    },
+    "Appointment time": {
+      "domain": "time",
+      "is_correct": true,
+      "diff": 9.75,
+      "top_tokens": [
+        "Monday",
+        "the",
+        "Tuesday",
+        "______",
+        "__"
+      ]
+    },
+    "Item price - simple": {
+      "domain": "price",
+      "is_correct": true,
+      "diff": 1.5,
+      "top_tokens": [
+        "ten",
+        "$",
+        "",
+        "$\\",
+        "\\$"
+      ]
+    },
+    "Salary belief": {
+      "domain": "price",
+      "is_correct": false,
+      "diff": 0.0,
+      "top_tokens": [
+        "$",
+        "",
+        "fifty",
+        "thirty",
+        "..."
+      ]
+    },
+    "Pet name": {
+      "domain": "name",
+      "is_correct": true,
+      "diff": 8.28125,
+      "top_tokens": [
+        "Wh",
+        "\"",
+        "by",
+        "",
+        "__"
+      ]
+    },
+    "Project name": {
+      "domain": "name",
+      "is_correct": true,
+      "diff": 4.265625,
+      "top_tokens": [
+        "Alpha",
+        "Beta",
+        "\"",
+        "Alpha",
+        "**"
+      ]
+    },
+    "Dinner plan": {
+      "domain": "plan",
+      "is_correct": true,
+      "diff": 10.265625,
+      "top_tokens": [
+        "pasta",
+        "spaghetti",
+        "pizza",
+        "regular",
+        "going"
+      ]
+    },
+    "Vacation destination": {
+      "domain": "plan",
+      "is_correct": true,
+      "diff": 7.71875,
+      "top_tokens": [
+        "Paris",
+        "London",
+        "France",
+        "\u5df4\u9ece",
+        "Paris"
+      ]
+    },
+    "Object location control": {
+      "domain": "location",
+      "is_correct": true,
+      "diff": 7.671875,
+      "top_tokens": [
+        "table",
+        "drawer",
+        "__",
+        "**",
+        "____"
+      ]
+    }
+  },
+  "ablated": {
+    "Simple password change": {
+      "domain": "password",
+      "is_correct": false,
+      "diff": 0.0
+    },
+    "Secret code - reformatted": {
+      "domain": "password",
+      "is_correct": false,
+      "diff": 0.0
+    },
+    "Meeting time - word format": {
+      "domain": "time",
+      "is_correct": true,
+      "diff": 2.09375
+    },
+    "Appointment time": {
+      "domain": "time",
+      "is_correct": true,
+      "diff": 9.484375
+    },
+    "Item price - simple": {
+      "domain": "price",
+      "is_correct": true,
+      "diff": 0.59375
+    },
+    "Salary belief": {
+      "domain": "price",
+      "is_correct": false,
+      "diff": 0.0
+    },
+    "Pet name": {
+      "domain": "name",
+      "is_correct": true,
+      "diff": 8.671875
+    },
+    "Project name": {
+      "domain": "name",
+      "is_correct": true,
+      "diff": 3.796875
+    },
+    "Dinner plan": {
+      "domain": "plan",
+      "is_correct": true,
+      "diff": 8.796875
+    },
+    "Vacation destination": {
+      "domain": "plan",
+      "is_correct": true,
+      "diff": 7.015625
+    },
+    "Object location control": {
+      "domain": "location",
+      "is_correct": true,
+      "diff": 6.015625
+    }
+  },
+  "by_domain": {
+    "location": {
+      "baseline": 1,
+      "ablated": 1,
+      "total": 1
+    },
+    "name": {
+      "baseline": 2,
+      "ablated": 2,
+      "total": 2
+    },
+    "password": {
+      "baseline": 0,
+      "ablated": 0,
+      "total": 2
+    },
+    "plan": {
+      "baseline": 2,
+      "ablated": 2,
+      "total": 2
+    },
+    "price": {
+      "baseline": 1,
+      "ablated": 1,
+      "total": 2
+    },
+    "time": {
+      "baseline": 2,
+      "ablated": 2,
+      "total": 2
+    }
+  }
+}
