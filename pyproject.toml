@@ -1,34 +1,39 @@
 [project]
 name = "collaboration-circuits"
-version = "0.1.0"
-description = "Mechanistic interpretability of multi-agent collaboration circuits"
+version = "0.2.0"
+description = "Mechanistic interpretability of social cognition circuits in LLMs"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     # Core ML (CUDA 12.1 compatible)
     "torch>=2.0.0",
-    "transformers>=4.40.0",
+    "transformers>=4.56.0,<=4.57.3",  # pinned for circuit-tracer compat
     "accelerate>=0.27.0",
     "safetensors>=0.4.0",
-    
+
     # Mechanistic Interpretability
     "nnsight>=0.3.0",
-    
+    "sae-lens>=6.0.0",
+    "circuit-tracer @ git+https://github.com/decoderesearch/circuit-tracer.git",
+
+    # LM Studio API (OpenAI-compatible for behavioral testing)
+    "openai>=1.0.0",
+
     # Data & Analysis
     "numpy>=1.24.0",
     "pandas>=2.0.0",
     "scikit-learn>=1.3.0",
     "scipy>=1.11.0",
-    
+    "statsmodels>=0.14.0",
+
     # Visualization
     "matplotlib>=3.7.0",
     "seaborn>=0.13.0",
     "plotly>=5.18.0",
-    
+
     # Utilities
     "tqdm>=4.66.0",
     "einops>=0.7.0",
-    "jaxtyping>=0.2.25",
     "huggingface-hub>=0.20.0",
 ]
 
@@ -44,9 +49,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["lib"]
 
 [tool.uv]
-# Use PyTorch index for CUDA builds
-extra-index-url = ["https://download.pytorch.org/whl/cu121"]
-
+# torch already installed with CUDA 13.0 - don't override
+# extra-index-url = ["https://download.pytorch.org/whl/cu121"]

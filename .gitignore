@@ -1,2 +1,42 @@
-/cache
-/src/__pycache__
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Model cache (large files - download locally)
+/cache/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment outputs (committed selectively per study)
+# Large result files go in shared/results/ which IS tracked
+# But raw activations and caches are not
+**/activations_cache/
+**/raw_activations/
+
+# uv lock (tracked — ensures reproducible installs)
+# uv.lock
+
+# Environment variables
+.env
