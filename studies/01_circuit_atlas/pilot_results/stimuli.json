@@ -1,0 +1,402 @@
+[
+  {
+    "id": "pilot_000_FB_AB",
+    "text": "Voss puts the ring in the chest. Voss leaves the room. Kael moves the ring from the chest to the coffer. Voss returns to the room.",
+    "question": "Where will Voss look for the ring?",
+    "correct": "chest",
+    "condition": "false_belief",
+    "first_mention": "chest",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_000_TB_AB",
+    "text": "Voss puts the ring in the chest. Kael moves the ring from the chest to the coffer. Voss watches the whole time.",
+    "question": "Where will Voss look for the ring?",
+    "correct": "coffer",
+    "condition": "true_belief",
+    "first_mention": "chest",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_000_RC_AB",
+    "text": "Voss puts the ring in the chest. Voss leaves the room. Kael moves the ring from the chest to the coffer. Voss returns to the room.",
+    "question": "Where is the ring really?",
+    "correct": "coffer",
+    "condition": "reality_check",
+    "first_mention": "chest",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_000_BQ_AB",
+    "text": "Voss believes the ring is in the chest. In reality, the ring is in the coffer.",
+    "question": "Where does Voss think the ring is?",
+    "correct": "chest",
+    "condition": "belief_question",
+    "first_mention": "chest",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_000_FB_BA",
+    "text": "Voss puts the ring in the coffer. Voss leaves the room. Kael moves the ring from the coffer to the chest. Voss returns to the room.",
+    "question": "Where will Voss look for the ring?",
+    "correct": "coffer",
+    "condition": "false_belief",
+    "first_mention": "coffer",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_000_TB_BA",
+    "text": "Voss puts the ring in the coffer. Kael moves the ring from the coffer to the chest. Voss watches the whole time.",
+    "question": "Where will Voss look for the ring?",
+    "correct": "chest",
+    "condition": "true_belief",
+    "first_mention": "coffer",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_000_RC_BA",
+    "text": "Voss puts the ring in the coffer. Voss leaves the room. Kael moves the ring from the coffer to the chest. Voss returns to the room.",
+    "question": "Where is the ring really?",
+    "correct": "chest",
+    "condition": "reality_check",
+    "first_mention": "coffer",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_000_BQ_BA",
+    "text": "Voss believes the ring is in the coffer. In reality, the ring is in the chest.",
+    "question": "Where does Voss think the ring is?",
+    "correct": "coffer",
+    "condition": "belief_question",
+    "first_mention": "coffer",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_001_FB_AB",
+    "text": "Priya puts the crystal in the armoire. Priya leaves the room. Wren moves the crystal from the armoire to the compartment. Priya returns to the room.",
+    "question": "Where will Priya look for the crystal?",
+    "correct": "armoire",
+    "condition": "false_belief",
+    "first_mention": "armoire",
+    "recency": "compartment",
+    "reality": "compartment"
+  },
+  {
+    "id": "pilot_001_TB_AB",
+    "text": "Priya puts the crystal in the armoire. Wren moves the crystal from the armoire to the compartment. Priya watches the whole time.",
+    "question": "Where will Priya look for the crystal?",
+    "correct": "compartment",
+    "condition": "true_belief",
+    "first_mention": "armoire",
+    "recency": "compartment",
+    "reality": "compartment"
+  },
+  {
+    "id": "pilot_001_RC_AB",
+    "text": "Priya puts the crystal in the armoire. Priya leaves the room. Wren moves the crystal from the armoire to the compartment. Priya returns to the room.",
+    "question": "Where is the crystal really?",
+    "correct": "compartment",
+    "condition": "reality_check",
+    "first_mention": "armoire",
+    "recency": "compartment",
+    "reality": "compartment"
+  },
+  {
+    "id": "pilot_001_BQ_AB",
+    "text": "Priya believes the crystal is in the armoire. In reality, the crystal is in the compartment.",
+    "question": "Where does Priya think the crystal is?",
+    "correct": "armoire",
+    "condition": "belief_question",
+    "first_mention": "armoire",
+    "recency": "compartment",
+    "reality": "compartment"
+  },
+  {
+    "id": "pilot_001_FB_BA",
+    "text": "Priya puts the crystal in the compartment. Priya leaves the room. Wren moves the crystal from the compartment to the armoire. Priya returns to the room.",
+    "question": "Where will Priya look for the crystal?",
+    "correct": "compartment",
+    "condition": "false_belief",
+    "first_mention": "compartment",
+    "recency": "armoire",
+    "reality": "armoire"
+  },
+  {
+    "id": "pilot_001_TB_BA",
+    "text": "Priya puts the crystal in the compartment. Wren moves the crystal from the compartment to the armoire. Priya watches the whole time.",
+    "question": "Where will Priya look for the crystal?",
+    "correct": "armoire",
+    "condition": "true_belief",
+    "first_mention": "compartment",
+    "recency": "armoire",
+    "reality": "armoire"
+  },
+  {
+    "id": "pilot_001_RC_BA",
+    "text": "Priya puts the crystal in the compartment. Priya leaves the room. Wren moves the crystal from the compartment to the armoire. Priya returns to the room.",
+    "question": "Where is the crystal really?",
+    "correct": "armoire",
+    "condition": "reality_check",
+    "first_mention": "compartment",
+    "recency": "armoire",
+    "reality": "armoire"
+  },
+  {
+    "id": "pilot_001_BQ_BA",
+    "text": "Priya believes the crystal is in the compartment. In reality, the crystal is in the armoire.",
+    "question": "Where does Priya think the crystal is?",
+    "correct": "compartment",
+    "condition": "belief_question",
+    "first_mention": "compartment",
+    "recency": "armoire",
+    "reality": "armoire"
+  },
+  {
+    "id": "pilot_002_FB_AB",
+    "text": "Maren puts the medallion in the cubby. Maren leaves the room. Voss moves the medallion from the cubby to the chest. Maren returns to the room.",
+    "question": "Where will Maren look for the medallion?",
+    "correct": "cubby",
+    "condition": "false_belief",
+    "first_mention": "cubby",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_002_TB_AB",
+    "text": "Maren puts the medallion in the cubby. Voss moves the medallion from the cubby to the chest. Maren watches the whole time.",
+    "question": "Where will Maren look for the medallion?",
+    "correct": "chest",
+    "condition": "true_belief",
+    "first_mention": "cubby",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_002_RC_AB",
+    "text": "Maren puts the medallion in the cubby. Maren leaves the room. Voss moves the medallion from the cubby to the chest. Maren returns to the room.",
+    "question": "Where is the medallion really?",
+    "correct": "chest",
+    "condition": "reality_check",
+    "first_mention": "cubby",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_002_BQ_AB",
+    "text": "Maren believes the medallion is in the cubby. In reality, the medallion is in the chest.",
+    "question": "Where does Maren think the medallion is?",
+    "correct": "cubby",
+    "condition": "belief_question",
+    "first_mention": "cubby",
+    "recency": "chest",
+    "reality": "chest"
+  },
+  {
+    "id": "pilot_002_FB_BA",
+    "text": "Maren puts the medallion in the chest. Maren leaves the room. Voss moves the medallion from the chest to the cubby. Maren returns to the room.",
+    "question": "Where will Maren look for the medallion?",
+    "correct": "chest",
+    "condition": "false_belief",
+    "first_mention": "chest",
+    "recency": "cubby",
+    "reality": "cubby"
+  },
+  {
+    "id": "pilot_002_TB_BA",
+    "text": "Maren puts the medallion in the chest. Voss moves the medallion from the chest to the cubby. Maren watches the whole time.",
+    "question": "Where will Maren look for the medallion?",
+    "correct": "cubby",
+    "condition": "true_belief",
+    "first_mention": "chest",
+    "recency": "cubby",
+    "reality": "cubby"
+  },
+  {
+    "id": "pilot_002_RC_BA",
+    "text": "Maren puts the medallion in the chest. Maren leaves the room. Voss moves the medallion from the chest to the cubby. Maren returns to the room.",
+    "question": "Where is the medallion really?",
+    "correct": "cubby",
+    "condition": "reality_check",
+    "first_mention": "chest",
+    "recency": "cubby",
+    "reality": "cubby"
+  },
+  {
+    "id": "pilot_002_BQ_BA",
+    "text": "Maren believes the medallion is in the chest. In reality, the medallion is in the cubby.",
+    "question": "Where does Maren think the medallion is?",
+    "correct": "chest",
+    "condition": "belief_question",
+    "first_mention": "chest",
+    "recency": "cubby",
+    "reality": "cubby"
+  },
+  {
+    "id": "pilot_003_FB_AB",
+    "text": "Joss puts the chalk in the locker. Joss leaves the room. Maren moves the chalk from the locker to the cabinet. Joss returns to the room.",
+    "question": "Where will Joss look for the chalk?",
+    "correct": "locker",
+    "condition": "false_belief",
+    "first_mention": "locker",
+    "recency": "cabinet",
+    "reality": "cabinet"
+  },
+  {
+    "id": "pilot_003_TB_AB",
+    "text": "Joss puts the chalk in the locker. Maren moves the chalk from the locker to the cabinet. Joss watches the whole time.",
+    "question": "Where will Joss look for the chalk?",
+    "correct": "cabinet",
+    "condition": "true_belief",
+    "first_mention": "locker",
+    "recency": "cabinet",
+    "reality": "cabinet"
+  },
+  {
+    "id": "pilot_003_RC_AB",
+    "text": "Joss puts the chalk in the locker. Joss leaves the room. Maren moves the chalk from the locker to the cabinet. Joss returns to the room.",
+    "question": "Where is the chalk really?",
+    "correct": "cabinet",
+    "condition": "reality_check",
+    "first_mention": "locker",
+    "recency": "cabinet",
+    "reality": "cabinet"
+  },
+  {
+    "id": "pilot_003_BQ_AB",
+    "text": "Joss believes the chalk is in the locker. In reality, the chalk is in the cabinet.",
+    "question": "Where does Joss think the chalk is?",
+    "correct": "locker",
+    "condition": "belief_question",
+    "first_mention": "locker",
+    "recency": "cabinet",
+    "reality": "cabinet"
+  },
+  {
+    "id": "pilot_003_FB_BA",
+    "text": "Joss puts the chalk in the cabinet. Joss leaves the room. Maren moves the chalk from the cabinet to the locker. Joss returns to the room.",
+    "question": "Where will Joss look for the chalk?",
+    "correct": "cabinet",
+    "condition": "false_belief",
+    "first_mention": "cabinet",
+    "recency": "locker",
+    "reality": "locker"
+  },
+  {
+    "id": "pilot_003_TB_BA",
+    "text": "Joss puts the chalk in the cabinet. Maren moves the chalk from the cabinet to the locker. Joss watches the whole time.",
+    "question": "Where will Joss look for the chalk?",
+    "correct": "locker",
+    "condition": "true_belief",
+    "first_mention": "cabinet",
+    "recency": "locker",
+    "reality": "locker"
+  },
+  {
+    "id": "pilot_003_RC_BA",
+    "text": "Joss puts the chalk in the cabinet. Joss leaves the room. Maren moves the chalk from the cabinet to the locker. Joss returns to the room.",
+    "question": "Where is the chalk really?",
+    "correct": "locker",
+    "condition": "reality_check",
+    "first_mention": "cabinet",
+    "recency": "locker",
+    "reality": "locker"
+  },
+  {
+    "id": "pilot_003_BQ_BA",
+    "text": "Joss believes the chalk is in the cabinet. In reality, the chalk is in the locker.",
+    "question": "Where does Joss think the chalk is?",
+    "correct": "cabinet",
+    "condition": "belief_question",
+    "first_mention": "cabinet",
+    "recency": "locker",
+    "reality": "locker"
+  },
+  {
+    "id": "pilot_004_FB_AB",
+    "text": "Lumi puts the figurine in the canister. Lumi leaves the room. Ash moves the figurine from the canister to the coffer. Lumi returns to the room.",
+    "question": "Where will Lumi look for the figurine?",
+    "correct": "canister",
+    "condition": "false_belief",
+    "first_mention": "canister",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_004_TB_AB",
+    "text": "Lumi puts the figurine in the canister. Ash moves the figurine from the canister to the coffer. Lumi watches the whole time.",
+    "question": "Where will Lumi look for the figurine?",
+    "correct": "coffer",
+    "condition": "true_belief",
+    "first_mention": "canister",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_004_RC_AB",
+    "text": "Lumi puts the figurine in the canister. Lumi leaves the room. Ash moves the figurine from the canister to the coffer. Lumi returns to the room.",
+    "question": "Where is the figurine really?",
+    "correct": "coffer",
+    "condition": "reality_check",
+    "first_mention": "canister",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_004_BQ_AB",
+    "text": "Lumi believes the figurine is in the canister. In reality, the figurine is in the coffer.",
+    "question": "Where does Lumi think the figurine is?",
+    "correct": "canister",
+    "condition": "belief_question",
+    "first_mention": "canister",
+    "recency": "coffer",
+    "reality": "coffer"
+  },
+  {
+    "id": "pilot_004_FB_BA",
+    "text": "Lumi puts the figurine in the coffer. Lumi leaves the room. Ash moves the figurine from the coffer to the canister. Lumi returns to the room.",
+    "question": "Where will Lumi look for the figurine?",
+    "correct": "coffer",
+    "condition": "false_belief",
+    "first_mention": "coffer",
+    "recency": "canister",
+    "reality": "canister"
+  },
+  {
+    "id": "pilot_004_TB_BA",
+    "text": "Lumi puts the figurine in the coffer. Ash moves the figurine from the coffer to the canister. Lumi watches the whole time.",
+    "question": "Where will Lumi look for the figurine?",
+    "correct": "canister",
+    "condition": "true_belief",
+    "first_mention": "coffer",
+    "recency": "canister",
+    "reality": "canister"
+  },
+  {
+    "id": "pilot_004_RC_BA",
+    "text": "Lumi puts the figurine in the coffer. Lumi leaves the room. Ash moves the figurine from the coffer to the canister. Lumi returns to the room.",
+    "question": "Where is the figurine really?",
+    "correct": "canister",
+    "condition": "reality_check",
+    "first_mention": "coffer",
+    "recency": "canister",
+    "reality": "canister"
+  },
+  {
+    "id": "pilot_004_BQ_BA",
+    "text": "Lumi believes the figurine is in the coffer. In reality, the figurine is in the canister.",
+    "question": "Where does Lumi think the figurine is?",
+    "correct": "coffer",
+    "condition": "belief_question",
+    "first_mention": "coffer",
+    "recency": "canister",
+    "reality": "canister"
+  }
+]
