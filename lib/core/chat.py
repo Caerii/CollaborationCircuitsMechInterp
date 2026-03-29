@@ -1,46 +1,77 @@
 """Chat-mode evaluation via LM Studio's OpenAI-compatible API.
 
-Use this for all behavioral testing (accuracy measurements, response analysis).
-For mechanistic work (activations, ablation), use direct model loading instead.
+Use this for behavioral testing. For mechanistic work, load models directly.
+
+Supports:
+- Thinking models (qwen3-*-thinking): reasoning in `reasoning_content` field
+- Instruct models: reasoning in <think> tags within `content`
 """
 
-from dataclasses import dataclass
+import re
+import time
+from dataclasses import dataclass, asdict
 from openai import OpenAI
 
 from lib.utils.config import (
     LMSTUDIO_BASE_URL,
     LMSTUDIO_API_KEY,
-    SYSTEM_PROMPT,
     ExperimentConfig,
 )
+
+INSTRUCT_SYSTEM = "Think step by step in <think> tags, then answer with just the location name."
+THINKING_SYSTEM = "Answer concisely with just the location name."
 
 
 @dataclass
 class ChatResponse:
-    """Parsed response from a chat completion."""
+    """Full response data — nothing truncated."""
 
+    thinking: str
+    answer: str
     raw: str
-    thinking: str  # Content inside <think> tags
-    answer: str  # Content after </think>
     model: str
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    finish_reason: str = ""
+    elapsed_seconds: float = 0.0
+
+    def to_dict(self) -> dict:
+        return asdict(self)
 
 
 def get_client() -> OpenAI:
-    """Get an OpenAI client pointed at LM Studio."""
     return OpenAI(base_url=LMSTUDIO_BASE_URL, api_key=LMSTUDIO_API_KEY)
 
 
-def parse_response(text: str) -> tuple[str, str]:
-    """Extract thinking and answer from a response with <think> tags."""
-    if "<think>" in text and "</think>" in text:
-        start = text.index("<think>") + len("<think>")
-        end = text.index("</think>")
-        thinking = text[start:end].strip()
-        answer = text[end + len("</think>"):].strip()
-    else:
-        thinking = ""
-        answer = text.strip()
-    return thinking, answer
+def extract_location(text: str, valid_locations: list[str]) -> str | None:
+    """Extract a known location from model output.
+
+    Instead of crude substring matching, check against the actual locations
+    in the stimulus. Returns the matched location or None.
+    """
+    text_lower = text.lower().strip()
+    for loc in valid_locations:
+        if loc.lower() in text_lower:
+            return loc
+    return None
+
+
+def parse_response(message, raw_content: str) -> tuple[str, str]:
+    """Extract thinking and answer from a model response."""
+    # Thinking models: separate reasoning_content field
+    reasoning_content = getattr(message, "reasoning_content", None) or ""
+    if reasoning_content:
+        return reasoning_content, (raw_content or "").strip()
+
+    # Instruct models: <think> tags in content
+    if "<think>" in raw_content and "</think>" in raw_content:
+        start = raw_content.index("<think>") + len("<think>")
+        end = raw_content.index("</think>")
+        thinking = raw_content[start:end].strip()
+        answer = raw_content[end + len("</think>"):].strip()
+        return thinking, answer
+
+    return "", raw_content.strip()
 
 
 def run_scenario(
@@ -48,27 +79,23 @@ def run_scenario(
     question: str,
     model: str = "",
     config: ExperimentConfig | None = None,
-    system_prompt: str = SYSTEM_PROMPT,
+    system_prompt: str | None = None,
 ) -> ChatResponse:
-    """Run a single scenario through LM Studio and parse the response.
+    """Run a single scenario through LM Studio.
 
-    Args:
-        scenario_text: The narrative/scenario
-        question: The question to ask
-        model: LM Studio model identifier (leave empty to use whatever's loaded)
-        config: Experiment config (uses defaults if None)
-        system_prompt: System prompt to use
-
-    Returns:
-        ChatResponse with parsed thinking and answer
+    Auto-selects system prompt based on model type if not provided.
     """
     if config is None:
         config = ExperimentConfig()
 
+    if system_prompt is None:
+        is_thinking = "thinking" in model.lower()
+        system_prompt = THINKING_SYSTEM if is_thinking else INSTRUCT_SYSTEM
+
     client = get_client()
+    user_content = f"{scenario_text}\n\n{question} Answer with just the location name."
 
-    user_content = f"{scenario_text}\n\n{question}"
-
+    start = time.time()
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -78,40 +105,53 @@ def run_scenario(
         max_tokens=config.max_new_tokens,
         temperature=config.temperature,
     )
+    elapsed = time.time() - start
 
-    raw = response.choices[0].message.content or ""
-    thinking, answer = parse_response(raw)
+    choice = response.choices[0]
+    raw = choice.message.content or ""
+    thinking, answer = parse_response(choice.message, raw)
 
     return ChatResponse(
-        raw=raw,
         thinking=thinking,
         answer=answer,
+        raw=raw,
         model=response.model or model,
+        prompt_tokens=response.usage.prompt_tokens if response.usage else 0,
+        completion_tokens=response.usage.completion_tokens if response.usage else 0,
+        finish_reason=choice.finish_reason or "",
+        elapsed_seconds=round(elapsed, 2),
     )
 
 
-def run_batch(
-    scenarios: list[dict],
-    model: str = "",
-    config: ExperimentConfig | None = None,
-) -> list[ChatResponse]:
-    """Run a batch of scenarios sequentially.
+def score_response(
+    response: ChatResponse,
+    correct_answer: str,
+    all_locations: list[str],
+) -> dict:
+    """Score a response against the correct answer and all possible locations.
 
-    Args:
-        scenarios: List of dicts with 'text' and 'question' keys
-        model: LM Studio model identifier
-        config: Experiment config
-
-    Returns:
-        List of ChatResponse objects
+    Returns dict with extracted_answer, is_correct, error_type, etc.
     """
-    results = []
-    for s in scenarios:
-        resp = run_scenario(
-            scenario_text=s["text"],
-            question=s["question"],
-            model=model,
-            config=config,
-        )
-        results.append(resp)
-    return results
+    # Check answer field first, then full raw output
+    for text_to_check in [response.answer, response.raw, response.thinking]:
+        matched = extract_location(text_to_check, all_locations)
+        if matched is not None:
+            break
+
+    is_correct = matched is not None and matched.lower() == correct_answer.lower()
+
+    # Classify error type
+    if is_correct:
+        error_type = None
+    elif matched is not None:
+        error_type = "wrong_location"
+    elif response.finish_reason == "length":
+        error_type = "truncated"
+    else:
+        error_type = "no_location_found"
+
+    return {
+        "extracted_answer": matched,
+        "is_correct": is_correct,
+        "error_type": error_type,
+    }

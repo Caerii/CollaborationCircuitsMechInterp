@@ -12,7 +12,7 @@ from dataclasses import dataclass, field
 
 # -- LM Studio Configuration --------------------------------------------------
 
-LMSTUDIO_BASE_URL = "http://localhost:1234/v1"
+LMSTUDIO_BASE_URL = "http://192.168.50.2:1234/v1"
 LMSTUDIO_API_KEY = "lm-studio"  # LM Studio ignores this but OpenAI client requires it
 
 
@@ -78,7 +78,7 @@ class ExperimentConfig:
     """Locked experimental parameters. Do not change without justification."""
 
     # Generation
-    max_new_tokens: int = 1000
+    max_new_tokens: int = 4000  # Thinking models need ~1500 for reasoning + answer
     temperature: float = 0.0  # Deterministic for reproducibility
 
     # Sample sizes

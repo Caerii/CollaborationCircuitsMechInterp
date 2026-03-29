@@ -1,0 +1,362 @@
+[
+  {
+    "id": "pilot_000_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "chest",
+    "model_answer": "Voss initially places the ring in the chest and leaves. Kael later moves the ring from the chest to the coffer. When Voss returns, he would look in the chest because that's where he last placed the ri",
+    "thinking": "Okay, let's try to figure this out step by step. So the problem is about where Voss will look for the ring after a series of actions. Let me read through the scenario again carefully.\n\nFirst, Voss puts the ring in the chest. So initially, the ring is in the chest. Then Voss leaves the room. So he's gone. Next, Kael moves the ring from the chest to the coffer. So after that action, the ring is no longer in the chest but in the coffer. Then Voss returns to the room.\n\nNow the question is, where wil",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_000_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "coffer",
+    "model_answer": "Voss initially places the ring in the chest. Kael then moves the ring from the chest to the coffer, and Voss observes this entire process. Since Voss watched Kael move the ring, he knows the ring is n",
+    "thinking": "Okay, let's try to figure this out. So the problem says: Voss puts the ring in the chest. Then Kael moves the ring from the chest to the coffer. Voss watches the whole time. The question is, where will Voss look for the ring?\n\nHmm. Let me break it down step by step. First, Voss puts the ring into the chest. So initially, the ring is in the chest. Then Kael takes it out of the chest and moves it to the coffer. But Voss is watching the whole time. So Voss saw Kael move the ring from the chest to t",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_000_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "coffer",
+    "model_answer": "coffer",
+    "thinking": "Okay, let's try to figure out where the ring really is. So the problem says:\n\nVoss puts the ring in the chest. Voss leaves the room. Kael moves the ring from the chest to the coffer. Voss returns to the room.\n\nHmm, I need to track the ring's location step by step.\n\nFirst step: Voss puts the ring in the chest. So at this point, the ring is in the chest. Then Voss leaves the room. So the ring is still in the chest because Voss just put it there and left.\n\nNext, Kael moves the ring from the chest t",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_000_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "chest",
+    "model_answer": "chest",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Voss thinks the ring is. The problem says: \"Voss believes the ring is in the chest. In reality, the ring is in the coffer.\" \n\nHmm, the key here is to find out what Voss thinks. The first sentence says \"Voss believes the ring is in the chest.\" So according to that statement, Voss's belief is that the ring is in the chest. The second part says that in reality, it's in the coffer, but that's just the actual location, not what Voss ",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_000_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "coffer",
+    "model_answer": "Voss initially places the ring in the coffer. After leaving the room, he does not know that Kael moves the ring to the chest. Upon returning, Voss would look in the coffer, as that is where he last pl",
+    "thinking": "Okay, let's try to figure this out step by step. So the problem is about where Voss will look for the ring after a series of actions. Let me read through the scenario again carefully.\n\nFirst, Voss puts the ring in the coffer. So initially, the ring is in the coffer. Then Voss leaves the room. So he's gone. Next, Kael moves the ring from the coffer to the chest. So Kael takes the ring out of the coffer and puts it into the chest. Then Voss returns to the room.\n\nNow the question is, where will Vos",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_000_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "chest",
+    "model_answer": "Voss puts the ring in the coffer. Kael then moves the ring from the coffer to the chest, and Voss watches the entire process. Since Voss is aware of Kael's action, he knows the ring is now in the ches",
+    "thinking": "Okay, let's try to figure out where Voss will look for the ring. So the problem says: Voss puts the ring in the coffer. Then Kael moves the ring from the coffer to the chest. Voss watches the whole time.\n\nHmm, so first, Voss puts the ring into the coffer. Then Kael takes it out of the coffer and puts it into the chest. And Voss is watching the whole time. So Voss knows what Kael did because he's watching.\n\nWait, the question is where will Voss look for the ring? So after Kael moves it from coffe",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_000_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "chest",
+    "model_answer": "chest",
+    "thinking": "Okay, let's try to figure out where the ring really is. So, the problem says:\n\nVoss puts the ring in the coffer. Voss leaves the room. Kael moves the ring from the coffer to the chest. Voss returns to the room.\n\nHmm, I need to track the ring's location step by step.\n\nFirst step: Voss puts the ring in the coffer. So initially, the ring is in the coffer. Then Voss leaves the room. So the ring is still in the coffer because Voss just placed it there and left.\n\nNext, Kael moves the ring from the cof",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_000_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "coffer",
+    "model_answer": "coffer",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Voss thinks the ring is. The problem says: \"Voss believes the ring is in the coffer. In reality, the ring is in the chest.\"\n\nHmm, the key here is to find out what Voss thinks. The first sentence says \"Voss believes the ring is in the coffer.\" So that's straightforward. The answer should be \"coffer\" because that's what Voss thinks. The second part about reality being in the chest is just extra information to maybe confuse, but th",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_001_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "armoire",
+    "model_answer": "compartment",
+    "thinking": "Okay, let's try to figure out where Priya will look for the crystal. So, the problem says:\n\nFirst, Priya puts the crystal in the armoire. Then she leaves the room. Then Wren moves the crystal from the armoire to the compartment. Then Priya returns to the room.\n\nHmm. So, initially, the crystal is in the armoire. Priya leaves the room. Then Wren takes it from the armoire to the compartment. So after Wren moves it, the crystal is now in the compartment. Then Priya comes back into the room.\n\nSo when",
+    "got_correct": false,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_001_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "compartment",
+    "model_answer": "compartment",
+    "thinking": "Okay, let's try to figure out where Priya will look for the crystal. So the problem says: Priya puts the crystal in the armoire. Then Wren moves the crystal from the armoire to the compartment. Priya watches the whole time.\n\nHmm, so first, Priya places the crystal into the armoire. Then Wren takes it out and moves it to the compartment. Since Priya is watching the whole time, she would have seen where Wren moved it. So after Wren moves it to the compartment, the crystal is no longer in the armoi",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_001_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "compartment",
+    "model_answer": "compartment",
+    "thinking": "Okay, let's try to figure out where the crystal really is after all these events. So, the problem says:\n\nPriya puts the crystal in the armoire. Then she leaves the room. Then Wren moves the crystal from the armoire to the compartment. Then Priya returns to the room.\n\nHmm, I need to track the crystal's location step by step.\n\nFirst step: Priya puts the crystal in the armoire. So initially, the crystal is in the armoire. Then she leaves the room. So at this point, the crystal is still in the armoi",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_001_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "armoire",
+    "model_answer": "armoire",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Priya thinks the crystal is. The problem says: \"Priya believes the crystal is in the armoire. In reality, the crystal is in the compartment.\"\n\nHmm, the key here is to find out what Priya thinks. The first sentence says she believes it's in the armoire. So her belief is that the crystal is in the armoire. The second sentence is just telling the actual location, which is the compartment, but that's not what the question is asking.",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_001_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "compartment",
+    "model_answer": "Priya initially places the crystal in the compartment while in the room. After leaving, Wren moves the crystal from the compartment to the armoire. Since the armoire is a piece of furniture typically ",
+    "thinking": "Okay, let's try to figure out where Priya will look for the crystal. So, the problem says:\n\nFirst, Priya puts the crystal in the compartment. Then she leaves the room. Then Wren moves the crystal from the compartment to the armoire. Then Priya returns to the room.\n\nHmm. So, initially, the crystal is in the compartment. Priya leaves the room. Then Wren takes it from the compartment to the armoire. So after that, the crystal is in the armoire. Then Priya comes back into the room.\n\nWait, but the qu",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_001_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "armoire",
+    "model_answer": "armoire",
+    "thinking": "Okay, let's try to figure out where Priya will look for the crystal. So the problem says: Priya puts the crystal in the compartment. Then Wren moves the crystal from the compartment to the armoire. Priya watches the whole time.\n\nHmm, so first, Priya puts the crystal into the compartment. That means initially, the crystal is in the compartment. Then Wren takes it out of the compartment and moves it to the armoire. So after that action, the crystal is now in the armoire. But Priya is watching the ",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_001_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "armoire",
+    "model_answer": "The crystal starts in the compartment (inside the room). After Wren moves it to the armoire, the crystal is no longer in the compartment but in the armoire. Since the armoire is a specific location me",
+    "thinking": "Okay, let's try to figure out where the crystal really is. So, the problem says:\n\nPriya puts the crystal in the compartment. Then she leaves the room. Then Wren moves the crystal from the compartment to the armoire. Then Priya returns to the room.\n\nHmm, I need to track the crystal's location step by step.\n\nFirst step: Priya puts the crystal in the compartment. So at this point, the crystal is in the compartment.\n\nSecond step: Priya leaves the room. So the crystal is still in the compartment beca",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_001_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "compartment",
+    "model_answer": "compartment",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Priya thinks the crystal is. The problem says: \"Priya believes the crystal is in the compartment. In reality, the crystal is in the armoire.\"\n\nHmm, the key here is to find out what Priya thinks. The first sentence says \"Priya believes the crystal is in the compartment.\" So her belief is that it's in the compartment. The second sentence is just stating the reality, which is different\u2014crystal is actually in the armoire.\n\nThe quest",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_002_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "cubby",
+    "model_answer": "Maren initially places the medallion in the cubby and leaves the room. Voss later moves the medallion from the cubby to the chest. When Maren returns, she is unaware of Voss's action and would logical",
+    "thinking": "Okay, let's try to figure this out step by step. So the question is: Where will Maren look for the medallion after she returns to the room?\n\nFirst, let me go through the sequence of events again to make sure I understand.\n\n1. Maren puts the medallion in the cubby. So initially, the medallion is in the cubby.\n2. Then Maren leaves the room. So she's gone.\n3. Voss moves the medallion from the cubby to the chest. So after Maren leaves, Voss takes it from the cubby and puts it into the chest.\n4. Then",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_002_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "chest",
+    "model_answer": "Maren initially places the medallion in the cubby. Voss then moves it from the cubby to the chest, and Maren watches the entire process. Since she observes Voss moving the medallion to the chest, she ",
+    "thinking": "Okay, let's try to figure out where Maren will look for the medallion. So the problem says: Maren puts the medallion in the cubby. Then Voss moves the medallion from the cubby to the chest. Maren watches the whole time.\n\nHmm, so first, Maren puts it in the cubby. Then Voss takes it out of the cubby and puts it into the chest. But Maren is watching the whole time. So she saw Voss move it from cubby to chest.\n\nNow the question is, where will Maren look for the medallion? Since she watched Voss mov",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_002_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "chest",
+    "model_answer": "chest",
+    "thinking": "Okay, let's try to figure out where the medallion really is. So, the problem says:\n\nMaren puts the medallion in the cubby. Then Maren leaves the room. Then Voss moves the medallion from the cubby to the chest. Then Maren returns to the room.\n\nHmm, so I need to track the medallion's location step by step.\n\nFirst step: Maren puts the medallion in the cubby. So at this point, the medallion is in the cubby.\n\nSecond step: Maren leaves the room. So the medall. is still in the cubby because she just pu",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_002_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "cubby",
+    "model_answer": "cubby",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Maren thinks the medallion is. The problem says: \"Maren believes the medallion is in the cubby. In reality, the medallion is in the chest.\" \n\nHmm, the key here is to focus on what Maren believes, not where it actually is. The first sentence says \"Maren believes the medallion is in the cubby.\" So that's directly stating her belief. The second sentence is just telling the real location, which is the chest, but that's irrelevant to",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_002_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "chest",
+    "model_answer": "Maren initially places the medallion in the chest. After leaving the room, Voss moves the medallion from the chest to the cubby. When Maren returns, she does not know that Voss moved the medallion. Th",
+    "thinking": "Okay, let's try to figure this out step by step. So the problem is about where Maren will look for the medallion after a series of actions.\n\nFirst, let's list out the events in order:\n\n1. Maren puts the medallion in the chest.\n2. Maren leaves the room.\n3. Voss moves the medallion from the chest to the cubby.\n4. Maren returns to the room.\n\nThe question is: Where will Maren look for the medallion?\n\nHmm. So initially, Maren puts the medallion in the chest. Then she leaves. Then Voss takes it from t",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_002_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "cubby",
+    "model_answer": "cubby",
+    "thinking": "Okay, let's try to figure out where Maren will look for the medallion. So the problem says: Maren puts the medallion in the chest. Then Voss moves the medallion from the chest to the cubby. Maren watches the whole time.\n\nHmm, so first, Maren places the medallion into the chest. Then Voss takes it out of the chest and puts it into the cubby. But Maren is watching the whole time. So she's seeing what Voss does.\n\nWait, the key here is that Maren is watching the entire process. So when Voss moves th",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_002_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "cubby",
+    "model_answer": "cubby",
+    "thinking": "Okay, let's try to figure out where the medallion really is. So, the problem says:\n\nMaren puts the medallion in the chest. Then Maren leaves the room. Then Voss moves the medallion from the chest to the cubby. Then Maren returns to the room.\n\nHmm, so I need to track the medallion's location step by step.\n\nFirst step: Maren puts the medallion in the chest. So at this point, the medallion is in the chest.\n\nThen Maren leaves the room. So the medallion is still in the chest because she just put it t",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_002_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "chest",
+    "model_answer": "chest",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Maren thinks the medallion is. The problem says: \"Maren believes the medallion is in the chest. In reality, the medallion is in the cubby.\"\n\nHmm, the key here is to find out what Maren thinks. The first sentence says \"Maren believes the medallion is in the chest.\" So that's directly stating her belief. The second sentence is just telling the actual location, which is the cubby, but the question is about what Maren thinks.\n\nThe q",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "locker",
+    "model_answer": "Joss initially places the chalk in the locker. After leaving the room, Maren moves the chalk from the locker to the cabinet. When Joss returns, he is unaware of Maren's action and would logically look",
+    "thinking": "Okay, let's try to figure out where Joss will look for the chalk. So, the problem says:\n\nJoss puts the chalk in the locker. Then Joss leaves the room. Then Maren moves the chalk from the locker to the cabinet. Then Joss returns to the room.\n\nHmm. So first, Joss puts the chalk in the locker. So initially, the chalk is in the locker. Then Joss leaves the room. Then Maren takes the chalk from the locker and moves it to the cabinet. So after Maren does that, the chalk is now in the cabinet. Then Jos",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "cabinet",
+    "model_answer": "Joss initially places the chalk in the locker. Since he watches the entire process, he observes Maren moving the chalk from the locker to the cabinet. Therefore, Joss knows the chalk is now in the cab",
+    "thinking": "Okay, let's try to figure out where Joss will look for the chalk. So the problem says: Joss puts the chalk in the locker. Then Maren moves the chalk from the locker to the cabinet. Joss watches the whole time.\n\nHmm, so first, Joss puts the chalk into the locker. That means initially, the chalk is in the locker. Then Maren takes it out of the locker and moves it to the cabinet. Since Joss is watching the whole time, he would have seen Maren take the chalk from the locker and put it in the cabinet",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "cabinet",
+    "model_answer": "cabinet",
+    "thinking": "Okay, let's try to figure out where the chalk really is after all these actions. So, the problem says:\n\nJoss puts the chalk in the locker. Then Joss leaves the room. Then Maren moves the chalk from the locker to the cabinet. Then Joss returns to the room.\n\nHmm, I need to track the location step by step.\n\nFirst step: Joss puts the chalk in the locker. So initially, the chalk is in the locker. Then Joss leaves the room. So at this point, the chalk is in the locker, and Joss is out of the room.\n\nNe",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_003_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "locker",
+    "model_answer": "locker",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Joss thinks the chalk is. The problem says: \"Joss believes the chalk is in the locker. In reality, the chalk is in the cabinet.\"\n\nHmm, the key here is to focus on what Joss believes, not where it actually is. The first sentence says Joss believes it's in the locker. So even though in reality it's in the cabinet, Joss's belief is about the locker.\n\nThe question asks specifically where J:oss thinks the chalk is. So the answer shou",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "cabinet",
+    "model_answer": "Joss initially places the chalk in the cabinet. After leaving the room, Maren moves the chalk from the cabinet to the locker. When Joss returns, he would logically look in the cabinet first because th",
+    "thinking": "Okay, let's try to figure out where Joss will look for the chalk. So, the problem says:\n\nJoss puts the chalk in the cabinet. Then Joss leaves the room. Maren moves the chalk from the cabinet to the locker. Then Joss returns to the room.\n\nHmm, so first, Joss puts the chalk in the cabinet. So initially, the chalk is in the cabinet. Then Joss leaves the room. So while Joss is out, Maren moves the chalk from the cabinet to the locker. So after Maren does that, the chalk is no longer in the cabinet b",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "locker",
+    "model_answer": "Joss puts the chalk in the cabinet. Maren moves the chalk from the cabinet to the locker. Since Joss watches the whole time, he knows the chalk is now in the locker. Therefore, Joss will look for the ",
+    "thinking": "Okay, let's try to figure out where Joss will look for the chalk. So the problem says: Joss puts the chalk in the cabinet. Then Maren moves the chalk from the cabinet to the locker. Joss watches the whole time.\n\nHmm, so first, Joss puts the chalk into the cabinet. That means initially, the chalk is in the cabinet. Then Maren takes it out of the cabinet and moves it to the locker. And Joss is watching the whole time, so he sees Maren do that.\n\nNow, the question is where will Joss look for the cha",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "locker",
+    "model_answer": "Joss initially places the chalk in the cabinet. After Joss leaves the room, Maren moves the chalk from the cabinet to the locker. This action occurs before Joss returns to the room. Since the movement",
+    "thinking": "Okay, let's try to figure out where the chalk really is after all these actions. So, the problem says:\n\nJoss puts the chalk in the cabinet. Then Joss leaves the room. Then Maren moves the chalk from the cabinet to the locker. Then Joss returns to the room.\n\nHmm, I need to track the location step by step.\n\nFirst, Joss puts the chalk in the cabinet. So initially, the chalk is in the cabinet. Then Joss leaves the room. So the cabinet is still there, but Joss is out of the room.\n\nNext, Maren moves t",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_003_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "cabinet",
+    "model_answer": "cabinet",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Joss thinks the chalk is. The problem says: \"Joss believes the chalk is in the cabinet. In reality, the chalk is in the locker.\" \n\nHmm, the key here is to find out what Joss thinks. The first sentence says \"Joss believes the chalk is in the cabinet.\" So that's directly stating Joss's belief. The second sentence is just telling the actual location, which is the locker, but that's not relevant to what Joss thinks.\n\nWait, the quest",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_004_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "canister",
+    "model_answer": "Lumi initially places the figurine in the canister. After leaving the room, Ash moves the figurine from the canister to the coffer. When Lumi returns, she would logically look in the canister first, a",
+    "thinking": "Okay, let's try to figure this out step by step. So the problem is about where Lumi will look for the figurine after a series of actions.\n\nFirst, let's list out the events in order:\n\n1. Lumi puts the figurine in the canister.\n2. Lumi leaves the room.\n3. Ash moves the figurine from the canister to the coffer.\n4. Lumi returns to the room.\n\nThe question is: Where will Lumi look for the figurine?\n\nHmm. So initially, Lumi puts the figurine into the canister. Then she leaves the room. Then Ash moves i",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_004_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "coffer",
+    "model_answer": "coffer",
+    "thinking": "Okay, let's try to figure out where Lumi will look for the figurine. So the problem says: Lumi puts the figurine in the canister. Then Ash moves the figurine from the canister to the coffer. Lumi watches the whole time.\n\nHmm, so first, Lumi puts the figurine into the canister. Then Ash takes it out of the canister and puts it into the coffer. Lumi is watching the whole time, meaning she's seeing what Ash does.\n\nThe question is, where will Lumi look for the figurine? So after Ash moves it to the ",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_004_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "coffer",
+    "model_answer": "Lumi puts the figurine in the canister. Lumi leaves the room. Ash moves the figurine from the canister to the coffer. Lumi returns to the room. After Ash moves the figurine to the coffer, it remains t",
+    "thinking": "First, I need to figure out where the figurine really is based on the sequence of events. Let me list out what happened step by step.\n\n1. Lumi puts the figurine in the canister.\n\n   - So, at this point, the figurine is in the canister.\n\n2. Lumi leaves the room.\n\n   - Lumi is no longer in the room, but the figurine is still in the canister.\n\n3. Ash moves the figurine from the canister to the coffer.\n\n   - Ash takes the figurine out of the canister and puts it into the coffer. So now, the figur. i",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_004_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "canister",
+    "model_answer": "canister",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Lumi thinks the figurine is. The problem says: \"Lumi believes the figurine is in the canister. In reality, the figurin is in the coffer.\"\n\nHmm, the key here is to find out what Lumi thinks. The first sentence says \"Lumi believes the figurine is in the canister.\" So that's directly stating Lumi's belief. The second sentence is just telling the actual location, which is the coffer, but that's not relevant to what Lumi thinks.\n\nWai",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_004_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "coffer",
+    "model_answer": "Lumi last placed the figurine in the coffer and left the room without knowing that Ash moved it. Therefore, when Lumi returns, she will look in the coffer, assuming it is still there.\n\n<final_answer>c",
+    "thinking": "First, I need to understand the sequence of events:\n\n1. Lumi puts the figurine in the coffer.\n\n2. Lumi leaves the room.\n\n3. Ash moves the figurine from the coffer to the canister.\n\n4. Lumi returns to the room.\n\nThe question is: Where will Lumi look for the figurine?\n\nI need to figure out where Lumi expects the figurine to be when she returns.\n\nInitially, Lumi puts the figurine in the coffer. So, at that point, the figurine is in the coffer.\n\nThen Lumi leaves the room. So, while Lumi is away, Ash",
+    "got_correct": true,
+    "got_wrong": false
+  },
+  {
+    "id": "pilot_004_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "canister",
+    "model_answer": "Lumi initially places the figurine in the coffer. Ash then moves it from the coffer to the canister, and Lumi watches the entire process. Since Lumi observes Ash moving the figurine to the canister, s",
+    "thinking": "Okay, let's try to figure out where Lumi will look for the figurine. So the problem says: Lumi puts the figurine in the coffer. Then Ash moves the figurine from the coffer to the canister. Lumi watches the whole time.\n\nHmm, so first, Lumi puts it in the coffer. Then Ash takes it out and moves it to the canister. But Lumi is watching the whole time. So Lumi would have seen Ash move it from the coffer to the can. Wait, the problem says \"the canister\" so maybe it's a typo for \"canister\" but I think",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_004_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "canister",
+    "model_answer": "The figurine starts in the coffer when Lumi places it there. After Lumi leaves, Ash moves it from the coffer to the canister. Lumi's return does not change the location, as Ash already moved the figur",
+    "thinking": "Okay, let's try to figure out where the figurine really is. So, the problem says:\n\nLumi puts the figurine in the coffer. Lumi leaves the room. Ash moves the figurine from the coffer to the canister. Lumi returns to the room.\n\nHmm, I need to track the figurine's location step by step.\n\nFirst, Lumi puts the figurine in the coffer. So initially, the figurine is in the coffer. Then Lumi leaves the room. So while Lumi is out, Ash moves the figurine from the coffer to the canister. So after Ash moves ",
+    "got_correct": true,
+    "got_wrong": true
+  },
+  {
+    "id": "pilot_004_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "coffer",
+    "model_answer": "coffer",
+    "thinking": "Okay, let me try to figure this out. So the question is about where Lumi thinks the figurine is. The problem says: \"Lumi believes the figurine is in the coffer. In reality, the figurin is in the canister.\" Hmm, I need to find out where Lumi thinks it is.\n\nWait, the key part here is the first sentence. It says \"Lumi believes the figurine is in the coffer.\" So that's directly stating Lumi's belief. The second sentence is just telling us the actual location, which is the canister. But the question ",
+    "got_correct": true,
+    "got_wrong": true
+  }
+]

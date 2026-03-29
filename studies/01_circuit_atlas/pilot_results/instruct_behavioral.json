@@ -1,0 +1,362 @@
+[
+  {
+    "id": "pilot_000_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "chest",
+    "model_output": "\n\nchest",
+    "got_correct": true,
+    "elapsed": 3.57,
+    "completion_tokens": 224
+  },
+  {
+    "id": "pilot_000_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "coffer",
+    "model_output": "\ncoffer",
+    "got_correct": true,
+    "elapsed": 1.25,
+    "completion_tokens": 103
+  },
+  {
+    "id": "pilot_000_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "coffer",
+    "model_output": "\ncoffer",
+    "got_correct": true,
+    "elapsed": 1.01,
+    "completion_tokens": 86
+  },
+  {
+    "id": "pilot_000_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "chest",
+    "model_output": "<think step by step>\nThe question asks where Voss thinks the ring is.\nWe are told that \"Voss believes the ring is in the chest.\"\nThis means his belief or opinion about the location of the ring is in the chest.\nEven though in reality it's in the coffer, we are only concerned with what Voss believes.\nSo, the answer must be \"chest\".\n\nchest",
+    "got_correct": true,
+    "elapsed": 36.19,
+    "completion_tokens": 84
+  },
+  {
+    "id": "pilot_000_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "coffer",
+    "model_output": "\n\ncoffer",
+    "got_correct": true,
+    "elapsed": 7.62,
+    "completion_tokens": 163
+  },
+  {
+    "id": "pilot_000_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "chest",
+    "model_output": "\nchest",
+    "got_correct": true,
+    "elapsed": 9.22,
+    "completion_tokens": 99
+  },
+  {
+    "id": "pilot_000_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "chest",
+    "model_output": "\n\nchest",
+    "got_correct": true,
+    "elapsed": 9.14,
+    "completion_tokens": 120
+  },
+  {
+    "id": "pilot_000_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "coffer",
+    "model_output": "<think step by step>\nThe question asks where Voss thinks the ring is.\nWe are told: \"Voss believes the ring is in the coffer.\"\nThis directly states Voss's belief about the location of the ring.\nEven though in reality it is in the chest, we are only concerned with what Voss believes.\nSo, the location Voss thinks the ring is in is the coffer.\n\ncoffer",
+    "got_correct": true,
+    "elapsed": 1.26,
+    "completion_tokens": 89
+  },
+  {
+    "id": "pilot_001_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "armoire",
+    "model_output": "\n\ncompartment",
+    "got_correct": false,
+    "elapsed": 10.46,
+    "completion_tokens": 113
+  },
+  {
+    "id": "pilot_001_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "compartment",
+    "model_output": "compartment",
+    "got_correct": true,
+    "elapsed": 0.25,
+    "completion_tokens": 3
+  },
+  {
+    "id": "pilot_001_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "compartment",
+    "model_output": "\ncompartment",
+    "got_correct": true,
+    "elapsed": 1.61,
+    "completion_tokens": 144
+  },
+  {
+    "id": "pilot_001_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "armoire",
+    "model_output": "<think step by step>\n1. The question asks where Priya thinks the crystal is.\n2. The statement says: \"Priya believes the crystal is in the armoire.\"\n3. This means her belief or opinion about the location of the crystal is in the armoire.\n4. We are not concerned with the actual location (which is the compartment), but only with Priya's belief.\n5. Therefore, the answer must be the armoire.\n\narmoire",
+    "got_correct": true,
+    "elapsed": 1.18,
+    "completion_tokens": 99
+  },
+  {
+    "id": "pilot_001_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "compartment",
+    "model_output": "\narmoire",
+    "got_correct": false,
+    "elapsed": 1.7,
+    "completion_tokens": 122
+  },
+  {
+    "id": "pilot_001_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "armoire",
+    "model_output": "armoire",
+    "got_correct": true,
+    "elapsed": 0.35,
+    "completion_tokens": 3
+  },
+  {
+    "id": "pilot_001_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "armoire",
+    "model_output": "\narmoire",
+    "got_correct": true,
+    "elapsed": 1.52,
+    "completion_tokens": 130
+  },
+  {
+    "id": "pilot_001_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "compartment",
+    "model_output": "<think step by step>\n1. The question asks where Priya thinks the crystal is.\n2. We are told that \"Priya believes the crystal is in the compartment.\"\n3. This means her belief (or thought) about the location of the crystal is in the compartment.\n4. Even though in reality it's in the armoire, we are only concerned with Priya's belief.\n5. Therefore, the answer should be the location Priya thinks the crystal is in \u2014 which is the compartment.\n\ncompartment",
+    "got_correct": true,
+    "elapsed": 12.15,
+    "completion_tokens": 109
+  },
+  {
+    "id": "pilot_002_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "cubby",
+    "model_output": "\nchest",
+    "got_correct": false,
+    "elapsed": 1.14,
+    "completion_tokens": 87
+  },
+  {
+    "id": "pilot_002_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "chest",
+    "model_output": "\nchest",
+    "got_correct": true,
+    "elapsed": 1.44,
+    "completion_tokens": 125
+  },
+  {
+    "id": "pilot_002_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "chest",
+    "model_output": "\nchest",
+    "got_correct": true,
+    "elapsed": 2.0,
+    "completion_tokens": 135
+  },
+  {
+    "id": "pilot_002_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "cubby",
+    "model_output": "<cubby>",
+    "got_correct": true,
+    "elapsed": 0.2,
+    "completion_tokens": 4
+  },
+  {
+    "id": "pilot_002_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "chest",
+    "model_output": "\n\nchest",
+    "got_correct": true,
+    "elapsed": 15.14,
+    "completion_tokens": 335
+  },
+  {
+    "id": "pilot_002_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "cubby",
+    "model_output": "\ncubby",
+    "got_correct": true,
+    "elapsed": 1.66,
+    "completion_tokens": 125
+  },
+  {
+    "id": "pilot_002_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "cubby",
+    "model_output": "\ncubby",
+    "got_correct": true,
+    "elapsed": 2.03,
+    "completion_tokens": 124
+  },
+  {
+    "id": "pilot_002_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "chest",
+    "model_output": "<think step by step>\nThe question asks where Maren thinks the medallion is.\nWe are told: \"Maren believes the medallion is in the chest.\"\nThis directly states Maren's belief about the location of the medallion.\nEven though in reality it is in the cubby, we are only concerned with Maren's belief.\nSo, the answer must be \"chest\".\n\nchest",
+    "got_correct": true,
+    "elapsed": 18.8,
+    "completion_tokens": 87
+  },
+  {
+    "id": "pilot_003_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "locker",
+    "model_output": "\n\nlocker",
+    "got_correct": true,
+    "elapsed": 3.27,
+    "completion_tokens": 282
+  },
+  {
+    "id": "pilot_003_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "cabinet",
+    "model_output": "\ncabinet",
+    "got_correct": true,
+    "elapsed": 1.36,
+    "completion_tokens": 105
+  },
+  {
+    "id": "pilot_003_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "cabinet",
+    "model_output": "<cognition>\nThink step by step:\n\n1. Initially, Joss puts the chalk in the locker.\n2. Joss leaves the room.\n3. Maren moves the chalk from the locker to the cabinet.\n4. Joss returns to the room.\n\nThe key point is that Maren physically moves the chalk from the locker to the cabinet after Joss leaves. Since no one else acts on the chalk afterward, and Maren's action is described as moving it from the locker to the cabinet, the chalk is now in the cabinet.\n\nTherefore, the current location of the chalk is the cabinet.\n</cognition>\n\ncabinet",
+    "got_correct": true,
+    "elapsed": 13.52,
+    "completion_tokens": 128
+  },
+  {
+    "id": "pilot_003_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "locker",
+    "model_output": "\nlocker",
+    "got_correct": true,
+    "elapsed": 1.12,
+    "completion_tokens": 89
+  },
+  {
+    "id": "pilot_003_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "cabinet",
+    "model_output": "\nlocker",
+    "got_correct": false,
+    "elapsed": 1.03,
+    "completion_tokens": 84
+  },
+  {
+    "id": "pilot_003_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "locker",
+    "model_output": "locker",
+    "got_correct": true,
+    "elapsed": 0.17,
+    "completion_tokens": 2
+  },
+  {
+    "id": "pilot_003_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "locker",
+    "model_output": "\nlocker",
+    "got_correct": true,
+    "elapsed": 1.3,
+    "completion_tokens": 112
+  },
+  {
+    "id": "pilot_003_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "cabinet",
+    "model_output": "\ncabinet",
+    "got_correct": true,
+    "elapsed": 1.11,
+    "completion_tokens": 89
+  },
+  {
+    "id": "pilot_004_FB_AB",
+    "condition": "false_belief",
+    "correct_answer": "canister",
+    "model_output": "\n\ncoffer",
+    "got_correct": false,
+    "elapsed": 1.66,
+    "completion_tokens": 139
+  },
+  {
+    "id": "pilot_004_TB_AB",
+    "condition": "true_belief",
+    "correct_answer": "coffer",
+    "model_output": "coffer",
+    "got_correct": true,
+    "elapsed": 11.71,
+    "completion_tokens": 3
+  },
+  {
+    "id": "pilot_004_RC_AB",
+    "condition": "reality_check",
+    "correct_answer": "coffer",
+    "model_output": "\n\ncoffer",
+    "got_correct": true,
+    "elapsed": 2.3,
+    "completion_tokens": 132
+  },
+  {
+    "id": "pilot_004_BQ_AB",
+    "condition": "belief_question",
+    "correct_answer": "canister",
+    "model_output": "<think step by step>\n1. The question asks where Lumi thinks the figurine is.\n2. We are told that \"Lumi believes the figurine is in the canister.\"\n3. This statement directly indicates Lumi's belief, not the actual location.\n4. Therefore, based on what is stated, Lumi thinks the figurine is in the canister.\n5. The answer should only include the location name, as instructed.\n\ncanister",
+    "got_correct": true,
+    "elapsed": 1.21,
+    "completion_tokens": 97
+  },
+  {
+    "id": "pilot_004_FB_BA",
+    "condition": "false_belief",
+    "correct_answer": "coffer",
+    "model_output": "\n\ncanister",
+    "got_correct": false,
+    "elapsed": 1.6,
+    "completion_tokens": 128
+  },
+  {
+    "id": "pilot_004_TB_BA",
+    "condition": "true_belief",
+    "correct_answer": "canister",
+    "model_output": "\ncanister",
+    "got_correct": true,
+    "elapsed": 1.36,
+    "completion_tokens": 111
+  },
+  {
+    "id": "pilot_004_RC_BA",
+    "condition": "reality_check",
+    "correct_answer": "canister",
+    "model_output": "\n\ncanister",
+    "got_correct": true,
+    "elapsed": 1.79,
+    "completion_tokens": 143
+  },
+  {
+    "id": "pilot_004_BQ_BA",
+    "condition": "belief_question",
+    "correct_answer": "coffer",
+    "model_output": "\ncoffer",
+    "got_correct": true,
+    "elapsed": 15.45,
+    "completion_tokens": 71
+  }
+]
