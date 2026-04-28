@@ -25,6 +25,7 @@ class ModelSpec:
     hidden_size: int
     is_instruct: bool
     circuit_tracer_supported: bool
+    mechanistic_hf_id: str = ""  # TransformerLens/circuit-tracer model id, if different
     lmstudio_id: str = ""  # Model identifier in LM Studio (if different from hf_id)
 
 
@@ -33,6 +34,7 @@ MODELS = {
     "qwen3-4b": ModelSpec(
         name="qwen3-4b",
         hf_id="Qwen/Qwen3-4B-Instruct-2507",
+        mechanistic_hf_id="Qwen/Qwen3-4B",
         n_layers=36,
         n_heads=32,
         hidden_size=2560,
@@ -60,6 +62,7 @@ MODELS = {
     "qwen3-8b": ModelSpec(
         name="qwen3-8b",
         hf_id="Qwen/Qwen3-8B-Instruct",
+        mechanistic_hf_id="Qwen/Qwen3-8B",
         n_layers=36,
         n_heads=32,
         hidden_size=4096,

@@ -34,6 +34,7 @@ Thumbs.db
 # But raw activations and caches are not
 **/activations_cache/
 **/raw_activations/
+**/thin_slice_results/*.log
 
 # uv lock (tracked — ensures reproducible installs)
 # uv.lock
